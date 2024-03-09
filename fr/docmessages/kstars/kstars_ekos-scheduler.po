@@ -1,18 +1,19 @@
 # Traduction de kstars_ekos-scheduler en français
+# SPDX-FileCopyrightText: 2024 Xavier Besnard <xavier.besnard@kde.org>
 # steve <stax@ik.me>, 2022 2023, 2024.
 msgid ""
 msgstr ""
 "Project-Id-Version: kstars_ekos_scheduler_3.6.9\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
 "POT-Creation-Date: 2024-01-16 10:37+0100\n"
-"PO-Revision-Date: 2024-02-03 08:47+0100\n"
-"Last-Translator: steve <stax@ik.me>\n"
-"Language-Team: French <kde-francophone@kde.org>\n"
+"PO-Revision-Date: 2024-02-27 19:49+0100\n"
+"Last-Translator: Xavier Besnard <xavier.besnard@kde.org>\n"
+"Language-Team: fr\n"
 "Language: fr\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"X-Generator: Lokalize 20.12.0\n"
+"X-Generator: Lokalize 23.08.5\n"
 "Plural-Forms: nplurals=2; plural=(n > 1);\n"
 
 #. Tag: title
@@ -225,7 +226,7 @@ msgstr "Le <guilabel>AP</guilabel> facultatif : l'angle de position (ou rotatio
 #: ekos-scheduler.docbook:108
 #, no-c-format
 msgid "Optional <guilabel>FITS File</guilabel>: If a FITS file is specified, the astrometry solver solves the file and use the central RA/DEC as the target coordinates."
-msgstr "Un <guilabel>fichier Fits</guilabel> facultatif : si vous spécifiez un fichier FITS, le résolveur astrométrique résoudra le fichier et utilisera la position centrale en AD et DEC comme coordonnées cibles."
+msgstr "Un <guilabel>fichier « FITS </guilabel> facultatif : si vous spécifiez un fichier « FITS », le résolveur astrométrique résoudra le fichier et utilisera la position centrale en AD et DEC comme coordonnées cibles."
 
 #. Tag: para
 #. +> trunk5
@@ -344,7 +345,7 @@ msgstr "La priorité de l'ordonnanceur Greedy est normalement déterminée par l
 #: ekos-scheduler.docbook:179
 #, no-c-format
 msgid "If you wish to alternate jobs, you can assign each of the jobs the same <guilabel>group</guilabel> name, and give the jobs one of the repeating finish conditions (&eg; Repeat for N times, or Repeat Until Terminated). With that setup, jobs in the same group will cede to each other if they have completed more 'Repeat Iterations' than the other job. So, if Job2 with group \"MyGroup\" completes its 2nd iteration, and Job3 with the same group name has only completed 0 or 1 iterations, when the time comes to schedule Job2, Job3 will run instead."
-msgstr "Si vous souhaitez alterner les tâches, vous pouvez attribuer chaque tâche au même nom de <guilabel>groupe</guilabel> et donner aux tâches une des conditions d'achèvement (p. ex. Répéter N fois ou Répéter jusqu'à achèvement). Ainsi configurées, les tâches dans le même groupe laisseront la place aux autres tâches si elles ont terminées plus d'itérations que les autre autres tâches. Ainsi si la tâche 2 du groupe « MonGroupe » termine sa deuxième itération et que la tâche 3 du même groupe n'a terminé que 0 ou 1 itération, quand viendra le moment de programmer la tâche 2, ce sera la tâche 3 qui sera exécutée."
+msgstr "Si vous souhaitez alterner les tâches, vous pouvez attribuer chaque tâche au même nom de <guilabel>groupe</guilabel> et donner aux tâches une des conditions d'achèvement (p. ex. Répéter N fois ou Répéter jusqu'à achèvement). Ainsi configurées, les tâches dans le même groupe laisseront la place aux autres tâches si elles ont terminées plus d'itérations que les autre autres tâches. Ainsi si la tâche 2 du groupe « Mon-Groupe » termine sa deuxième itération et que la tâche 3 du même groupe n'a terminé que 0 ou 1 itération, quand viendra le moment de programmer la tâche 2, ce sera la tâche 3 qui sera exécutée."
 
 #. Tag: para
 #. +> trunk5
@@ -431,7 +432,7 @@ msgstr "Cet outil est très similaire à l'utilisation et dans sa forme à l'ong
 #: ekos-scheduler.docbook:222
 #, no-c-format
 msgid "It is important to understand that capture sequences rely to some extent on the filterwheel and camera being used (e.g. the filter names, the possible ISO values, ...). The Capture Sequence Editor, which is not connected to the device drivers, does not have direct access to this information. Instead, the editor uses the values from the last time the capture tab connected to its devices. Thus, it may not make sense to try and create a .esq file for a different camera or filterwheel than the last one connected-to. You may need to wait until your scheduler job is completed and edit that .esq directly in the capture tab."
-msgstr "Il est important de noter que les séquences d'acquisitions dépendent dans une certaine mesure de la roue à filtre et de l'appareil utilisé (p. ex. les noms de filtre, les valeur d'ISO possible, …). Cet outil, qui n'est pas connecté aux pilotes de périphériques, n'a pas accès à cette information. Au contraire, il utilise les valeurs de la dernière connexion des périphériques à l'onglet d'acquisition. Il ne fait ainsi pas de sens de créer un fichier .esq pour un appareil ou une roue à filtres différents que celui utilisé lors de la dernière connexion. Il faudra attendre que la tâche de la séquence soit terminée et modifier le fichier .esl directement dans l'onglet d'acquisition."
+msgstr "Il est important de noter que les séquences d'acquisitions dépendent dans une certaine mesure de la roue à filtre et de l'appareil utilisé (p. ex. les noms de filtre, les valeur d'ISO possible, …). Cet outil, qui n'est pas connecté aux pilotes de périphériques, n'a pas accès à cette information. Au contraire, il utilise les valeurs de la dernière connexion des périphériques à l'onglet d'acquisition. Il ne fait ainsi pas de sens de créer un fichier « .esq » pour un appareil ou une roue à filtres différents que celui utilisé lors de la dernière connexion. Il faudra attendre que la tâche de la séquence soit terminée et modifier le fichier « .esl » directement dans l'onglet d'acquisition."
 
 #. Tag: para
 #. +> trunk5
@@ -543,14 +544,14 @@ msgstr "Contrôle des ventilateurs et de la lumière"
 #: ekos-scheduler.docbook:300
 #, no-c-format
 msgid "Unparking dome"
-msgstr "Déparcage du dôme"
+msgstr "Déparquage du dôme"
 
 #. Tag: para
 #. +> trunk5
 #: ekos-scheduler.docbook:305
 #, no-c-format
 msgid "Unparking mount"
-msgstr "Déparcage de la monture"
+msgstr "Déparquage de la monture"
 
 #. Tag: para
 #. +> trunk5
@@ -648,7 +649,7 @@ msgstr "<title>Arrêt</title>"
 #: ekos-scheduler.docbook:371
 #, no-c-format
 msgid "Once the Scheduler job is completed successfully, the scheduler selects the next Scheduler job. If no job can be scheduled at this time, the mount is parked until a next job can run. Furthermore, if the next job is not due for a user-configurable time limit, the scheduler performs a <emphasis>preemptive</emphasis> shutdown to preserve resources and performs the startup procedure again when the target is due."
-msgstr "Une fois que la tâche s'est terminée avec succès, l'ordonnanceur choisit la prochaine tâche. Si l'heure programmée de la prochaine tâche n'est pas encore proche, la monture est parquée jusqu'à ce que la prochaine tâche soit prête. De plus si la prochaine tâche programmée n'est pas proche dans une limite de temps configurable par l'utilisateur, l'ordonnanceur réalise une extinction <emphasis>anticipée</emphasis> pour préserver les resources et réalisera la procédure de démarrage quand la tâche sera prête."
+msgstr "Une fois que la tâche s'est terminée avec succès, l'ordonnanceur choisit la prochaine tâche. Si l'heure programmée de la prochaine tâche n'est pas encore proche, la monture est parquée jusqu'à ce que la prochaine tâche soit prête. De plus si la prochaine tâche programmée n'est pas proche dans une limite de temps configurable par l'utilisateur, l'ordonnanceur réalise une extinction <emphasis>anticipée</emphasis> pour préserver les ressources et réalisera la procédure de démarrage quand la tâche sera prête."
 
 #. Tag: para
 #. +> trunk5
@@ -683,7 +684,7 @@ msgstr "Surveillance de la météo"
 #: ekos-scheduler.docbook:394
 #, no-c-format
 msgid "Another critical feature of any remotely operated robotic observatory is weather monitoring. For weather updates, Ekos relies on the selected INDI weather driver to continuously monitor the weather conditions. For simplicity sake, the weather conditions can be summed in three states:"
-msgstr "Un autre aspect critique des observatoires robotiques commandés à distance est la surveillance de la météo. Ekos s'appuie sur le pilote météo d'INDI sélectionné pour surveiller en continu les conditions météorologiques. Par souci de simplicité, les conditions météorologiques se résument en trois états :"
+msgstr "Un autre aspect critique des observatoires robotiques commandés à distance est la surveillance de la météo. Ekos s'appuie sur le pilote météo de INDI sélectionné pour surveiller en continu les conditions météorologiques. Par souci de simplicité, les conditions météorologiques se résument en trois états :"
 
 #. Tag: para
 #. +> trunk5
@@ -781,7 +782,7 @@ msgstr ""
 #: ekos-scheduler.docbook:425
 #, no-c-format
 msgid "The startup and shutdown scripts must be <emphasis>executable</emphasis> in order for Ekos to invoke them (&eg; use <userinput>chmod +x startup_script.py</userinput> to mark the script as executable). Ekos Scheduler enables truly simple robotic operation without the need of any human intervention in any step of the process. Without human presence, it becomes increasingly critical to gracefully recover from failures in any stage of the observation run. Using &plasma; notifications, the user can configure audible alarms and email notifications for the various events in the Scheduler."
-msgstr "Les scripts doivent être <emphasis>exécutables</emphasis> pour qu'Ekos puisse les invoquer (c'est-à-dire utilisez la commande <userinput>chmod u+x startup_script.py</userinput> pour le rendre exécutable). L'ordonnanceur d'Ekos permet d'opérer un observatoire de manière complètement robotisée sans aucune intervention humaine. Il est donc critique que le système puisse se rétablir après des erreurs, et cela à n'importe quelle étape du processus d'observation. L'utilisation des notifications &plasma; permet de configurer des alarmes audibles et l'envoi automatique de courriels pour divers évènements de l'ordonnanceur."
+msgstr "Les scripts doivent être <emphasis>exécutables</emphasis> pour que Ekos puisse les invoquer (c'est-à-dire utilisez la commande <userinput>chmod u+x startup_script.py</userinput> pour le rendre exécutable). L'ordonnanceur de Ekos permet d'opérer un observatoire de manière complètement robotisée sans aucune intervention humaine. Il est donc critique que le système puisse se rétablir après des erreurs, et cela à n'importe quelle étape du processus d'observation. L'utilisation des notifications &plasma; permet de configurer des alarmes audibles et l'envoi automatique de courriels pour divers évènements de l'ordonnanceur."
 
 #. Tag: title
 #. +> trunk5
@@ -837,7 +838,7 @@ msgstr "Traiter les images et les <emphasis>joindre</emphasis> ensemble pour cr�
 #: ekos-scheduler.docbook:463
 #, no-c-format
 msgid "The 2nd step is handled by image processing applications such as <ulink url=\"https://pixinsight.com\">PixInsight</ulink>, among others, and will not be the topic of discussion here. The first step can be accomplished in Ekos Scheduler where it creates a mosaic suitable for your equipment and in accordance with the desired field of view. Not only Ekos creates the mosaic panels for your target, but it also constructs the corresponding observatory jobs required to capture all the images. This greatly facilitates the logistics of capturing many images with different filters and calibration frames across a wide area of the sky."
-msgstr "La seconde étape est gérée par des logiciels de traitement d'images comme <ulink url=\"https://pixinsight.com\">PixInsight</ulink> ou autres, mais cela ne sera pas le sujet ici. La première étape peut être accomplie par l'ordonnanceur d'Ekos qui permet l'acquisition d'images appropriée à votre équipement et qui couvre le champ de vision désiré. Ekos crée non seulement les panneaux pour votre cible mais il construit également les tâches nécessaires pour acquérir toutes les images. Cela facilite grandement la logistique d'acquisition d'images de différents filtres et trames de calibration d'une vaste région du ciel."
+msgstr "La seconde étape est gérée par des logiciels de traitement d'images comme <ulink url=\"https://pixinsight.com\">PixInsight</ulink> ou autres, mais cela ne sera pas le sujet ici. La première étape peut être accomplie par l'ordonnanceur Ekos qui permet l'acquisition d'images appropriée à votre équipement et qui couvre le champ de vision désiré. Ekos crée non seulement les panneaux pour votre cible mais il construit également les tâches nécessaires pour acquérir toutes les images. Cela facilite grandement la logistique d'acquisition d'images de différents filtres et trames de calibration d'une vaste région du ciel."
 
 #. Tag: para
 #. +> trunk5
@@ -893,7 +894,7 @@ msgstr "<phrase>Sélection de la grille</phrase>"
 #: ekos-scheduler.docbook:505
 #, no-c-format
 msgid "A large overlap will make frame stitching easier during post-processing, but it requires more panes to cover the desired extent. However, if you already know the minimal amount of sub-frames your rejection algorithm will use during post-processing, you may want to increase the overlap to attain that amount on the areas covered by multiple panes. For instance, a 4x4 mosaic grid with 75% overlap has 16 sub-frames covering the central intersection, which is enough for Winsorized Sigma rejection. Although the resulting stack does not have the same height on all parts of the final frame, this method gives you control on signal-to-noise ratio and allows you to provide context to your target while exposing a relatively low number of captures."
-msgstr "Un grand chevauchement rendra la jointure des trames plus facile durant le traitement mais requiert davantage de panneaux pour couvrir la zone souhaitée. Toutefois, si vous connaissez déjà la quantité minimale de trames qui seront utilisée par l'algorithme de rejet durant la phase de post-traitement, vous pouvez vouloir augmenter le chevauchement pour atteindre cette quantité sur les zones couvertes par de multiples panneaux. Par exemple, une grille de mosaïque 4x4 avec 75% de chevauchement possède 16 sous-trames couvrant l'intersection centrale, ce qui est suffisant pour l'algorithme de rejet Winsorized Sigma. Bien que l'empilement résultant n'ait pas la même hauteur sur toutes les parties de la trame finale, cette méthode vous donne le contrôle sur le rapport signal sur bruit et vous permet de donner du contexte à votre cible tout en devant faire un nombre relativement bas d'acquisitions."
+msgstr "Un grand chevauchement rendra la jointure des trames plus facile durant le traitement mais requiert davantage de panneaux pour couvrir la zone souhaitée. Toutefois, si vous connaissez déjà la quantité minimale de trames qui seront utilisée par l'algorithme de rejet durant la phase de post-traitement, vous pouvez vouloir augmenter le chevauchement pour atteindre cette quantité sur les zones couvertes par de multiples panneaux. Par exemple, une grille de mosaïque 4x4 avec 75 % de chevauchement possède 16 sous-trames couvrant l'intersection centrale, ce qui est suffisant pour l'algorithme de rejet « Winsorized Sigma ». Bien que l'empilement résultant n'ait pas la même hauteur sur toutes les parties de la trame finale, cette méthode vous donne le contrôle sur le rapport signal sur bruit et vous permet de donner du contexte à votre cible tout en devant faire un nombre relativement bas d'acquisitions."
 
 #. Tag: para
 #. +> trunk5

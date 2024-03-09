@@ -1,19 +1,20 @@
 # Translation to French
+# SPDX-FileCopyrightText: 2024 Xavier Besnard <xavier.besnard@kde.org>
 # steve <stax@ik.me>, 2022, 2023, 2024.
 msgid ""
 msgstr ""
 "Project-Id-Version: kstars_ekos-capture_3.6.9\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
 "POT-Creation-Date: 2024-01-16 10:37+0100\n"
-"PO-Revision-Date: 2024-02-03 08:53+0100\n"
-"Last-Translator: steve <stax@ik.me>\n"
-"Language-Team: French <kde-francophone@kde.org>\n"
+"PO-Revision-Date: 2024-03-01 20:31+0100\n"
+"Last-Translator: Xavier Besnard <xavier.besnard@kde.org>\n"
+"Language-Team: fr\n"
 "Language: fr\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=(n > 1);\n"
-"X-Generator: Lokalize 20.12.0\n"
+"X-Generator: Lokalize 23.08.5\n"
 
 #. Tag: title
 #. +> trunk5
@@ -650,7 +651,7 @@ msgstr "Les rotateurs de champs sont gérés par INDI et Ekos. L'angle du rotate
 #: ekos-capture.docbook:432
 #, no-c-format
 msgid "To calibrate the Position Angle (PA), capture and solve an image in the <link linkend=\"ekos-align\">Ekos Align module</link>. An <emphasis>offset</emphasis> and a <emphasis>multiplier</emphasis> are applied to the raw angle to produce the position angle. The Ekos Rotator dialog permits direct control of the raw angle and also the PA. The offset and multiplier can be changed manually to synchronize the rotator's raw angle with the actual PA. Check <guilabel>Sync FOV to PA</guilabel> to rotate the current Field of View (FOV) indicator on the Sky Map with the PA value as you change it in the dialog."
-msgstr "Afin de calibrer l'angle de position (AP), prenez une image et resolvez-là dans le <link linkend=\"ekos-align\">module d'alignement</link> d'Ekos. Un <emphasis>décalage</emphasis> et un <emphasis>coefficient multiplicateur</emphasis> sont appliqués à l'angle brute pour calculer l'angle de position. La boîte de dialogue du rotateur d'Ekos permet un contrôle direct de l'angle brut et de l'angle de position. Le décalage et le coefficient multiplicateur peuvent être modifiés manuellement afin de synchroniser l'angle brute du rotateur avec l'angle de position actuel. Cochez <guilabel>Synchroniser CdV vers AP</guilabel> pour effectuer la rotation de l'indicateur du champ de vision courant sur la carte du ciel avec la valeur d'angle de position."
+msgstr "Afin de calibrer l'angle de position (AP), prenez une image et résolvez-là dans le <link linkend=\"ekos-align\">module d'alignement</link> d'Ekos. Un <emphasis>décalage</emphasis> et un <emphasis>coefficient multiplicateur</emphasis> sont appliqués à l'angle brute pour calculer l'angle de position. La boîte de dialogue du rotateur d'Ekos permet un contrôle direct de l'angle brut et de l'angle de position. Le décalage et le coefficient multiplicateur peuvent être modifiés manuellement afin de synchroniser l'angle brute du rotateur avec l'angle de position actuel. Cochez <guilabel>Synchroniser CdV vers AP</guilabel> pour effectuer la rotation de l'indicateur du champ de vision courant sur la carte du ciel avec la valeur d'angle de position."
 
 #. Tag: phrase
 #. +> trunk5
@@ -692,7 +693,7 @@ msgstr "<phrase>Réglages de la calibration</phrase>"
 #: ekos-capture.docbook:468
 #, no-c-format
 msgid "For Flat Field frames, you can set calibration options in order to automate the process. The calibration options are designed to facilitate automatic unattended flat field frame capture. It can also be used for dark and bias frames if desired. If your camera is equipped with a mechanical shutter, then it is not necessary to set calibration settings unless you want to close the dust cover to ensure no light at all passes through the optical tube. For flat fields, you must specify the flat field light source, and then specify the duration of the flat field frame. The duration can be either manual or based on ADU calculations."
-msgstr "Pour les trames de champ uniforme (Flat), vous pouvez régler les options de calibration pour automatiser le processus. Ces options sont conçues pour faciliter l'acquisition automatique des trames de champ uniforme. Elles peuvent également être utilisées pour l'acquisition des trames Dark et Bias. Si votre caméra possède un obturateur mécanique, il n'est pas nécessaire de régler ces options sauf si vous souhaitez fermer le bouchon antipoussière pour vous assurer qu'aucune lumière ne passe dans le tube optique. Pour les Flats, vous devez spécifier la source de lumière, puis une durée d'exposition. La durée peut être spécifiée soit manuellement soit fondé sur un calcul d'ADU (Analog Digital Unit ou pas de quantification)."
+msgstr "Pour les trames de champ uniforme (Flat), vous pouvez régler les options de calibration pour automatiser le processus. Ces options sont conçues pour faciliter l'acquisition automatique des trames de champ uniforme. Elles peuvent également être utilisées pour l'acquisition des trames Dark et Bias. Si votre caméra possède un obturateur mécanique, il n'est pas nécessaire de régler ces options sauf si vous souhaitez fermer le bouchon anti-poussière pour vous assurer qu'aucune lumière ne passe dans le tube optique. Pour les Flats, vous devez spécifier la source de lumière, puis une durée d'exposition. La durée peut être spécifiée soit manuellement soit fondé sur un calcul d'ADU (Analog Digital Unit ou pas de quantification)."
 
 #. Tag: para
 #. +> trunk5
@@ -804,7 +805,7 @@ msgstr "L'idée principal du calcul est de fournir un temps d'exposition suffisa
 #: ekos-capture.docbook:540
 #, no-c-format
 msgid "The implementation of this process does not consider the strength (magnitude or flux) of the intended target, nor does it consider other factors which may cause an astrophotographer to choose an alternate sub-exposure time. These other factors may include: the storage requirements and extended post-processing time for a large number of short exposures, the impacts of external factors that might occur in very long exposures, such as tracking / guiding performance, changes in weather conditions which may disrupt seeing conditions, intrusions from air traffic or passing satellites."
-msgstr "Cette implémentation ne considère pas la force (magnitude ou flux) de la cible, ni d'autres facteurs qui pourraient inciter l'astrophotographe à choisir une durée d'exposition différente. Ces autres facteurs peuvent inclure : les exigences en terme de stockage et le temps supplémentaire de post-traitement dû au nombre important de trames de faible durée d'exposition, les impacts de facteurs externes qui se produiront pour les très longues expositions tels que les performances de suivi et de guidage, les modifications des conditions météorologiques, les intrusions du traffic aérien ou encore le passage de satellites artificiels."
+msgstr "Cette implémentation ne considère pas la force (magnitude ou flux) de la cible, ni d'autres facteurs qui pourraient inciter le photographe d'astronomie à sélectionner une durée d'exposition différente. Ces autres facteurs peuvent inclure : les exigences en terme de stockage et le temps supplémentaire de post-traitement dû au nombre important de trames de faible durée d'exposition, les impacts de facteurs externes qui se produiront pour les très longues expositions tels que les performances de suivi et de guidage, les modifications des conditions météorologiques, les intrusions du trafic aérien ou encore le passage de satellites artificiels."
 
 #. Tag: para
 #. +> trunk5
