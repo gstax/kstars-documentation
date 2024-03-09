@@ -166,7 +166,7 @@
 ></listitem>
                 <listitem
 ><para
->Zoom avant : zoom avant jusqu'à un maximum de 400 %. Pour des grosses images, cette opération peu prendre beaucoup de mémoire. Activer <quote
+>Zoom avant : zoom avant jusqu'à un maximum de 400 %. Pour des grosses images, cette opération peut prendre beaucoup de mémoire. Activer <quote
 >Mode de resource limité</quote
 > pour économiser de la mémoire.</para
 ></listitem>
@@ -692,7 +692,7 @@
         </mediaobject>
     </screenshot>
     <para
->L'outil d'affichage de données 3D peut tracer un graphique 3D d'une région sélectionnée de l'image. Cela est particulièrement utile pour les astrophotographes qui souhaite afficher le profil d'une étoile qu'ils envisagent d'utiliser comme étoile guide. Pour les scientifiques, cela leurs permet d'étudier un échantillon des données pour comprendre la luminosité relative des différents objets de l'image. De plus, cela permet aux personnes qui souhaitent comprendre visuellement ce qui se passe dans leurs données d'une nouvelle manière. </para>
+>L'outil d'affichage de données 3D peut tracer un graphique 3D d'une région sélectionnée de l'image. Cela est particulièrement utile pour les astrophotographes qui souhaite afficher le profil d'une étoile qu'ils envisagent d'utiliser comme étoile guide. Pour les scientifiques, cela leur permet d'étudier un échantillon des données pour comprendre la luminosité relative des différents objets de l'image. De plus, cela permet aux personnes qui souhaitent comprendre visuellement ce qui se passe dans leurs données d'une nouvelle manière. </para>
     <para
 >Pour utiliser cette nouvelle fonctionnalité, l'utilisateur doit sélectionner l'icône <guiicon
 >Voir profil de l'étoile</guiicon
