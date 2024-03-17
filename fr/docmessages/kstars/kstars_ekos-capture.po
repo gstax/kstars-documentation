@@ -6,9 +6,9 @@ msgstr ""
 "Project-Id-Version: kstars_ekos-capture_3.6.9\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
 "POT-Creation-Date: 2024-01-16 10:37+0100\n"
-"PO-Revision-Date: 2024-03-01 20:31+0100\n"
-"Last-Translator: Xavier Besnard <xavier.besnard@kde.org>\n"
-"Language-Team: fr\n"
+"PO-Revision-Date: 2024-03-15 16:03+0100\n"
+"Last-Translator: xavier <xavier.besnard@kde.org>\n"
+"Language-Team: French <French <kde-francophone@kde.org>>\n"
 "Language: fr\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -161,7 +161,7 @@ msgstr "<guilabel>Délai</guilabel> : spécifie la durée entre deux acquisitio
 #: ekos-capture.docbook:87
 #, no-c-format
 msgid "<guilabel>Type</guilabel>: Specify the type of desired CCD frame. Options are <guimenuitem>Light</guimenuitem>, <guimenuitem>Dark</guimenuitem>, <guimenuitem>Bias</guimenuitem>, and <guimenuitem>Flat</guimenuitem> frames."
-msgstr "<guilabel>Type</guilabel> : spécifie le type de trames CCD. Les options sont <guimenuitem>Light</guimenuitem>, <guimenuitem>Dark</guimenuitem>, <guimenuitem>Bias</guimenuitem> et <guimenuitem>Flat</guimenuitem>."
+msgstr "<guilabel>Type</guilabel> : spécifie le type de trames CCD. Les options sont <guimenuitem>Clair</guimenuitem>, <guimenuitem>Sombre</guimenuitem>, <guimenuitem>Biais</guimenuitem> et <guimenuitem>A plat</guimenuitem>."
 
 #. Tag: para
 #. +> trunk5
@@ -217,7 +217,7 @@ msgstr "Propriétés personnalisables"
 #: ekos-capture.docbook:124
 #, no-c-format
 msgid "Many cameras offer additional properties that cannot be directly set in the capture settings using the common control. The capture controls described above represent the most common settings shared among different cameras, but each camera is unique and may offer its own extended properties. While you can use INDI Control Panel to set any property in the driver; it is important to be able to set such property for each job in the sequence. When you click <guibutton>Custom Properties</guibutton>, a dialog is shown divided into <guilabel>Available Properties</guilabel> and <guilabel>Job Properties</guilabel>. When you move an <guilabel>Available Properties</guilabel> to the <guilabel>Job Property</guilabel> list, its current value can be recorded once you click <guibutton>Apply</guibutton>. When you add a job to the <guilabel>Sequence Queue</guilabel>, the properties values selected in the <guilabel>Job Properties</guilabel> list shall be recorded and saved."
-msgstr "Beaucoup de caméras proposent des propriétés additionnelles qui ne peuvent pas être directement contrôlées dans les réglages de l'acquisition en utilisant les commandes communes. Les commandes d'acquisition décrites ci-dessus représentent les réglages les plus courants qui sont partagés par les différentes caméras mais chaque caméra est unique et peut proposer des propriétés étendues propres. Bien que vous puissiez utiliser le tableau de bord d'INDI pour régler les propriétés du pilote, il est important de pouvoir régler ces propriétés pour chaque tâche de la séquence. Quand vous cliquez sur le bouton <guibutton>Propriétés personnalisables</guibutton>, une boîte de dialogue apparaît divisée en <guilabel>Propriétés disponibles</guilabel> et <guilabel>Propriétés de la tâche</guilabel>. En déplaçant une <guilabel>Propriétés disponibles</guilabel> vers la liste des <guilabel>Propriétés de la tâche</guilabel>, sa valeur courante peut être enregistrée en cliquant sur le bouton <guibutton>Appliquer</guibutton>. Quand vous ajoutez une tâche à la <guilabel>file d'attente des séquences</guilabel>, les valeurs des propriétés sélectionnées dans la liste des <guilabel>Propriétés de la tâche</guilabel> seront enregistrées."
+msgstr "Beaucoup de caméras proposent des propriétés additionnelles qui ne peuvent pas être directement contrôlées dans les réglages de l'acquisition en utilisant les commandes communes. Les commandes d'acquisition décrites ci-dessus représentent les réglages les plus courants qui sont partagés par les différentes caméras mais chaque caméra est unique et peut proposer des propriétés étendues propres. Bien que vous puissiez utiliser le tableau de bord de INDI pour régler les propriétés du pilote, il est important de pouvoir régler ces propriétés pour chaque tâche de la séquence. Quand vous cliquez sur le bouton <guibutton>Propriétés personnalisables</guibutton>, une boîte de dialogue apparaît divisée en <guilabel>Propriétés disponibles</guilabel> et <guilabel>Propriétés de la tâche</guilabel>. En déplaçant une <guilabel>Propriétés disponibles</guilabel> vers la liste des <guilabel>Propriétés de la tâche</guilabel>, sa valeur courante peut être enregistrée en cliquant sur le bouton <guibutton>Appliquer</guibutton>. Quand vous ajoutez une tâche à la <guilabel>file d'attente des séquences</guilabel>, les valeurs des propriétés sélectionnées dans la liste des <guilabel>Propriétés de la tâche</guilabel> seront enregistrées."
 
 #. Tag: para
 #. +> trunk5
@@ -308,7 +308,7 @@ msgstr "Étiquettes réservées disponibles :"
 #: ekos-capture.docbook:186
 #, no-c-format
 msgid "<emphasis role=\"bold\">%f</emphasis> or <emphasis role=\"bold\">%filename</emphasis>: The name of the sequence .esq file, without extension."
-msgstr "<emphasis role=\"bold\">%f</emphasis> ou <emphasis role=\"bold\">%filename</emphasis> : le nom du fichier de séquence .seq, sans extension."
+msgstr "<emphasis role=\"bold\">%f</emphasis> ou <emphasis role=\"bold\">%filename</emphasis> : le nom du fichier de séquence « .seq », sans extension."
 
 #. Tag: para
 #. +> trunk5
@@ -322,28 +322,28 @@ msgstr "<emphasis role=\"bold\">%D</emphasis> ou <emphasis role=\"bold\">%Dateti
 #: ekos-capture.docbook:196
 #, no-c-format
 msgid "<emphasis role=\"bold\">%T</emphasis> or <emphasis role=\"bold\">%Type</emphasis>: The frame type &eg; 'Light', 'Bias', 'Dark', 'Flat'..."
-msgstr "<emphasis role=\"bold\">%T</emphasis> ou <emphasis role=\"bold\">%Type</emphasis>: le type de trame, par exemple 'Light', 'Bias', 'Dark', 'Flat'…"
+msgstr "<emphasis role=\"bold\">%T</emphasis> ou <emphasis role=\"bold\">%Type</emphasis>: le type de trame, par exemple « Clair », « Biais », « Sombre », « A plat »,…"
 
 #. Tag: para
 #. +> trunk5
 #: ekos-capture.docbook:201
 #, no-c-format
 msgid "<emphasis role=\"bold\">%e</emphasis> or <emphasis role=\"bold\">%exposure</emphasis>: The exposure duration in seconds."
-msgstr "<emphasis role=\"bold\">%e</emphasis> ou <emphasis role=\"bold\">%exposure</emphasis>: la durée d'exposition en secondes."
+msgstr "<emphasis role=\"bold\">%e</emphasis> ou <emphasis role=\"bold\">%exposure</emphasis> : la durée d'exposition en secondes."
 
 #. Tag: para
 #. +> trunk5
 #: ekos-capture.docbook:206
 #, no-c-format
 msgid "<emphasis role=\"bold\">%F</emphasis> or <emphasis role=\"bold\">%Filter</emphasis>: The active filter name."
-msgstr "<emphasis role=\"bold\">%F</emphasis> ou <emphasis role=\"bold\">%Filter</emphasis>: le nom du filtre actif."
+msgstr "<emphasis role=\"bold\">%F</emphasis> ou <emphasis role=\"bold\">%Filter</emphasis> : le nom du filtre actif."
 
 #. Tag: para
 #. +> trunk5
 #: ekos-capture.docbook:211
 #, no-c-format
 msgid "<emphasis role=\"bold\">%t</emphasis> or <emphasis role=\"bold\">%target</emphasis>: The Target name."
-msgstr "<emphasis role=\"bold\">%t</emphasis> ou <emphasis role=\"bold\">%target</emphasis>: le nom de la cible."
+msgstr "<emphasis role=\"bold\">%t</emphasis> ou <emphasis role=\"bold\">%target</emphasis> : le nom de la cible."
 
 #. Tag: para
 #. +> trunk5
@@ -371,7 +371,7 @@ msgstr "<guilabel>Aperçu</guilabel> : affiche un aperçu du nom de fichier en 
 #: ekos-capture.docbook:231
 #, no-c-format
 msgid "Placeholder tags that are specified by the sequence .seq file can only be displayed once the sequence file has been saved."
-msgstr "Les étiquettes réservées spécifiées par le fichier de séquence .seq ne peuvent être affichées que lorsque le fichier de séquence a été enregistré."
+msgstr "Les étiquettes réservées spécifiées par le fichier de séquence « .seq » ne peuvent être affichées que lorsque le fichier de séquence a été enregistré."
 
 #. Tag: para
 #. +> trunk5
@@ -518,7 +518,7 @@ msgstr "<phrase>File d'attente des séquences</phrase>"
 #: ekos-capture.docbook:330
 #, no-c-format
 msgid "You can add as many jobs as desired. While it is not strictly necessary, it is preferable to add the dark and flat jobs after the light frames. Once you are done adding jobs, simply click <guilabel>Start Sequence</guilabel> <inlinemediaobject><imageobject><imagedata fileref=\"media-playback-start.png\" format=\"PNG\"/></imageobject></inlinemediaobject> to begin executing the jobs. A job state changes from <guilabel>Idle</guilabel> to <guilabel>In Progress</guilabel> and finally to <guilabel>Complete</guilabel> once it is done. The Sequence Queue automatically starts the next job. If a job is aborted, it may be resumed again. To pause a sequence, click the pause button <inlinemediaobject><imageobject><imagedata fileref=\"media-playback-pause.png\" format=\"PNG\"/></imageobject></inlinemediaobject> and the sequence will be stopped after the current capture is complete. To reset the status of all the jobs, simply click the reset button <inlinemediaobject><imageobject><imagedata fileref=\"view-refresh.png\" format=\"PNG\"/></imageobject></inlinemediaobject>. Please beware that all image progress counts are reset as well. To preview an image in &kstars; FITS Viewer, click the <guibutton>Preview</guibutton> button."
-msgstr "Vous pouvez ajouter autant de tâches que désirées. Bien que cela ne soit pas strictement nécessaire, il est préférable d'ajouter les tâches d'acquisition de Dark et de Flat après celles de Light. Une fois que vous avez terminé d'ajouter des tâches, cliquez simplement sur le bouton <guibutton>Démarrer séquence</guibutton> <inlinemediaobject><imageobject><imagedata fileref=\"media-playback-start.png\" format=\"PNG\"/></imageobject></inlinemediaobject> pour débuter l'exécution des tâches. L'état d'une tâche passe de <guilabel>Inactif</guilabel> à <guilabel>En progrès</guilabel> et enfin <guilabel>Complété</guilabel> une fois terminée. La file d'attente des séquences démarre ensuite automatiquement la prochaine tâche. Si une tâche est interrompue, elle peut être reprise. Pour mettre une tâche en pause, cliquez sur le bouton <inlinemediaobject><imageobject><imagedata fileref=\"view-refresh.png\" format=\"PNG\"/></imageobject></inlinemediaobject> et la tâche sera arrêtée <emphasis role=\"bold\">après que l'acquisition en cours soit terminée</emphasis>. Pour réinitialiser l'état de toutes les tâches, cliquez simplement sur le bouton de réinitialisation <inlinemediaobject><imageobject><imagedata fileref=\"view-refresh.png\" format=\"PNG\"/></imageobject></inlinemediaobject>. Veuillez noter que cela réinitialise également le compteur de progression de toutes les images. Pour afficher un aperçu d'une image dans l'afficheur FITS de &kstars;, cliquez sur le bouton <guibutton>Aperçu</guibutton>."
+msgstr "Vous pouvez ajouter autant de tâches que désirées. Bien que cela ne soit pas strictement nécessaire, il est préférable d'ajouter les tâches d'acquisition des trames « Sombre » et « A plat » après celles de type « Clair ». Une fois que vous avez terminé d'ajouter des tâches, cliquez simplement sur le bouton <guibutton>Démarrer séquence</guibutton> <inlinemediaobject><imageobject><imagedata fileref=\"media-playback-start.png\" format=\"PNG\"/></imageobject></inlinemediaobject> pour débuter l'exécution des tâches. L'état d'une tâche passe de <guilabel>Inactif</guilabel> à <guilabel>En progrès</guilabel> et enfin <guilabel>Complété</guilabel> une fois terminée. La file d'attente des séquences démarre ensuite automatiquement la prochaine tâche. Si une tâche est interrompue, elle peut être reprise. Pour mettre une tâche en pause, cliquez sur le bouton <inlinemediaobject><imageobject><imagedata fileref=\"view-refresh.png\" format=\"PNG\"/></imageobject></inlinemediaobject> et la tâche sera arrêtée <emphasis role=\"bold\">après que l'acquisition en cours soit terminée</emphasis>. Pour réinitialiser l'état de toutes les tâches, cliquez simplement sur le bouton de réinitialisation <inlinemediaobject><imageobject><imagedata fileref=\"view-refresh.png\" format=\"PNG\"/></imageobject></inlinemediaobject>. Veuillez noter que cela réinitialise également le compteur de progression de toutes les images. Pour afficher un aperçu d'une image dans l'afficheur FITS de &kstars;, cliquez sur le bouton <guibutton>Aperçu</guibutton>."
 
 #. Tag: para
 #. +> trunk5
@@ -532,21 +532,21 @@ msgstr "Les séquences peuvent être enregistrées dans un fichier au format &XM
 #: ekos-capture.docbook:338
 #, no-c-format
 msgid "<emphasis role=\"bold\">Job Progress</emphasis>: Ekos is designed to execute and resume the sequence over multiple nights if required. Therefore, if <guilabel>Remember Job Progress</guilabel> option is enabled in <link linkend=\"ekos\">Ekos Options</link>, Ekos shall scan the file system to count how many images are already completed and will resume the sequence from where it was left off. If this default behavior is not desired, simply turn off <guilabel>Remember Job Progress</guilabel> under options."
-msgstr "<emphasis role=\"bold\">Progression des tâches</emphasis> : Ekos est conçu pour exécuter les séquences sur plusieurs nuits si nécessaire. Ainsi, si l'option <guilabel>Se rappeler de la progression des tâches</guilabel> est activée dans les <link linkend=\"ekos\">options d'Ekos</link>, Ekos fera un scan du système de fichiers pour déterminer le nombre d'images déjà présentes et terminées et reprendra la séquence au point où il s'était arrêté. Si ce n'est pas le comportement désiré, vous pouvez simplement désactiver cette option."
+msgstr "<emphasis role=\"bold\">Progression des tâches</emphasis> : la conception de Ekos permet d'exécuter des séquences sur plusieurs nuits si nécessaire. Ainsi, si l'option <guilabel>Se rappeler de la progression des tâches</guilabel> est activée dans les <link linkend=\"ekos\">options de Ekos</link>, Ekos fera un scan du système de fichiers pour déterminer le nombre d'images déjà présentes et terminées et reprendra la séquence au point où il s'était arrêté. Si ce n'est pas le comportement désiré, vous pouvez simplement désactiver cette option."
 
 #. Tag: para
 #. +> trunk5
 #: ekos-capture.docbook:343
 #, no-c-format
 msgid "To edit a job, double click it. You will notice the add button <inlinemediaobject><imageobject><imagedata fileref=\"list-add.png\" format=\"PNG\"/></imageobject></inlinemediaobject> now changed to check mark button <inlinemediaobject><imageobject><imagedata fileref=\"dialog-ok-apply.png\" format=\"PNG\"/></imageobject></inlinemediaobject>. Make your changes on the left-hand side of the CCD module and once done, click on the check mark button. To cancel a job edit, click anywhere on the empty space within the sequence queue table."
-msgstr "Pour modifier une tâche, il faut double cliquer sur son nom. Remarquez comment le bouton d'ajout <inlinemediaobject><imageobject><imagedata fileref=\"list-add.png\" format=\"PNG\"/></imageobject></inlinemediaobject> s'est modifié en un bouton coché <inlinemediaobject><imageobject><imagedata fileref=\"dialog-ok-apply.png\" format=\"PNG\"/></imageobject></inlinemediaobject>. Faites vos changements dans le panneau gauche du module CCD et ensuite cliquez sur la coche pour appliquer. Pour annuler la modification, cliquez n'importe où dans un espace vide de la table de séquences."
+msgstr "Pour modifier une tâche, il faut double cliquer sur son nom. Veuillez noter comment le bouton d'ajout <inlinemediaobject><imageobject><imagedata fileref=\"list-add.png\" format=\"PNG\"/></imageobject></inlinemediaobject> s'est modifié en un bouton coché <inlinemediaobject><imageobject><imagedata fileref=\"dialog-ok-apply.png\" format=\"PNG\"/></imageobject></inlinemediaobject>. Faites vos changements dans le panneau gauche du module CCD et ensuite cliquez sur la boîte à cocher pour appliquer. Pour annuler la modification, cliquez n'importe où dans un espace vide de la table de séquences."
 
 #. Tag: para
 #. +> trunk5
 #: ekos-capture.docbook:347
 #, no-c-format
 msgid "<emphasis role=\"bold\">Editing running jobs</emphasis>: When Capture is running, or when the Scheduler is running, you cannot edit the sequence queue or a .esq file on disk using the Capture tab. However, the scheduler tab does have a Capture Sequence Editor tool that can be used to edit .esl files on disk, or create new ones."
-msgstr "<emphasis role=\"bold\">Modification des tâches actives</emphasis> : quand une acquisition est en cours ou quand l'ordonnanceur est actif, vous ne pouvez pas modifier la file de séquences ou un fichier .esq dans l'onglet d'acquisition. Toutefois, il existe un outil dans l'onglet de l'ordonnanceur qui permet de modifier les fichiers .esl ou en créer de nouveaux."
+msgstr "<emphasis role=\"bold\">Modification des tâches actives</emphasis> : quand une acquisition est en cours ou quand l'ordonnanceur est actif, vous ne pouvez pas modifier la file de séquences ou un fichier « .esq » dans l'onglet d'acquisition. Toutefois, il existe un outil dans l'onglet de l'ordonnanceur qui permet de modifier les fichiers « .esl » ou en créer de nouveaux."
 
 #. Tag: para
 #. +> trunk5
@@ -567,7 +567,7 @@ msgstr "Fonctionnalité d'enregistrement"
 #: ekos-capture.docbook:364
 #, no-c-format
 msgid "The live view also provides a graphical overlay tool to aid in collimation. This is toggled on/off by the crosshair button."
-msgstr "La vue « Live view » fournit un outil de superposition d'images très utile pour la collimation. Le bouton en croix permet de le (dés)activer."
+msgstr "La vue « Affichage en direct » fournit un outil de superposition d'images très utile pour la collimation. Le bouton en croix permet de le (dés)activer."
 
 #. Tag: phrase
 #. +> trunk5
@@ -693,7 +693,7 @@ msgstr "<phrase>Réglages de la calibration</phrase>"
 #: ekos-capture.docbook:468
 #, no-c-format
 msgid "For Flat Field frames, you can set calibration options in order to automate the process. The calibration options are designed to facilitate automatic unattended flat field frame capture. It can also be used for dark and bias frames if desired. If your camera is equipped with a mechanical shutter, then it is not necessary to set calibration settings unless you want to close the dust cover to ensure no light at all passes through the optical tube. For flat fields, you must specify the flat field light source, and then specify the duration of the flat field frame. The duration can be either manual or based on ADU calculations."
-msgstr "Pour les trames de champ uniforme (Flat), vous pouvez régler les options de calibration pour automatiser le processus. Ces options sont conçues pour faciliter l'acquisition automatique des trames de champ uniforme. Elles peuvent également être utilisées pour l'acquisition des trames Dark et Bias. Si votre caméra possède un obturateur mécanique, il n'est pas nécessaire de régler ces options sauf si vous souhaitez fermer le bouchon anti-poussière pour vous assurer qu'aucune lumière ne passe dans le tube optique. Pour les Flats, vous devez spécifier la source de lumière, puis une durée d'exposition. La durée peut être spécifiée soit manuellement soit fondé sur un calcul d'ADU (Analog Digital Unit ou pas de quantification)."
+msgstr "Pour les trames de champ uniforme (A Plat), vous pouvez régler les options de calibration pour automatiser le processus. Ces options sont conçues pour faciliter l'acquisition automatique des trames de champ uniforme. Elles peuvent également être utilisées pour l'acquisition des trames « Sombre » et « Biais ». Si votre caméra possède un obturateur mécanique, il n'est pas nécessaire de régler ces options sauf si vous souhaitez fermer le bouchon anti-poussière pour vous assurer qu'aucune lumière ne passe dans le tube optique. Pour les trames « A plat », vous devez spécifier la source de lumière, puis une durée d'exposition. La durée peut être spécifiée soit manuellement soit fondé sur un calcul « ADU » (Analog Digital Unit ou pas de quantification)."
 
 #. Tag: para
 #. +> trunk5
@@ -714,21 +714,21 @@ msgstr "<guilabel>Manuel</guilabel> : la source de lumière est manuelle."
 #: ekos-capture.docbook:481
 #, no-c-format
 msgid "<guilabel>Dust Cover with Built-In Flat Light</guilabel>: If using a dust cover with builtin light source (&eg; FlipFlat). For dark and bias frames, close the dust cap before proceeding. For flat frames, close the dust cap and turn on the light source."
-msgstr "<guilabel>Bouchon antipoussière avec source de lumière intégrée</guilabel> : pour l'utilisation de ce type d'appareil (p. ex. FlipFlat). Pour les trames Dark et Bias, veillez à fermer le bouchon antipoussière avant de commencer. Pour les trames Flat, fermez le bouchon antipoussière et allumez la source de lumière."
+msgstr "<guilabel>Bouchon anti-poussière avec source de lumière intégrée</guilabel> : pour l'utilisation de ce type d'appareil (p. ex. FlipFlat). Pour les trames « Sombre » et « Biais », veillez à fermer le bouchon anti-poussière avant de commencer. Pour les trames Flat, fermez le bouchon anti-poussière et allumez la source de lumière."
 
 #. Tag: para
 #. +> trunk5
 #: ekos-capture.docbook:485
 #, no-c-format
 msgid "<guilabel>Dust Cover with External Flat Light</guilabel>: If using a dust cover with an external flat light source. For dark and bias frames, close the dust cap before proceeding. For flat frames, open the dust cap and turn on the light source. The external flat light source location is presumed to be the parking location."
-msgstr "<guilabel>Bouchon antipoussière avec source de lumière externe</guilabel> : pour l'utilisation de bouchon antipoussière avec source de lumière externe. Pour les trames Dark et Bias, veuillez à fermer le bouchon antipoussière avant de commencer. Pour les trames Flat, fermez le bouchon antipoussière et allumer la source de lumière. L'emplacement de la source externe de lumière pour les Flats est présumée être la position de parcage."
+msgstr "<guilabel>Bouchon anti-poussière avec source de lumière externe</guilabel> : pour l'utilisation de bouchon anti-poussière avec source de lumière externe. Pour les trames « Sombre » et « Biais », veuillez à fermer le bouchon anti-poussière avant de commencer. Pour les trames Flat, fermez le bouchon anti-poussière et allumer la source de lumière. L'emplacement de la source externe de lumière pour les trames « A plat » est présumée être la position de parcage."
 
 #. Tag: para
 #. +> trunk5
 #: ekos-capture.docbook:489
 #, no-c-format
 msgid "<guilabel>Wall</guilabel>: Light source is a panel on the observatory wall. Specify the Azimuth and Altitude coordinates of the panel and the mount shall slew there before capturing the flat field frames. If the light panel is controllable from INDI, Ekos shall turn it on/off as required."
-msgstr "<guilabel>Mur</guilabel> : la source de lumière est un panneau placé contre un mur. Spécifier les coordonnées d'azimut et d'altitude du panneau et la monture pivotera dans cette direction avant de débuter l'acquisition des trames de Flats. Si le panneau de lumière est contrôlable par INDI, Ekos se chargera de l'allumer et de l'éteindre."
+msgstr "<guilabel>Mur</guilabel> : la source de lumière est un panneau placé contre un mur. Spécifier les coordonnées d'azimut et d'altitude du panneau et la monture pivotera dans cette direction avant de débuter l'acquisition des trames « A plat ». Si le panneau de lumière est contrôlable par INDI, Ekos se chargera de l'allumer et de l'éteindre."
 
 #. Tag: para
 #. +> trunk5
@@ -763,7 +763,7 @@ msgstr "<guilabel>ADU</guilabel> : la durée est variable jusqu'à que la valeu
 #: ekos-capture.docbook:515
 #, no-c-format
 msgid "Before the calibration capture process is started, you can request Ekos to park the mount and/or dome. Depending on your flat source selection above, Ekos will use the appropriate flat light source before starting flat frames capture. If ADU is specified, Ekos begins by capturing a couple of preview images to establish the curve required to achieve the desired ADU count. Once an appropriate value is calculated, another capture is taken and ADU is recounted until a satisfactory value is achieved."
-msgstr "Avant le début de la procédure d'acquisition de la calibration, vous pouvez demander à Ekos de parquer la monture et/ou le dôme. Selon la sélection de la source de Flat ci-dessus, Ekos va utiliser la source de lumière appropriée pour les Flats avant de commencer l'acquisition des trames de Flat. Si une valeur ADU est spécifiée, Ekos commence par prendre une série d'images pour établir la courbe nécessaire pour atteindre la valeur ADU souhaitée. Une fois que cette valeur est calculée, une nouvelle image est prise et l'ADU est recalculée jusqu'à ce que la valeur souhaitée soit atteinte."
+msgstr "Avant le début de la procédure d'acquisition de la calibration, vous pouvez demander à Ekos de parquer la monture et/ou le dôme. Selon la sélection de la source de trames « A plat » ci-dessus, Ekos va utiliser la source de lumière appropriée pour ces trames avant de commencer leur acquisition. Si une valeur ADU est spécifiée, Ekos commence par prendre une série d'images pour établir la courbe nécessaire pour atteindre la valeur ADU souhaitée. Une fois que cette valeur est calculée, une nouvelle image est prise et le compteur « ADU » est recalculée jusqu'à ce que la valeur souhaitée soit atteinte."
 
 #. Tag: title
 #. +> trunk5
@@ -833,7 +833,7 @@ msgstr "<guilabel>Qualité du ciel</guilabel> : le <guimenu>sélecteur de quali
 #: ekos-capture.docbook:553
 #, no-c-format
 msgid "The range for Sky Quality is from 22 for the darkest skies, to 16 for the brightest (most light-polluted) skies. The magnitude scale is non-linear; it is a logarithmic scale based on the 5th root of 100. So 5 steps on the scale represent a change in brightness by a factor of 100. (A Sky Quality of 17 is 100 times as bright as a Sky Quality of 22. Each full integer step on the scale is a change by a factor of approximately 2.512.). <ulink url=\"https://en.wikipedia.org/wiki/Sky_brightness\">Wikipedia Sky Brightness</ulink> <ulink url=\"https://en.wikipedia.org/wiki/Light_pollution\">Wikipedia Light Pollution</ulink>"
-msgstr "La plage de valeurs pour la qualité du ciel va de 22 pour les ciels les plus noirs à 16 pour les plus brillants (principalement pollué par la lumière). L'échelle de magnitude est non-linéaire ; c'est une échelle logarithmique basée sur la racine cinquième de 100. Ainsi, 5 pas sur cette échelle représente un changement en magnitude d'un facteur 100. (Une qualité du ciel de 17 est 100 fois plus lumineuse qu'une qualité du ciel de 22. Chaque entier représente un changement d'environ 2.512.). Voir <ulink url=\"https://en.wikipedia.org/wiki/Sky_brightness\">Wikipedia Sky Brightness</ulink> et <ulink url=\"https://fr.wikipedia.org/wiki/Pollution_lumineuse\">Pollution lumineuse</ulink>."
+msgstr "La plage de valeurs pour la qualité du ciel va de 22 pour les ciels les plus noirs à 16 pour les plus brillants (principalement pollué par la lumière). L'échelle de magnitude est non-linéaire : c'est une échelle logarithmique conçue à partir de la racine cinquième de 100. Ainsi, 5 pas sur cette échelle représente un changement en magnitude d'un facteur 100. (Une qualité du ciel de 17 est 100 fois plus lumineuse qu'une qualité du ciel de 22. Chaque entier représente un changement d'environ 2.512). Veuillez consulter la page <ulink url=\"https://en.wikipedia.org/wiki/Sky_brightness\">Wikipedia sur la luminosité du ciel</ulink> et <ulink url=\"https://fr.wikipedia.org/wiki/Pollution_lumineuse\">Pollution lumineuse</ulink>."
 
 #. Tag: para
 #. +> trunk5
@@ -896,21 +896,21 @@ msgstr "Prenons par exemple deux optiques de même rapport F/D, un réfracteur (
 #: ekos-capture.docbook:573
 #, no-c-format
 msgid "An effective / adjusted focal ratio value for a refractor = Optic Focal Ratio / 0.94"
-msgstr "La compensation sera calculée pour un réfracteur ainsi : (rapport F/D) / 0.94."
+msgstr "La compensation sera calculée pour un réfracteur selon la formule = (Rapport F / D) / 0.94."
 
 #. Tag: para
 #. +> trunk5
 #: ekos-capture.docbook:574
 #, no-c-format
 msgid "An effective / adjusted focal ratio value for a reflector = Optic Focal Ratio / 0.78"
-msgstr "Et pour un réflecteur : (Rapport F/D) / 0.78."
+msgstr "La compensation sera calculée pour un réflecteur selon la formule = (Rapport F / D) / 0.78."
 
 #. Tag: para
 #. +> trunk5
 #: ekos-capture.docbook:575
 #, no-c-format
 msgid "These adjustments slightly increase the focal ratio, and therefore slightly reduce the computed light gathering capability considered in the calculation."
-msgstr "Ces ajustements augmentent un tout petit peu le rapport F/D et ainsi réduisent un peu l'efficacité de capture de lumière dans les calculs."
+msgstr "Ces ajustements augmentent un tout petit peu le rapport « F /D » et ainsi réduisent un peu l'efficacité de capture de lumière dans les calculs."
 
 #. Tag: para
 #. +> trunk5
@@ -945,14 +945,14 @@ msgstr "La valeur de la largeur de bande du filtre a un effet inversement propor
 #: ekos-capture.docbook:588
 #, no-c-format
 msgid "<guilabel>Camera</guilabel>: The exposure calculation requires a value for the read noise of the camera. Camera read noise is an electronic noise that occurs at the completion of an exposure as the camera is measuring the analog voltage values of the pixels and converting these measurements into digital values. Read noise is not effected by the length of an exposure."
-msgstr "<guilabel>Appareil</guilabel> : le calcul de la durée d'exposition requiert de connaître la valeur du bruit de lecture de l'appareil. Ce bruit apparaît à la fin d'une exposition et provient du fait que l'appareil mesure des valeurs analogiques de la tension des pixels et les convertit ensuite en valeurs digitales. Ce bruit de lecture n'est pas affecté par la durée d'exposition."
+msgstr "<guilabel>Appareil</guilabel> : le calcul de la durée d'exposition requiert de connaître la valeur du bruit de lecture de l'appareil. Ce bruit apparaît à la fin d'une exposition et provient du fait que l'appareil mesure des valeurs analogiques de la tension des pixels et les convertit ensuite en valeurs numériques. Ce bruit de lecture n'est pas affecté par la durée d'exposition."
 
 #. Tag: para
 #. +> trunk5
 #: ekos-capture.docbook:590
 #, no-c-format
 msgid "Camera sensors are one of two types: \"Charge Coupled Device\" (CCD) or \"Complementary Metal-Oxide Semiconductor\" (CMOS). For the exposure calculation the main difference between these sensor types is that CCD sensors do not have a variable gain setting that would impact the read noise; so a CCD sensor will have a single constant value for its read noise. A CMOS sensor does have a variable gain (or ISO value), and changes to that setting usually result in a change to the read noise."
-msgstr "Les appareils ont des capteurs de deux types : CCD (Charge Coupled Device) et CMOS (Complementary Metal-Oxide Semiconductor). La différence principale en ce qui concerne le calcul de la durée d'exposition est que les capteurs CCD ne possèdent pas de réglages du gain qui affecte le bruit de lecture ; ainsi, les capteurs CCD n'ont qu'une seule valeur constante pour leur bruit de lecture. Les capteurs CMOS ont un gain variable (ou valeur ISO) et une modification de ce paramètre affecte en général le bruit de lecture."
+msgstr "Les appareils ont des capteurs de deux types : CCD (Charge Coupled Device) et CMOS (Complementary Metal-Oxide Semiconductor). La différence principale en ce qui concerne le calcul de la durée d'exposition est que les capteurs CCD ne possèdent pas de réglages du gain qui affecte le bruit de lecture ; ainsi, les capteurs CCD n'ont qu'une seule valeur constante pour leur bruit de lecture. Les capteurs CMOS ont un gain variable (ou valeur « ISO ») et une modification de ce paramètre affecte en général le bruit de lecture."
 
 #. Tag: para
 #. +> trunk5
@@ -1036,7 +1036,7 @@ msgstr "Choisissez plutôt une valeur éloignée d'une marche"
 #: ekos-capture.docbook:628
 #, no-c-format
 msgid "Shift gain away from such steps"
-msgstr "Éloignez-vous de telles marches"
+msgstr "Déplacer le gain loin de ces seuils"
 
 #. Tag: para
 #. +> trunk5
@@ -1127,7 +1127,7 @@ msgstr "Cette valeur informe sur l'effet bénéfique d'empiler les images sur l'
 #: ekos-capture.docbook:674
 #, no-c-format
 msgid "Ideally a desired signal to noise ratio (SNR) would be used for the measure of the level of quality of an image, but the exposure calculator does not possess an ability to recognize the strength of the signal from an intended imaging target, so it cannot calculate an estimated signal to noise ratio. So the level of quality to be specified in the stacking calculation is the integration time in seconds divided by the calculated noise in the integrated image, (a “Time/Noise Ratio”). For the purposes of the calculation, the “Time/Noise Ratio” can be considered as a partial analog to a signal to noise ratio. But the user must recognize that a specified time to noise ratio is not an absolute measure of the quality of all integrated images from all targets because a signal strength (magnitude or flux) is not part of this calculation."
-msgstr "Idéalement, un rapport signal sur bruit (SNR) devrait être utilisé pour mesurer le niveau de qualité des images, mais le calculateur ne permet pas de reconnaître la force du signal d'une image cible et ne peut ainsi pas calculer ce rapport. Le niveau de qualité dans le calcul d'empilement est la durée d'intégration en secondes divisée par le bruit. Ce rapport « Durée/bruit »> peut être considéré comme une analogie grossière du rapport signal sur bruit. Mais l'utilisateur doit garder en tête que le rapport « Durée/bruit » n'est pas une mesure absolue de la qualité de l'empilement des images de toutes les cibles puisque la force du signal (magnitude ou flux) ne fait pas partie du calcul."
+msgstr "Idéalement, un rapport signal sur bruit (SNR) devrait être utilisé pour mesurer le niveau de qualité des images, mais le calculateur ne permet pas de reconnaître la force du signal d'une image cible et ne peut ainsi pas calculer ce rapport. Le niveau de qualité dans le calcul d'empilement est la durée d'intégration en secondes divisée par le bruit. Ce rapport « Durée/bruit »> peut être considéré comme une analogie grossière du rapport signal sur bruit. Mais l'utilisateur doit toujours se rappeler que le rapport « Durée/bruit » n'est pas une mesure absolue de la qualité de l'empilement des images de toutes les cibles puisque la force du signal (magnitude ou flux) ne fait pas partie du calcul."
 
 #. Tag: para
 #. +> trunk5
@@ -1155,7 +1155,7 @@ msgstr "La colonne tout à droite indique le rapport « Durée/bruit » de l'i
 #: ekos-capture.docbook:684
 #, no-c-format
 msgid "<guimenuitem>Graph</guimenuitem>: An interactive graph allows the user to visualize the relative change in potential quality for integrated images with various counts of sub-exposures applied in image stacking. This graph can be navigated through the adjustment of the time/noise ratio value; adjusting this value will recompute the quantity of sub-exposures required for the integrated image to achieve that specified time/noise ratio."
-msgstr "<guimenuitem>Graphique</guimenuitem> : un graphique interactif permet à l'utilisateur de visualiser les changements relatifs de la qualité potentielle des images empilées en fonction du nombre de trames utilisées pour l'empilement. En faisant varier ce rapport, le nombre de trames sera recalculée pour que l'image empilée atteigne ce rapport « Durée/bruit »."
+msgstr "<guimenuitem>Graphique</guimenuitem> : un graphique interactif permet à l'utilisateur d'afficher les changements relatifs de la qualité potentielle des images empilées en fonction du nombre de trames utilisées pour l'empilement. En faisant varier ce rapport, le nombre de trames sera recalculée pour que l'image empilée atteigne ce rapport « Durée / bruit »."
 
 #. Tag: para
 #. +> trunk5
