@@ -1,19 +1,20 @@
 # Translation to French
+# SPDX-FileCopyrightText: 2024 Xavier Besnard <xavier.besnard@kde.org>
 # steve <stax@ik.me>, 2022, 2023, 2024.
 msgid ""
 msgstr ""
 "Project-Id-Version: kstars_ekos-focus_3.6.9\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
 "POT-Creation-Date: 2024-02-09 09:15+0100\n"
-"PO-Revision-Date: 2024-02-22 06:47+0100\n"
-"Last-Translator: steve <stax@ik.me>\n"
-"Language-Team: French <kde-francophone@kde.org>\n"
+"PO-Revision-Date: 2024-03-21 17:37+0100\n"
+"Last-Translator: Xavier Besnard <xavier.besnard@kde.org>\n"
+"Language-Team: French <French <kde-francophone@kde.org>>\n"
 "Language: fr\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=(n > 1);\n"
-"X-Generator: Poedit 3.2.2\n"
+"X-Generator: Lokalize 23.08.5\n"
 
 #. Tag: title
 #. +> trunk5
@@ -69,7 +70,7 @@ msgstr "<phrase>Mise au point Ekos</phrase>"
 #: ekos-focus.docbook:30
 #, no-c-format
 msgid "In order to focus an image, Ekos needs to establish a numerical method for gauging how <emphasis>good</emphasis> your focus is. It's easy when you look at an image and can see it as <emphasis>unfocused</emphasis>, as the human eye is very good at detecting that, but <emphasis>how</emphasis> can Ekos possibly know that?"
-msgstr "Afin d'effectuer la mise au point d'une image, Ekos a besoin d'utiliser une méthode numérique pour juger de la <emphasis>valeur</emphasis> de votre mise au point. Il est très facile pour un humain d'estimer si une image n'est pas <emphasis>nette</emphasis> puisque l'œil humain est très bon à cela, mais <emphasis>comment</emphasis> est-ce qu'Ekos peut le savoir ?"
+msgstr "Afin d'effectuer la mise au point d'une image, Ekos a besoin d'utiliser une méthode numérique pour juger de la <emphasis>valeur</emphasis> de votre mise au point. Il est très facile pour un humain d'estimer si une image n'est pas <emphasis>nette</emphasis> puisque l'œil humain est très bon à cela, mais <emphasis>comment</emphasis> est-ce que Ekos peut le savoir ?"
 
 #. Tag: para
 #. +> trunk5
@@ -90,7 +91,7 @@ msgstr "En plus de la méthode HFR, Ekos gère d'autres mesures de mise au point
 #: ekos-focus.docbook:49
 #, no-c-format
 msgid "After Ekos processes an image, it selects either a single star and starts measuring its HFR, or it selects a set of stars matching the criteria that have been set and calculates an average HFR. It can automatically select stars, or you can select a single star manually. It is recommended to allow Ekos to select a set of stars."
-msgstr "Après qu'Ekos ait traité une image, il sélectionne l'étoile la plus brillante et commence à mesurer son HFR ou il sélectionne en ensemble d'étoiles correspondant aux critères qui ont été réglés et calcule un HFR moyen. Il peut sélectionner une étoile automatiquement ou vous pouvez lui indiquer quelle étoile utiliser. Il est en général recommandé de permettre à Ekos de choisir un ensemble d'étoiles."
+msgstr "Après le traitement d'une image par Ekos, il sélectionne l'étoile la plus brillante et commence à mesurer son HFR ou il sélectionne en ensemble d'étoiles correspondant aux critères qui ont été réglés et calcule un HFR moyen. Il peut sélectionner une étoile automatiquement ou vous pouvez lui indiquer quelle étoile utiliser. Il est en général recommandé de permettre à Ekos de choisir un ensemble d'étoiles."
 
 #. Tag: para
 #. +> trunk5
@@ -349,14 +350,14 @@ msgstr "<emphasis role=\"bold\">Champ gauche</emphasis> : position actuelle du 
 #: ekos-focus.docbook:300
 #, no-c-format
 msgid "<emphasis role=\"bold\">Right Hand Steps</emphasis>: This is input and allows the user to enter a desired position. When the <guibutton>Goto</guibutton> button is pressed, the focuser is moved from its current position to the position indicated in this field."
-msgstr "<emphasis role=\"bold\">Champ droite</emphasis> : c'est une valeur en entrée que l'opérateur peut modifier pour obtenir une position particulière. Lorsque que le bouton <guibutton>Goto</guibutton> est cliqué, le moteur de mise au point se déplacera depuis la position actuelle jusqu'à la position saisie en entrée."
+msgstr "<emphasis role=\"bold\">Champ droite</emphasis> : c'est une valeur en entrée que l'opérateur peut modifier pour obtenir une position particulière. Lorsque que le bouton <guibutton>Aller à</guibutton> est cliqué, le moteur de mise au point se déplacera depuis la position actuelle jusqu'à la position saisie en entrée."
 
 #. Tag: para
 #. +> trunk5
 #: ekos-focus.docbook:306
 #, no-c-format
 msgid "On startup, the Left Hand Steps will show the current focuser position. The Right Hand Steps field is defaulted from the Optical Train saved settings. This is useful, for example, if you have several Optical Trains that use the same focuser but solve at different positions. In this case, the Right Hand Steps will contain the last persisted value for this field for the selected Optical Train. So, after swapping equipment and selecting the Optical Train, if the user presses the <guibutton>Goto</guibutton> button then the focuser will be moved to a good place to start focusing from."
-msgstr "Au départ, la valeur du champ de gauche affichera la position actuelle du moteur de mise au point. Le champ droite prendra comme valeur par défaut celle du train optique enregistré dans les réglages. Cela est utile par exemple lorsque vous avez plusieurs trains optiques qui utilisent le même moteur de mise au point mais dont la position de la mise au point est différente. Dans ce cas, la valeur du champ de gauche sera celle de la dernière valeur pour le train optique sélectionné. Ainsi, après avoir changé de matériel et choisi le train optique adéquat, un clic sur le bouton <guibutton>Goto</guibutton> entraînera le moteur de mise au point à une position qui sera un bon point de départ."
+msgstr "Au départ, la valeur du champ de gauche affichera la position actuelle du moteur de mise au point. Le champ droite prendra comme valeur par défaut celle du train optique enregistré dans les réglages. Cela est utile par exemple lorsque vous avez plusieurs trains optiques qui utilisent le même moteur de mise au point mais dont la position de la mise au point est différente. Dans ce cas, la valeur du champ de gauche sera celle de la dernière valeur pour le train optique sélectionné. Ainsi, après avoir changé de matériel et choisi le train optique adéquat, un clic sur le bouton <guibutton>Aller à</guibutton> entraînera le moteur de mise au point à une position qui sera un bon point de départ."
 
 #. Tag: para
 #. +> trunk5
@@ -766,7 +767,7 @@ msgstr "<guilabel>Utiliser toutes les étoiles pour la mise au point</guilabel>�
 #: ekos-focus.docbook:624
 #, no-c-format
 msgid "<guilabel>Ring Mask</guilabel>: This option provides two input fields that together define a doughnut over the FOV of the camera. Stars falling outside of the doughnut are discounted from processing. Setting an inner value above 0% causes stars in the centre of the FOV to be discarded. This could be useful to avoid using stars in the target of the image (for example a galaxy) for focusing purposes. Setting an outer value below 100% causes stars in the edges of the FOV to be discarded during focusing. This could be useful if you do not have a flat field out to the edges of your FOV."
-msgstr "<guilabel>Masque annulaire</guilabel> : cette option fournit deux champs d'entrée qui définissent une surface en forme de beignet recouvrant le champ de vue (CdV) de l'appareil. Les étoiles en dehors de cette région ne sont pas prise en compte dans le traitement. En réglant la valeur intérieure au dessus de 0 %, les étoiles au centre du CdV sont rejetées. Cela peut être utile pour éviter d'utiliser des étoiles de la cible de l'image (par exemple une galaxie) pour la procédure de mise au point. En réglant la valeur extérieure sous 100 %, les étoiles se trouvant sur les bords du CdV sont rejetées. Cela peut être utile si vous ne disposez pas d'une image flat allant jusqu'aux coins du CdV."
+msgstr "<guilabel>Masque annulaire</guilabel> : cette option fournit deux champs d'entrée qui définissent une surface en forme de beignet recouvrant le champ de vue (CDV) de l'appareil. Les étoiles en dehors de cette région ne sont pas prise en compte dans le traitement. En réglant la valeur intérieure au dessus de 0 %, les étoiles au centre du CDV sont rejetées. Cela peut être utile pour éviter d'utiliser des étoiles de la cible de l'image (par exemple une galaxie) pour la procédure de mise au point. En réglant la valeur extérieure sous 100 %, les étoiles se trouvant sur les bords du CDV sont rejetées. Cela peut être utile si vous ne disposez pas d'une image à plat allant jusqu'aux coins du CDV."
 
 #. Tag: para
 #. +> trunk5
@@ -943,7 +944,7 @@ msgstr "<guilabel>Détection</guilabel> : choix de l'algorithme de détection d
 #: ekos-focus.docbook:763
 #, no-c-format
 msgid "<emphasis role=\"bold\">SEP</emphasis>: Source Extraction and Photometry built in library. This is the default value."
-msgstr "<emphasis role=\"bold\">SEP</emphasis> : la bibliothèque intégrée d'extraction de source et de photométrie (Source Extraction and Photometry). C'est la valeur par défaut."
+msgstr "<emphasis role=\"bold\">SEP</emphasis> : la bibliothèque intégrée d'extraction de source et de photométrie. C'est la valeur par défaut."
 
 #. Tag: para
 #. +> trunk5
@@ -978,7 +979,7 @@ msgstr "<emphasis role=\"bold\">Bathinov</emphasis> : cette méthode de détect
 #: ekos-focus.docbook:799
 #, no-c-format
 msgid "<guilabel>SEP Profile</guilabel>: If the star detection algorithm is set to <emphasis>SEP</emphasis>, then choose a parameter profile to use with the algorithm. It is recommended to use the default 1-Focus-Default profile as a starting point."
-msgstr "<guilabel>Profile SEP</guilabel> : si l'algorithme de détection d'étoiles est réglé à <emphasis>SEP</emphasis>, il faut ensuite choisir un paramètre de profil pour l'utilisation de l'algorithme. Il est recommandé d'utiliser le profile par défaut 1-Focus-Default comme point de départ."
+msgstr "<guilabel>Profil « SEP »</guilabel> : si l'algorithme de détection d'étoiles est réglé à <emphasis>SEP</emphasis>, il faut ensuite choisir un paramètre de profil pour l'utilisation de l'algorithme. Il est recommandé d'utiliser le profile par défaut « 1-Focus-Default » comme point de départ."
 
 #. Tag: para
 #. +> trunk5
@@ -1098,7 +1099,7 @@ msgstr "<emphasis role=\"bold\">HFR ajusté</emphasis> : cette fonctionnalité 
 #: ekos-focus.docbook:902
 #, no-c-format
 msgid "The algorithm adjusts the value of the measured HFR, usually upwards, so the HFRs obtained by the HFR Adj method will be higher than the measured HFR values. This does not mean that you are getting worse results by using HFR Adj, simply that the measure is different."
-msgstr "L'algorithme ajuste la valuer du HFR mesuré, généralement vers le haut, de telle sorte que le HFR obtenu par cette méthode est plus grand que les valeurs HFR mesurées. Cela ne signifie pas que vous obtenez de moins bons résultats avec cette méthode mais simplement que la mesure est différente."
+msgstr "L'algorithme ajuste la valeur du HFR mesuré, généralement vers le haut, de telle sorte que le HFR obtenu par cette méthode est plus grand que les valeurs HFR mesurées. Cela ne signifie pas que vous obtenez de moins bons résultats avec cette méthode mais simplement que la mesure est différente."
 
 #. Tag: para
 #. +> trunk5
@@ -1519,7 +1520,7 @@ msgstr "Mettez une valeur positive à <guilabel>Jeu du pilote</guilabel> pour qu
 #: ekos-focus.docbook:1202
 #, no-c-format
 msgid "This is the same data field that is displayed in the Indi Control Panel for the focuser device. It can be set in either place."
-msgstr "Ce champ est le même que celui affiché dans le tableau de bord Indi du moteur de mise au point. Il peut être réglé aux deux endroits."
+msgstr "Ce champ est le même que celui affiché dans le tableau de bord « INDI » du moteur de mise au point. Il peut être réglé aux deux endroits."
 
 #. Tag: para
 #. +> trunk5
@@ -1634,7 +1635,7 @@ msgstr "Les algorithmes suivants sont disponibles :"
 #, no-c-format
 #| msgid "<emphasis role=\"bold\">Classic</emphasis>: This is the recommended setting. The equation used is displayed in the top right of the panel and is the equation most commonly seen on the internet. The equation comes from a linear optics treatment using the Airy Disc and is acknowledged to have limitations. For this reason it includes a \"tolerance\" factor that can be adjusted by the user. For example, in the often quoted “In Perfect Focus” article by Don Goldman and Barry Megdal in Sky &amp; Telescope 2010 they suggest setting t=1/3."
 msgid "<emphasis role=\"bold\">Classic</emphasis>: This is the recommended setting. The equation used is displayed in the top right of the dialog and is the equation most commonly seen on the internet. The equation comes from a linear optics treatment using the Airy Disc and is acknowledged to have limitations. For this reason it includes a \"tolerance\" factor that can be adjusted by the user. For example, in the often quoted “In Perfect Focus” article by Don Goldman and Barry Megdal in Sky &amp; Telescope 2010 they suggest setting t=1/3."
-msgstr "<emphasis role=\"bold\">Classique</emphasis> : c'est le réglage recommandé. L'équation utilisée est affichée en haut à droite du panneau et est l'équation la plus utilisée sur l'Internet. Elle provient d'un traitement d'optique linéaire qui utilise un disque d'Airy et est connue pour avoir quelques limitations. Elle inclut pour cette raison un facteur de tolérance qui peut être ajusté par l'opérateur. Par exemple dans l'article souvent cité « In perfect Focus » par Don Goldman et Barry Megdal paru dans Sky &amp; Telescope 2010, ils suggèrent d'utiliser t=1/3."
+msgstr "<emphasis role=\"bold\">Classique</emphasis> : c'est le réglage recommandé. L'équation utilisée est affichée en haut à droite du panneau et est l'équation la plus utilisée sur Internet. Elle provient d'un traitement d'optique linéaire qui utilise un disque de Airy et est connue pour avoir quelques limitations. Elle inclut pour cette raison un facteur de tolérance qui peut être ajusté par l'opérateur. Par exemple dans l'article souvent cité « In perfect Focus » par Don Goldman et Barry Megdal paru dans Sky &amp; Telescope 2010, ils suggèrent d'utiliser t = 1 / 3."
 
 #. Tag: para
 #. +> trunk5
@@ -1677,7 +1678,7 @@ msgstr "Pour l'algorithme du front d'onde, certains suggèrent la valeur 1/3 ou 
 #: ekos-focus.docbook:1324
 #, no-c-format
 msgid "<guilabel>Tolerance (τ)</guilabel>: This is used by the Gold algorithm and is a focus tolerance as a percentage of total seeing. The Gold website suggests 3-5% for a good focuser or 1-2% for a top quality focuser. See the <ulink url=\"https://www.goldastro.com/goldfocus/ncfz.php\">Gold Astro website</ulink> for more details."
-msgstr "<guilabel>Tolérance (τ)</guilabel> : cette valeur est utilisée pour l'algorithme Gold et est une tolérance de la mise au point exprimée comme un pourcentage de la qualité totale du ciel (seeing). Le site web de Gold suggère une valeur de 3 à 5 % pour un bon moteur de mise au point et 1 à 2 % pour les meilleurs moteurs. Pour davantage d'informations, veuillez consulter le <ulink url=\"http://www.goldastro.com/goldfocus/ncfz.php\">site web de Gold Astro</ulink>."
+msgstr "<guilabel>Tolérance (τ)</guilabel> : cette valeur est utilisée pour l'algorithme « Gold » et est une tolérance de la mise au point exprimée comme un pourcentage de la qualité totale du ciel (seeing). Le site Internet de « Gold » suggère une valeur de 3 à 5 % pour un bon moteur de mise au point et 1 à 2 % pour les meilleurs moteurs. Pour davantage d'informations, veuillez consulter le <ulink url=\"http://www.goldastro.com/goldfocus/ncfz.php\">site Internet de Gold Astro</ulink>."
 
 #. Tag: para
 #. +> trunk5
@@ -1719,7 +1720,7 @@ msgstr "<guilabel>Ratio de la focale (f)</guilabel> : c'est le ratio de la foca
 #: ekos-focus.docbook:1355
 #, no-c-format
 msgid "<guilabel>FWHM (θ)</guilabel>: This is used by the Gold Algorithm and is the total seeing. This is the combined contribution of the diffraction limit of your telescope and the astronomical seeing. The <ulink url=\"https://www.goldastro.com/goldfocus/ncfz.php\">Gold Astro website</ulink> describes how you might approximate the total once you have values for the individual contributions."
-msgstr "<guilabel>FWHM (θ)</guilabel> : cette valeur est utilisée par l'algorithme Gold et est la qualité totale du ciel (seeing). C'est la contribution combinée de la limite de diffraction de votre télescope et de la qualité astronomique du ciel (seeing). Le <ulink url=\"http://www.goldastro.com/goldfocus/ncfz.php\">site web de Gold Astro</ulink> décrit la manière d'approximer ce total une fois les contributions individuelles obtenues."
+msgstr "<guilabel>FWHM (θ)</guilabel> : cette valeur est utilisée par l'algorithme « Gold » et est la qualité totale du ciel (seeing). C'est la contribution combinée de la limite de diffraction de votre télescope et de la qualité astronomique du ciel (seeing). Le <ulink url=\"http://www.goldastro.com/goldfocus/ncfz.php\">site Internet de Gold Astro</ulink> décrit la manière d'approximer ce total une fois les contributions individuelles obtenues."
 
 #. Tag: para
 #. +> trunk5
@@ -2097,7 +2098,7 @@ msgstr "<guilabel>Construction des décalages</guilabel> : cliquez sur le bouto
 #: ekos-focus.docbook:1606
 #, no-c-format
 msgid "<guilabel>Capture flats at the same focus as lights</guilabel>: When checked, flats will be taken at the <guilabel>Last AF Solution</guilabel> focuser position."
-msgstr "<guilabel>Acquisition des flats à la même mise au point que les brutes</guilabel> : en cochant cette case, les flats seront acquis à la position du moteur de mise au point de la <guilabel>Dernière solution de mise au point automatique</guilabel>."
+msgstr "<guilabel>Acquisition des à-plats à la même mise au point que les brutes</guilabel> : en cochant cette case, les flats seront acquis à la position du moteur de mise au point de la <guilabel>Dernière solution de mise au point automatique</guilabel>."
 
 #. Tag: para
 #. +> trunk5
@@ -2855,7 +2856,7 @@ msgstr "Il est important de suivre une stratégie claire pour gérer le jeu et p
 #: ekos-focus.docbook:2120
 #, no-c-format
 msgid "There are several ways to measure backlash in ticks. Consult the documentation on your focuser or use the internet including the Indi Forum."
-msgstr "Il existe plusieurs manières de mesurer le jeu en pas. Veuillez consulter la documentation de votre moteur de mise au point ou utiliser les ressources d'Internet, le forum d'Indi inclus."
+msgstr "Il existe plusieurs manières de mesurer le jeu en pas. Veuillez consulter la documentation de votre moteur de mise au point ou utiliser les ressources d'Internet, le forum de INDI inclus."
 
 #. Tag: para
 #. +> trunk5
@@ -2918,7 +2919,7 @@ msgstr "<guilabel>Balayage de mise au point automatique</guilabel> est égalemen
 #: ekos-focus.docbook:2163
 #, no-c-format
 msgid "All focuser movements managed by Focus will have <guilabel>AF Overscan</guilabel> applied, including Step Out, Goto, Autofocus runs, Adaptive Focus movements, Adapt Start Pos movements and Take flats at the same position as lights."
-msgstr "Tous les mouvements du moteur gérés par le module de mise au point auront le <guilabel>Balayage de mise au point</guilabel> appliqué, ce qui inclus le mouvement extérieur, la fonction Goto, les processus de mise au point automatique, les mouvements d'adaptation de la position initiale et l'acquisition de flats à la même position que les brutes."
+msgstr "Tous les mouvements du moteur gérés par le module de mise au point auront le <guilabel>Balayage de mise au point</guilabel> appliqué, ce qui inclus le mouvement extérieur, la fonction « Aller à », les processus de mise au point automatique, les mouvements d'adaptation de la position initiale et l'acquisition de à-plats à la même position que les brutes."
 
 #. Tag: title
 #. +> trunk5
@@ -3018,14 +3019,14 @@ msgstr "Pour utiliser la MaPA, vous devez d'abord choisir si vous souhaitez une 
 #: ekos-focus.docbook:2239
 #, no-c-format
 msgid "The first step is to workout the <guilabel>Ticks / °C</guilabel> and/or <guilabel>Ticks / °Alt</guilabel> for your equipment. To do this there is an existing utility in Ekos whereby when Focus logging is enabled, in addition to adding focus messages to the debug log, every time an Autofocus run completes, information is written to a text file in a directory called focuslogs located in the same place as the debug logs directory. The files are called “autofocus-(datetime).txt”. The data written are: date, time, position, temperature, filter, HFR, altitude. This data will need to be analysed outside of Ekos to determine the <guilabel>Ticks / °C</guilabel> and if required the <guilabel>Ticks / °Alt</guilabel>."
-msgstr "La première étape est de déterminer les valeurs de <guilabel>Pas / °C</guilabel> et/ou <guilabel>Pas / °Alt</guilabel> de votre équipement. Pour ce faire il existe un utilitaire dans Ekos qui permet d'enregistrer les données de mises au point et les messages liés pour chaque processus de mise au point automatique. Cette information est écrite dans un fichier texte qui se trouve dans un dossier nommé focuslogs au même emplacement que le dossier des fichiers journaux de débogage. Ces fichiers sont nommés autofocus-(datetime).txt. Les données écrites sont la date, l'heure, la position, la température, le filtre, le HFR et l'altitude. Ces données devront être analysées séparément de Ekos afin de déterminer la valeur de <guilabel>Pas / °C</guilabel> et si requis celle de <guilabel>Pas / °Alt</guilabel>."
+msgstr "La première étape est de déterminer les valeurs de <guilabel>Pas / °C</guilabel> et/ou <guilabel>Pas / °Alt</guilabel> de votre équipement. Pour ce faire il existe un utilitaire dans Ekos qui permet d'enregistrer les données de mises au point et les messages liés pour chaque processus de mise au point automatique. Cette information est écrite dans un fichier texte qui se trouve dans un dossier nommé « focuslogs » au même emplacement que le dossier des fichiers journaux de débogage. Ces fichiers sont nommés « autofocus-(datetime).txt ». Les données écrites sont la date, l'heure, la position, la température, le filtre, le HFR et l'altitude. Ces données devront être analysées séparément de Ekos afin de déterminer la valeur de <guilabel>Pas / °C</guilabel> et si requis celle de <guilabel>Pas / °Alt</guilabel>."
 
 #. Tag: para
 #. +> trunk5
 #: ekos-focus.docbook:2246
 #, no-c-format
 msgid "Here is an example of a “autofocus-(datetime).txt” file:"
-msgstr "Voici un exemple d'un fichier autofocus-(datetime).txt :"
+msgstr "Voici un exemple d'un fichier « autofocus-(datetime).txt » :"
 
 #. Tag: screeninfo
 #. +> trunk5
@@ -3701,7 +3702,7 @@ msgstr "<phrase>Graphique 3D de l'inspecteur d'aberration</phrase>"
 #: ekos-focus.docbook:2722
 #, no-c-format
 msgid "The 3D graphic displays the sensor tilted as per the <link linkend=\"aberration-inspector-results\">Aberration Inspector Results</link>. To help visualise the Petzval surface (see <ulink url=\"https://en.wikipedia.org/wiki/Petzval_field_curvature\">Petzval Field Curvature</ulink> for more details) of light coming out of the telescope and incident on the sensor the surface is also modelled. The higher the backfocus error, the more curved the Petzval surface."
-msgstr "Le graphique 3D affiche le capteur incliné selon les <link linkend=\"aberration-inspector-results\">résultats de l'Inspecteur d'aberration</link>. Pour faciliter la visualisation de la surface de Petzval (voir <ulink url=\"https://en.wikipedia.org/wiki/Petzval_field_curvature\">Petzval Field Curvature</ulink> pour davantage de détails) de la lumière provenant du télescope sur le capteur, la surface du capteur est également modélisée. Plus l'erreur de backfocus est importante et plus la surface de Petzval sera courbée."
+msgstr "Le graphique 3D affiche le capteur incliné selon les <link linkend=\"aberration-inspector-results\">résultats de l'Inspecteur d'aberration</link>. Pour faciliter l'affichage de la surface de Petzval (Veuillez consulter la page <ulink url=\"https://en.wikipedia.org/wiki/Petzval_field_curvature\">Petzval Field Curvature</ulink> pour davantage de détails) de la lumière provenant du télescope sur le capteur, la surface du capteur est également modélisée. Plus l'erreur de backfocus est importante et plus la surface de Petzval sera courbée."
 
 #. Tag: para
 #. +> trunk5
