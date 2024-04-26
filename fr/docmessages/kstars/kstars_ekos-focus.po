@@ -6,6 +6,7 @@ msgstr ""
 "Project-Id-Version: kstars_ekos-focus_3.7.0\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
 "POT-Creation-Date: 2024-04-02 08:33+0200\n"
+"PO-Revision-Date: 2024-04-07 07:34+0200\n"
 "PO-Revision-Date: 2024-04-04 08:33+0200\n"
 "Last-Translator: Xavier Besnard <xavier.besnard@kde.org>\n"
 "Language-Team: French <French <kde-francophone@kde.org>>\n"
@@ -1283,7 +1284,7 @@ msgstr "<guilabel>Vérification HFR moyenne</guilabel> : similaire dans l'idée
 #, no-c-format
 #| msgid "<guilabel>Donut Buster</guilabel>: This is an experimental feature and should be used with caution. The intention of Donut Buster is to improve focusing for telescopes with central obstructions that create donut shaped stars when defocused. In future it is likely that more functionality will be developed for Donut Buster. In this release the functionality is aimed at data collection in order to research methods of improving focus."
 msgid "<guilabel>Donut Buster</guilabel>: This is an experimental feature and should be used with caution. The intention of Donut Buster is to improve focusing for telescopes with central obstructions that create donut shaped stars when defocused, e.g. Newtonians, SCTs, RASAs, Ritchey-Cretiens, etc."
-msgstr "<guilabel>Donut Buster</guilabel> : c'est encore une fonctionnalité expérimentale qui devrait être utilisé avec précaution. L'idée ici est d'améliorer la mise au point pour des télescopes ayant une obstruction centrale qui crée des étoiles en forme de beignet lorsque loin de la position de mise au point, par exemple les Newton, SCT, RASA, Ritchey-Cretien, etc…"
+msgstr "<guilabel>Donut Buster</guilabel> : c'est encore une fonctionnalité expérimentale qui devrait être utilisée avec précaution. L'idée ici est d'améliorer la mise au point pour des télescopes ayant une obstruction centrale qui crée des étoiles en forme de beignet lorsque loin de la position de mise au point, par exemple les Newton, SCT, RASA, Ritchey-Cretien, etc…"
 
 #. Tag: para
 #. +> trunk5
@@ -1342,7 +1343,7 @@ msgstr "<guilabel>Détermination du point de départ</guilabel> : cochez cette 
 #, no-c-format
 #| msgid "<guilabel>Iteration</guilabel>: The number of datapoints taken so far."
 msgid "<guilabel>Num Datapoints</guilabel>: The number of datapoints to use in each scan. 5 is a good place to start."
-msgstr "<guilabel>Nombre de points</guilabel> : le nombre de points à utiliser pour chaque recherche. Une bonne valeur de départ est 5.."
+msgstr "<guilabel>Nombre de points</guilabel> : le nombre de points à utiliser pour chaque recherche. Une bonne valeur de départ est 5."
 
 #. Tag: para
 #. +> trunk5
@@ -1617,7 +1618,7 @@ msgstr "Mettez une valeur positive à <guilabel>Balayage de la mise au point aut
 #: ekos-focus.docbook:1285
 #, no-c-format
 msgid "<guilabel>AF Overscan Delay</guilabel>: Delay between the completion of the outward move of an Overscan, and the inward move. Generally most focusers work well with no delay."
-msgstr "<guilabel>Délai du balayage de mise au point</guilabel> : délai entre la fin d'un déplacement vers l'extérieur et le déplacement intérieur. En général, la plupart des moteur de mise au point fonctionne correctement sans délai."
+msgstr "<guilabel>Délai du balayage de mise au point</guilabel> : délai entre la fin d'un déplacement vers l'extérieur et le déplacement intérieur. En général, la plupart des moteurs de mise au point fonctionnent correctement sans délai."
 
 #. Tag: para
 #. +> trunk5
@@ -1799,7 +1800,7 @@ msgstr "<guilabel>FWHM (θ)</guilabel> : cette valeur est utilisée par l'algor
 #: ekos-focus.docbook:1428
 #, no-c-format
 msgid "<guilabel>CFZ</guilabel>: This is calculated CFZ in microns and in ticks."
-msgstr "<guilabel>CFZ</guilabel> : c'est la CFZ calculée en microns et en pas"
+msgstr "<guilabel>CFZ</guilabel> : c'est la CFZ calculée en microns et en pas."
 
 #. Tag: para
 #. +> trunk5
@@ -3364,7 +3365,7 @@ msgstr "Exécuter la mise au point automatique plusieurs fois pour s'assurer que
 #: ekos-focus.docbook:2526
 #, no-c-format
 msgid "A mosaic mask must be applied. Some experimentation will be required to set this up optimally for your equipment. The configuration parameter to adjust is the tile size which is the size of tile as a percentage of sensor width. The higher the percentage, the bigger each tile, e.g. for a 4:3 sensor using a tile size of 25% means each tile is 8% of the sensor's area. Using a tile size of 10% means each tile is 1% of the sensor's area. The bigger the area the more stars will be present and the better the focus algorithm will solve. However, the purpose of the Aberration Inspector is to provide information on aberrations (backfocus and tilt) across the sensor, so ideally the information for each tile would be specific to as small an area as possible."
-msgstr "Un masque de mosaïque doit être appliqué. Un peu d'expérimentation sera probablement nécessaire pour trouver le réglage optimal pour votre équipement. Le paramètre a ajusté est la taille de la tuile qui est un pourcentage de la largeur du capteur. Ainsi, plus ce pourcentage est grand et plus la tuile sera grande ; par exemple, pour un capteur 4:3 et une tuile de taille 25%, cela signifie que chaque tuile représente 8% de la surface du capteur. Pour 10%, chaque tuile représente 1% de la surface du capteur. Plus la surface est grande et plus grand sera le nombre d'étoile et meilleure sera la résolution. Toutefois, la raison d'être de l'Inspecteur d'aberration est de fournir de l'information sur l'aberration (backfocus et inclinaison) du capteur, et par conséquent l'information pour chaque tuile sera aussi petite que la surface de la tuile."
+msgstr "Un masque de mosaïque doit être appliqué. Un peu d'expérimentation sera probablement nécessaire pour trouver le réglage optimal pour votre équipement. Le paramètre à ajuster est la taille de la tuile qui est un pourcentage de la largeur du capteur. Ainsi, plus ce pourcentage est grand et plus la tuile sera grande ; par exemple, pour un capteur 4:3 et une tuile de taille 25%, cela signifie que chaque tuile représente 8% de la surface du capteur. Pour 10%, chaque tuile représente 1% de la surface du capteur. Plus la surface est grande et plus grand sera le nombre d'étoile et meilleure sera la résolution. Toutefois, la raison d'être de l'Inspecteur d'aberration est de fournir de l'information sur l'aberration (backfocus et inclinaison) du capteur, et par conséquent l'information pour chaque tuile sera aussi petite que la surface de la tuile."
 
 #. Tag: para
 #. +> trunk5
