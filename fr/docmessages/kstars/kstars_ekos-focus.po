@@ -6,8 +6,7 @@ msgstr ""
 "Project-Id-Version: kstars_ekos-focus_3.7.0\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
 "POT-Creation-Date: 2024-04-02 08:33+0200\n"
-"PO-Revision-Date: 2024-04-07 07:34+0200\n"
-"PO-Revision-Date: 2024-04-04 08:33+0200\n"
+"PO-Revision-Date: 2024-04-26 20:48+0200\n"
 "Last-Translator: Xavier Besnard <xavier.besnard@kde.org>\n"
 "Language-Team: French <French <kde-francophone@kde.org>>\n"
 "Language: fr\n"
@@ -1618,7 +1617,7 @@ msgstr "Mettez une valeur positive à <guilabel>Balayage de la mise au point aut
 #: ekos-focus.docbook:1285
 #, no-c-format
 msgid "<guilabel>AF Overscan Delay</guilabel>: Delay between the completion of the outward move of an Overscan, and the inward move. Generally most focusers work well with no delay."
-msgstr "<guilabel>Délai du balayage de mise au point</guilabel> : délai entre la fin d'un déplacement vers l'extérieur et le déplacement intérieur. En général, la plupart des moteurs de mise au point fonctionnent correctement sans délai."
+msgstr "<guilabel>Délai du balayage de mise au point</guilabel> : délai entre la fin d'un déplacement vers l'extérieur et le déplacement intérieur. En général, la plupart des moteur de mise au point fonctionnent correctement sans délai."
 
 #. Tag: para
 #. +> trunk5
