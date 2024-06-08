@@ -3,7 +3,7 @@
 # steve <stax@ik.me>, 2022, 2023
 msgid ""
 msgstr ""
-"Project-Id-Version: kstars_obsplanner_3.7.0\n"
+"Project-Id-Version: kstars_obsplanner_3.7.1\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
 "POT-Creation-Date: 2023-12-06 11:29+0100\n"
 "PO-Revision-Date: 2024-05-07 08:06+0200\n"

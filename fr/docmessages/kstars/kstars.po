@@ -9,7 +9,7 @@
 #
 msgid ""
 msgstr ""
-"Project-Id-Version: kstars_3.7.0\n"
+"Project-Id-Version: kstars_3.7.1\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
 "POT-Creation-Date: 2024-06-02 10:58+0200\n"
 "PO-Revision-Date: 2024-06-08 07:30+0200\n"
@@ -274,7 +274,7 @@ msgstr "01/06/2024"
 #. +> trunk5
 #: index.docbook:230
 #, no-c-format
-#| msgid "3.7.0"
+#| msgid "3.7.1"
 msgid "3.7.1"
 msgstr "3.7.1"
 
