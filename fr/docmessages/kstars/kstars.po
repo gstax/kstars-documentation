@@ -12,7 +12,7 @@ msgstr ""
 "Project-Id-Version: kstars_3.7.0\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
 "POT-Creation-Date: 2024-06-02 10:58+0200\n"
-"PO-Revision-Date: 2024-05-06 18:24+0200\n"
+"PO-Revision-Date: 2024-06-08 07:30+0200\n"
 "Last-Translator: Xavier Besnard <xavier.besnard@kde.org>\n"
 "Language-Team: French <French <kde-francophone@kde.org>>\n"
 "Language: fr\n"
@@ -265,18 +265,18 @@ msgstr "&Jason.Harris; et l'équipe de &kstars;"
 #. Tag: date
 #. +> trunk5
 #: index.docbook:229
-#, fuzzy, no-c-format
+#, no-c-format
 #| msgid "2024-03-31"
 msgid "2024-06-01"
-msgstr "31/03/2024"
+msgstr "01/06/2024"
 
 #. Tag: releaseinfo
 #. +> trunk5
 #: index.docbook:230
-#, fuzzy, no-c-format
+#, no-c-format
 #| msgid "3.7.0"
 msgid "3.7.1"
-msgstr "3.7.0"
+msgstr "3.7.1"
 
 #. Tag: para
 #. +> trunk5

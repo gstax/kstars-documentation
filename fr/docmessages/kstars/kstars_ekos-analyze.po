@@ -1,11 +1,11 @@
 # Translation to French
-# steve <stax@ik.me>, 2022.
+# steve <stax@ik.me>, 2022, 2023, 2024.
 msgid ""
 msgstr ""
 "Project-Id-Version: kstars_ekos-align_3.7.0\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
 "POT-Creation-Date: 2024-05-12 10:00+0200\n"
-"PO-Revision-Date: 2023-01-19 10:24+0100\n"
+"PO-Revision-Date: 2024-06-08 07:26+0200\n"
 "Last-Translator: steve <stax@ik.me>\n"
 "Language-Team: French <kde-francophone@kde.org>\n"
 "Language: fr\n"
@@ -74,17 +74,17 @@ msgstr "Le module Analyse enregistre et affiche ce qui s'est passé durant une s
 #. Tag: para
 #. +> trunk5
 #: ekos-analyze.docbook:26
-#, fuzzy, no-c-format
+#, no-c-format
 msgid "When a new session begins (e.g. Ekos is disconnected at dawn, then reconnected at sunset) the system will start writing a new .analyze file. (This behavior can be controlled from the Analyze settings reached by clicking the options button on the lower right.)"
 msgstr "Lorsqu'une nouvelle session commence (par exemple, Ekos est déconnecté à l'aube, puis reconnecté au coucher du soleil), le système commence à écrire un nouveau fichier .analyze. (Ce comportement peut être contrôlé à partir des paramètres d'analyse atteints en cliquant sur le bouton des options en bas à droite.)"
 
 #. Tag: para
 #. +> trunk5
 #: ekos-analyze.docbook:29
-#, fuzzy, no-c-format
+#, no-c-format
 #| msgid "There are two main graphs, <guilabel>Timeline</guilabel> and <guilabel>Stats</guilabel>. They are coordinated&mdash;they always display the same time interval from the Ekos session, though the x-axis of the <guilabel>Timeline</guilabel> shows seconds elapsed from the start of the log, and <guilabel>Stats</guilabel> shows clock time. The x-axis can be zoomed in and out with the <guibutton>+/-</guibutton> buttons, as well as with standard keyboard shortcuts (&eg; zoom-in == <keycombo>&Ctrl;<keycap>+</keycap></keycombo>) The x-axis can be panned with the scroll bar as well as with the left and right arrow keys. You can view your current imaging session, or review old sessions by loading <literal role=\"extension\">.analyze</literal> files using the <guilabel>Input</guilabel> dropdown. Checking <guilabel>Full Width</guilabel> displays all the data, and <guilabel>Latest</guilabel> displays the most recent data (you can control the width by zooming)."
 msgid "There are two main graphs, <guilabel>Timeline</guilabel> and <guilabel>Stats</guilabel>. They are coordinated&mdash;they always display the same time interval from the Ekos session, though the x-axis of the <guilabel>Timeline</guilabel> shows seconds elapsed from the start of the log, and <guilabel>Stats</guilabel> shows clock time. The x-axis can be zoomed in and out with the <guibutton>+/-</guibutton> buttons, as well as with standard keyboard shortcuts (&eg; zoom-in == <keycombo>&Ctrl;<keycap>+</keycap></keycombo>) The x-axis can be panned with the scroll bar as well as with the left and right arrow keys. You can view your current imaging session, or review old sessions by loading <literal role=\"extension\">.analyze</literal> files using the <guilabel>Input</guilabel> dropdown. Using the &lt;&lt; and &gt;&gt; buttons allows you to display the previous or following .analyze files chronologically. Checking <guilabel>Full Width</guilabel> displays all the data, and <guilabel>Latest</guilabel> displays the most recent data (you can control the width by zooming)."
-msgstr "Il y a deux graphiques principaux, <guilabel>Chronologie</guilabel> et <guilabel>Statistiques</guilabel>. Les deux sont synchronisés au sens où ils utilisent le même intervalle de temps de la session Ekos quoique l'axe de x du graphique <guilabel>Chronologie</guilabel> affiche les secondes depuis le début du fichier journal alors que le graphique des <guilabel>Statistiques</guilabel> montre le temps de l'horloge. Un zoom avant ou arrière est possible sur cet axe avec le bouton <guibutton>+/-</guibutton> ou la <mousebutton>molette</mousebutton> de la souris ou encore le raccourci clavier standard (c'est-à-dire zoom avant == <keycombo>&Ctrl;<keycap>+</keycap></keycombo>). L'axe temporel peut être déplacé avec la barre de défilement ou avec les touches flèches du clavier. Vous pouvez afficher votre session courante ou revoir d'anciennes sessions en ouvrant les fichiers <literal role=\"extension\">.analyze</literal> avec la liste déroulante <guilabel>Entrée</guilabel>. En cochant la case <guilabel>Plein champ</guilabel>, vous verrez toutes les données alors que la case <guilabel>Dernier</guilabel> affichera les données les plus récentes (vous pouvez contrôler la largeur en zoomant)."
+msgstr "Il y a deux graphiques principaux, <guilabel>Chronologie</guilabel> et <guilabel>Statistiques</guilabel>. Les deux sont synchronisés au sens où ils utilisent le même intervalle de temps de la session Ekos quoique l'axe de x du graphique <guilabel>Chronologie</guilabel> affiche les secondes depuis le début du fichier journal alors que le graphique des <guilabel>Statistiques</guilabel> montre le temps de l'horloge. Un zoom avant ou arrière est possible sur cet axe avec le bouton <guibutton>+/-</guibutton> ou la <mousebutton>molette</mousebutton> de la souris ou encore le raccourci clavier standard (c'est-à-dire zoom avant == <keycombo>&Ctrl;<keycap>+</keycap></keycombo>). L'axe temporel peut être déplacé avec la barre de défilement ou avec les touches flèches du clavier. Vous pouvez afficher votre session courante ou revoir d'anciennes sessions en ouvrant les fichiers <literal role=\"extension\">.analyze</literal> avec la liste déroulante <guilabel>Entrée</guilabel>. Les touches &lt;&lt; permettent d'afficher les fichiers .analyze précédents ou suivants selon un ordre chronologique. En cochant la case <guilabel>Plein champ</guilabel>, vous verrez toutes les données alors que la case <guilabel>Dernier</guilabel> affichera les données les plus récentes (vous pouvez contrôler la largeur en zoomant)."
 
 #. Tag: para
 #. +> trunk5
@@ -110,10 +110,10 @@ msgstr "Le graphique Chronologie affiche les processus principaux d'Ekos et quan
 #. Tag: para
 #. +> trunk5
 #: ekos-analyze.docbook:42
-#, fuzzy, no-c-format
+#, no-c-format
 #| msgid "If you have moved your captured images, you can set <guilabel>alternate directory</guilabel> in the input menu to a directory which is the base of part of the original file path."
 msgid "If you have moved your captured images, you can set an <guilabel>alternate directory</guilabel> in the analyze settings page you can reach from the Options button in the lower right. This alternate directory would be prepended to the base of part of the original file path and would be checked if the image file is not in its original location."
-msgstr "Si vous avez déplacé vos images vous pouvez configurer un <guilabel>dossier alternatif</guilabel> dans le menu d'entrée en indiquant l'emplacement de base du fichier."
+msgstr "Si vous avez déplacé vos images vous pouvez configurer un <guilabel>dossier alternatif</guilabel> dans le menu de configuration du module Analyse. Le nom du dossier alternatif sera préfixé par le chemin du fichier original et sera vérifié si le fichier de l'image ne se trouve pas à l'endroit original."
 
 #. Tag: para
 #. +> trunk5
