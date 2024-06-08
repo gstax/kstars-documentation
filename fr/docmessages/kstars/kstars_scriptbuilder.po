@@ -4,7 +4,7 @@
 # Delafond <gerard@delafond.org>, 2003, 2004, 2005.
 # Ludovic Grossard <grossard@kde.org>, 2003, 2004, 2007, 2012.
 # Stanislas Zeller <uncensored.assault@gmail.com>, 2008.
-# Xavier Besnard <xavier.besnard@kde.org>, 2012.
+# SPDX-FileCopyrightText: 2012, 2024 Xavier Besnard <xavier.besnard@kde.org>
 # steve <stax@ik.me>, 2022.
 #
 msgid ""
@@ -12,14 +12,15 @@ msgstr ""
 "Project-Id-Version: kstars_scriptbuilder_3.7.0\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
 "POT-Creation-Date: 2021-07-28 09:15+0200\n"
-"PO-Revision-Date: 2023-02-07 14:05+0100\n"
-"Last-Translator: steve <stax@ik.me>\n"
-"Language-Team: French <kde-francophone@kde.org>\n"
+"PO-Revision-Date: 2024-05-02 09:34+0200\n"
+"Last-Translator: Xavier Besnard <xavier.besnard@kde.org>\n"
+"Language-Team: French <French <kde-francophone@kde.org>>\n"
 "Language: fr\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=(n > 1);\n"
+"X-Generator: Lokalize 23.08.5\n"
 
 #. Tag: title
 #. +> trunk5
@@ -47,7 +48,7 @@ msgstr "Construction de scripts"
 #: scriptbuilder.docbook:7
 #, no-c-format
 msgid "&kde; applications can be controlled externally from another program, from a console prompt, or from a shell script using the Inter-process communication protocol (&DBus;). &kstars; takes advantage of this feature to allow rather complex behaviors to be scripted and played back at any time. This can be used, for example, to create a classroom demo to illustrate an astronomical concept."
-msgstr "Les applications &kstars; peuvent être pilotées de l'extérieur par un autre programme, depuis une invite de console ou depuis un script shell en utilisant le protocole de communication interprocessus (&DBus;). &kstars; utilise cette fonction pour permettre à des comportements plutôt complexes d'être traités par scripts et rejoués à n'importe quel moment. Ceci peut être utilisé par exemple pour créer une démonstration en salle de classe pour illustrer un concept astronomique."
+msgstr "Les applications &kstars; peuvent être pilotées de l'extérieur par un autre programme, depuis une invite de console ou depuis un script shell en utilisant le protocole de communication inter-processus (&DBus;). &kstars; utilise cette fonction pour permettre à des comportements plutôt complexes d'être traités par scripts et rejoués à n'importe quel moment. Ceci peut être utilisé par exemple pour créer une démonstration en salle de classe pour illustrer un concept astronomique."
 
 #. Tag: para
 #. +> trunk5
@@ -155,14 +156,14 @@ msgstr "Pour finir, réinitialisons le pas d'horloge à la valeur normale d'une 
 #: scriptbuilder.docbook:125
 #, no-c-format
 msgid "Actually, we are not quite done yet. We should probably make sure that the display is using Equatorial coordinates before the script tracks the Moon with an accelerated time step. Otherwise, if the display is using Horizontal coordinates, it will rotate very quickly through large angles as the Moon rises and sets. This can be very confusing, and is avoided by setting the View Option <firstterm>UseAltAz</firstterm> to <quote>false</quote>. To change any View Option, use the <firstterm>changeViewOption</firstterm> function. Add this function to the script, and examine the Function Arguments panel. There is a combobox which contains the list of all options which can be adjusted by changeViewOption. Since we know we want the UseAltAz option, we could simply select it from the combobox. However, the list is quite long, and there is no explanation of what each item is for. It therefore may be easier to press the <guibutton>Browse Tree...</guibutton> button, which will open a window containing a tree view of the available options, organized by topic. In addition, each item has a short explanation of what the option does, and the data type of the option's value. We find UseAltAz under the <guilabel>Skymap Options</guilabel> category. Just highlight this item and press <guibutton>OK</guibutton>, and it will be selected in the combobox of the Function Arguments panel. Finally, make its value <quote>false</quote> or <quote>0</quote>."
-msgstr "En fait, tout n'est pas fini. Nous devons probablement nous assurer que l'affichage utilise les coordonnées équatoriales avant que le script ne suive la Lune avec le pas accéléré. Sinon, si l'affichage utilise les coordonnées horizontales, il tournera très vite sur de grands angles au lever et au coucher de la Lune. Cela peut être troublant, et on l'évite en réglant l'option d'affichage <firstterm>UseAltAz</firstterm> sur <quote>false</quote>. Pour changer une option d'affichage, utilisez la fonction <firstterm>changeViewOption</firstterm>. Ajoutez cette fonction au script et examinez le panneau des paramètres de fonctions. Il y a une liste combinée qui contient la liste de toutes les options d'affichage qui peuvent être ajustées par changeViewOption. Comme nous savons que nous voulons l'option UseAltAz, nous pouvons simplement la sélectionner dans la liste combinée. Cependant, la liste est assez longue, et il n'y a pas d'explication sur l'utilisation de chaque élément. Pour cela, il peut être plus facile d'actionner le bouton <guibutton>Parcourir l'arborescence…</guibutton>, qui ouvrira une fenêtre contenant une vue arborescente des options disponibles, organisées par sujet. De plus, chaque élément dispose d'une courte explication sur ce que fait l'option, et le type de donnée de valeur de l'option. Nous trouvons UseAltAz sous la catégorie <guilabel>Options de carte du ciel</guilabel>. Surlignez simplement cet élément et actionnez <guibutton>Ok</guibutton> et elle sera sélectionnée dans la liste combinée du panneau des paramètres de fonctions. Enfin, rendez sa valeur <quote>false</quote> ou <quote>0</quote>."
+msgstr "En fait, tout n'est pas fini. Nous devons probablement nous assurer que l'affichage utilise les coordonnées équatoriales avant que le script ne suive la Lune avec le pas accéléré. Sinon, si l'affichage utilise les coordonnées horizontales, il tournera très vite sur de grands angles au lever et au coucher de la Lune. Cela peut être troublant, et on l'évite en réglant l'option d'affichage <firstterm>UseAltAz</firstterm> sur <quote>False</quote>. Pour changer une option d'affichage, utilisez la fonction <firstterm>changeViewOption</firstterm>. Ajoutez cette fonction au script et examinez le panneau des paramètres de fonctions. Il y a une liste combinée qui contient la liste de toutes les options d'affichage qui peuvent être ajustées par changeViewOption. Comme nous savons que nous voulons l'option UseAltAz, nous pouvons simplement la sélectionner dans la liste combinée. Cependant, la liste est assez longue, et il n'y a pas d'explication sur l'utilisation de chaque élément. Pour cela, il peut être plus facile d'actionner le bouton <guibutton>Parcourir l'arborescence…</guibutton>, qui ouvrira une fenêtre contenant une vue arborescente des options disponibles, organisées par sujet. De plus, chaque élément dispose d'une courte explication sur ce que fait l'option, et le type de donnée de valeur de l'option. Nous trouvons UseAltAz sous la catégorie <guilabel>Options de carte du ciel</guilabel>. Surlignez simplement cet élément et actionnez <guibutton>Ok</guibutton> et elle sera sélectionnée dans la liste combinée du panneau des paramètres de fonctions. Enfin, rendez sa valeur <quote>False</quote> ou <quote>0</quote>."
 
 #. Tag: para
 #. +> trunk5
 #: scriptbuilder.docbook:148
 #, no-c-format
 msgid "One more step: changing UseAltAz at the end of the script does us no good; we need this to be changed before anything else happens. So, make sure this function is highlighted in the Current Script box, and press the <guibutton>Move Up</guibutton> button until it is the first function."
-msgstr "Une dernière étape : le changement d'UseALtAz à la fin du script n'est pas bon ; nous avons besoin de le changer avant que quelque chose d'autre n'arrive. Ainsi, assurez-vous que cette fonction est surlignée dans la zone de script courant et actionnez le bouton <guibutton>Monter</guibutton> jusqu'à ce que ce soit la première fonction."
+msgstr "Une dernière étape : le changement « UseAltAz » à la fin du script n'est pas bon ; nous avons besoin de le changer avant que quelque chose d'autre n'arrive. Ainsi, assurez-vous que cette fonction est surlignée dans la zone de script courant et actionnez le bouton <guibutton>Monter</guibutton> jusqu'à ce que ce soit la première fonction."
 
 #. Tag: para
 #. +> trunk5

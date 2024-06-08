@@ -1,5 +1,6 @@
 # translation of kstars_fitsviewer.po to Français
 #
+# SPDX-FileCopyrightText: 2024 Xavier Besnard <xavier.besnard@kde.org>
 # Delafond <gerard@delafond.org>, 2005.
 # Ludovic Grossard <grossard@kde.org>, 2005, 2007, 2012.
 # Stanislas Zeller <uncensored.assault@gmail.com>, 2008.
@@ -10,15 +11,15 @@ msgstr ""
 "Project-Id-Version: kstars_fitsviewer_3.7.0\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
 "POT-Creation-Date: 2023-12-06 11:29+0100\n"
-"PO-Revision-Date: 2023-12-22 10:39+0100\n"
-"Last-Translator: steve <stax@ik.me>\n"
-"Language-Team: French <kde-francophone@kde.org>\n"
+"PO-Revision-Date: 2024-05-07 09:43+0200\n"
+"Last-Translator: Xavier Besnard <xavier.besnard@kde.org>\n"
+"Language-Team: French <French <kde-francophone@kde.org>>\n"
 "Language: fr\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=(n > 1);\n"
-"X-Generator: Poedit 3.2.2\n"
+"X-Generator: Lokalize 23.08.5\n"
 
 #. Tag: title
 #. +> trunk5
@@ -39,14 +40,14 @@ msgstr "<phrase>Afficheur FITS</phrase>"
 #: fitsviewer.docbook:5
 #, no-c-format
 msgid "FITS, or Flexible Image Transport System, is the standard format for representing images and data in Astronomy. The &kstars; FITS Viewer is a tool to view those images. It is not designed for editing of FITS Images."
-msgstr "FITS (Flexible Image Transport System) est le format standard pour représenter les images et les données en astronomie. L'afficheur FITS de &kstars; permet de visualiser ces images. Il n'est pas conçu pour modifier les images FITS."
+msgstr "FITS (Flexible Image Transport System) est le format standard pour représenter les images et les données en astronomie. L'afficheur « FITS » de &kstars; permet l'affichage de ces images. Il n'est pas conçu pour modifier les images « FITS »."
 
 #. Tag: para
 #. +> trunk5
 #: fitsviewer.docbook:7
 #, no-c-format
 msgid "The FITS Viewer can be automatically invoked for images received from the camera. It can also be invoked directly from the main &kstars; menu. To open a FITS file, select the <menuchoice><guimenu>File</guimenu> <guimenuitem>Open Image...</guimenuitem></menuchoice> menu item, or press <keycombo action=\"simul\">&Ctrl;<keycap>O</keycap></keycombo>."
-msgstr "L'outil d'affichage FITS peut s'utiliser automatiquement pour visualiser les images reçues de l'appareil. Il peut aussi être lancé directement depuis le menu principal de &kstars;. Pour ouvrir un fichier FITS, sélectionnez depuis le menu <menuchoice><guimenu>Fichier</guimenu> <guimenuitem>Ouvrir FITS…</guimenuitem></menuchoice> ou appuyez sur <keycombo action=\"simul\">&Ctrl;<keycap>O</keycap></keycombo>."
+msgstr "L'outil d'affichage « FITS » peut s'utiliser automatiquement pour afficher les images reçues de l'appareil. Il peut aussi être lancé directement depuis le menu principal de &kstars;. Pour ouvrir un fichier « FITS », sélectionnez depuis le menu <menuchoice><guimenu>Fichier</guimenu> <guimenuitem>Ouvrir FITS…</guimenuitem></menuchoice> ou appuyez sur <keycombo action=\"simul\">&Ctrl;<keycap>O</keycap></keycombo>."
 
 #. Tag: screeninfo
 #. +> trunk5
@@ -410,7 +411,7 @@ msgstr "Histogramme : affiche l'histogramme de l'image avec la possibilité d'a
 #: fitsviewer.docbook:107
 #, no-c-format
 msgid "FITS Header: Displays a table for FITS header keywords, values, and comments."
-msgstr "En-tête FITS : affiche un tableau des en-tête FITS avec les mots-clés, les valeurs et les commentaires."
+msgstr "En-tête « FITS » : affiche un tableau des en-tête « FITS » avec les mots clé, les valeurs et les commentaires."
 
 #. Tag: para
 #. +> trunk5
@@ -662,7 +663,7 @@ msgstr "Statistiques de l'image : affiche le HFR, l'excentricité et le nombre 
 #: fitsviewer.docbook:200
 #, no-c-format
 msgid "Clipped Stars: If Show Clipping is activated in the main toolbar, it displays the number of possibly clipped pixels. Clip:403 above."
-msgstr "Étoiles coupées : si l'option Afficher coupage est activée dans la barre d'outils principale, le nombre de pixels possiblement coupés est affiché. Clip : 403 ci-dessus."
+msgstr "Étoiles coupées : si l'option « Afficher le coupage » est activée dans la barre principale d'outils, le nombre de pixels possiblement coupés est affiché. Séquence : 403 ci-dessus."
 
 #. Tag: para
 #. +> trunk5
@@ -676,7 +677,7 @@ msgstr "Outre l'affichage de l'image, l'afficheur peut traiter l'éventuelle en-
 #: fitsviewer.docbook:207
 #, no-c-format
 msgid "Several filters can be applied to enhance the image include auto stretch and high contrast. Depending on the image size, these operations can take a few seconds to complete. The bottom status bar displays the current pixel value and current X &amp; Y coordinates of the mouse pointer within the image. Furthermore, it includes the current zoom level and the image resolution."
-msgstr "Plusieurs filtres peuvent être appliqués pour améliorer l'image en incluant l'auto-étirement et le haut contraste. Ces opérations peuvent prendre quelques secondes selon la taille de l'image. La barre d'état du bas affiche la valeur du pixel survolé ainsi que les coordonnées X et Y. Enfin, elle inclut le niveau de zoom actuel et la résolution de l'image."
+msgstr "Plusieurs filtres peuvent être appliqués pour améliorer l'image en incluant l'auto-étirement et le haut contraste. Ces opérations peuvent prendre quelques secondes selon la taille de l'image. La barre d'état du bas affiche la valeur du pixel survolé ainsi que les coordonnées X et Y du pointeur de souris. Enfin, elle inclut le niveau de zoom actuel et la résolution de l'image."
 
 #. Tag: para
 #. +> trunk5
@@ -760,7 +761,7 @@ msgstr "En-tête FITS"
 #: fitsviewer.docbook:260
 #, no-c-format
 msgid "Displays a read-only table listing FITS header keywords and values."
-msgstr "Affiche les valeurs et les mots-clés FITS dans une table en lecture seule."
+msgstr "Affiche les valeurs et les mots clé « FITS » dans une table en lecture seule."
 
 #. Tag: term
 #. +> trunk5
@@ -879,7 +880,7 @@ msgstr "Cet outil permet à l'utilisateur de corriger les erreurs de résolution
 #: fitsviewer.docbook:321
 #, no-c-format
 msgid "He/she might have the KStars -> Settings -> Developer -> <link linkend=\"developer\">Save Failed Align Images checkbox</link> enabled."
-msgstr "La case à cocher KStars -> Réglages -> Développeur - <link linkend=\"developer\">Enregistrer les images d'alignement en échec</link>."
+msgstr "La case à cocher KStars / Réglages / Développeur - <link linkend=\"developer\">Enregistrer les images d'alignement en échec</link>."
 
 #. Tag: para
 #. +> trunk5
@@ -900,7 +901,7 @@ msgstr "Cette image pourra être inspectée afin de déterminer s'il y existe de
 #: fitsviewer.docbook:324
 #, no-c-format
 msgid "Clicking Solve in this tool for that image would show how many stars were detected, and the user could then decide if it is a star detection issue and experiment with adjusting the profile or star-detection parameters."
-msgstr "En cliquant sur Résoudre dans cet outil montrera le nombre d'étoiles détectées et l'utilisateur pourra ensuite décider si le problème se situe au niveau de la détection et essayer avec d'autres paramètres."
+msgstr "Un clic sur le bouton sur « Résoudre » dans cet outil affichera le nombre d'étoiles détectées. L'utilisateur pourra ensuite décider si le problème se situe au niveau de la détection et essayer avec d'autres paramètres."
 
 #. Tag: para
 #. +> trunk5

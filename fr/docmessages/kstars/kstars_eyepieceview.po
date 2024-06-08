@@ -1,18 +1,19 @@
 # Translation of kstars_eyepieceview.po to French
+# SPDX-FileCopyrightText: 2024 Xavier Besnard <xavier.besnard@kde.org>
 # steve <stax@ik.me>, 2022.
 msgid ""
 msgstr ""
 "Project-Id-Version: kstars_eyepieceview_3.7.0\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
 "POT-Creation-Date: 2021-07-28 09:15+0200\n"
-"PO-Revision-Date: 2022-05-29 10:28+0200\n"
-"Last-Translator: steve <stax@ik.me>\n"
-"Language-Team: French <kde-francophone@kde.org>\n"
+"PO-Revision-Date: 2024-04-30 12:14+0200\n"
+"Last-Translator: Xavier Besnard <xavier.besnard@kde.org>\n"
+"Language-Team: French <French <kde-francophone@kde.org>>\n"
 "Language: fr\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"X-Generator: Lokalize 20.12.0\n"
+"X-Generator: Lokalize 23.08.5\n"
 "Plural-Forms: nplurals=2; plural=(n > 1);\n"
 
 #. Tag: title
@@ -97,7 +98,7 @@ msgstr "Dans le planificateur d'observations, cliquez avec le bouton droit de la
 #: eyepieceview.docbook:39
 #, no-c-format
 msgid "When the tool is first invoked, it will prompt a dialog to select the desired FOV to render the view. To compare the rendered view against a real sky image, click the <guibutton>Fetch DSS image</guibutton> button to download a DSS image. You can manually adjust the view to match your eyepiece using the rotation slider, the <guilabel>Invert view</guilabel> and <guilabel>Flip view</guilabel> check boxes. Alternatively, you can use a pre-calculated amount of rotation by using one item of the <guilabel>Preset:</guilabel> dropdown box that is tailored for different optical systems."
-msgstr "À la première invocation de cet outil, on vous demandera de choisir le champ de vue à utiliser pour afficher la vue. Vous pouvez comparer cette vue avec une vraie image du ciel en cliquant sur le bouton <guibutton>Chercher image DSS</guibutton> pour télécharger une image. Vous pouvez ajuster l'angle de rotation avec le curseur pour que la correspondance soit correcte, ou <guilabel>Inverser la vue</guilabel> et <guilabel>Retourner la vue</guilabel> en cochant les cases correspondantes. Sinon vous pouvez utiliser une quantité précalculée de rotation en utilisant un des éléments de la liste déroulante <guilabel>Préréglages</guilabel> qui est adapté à différents systèmes optiques."
+msgstr "À la première invocation de cet outil, on vous demandera de choisir le champ de vue à utiliser pour afficher la vue. Vous pouvez comparer cette vue avec une vraie image du ciel en cliquant sur le bouton <guibutton>Chercher image DSS</guibutton> pour télécharger une image. Vous pouvez ajuster l'angle de rotation avec le curseur pour que la correspondance soit correcte, ou <guilabel>Inverser la vue</guilabel> et <guilabel>Retourner la vue</guilabel> en cochant les cases correspondantes. Sinon vous pouvez utiliser une quantité pré-calculée de rotation en utilisant un des éléments de la liste déroulante <guilabel>Préréglages</guilabel> qui est adapté à différents systèmes optiques."
 
 #. Tag: screeninfo
 #. +> trunk5

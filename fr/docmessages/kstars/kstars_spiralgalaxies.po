@@ -1,23 +1,24 @@
 # translation of kstars_spiralgalaxies.po to french
 # traduction de kstars_spiralgalaxies.po en Français
 #
+# SPDX-FileCopyrightText: 2012, 2024 Xavier Besnard <xavier.besnard@kde.org>
 # Delafond <gerard@delafond.org>, 2003, 2004.
 # Ludovic Grossard <grossard@kde.org>, 2003, 2004.
-# Xavier Besnard <xavier.besnard@kde.org>, 2012.
 # steve <stax@ik.me>, 2022.
 msgid ""
 msgstr ""
 "Project-Id-Version: kstars_spiralgalaxies_3.7.0\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
 "POT-Creation-Date: 2021-03-29 11:17+0200\n"
-"PO-Revision-Date: 2023-02-07 14:06+0100\n"
-"Last-Translator: steve <stax@ik.me>\n"
-"Language-Team: French <kde-francophone@kde.org>\n"
+"PO-Revision-Date: 2024-04-30 16:21+0200\n"
+"Last-Translator: Xavier Besnard <xavier.besnard@kde.org>\n"
+"Language-Team: French <French <kde-francophone@kde.org>>\n"
 "Language: fr\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=(n > 1);\n"
+"X-Generator: Lokalize 23.08.5\n"
 
 #. Tag: author
 #. +> trunk5
@@ -59,7 +60,7 @@ msgstr "Les galaxies sont classées en utilisant le diagramme de <quote>séquenc
 #: spiralgalaxies.docbook:34
 #, no-c-format
 msgid "Both types of spiral galaxies are sub-classified according to the prominence of their central <quote>bulge</quote> of stars, their overall surface brightness, and how tightly their spiral arms are wound. These characteristics are related, so that an Sa galaxy has a large central bulge, a high surface brightness, and tightly-wound spiral arms. An Sb galaxy has a smaller bulge, a dimmer disk, and looser arms than an Sa, and so on through Sc and Sd. Barred galaxies use the same classification scheme, indicated by types SBa, SBb, SBc, and SBd."
-msgstr "Les deux types de galaxies spirales sont subdivisées selon la proéminence de leur <quote>renflement</quote> central, leur surface brillante et le resserrement de leurs bras. Ces caractéristiques sont en relation, de telle manière qu'une galaxie Sa a un gros renflement central, une grande surface lumineuse et des bras enroulés serrés en spirale. Une galaxie Sb a un renflement plus petit, un disque plus pâle et des bras plus relâchés, et ainsi de suite pour Sc et Sd. Les galaxies barrées utilisent le même schéma de classification, indiqués comme types SBa, SBb, SBc et SBd."
+msgstr "Les deux types de galaxies spirales sont subdivisées selon la proéminence de leur <quote>renflement</quote> central, leur surface brillante et le resserrement de leurs bras. Ces caractéristiques sont en relation, de telle manière qu'une galaxie de type « Sa » possède un gros renflement central, une grande surface lumineuse et des bras enroulés serrés en spirale. Une galaxie de type « Sb » possède un renflement plus petit, un disque plus pâle et des bras plus relâchés, et ainsi de suite pour les types « Sc » et « Sd ». Les galaxies barrées utilisent le même schéma de classification, indiqués comme types « SBa », « SBb », « SBc » et « SBd »."
 
 #. Tag: para
 #. +> trunk5

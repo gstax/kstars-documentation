@@ -5,22 +5,22 @@
 # Ludovic Grossard <grossard@kde.org>, 2002, 2003, 2004, 2005, 2007, 2009, 2010, 2011, 2013.
 # Stanislas Zeller <uncensored.assault@gmail.com>, 2008.
 # steve <stax@ik.me>, 2022, 2023, 2024.
+# SPDX-FileCopyrightText: 2024 Xavier Besnard <xavier.besnard@kde.org>
 #
 msgid ""
 msgstr ""
 "Project-Id-Version: kstars_3.7.0\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2024-04-01 10:38+0200\n"
-"PO-Revision-Date: 2024-04-26 20:53+0200\n"
-"PO-Revision-Date: 2024-04-04 07:42+0200\n"
-"Last-Translator: steve <stax@ik.me>\n"
-"Language-Team: French <kde-francophone@kde.org>\n"
+"POT-Creation-Date: 2024-06-02 10:58+0200\n"
+"PO-Revision-Date: 2024-05-06 18:24+0200\n"
+"Last-Translator: Xavier Besnard <xavier.besnard@kde.org>\n"
+"Language-Team: French <French <kde-francophone@kde.org>>\n"
 "Language: fr\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=(n > 1);\n"
-"X-Generator: Poedit 3.2.2\n"
+"X-Generator: Lokalize 23.08.5\n"
 
 #. Tag: title
 #. +> trunk5
@@ -265,16 +265,17 @@ msgstr "&Jason.Harris; et l'équipe de &kstars;"
 #. Tag: date
 #. +> trunk5
 #: index.docbook:229
-#, no-c-format
-#| msgid "2024-02-06"
-msgid "2024-03-31"
+#, fuzzy, no-c-format
+#| msgid "2024-03-31"
+msgid "2024-06-01"
 msgstr "31/03/2024"
 
 #. Tag: releaseinfo
 #. +> trunk5
 #: index.docbook:230
-#, no-c-format
-msgid "3.7.0"
+#, fuzzy, no-c-format
+#| msgid "3.7.0"
+msgid "3.7.1"
 msgstr "3.7.0"
 
 #. Tag: para
@@ -282,7 +283,7 @@ msgstr "3.7.0"
 #: index.docbook:233
 #, no-c-format
 msgid "&kstars; is free, open source, cross-platform astronomy software. It provides the &kstars; skymap, a digital planetarium with overlays and simulation tools, the Ekos astrophotography suite which acts as a client for INDI device drivers, and the FITS Viewer which displays captured sky images."
-msgstr "&kstars; est une application astronomique gratuite, libre et multiplatforme. Elle fournit la carte du ciel de &kstars;, un planétarium digital avec des outils de superposition et de simulation, la suite d'astrophotographie qui agit comme un client pour les pilotes de périphériques INDI et un afficheur FITS pour afficher les images du ciel."
+msgstr "&kstars; est une application astronomique gratuite, libre et multi-plate-forme. Elle fournit la carte du ciel de &kstars;, un planétarium numérique avec des outils de superposition et de simulation, la suite d'astrophotographie qui agit comme un client pour les pilotes de périphériques INDI et un afficheur FITS pour afficher les images du ciel."
 
 #. Tag: para
 #. +> trunk5

@@ -11,15 +11,15 @@ msgstr ""
 "Project-Id-Version: kstars_commands_3.7.0\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
 "POT-Creation-Date: 2023-12-06 11:29+0100\n"
-"PO-Revision-Date: 2024-01-22 21:23+0100\n"
+"PO-Revision-Date: 2024-05-07 13:25+0200\n"
 "Last-Translator: Xavier Besnard <xavier.besnard@kde.org>\n"
-"Language-Team: French <kde-francophone@kde.org>\n"
+"Language-Team: French <French <kde-francophone@kde.org>>\n"
 "Language: fr\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=(n > 1);\n"
-"X-Generator: Lokalize 23.08.4\n"
+"X-Generator: Lokalize 23.08.5\n"
 
 #. Tag: title
 #. +> trunk5
@@ -510,7 +510,7 @@ msgstr "<shortcut> <keycap>F8</keycap> </shortcut> <guimenuitem>Équi-rectangula
 #: commands.docbook:349 commands.docbook:1390
 #, no-c-format
 msgid "Switch sky chart view to the <ulink url=\"https://en.wikipedia.org/wiki/Equirectangular_projection\">equirectangular</ulink> projection."
-msgstr "Passe l'affichage de la carte du ciel à la projection <ulink url=\"https://fr.wikipedia.org/wiki/Projection_cylindrique_%C3%A9quidistante\">équi-rectangulaire </ulink> (appelée encore cylindrique équidistante)."
+msgstr "Passe l'affichage de la carte du ciel à la projection <ulink url=\"https://fr.wikipedia.org/wiki/Projection_cylindrique_%C3%A9quidistante\">équirectangulaire </ulink> (appelée encore cylindrique équidistante)."
 
 #. Tag: menuchoice
 #. +> trunk5
@@ -1493,7 +1493,7 @@ msgstr "<guimenuitem>Centrer et Suivre</guimenuitem> : centre l'image sur cet e
 #: commands.docbook:1036
 #, no-c-format
 msgid "<guimenuitem>Add flag...</guimenuitem>: Open &kstars; <quote>Flag manager</quote> window. Here you can manage your flags and use some of &kstars; features. When <quote>Flag manager</quote> window is open for a selected object, <guilabel>Right ascension</guilabel> and <guilabel>Declination</guilabel> text boxes will be automatically filled with the coordinate values of the selected object on the Sky Map. Besides these two text boxes, you can set the <guilabel>Epoch</guilabel>, add a <guilabel>Label</guilabel>, set the <guilabel>Label color</guilabel> or even add an <guilabel>Icon</guilabel>. To add custom icons, just add images in <filename class=\"directory\">`qtpaths --paths GenericDataLocation`/kstars/</filename>. File names must begin with the <quote>flag</quote> keyword. For example, the file <quote>flagSmall_red_cross.gif</quote> will be shown as Small red cross in the combo box. After you set up the information of the new flag, you can add it to the flags list using the <guibutton>Add</guibutton> button. You may also change flags details (&ie; RA/Dec, label or icon) and then save the new ones by pressing the <guibutton>Save changes</guibutton> button. Using the Flag manager, you can easily center an object in Map or in Telescope, by pressing <guibutton>Center in Map</guibutton> or <guibutton>Center in Telescope</guibutton> button. In order to delete a value from the list, just select it in the list and then press <guibutton>Delete</guibutton> button. Your flags are saved after you close current session and thus you will be able to see them everytime you will use &kstars; again."
-msgstr "Fenêtre <guimenuitem>Ajouter drapeau</guimenuitem> : Ouvrir le <quote>Gestionnaire de drapeaux</quote>. Vous pouvez gérer ici vos drapeaux et utiliser quelques fonctionnalités de &kstars;. Quand la fenêtre de <quote>Gestionnaire de drapeaux</quote> est ouverte pour un objet sélectionné, les boîtes pour l'<guilabel>ascension droite</guilabel> et la <guilabel>déclinaison</guilabel> seront automatiquement remplies avec les coordonnées de l'objet sélectionné dans la carte du ciel. Outre ces deux boîtes, vous pouvez régler l<guilabel>Epoch</guilabel>, ajouter une <guilabel>étiquette</guilabel>, ajuster la <guilabel>couleur de l'étiquette</guilabel> et même ajouter une <guilabel>icône</guilabel>. Pour ajouter des icônes personnalisées, il suffit d'ajouter des images dans le dossier <filename class=\"directory\">`qtpaths --paths GenericDataLocation`/kstars</filename>. Les noms de fichier doivent commencer par le mot-clé <quote>flag</quote>. Par exemple, le fichier <quote>flagSmall_red_cross.gif</quote> sera affiché comme « Small red cross » dans la boîte. Après avoir spécifié l'information du nouveau drapeau, vous pouvez l'ajouter à la liste de drapeaux en utilisant le bouton <guibutton>Ajouter</guibutton>. Vous pouvez aussi modifier les détails du drapeau (c'est-à-dire AD/DEC, l'étiquette ou l'icône) et ensuite les enregistrer avec le bouton <guibutton>Enregistrer les changements</guibutton>. Avec le gestionnaire de drapeaux, vous pouvez facilement centrer un objet dans la carte ou dans le télescope en cliquant sut le bouton <guibutton>Centrer sur la carte</guibutton> ou <guibutton>Centrer dans le télescope</guibutton>. Pour supprimer une entrée dans la liste, sélectionner le simplement dans la liste et cliquez sur le bouton <guibutton>Supprimer</guibutton>. Vos drapeaux sont enregistrés après la fermeture de la session et vous pourrez ainsi les voir chaque fois que vous ouvrirez &kstars; à nouveau."
+msgstr "Fenêtre <guimenuitem>Ajouter drapeau</guimenuitem> : ouvrir le <quote>Gestionnaire de drapeaux</quote>. Vous pouvez gérer ici vos drapeaux et utiliser quelques fonctionnalités de &kstars;. Quand la fenêtre de <quote>Gestionnaire de drapeaux</quote> est ouverte pour un objet sélectionné, les boîtes pour l'<guilabel>ascension droite</guilabel> et la <guilabel>déclinaison</guilabel> seront automatiquement remplies avec les coordonnées de l'objet sélectionné dans la carte du ciel. Outre ces deux boîtes, vous pouvez régler l<guilabel>Epoch</guilabel>, ajouter une <guilabel>étiquette</guilabel>, ajuster la <guilabel>couleur de l'étiquette</guilabel> et même ajouter une <guilabel>icône</guilabel>. Pour ajouter des icônes personnalisées, il suffit d'ajouter des images dans le dossier <filename class=\"directory\">`qtpaths --paths GenericDataLocation`/kstars</filename>. Les noms de fichier doivent commencer par le mot clé <quote>flag</quote>. Par exemple, le fichier <quote>flagSmall_red_cross.gif</quote> sera affiché comme « Small red cross » dans la boîte. Après avoir spécifié l'information du nouveau drapeau, vous pouvez l'ajouter à la liste de drapeaux en utilisant le bouton <guibutton>Ajouter</guibutton>. Vous pouvez aussi modifier les détails du drapeau (c'est-à-dire AD / DEC, l'étiquette ou l'icône) et ensuite les enregistrer avec le bouton <guibutton>Enregistrer les changements</guibutton>. Avec le gestionnaire de drapeaux, vous pouvez facilement centrer un objet dans la carte ou dans le télescope en cliquant sut le bouton <guibutton>Centrer sur la carte</guibutton> ou <guibutton>Centrer dans le télescope</guibutton>. Pour supprimer une entrée dans la liste, sélectionner le simplement dans la liste et cliquez sur le bouton <guibutton>Supprimer</guibutton>. Vos drapeaux sont enregistrés après la fermeture de la session et vous pourrez ainsi les voir chaque fois que vous ouvrirez &kstars; à nouveau."
 
 #. Tag: para
 #. +> trunk5
@@ -1542,7 +1542,7 @@ msgstr "[Objets du système solaire]"
 #: commands.docbook:1125
 #, no-c-format
 msgid "<guimenuitem>Add Trail</guimenuitem>: Add a trail to current Solar system object. A star trail is the continuous path created by the star in the night sky due to the rotation of the Earth. If the object already has a trail, this item will become <guilabel>Remove Trail</guilabel>."
-msgstr "<guimenuitem>Ajouter une trace</guimenuitem> : ajoute une trace à l'objet courant du système solaire. Une trace d'étoile est le chemin continu créé par l'étoile dans le ciel de la nuit dû à la rotation de la Terre. Si un objet a déjà une trace, cet élément deviendra <guilabel>Supprimer Trace</guilabel>."
+msgstr "<guimenuitem>Ajouter une trace</guimenuitem> : ajoute une trace à l'objet courant du système solaire. Une trace d'étoile est le tracé continu créé par l'étoile dans le ciel de la nuit dû à la rotation de la Terre. Si un objet a déjà une trace, cet élément deviendra <guilabel>Supprimer Trace</guilabel>."
 
 #. Tag: para
 #. +> trunk5
