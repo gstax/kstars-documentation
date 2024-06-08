@@ -6,7 +6,7 @@ msgstr ""
 "Project-Id-Version: kstars_ekos-user-interface_3.7.1\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
 "POT-Creation-Date: 2024-05-12 10:00+0200\n"
-"PO-Revision-Date: 2024-06-08 07:29+0200\n"
+"PO-Revision-Date: 2024-06-08 10:08+0200\n"
 "Last-Translator: Xavier Besnard <xavier.besnard@kde.org>\n"
 "Language-Team: French <French <kde-francophone@kde.org>>\n"
 "Language: fr\n"
@@ -163,14 +163,14 @@ msgstr "Après la prise en main de Ekos, les utilisateurs sont encouragés à ut
 #, no-c-format
 #| msgid "<term>Capture Module</term>"
 msgid "<term>Analyze Module</term>"
-msgstr "<term>Module Ananlyse</term>"
+msgstr "<term>Module Analyse</term>"
 
 #. Tag: para
 #. +> trunk5
 #: ekos-user-interface.docbook:95
 #, no-c-format
 msgid "Analyze displays a high-level summary of what happened during an imaging session. It shows plots and graphs describing the many captures takes during a night, the focus sessions, the guiding, mount movement, meridian flips, etc. Use it to get a feel of \"what happened last night\" or to see the current state of the system."
-msgstr "Le module Analyze affiche un résumé synoptique de ce qui s'est passé lors d'une séance d'imagerie. Il montre des tracés et des graphiques décrivant les nombreuses captures prises au cours d'une nuit, les séances de mise au point, le guidage, le mouvement de montage, les retournements de méridiens, etc. Utilisez-le pour avoir une idée de « ce qui s'est passé la nuit dernière » ou pour voir l'état actuel du système."
+msgstr "Le module Analyse affiche un résumé synoptique de ce qui s'est passé lors d'une séance d'imagerie. Il montre des tracés et des graphiques décrivant les nombreuses captures prises au cours d'une nuit, les séances de mise au point, le guidage, le mouvement de montage, les retournements de méridiens, etc. Utilisez-le pour avoir une idée de « ce qui s'est passé la nuit dernière » ou pour voir l'état actuel du système."
 
 #. Tag: term
 #. +> trunk5
