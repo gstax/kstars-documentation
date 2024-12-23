@@ -10,6 +10,9 @@ Les fichiers se trouvent à l'adresse :
 
 https://websvn.kde.org/trunk/l10n-support/fr/summit/docmessages/kstars/?sortby=date#dirlist
 
+Remarque : il peut y avoir de nouveaux fichiers. Liste de tous les [*.pot](https://websvn.kde.org/trunk/l10n-support/templates/summit/docmessages/kstars/)
+
+
 Ne pas oublier les images, sans quoi la compilation ne fonctionnera pas.
 
 Elles se trouve ici : https://websvn.kde.org/trunk/l10n-kf5/fr/docs/kstars/kstars/
