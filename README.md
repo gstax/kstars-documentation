@@ -67,7 +67,7 @@ est l'équivalent de <code>git pull</code>
 ### Création des docbook
 
 <code>cd /home/steve/sources/l10n-scripty></code> <br/>
-<code>./update_xml ../trad_kstars/fr kstars</code><br/>
+<code>./update_xml ../kstars-documentation/fr kstars</code><br/>
 
 Si tout se passe bien les *.docbook seront créés dans le répertoire suivant.
 Sinon, il faut corriger les erreurs dans les *.po. sans quoi le fichier
@@ -92,7 +92,7 @@ Rem : ça s'est si l'on veut visualier avec un navigateur quelconque. On peut �
 
 ### Génération des fichers html
 
-<code> cd /home/steve/sources/trad_kstars/fr/docs/kstars/kstars</code><br/>
+<code> cd /home/steve/sources/kstars-documentation/fr/docs/kstars/kstars</code><br/>
 <code>meinproc5 --check index.docbook</code><br/>
 
 Là aussi, il faut corriger les erreurs en partant du haut mes messages d'erreurs.
