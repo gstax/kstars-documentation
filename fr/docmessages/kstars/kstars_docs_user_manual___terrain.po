@@ -1,0 +1,86 @@
+# translation of kstars_config.po to french
+# traduction de kstars_config.po en Français
+# Copyright (C) 2002,2003, 2004 Free Software Foundation, Inc.
+# Gérard Delafond <gerard@delafond.org>, 2002,2003, 2004.
+# Ludovic Grossard <grossard@kde.org>, 2002, 2003, 2004, 2012.
+# Cyrille Bieuzent <bieuzent@gmail.com>, 2012, 2013.
+# SPDX-FileCopyrightText: 2012, 2024, 2025 Xavier Besnard <xavier.besnard@kde.org>
+# steve <stax@ik.me>, 2022, 2023, 2024.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: kstars_config_3.7.4\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2025-06-14 09:49+0200\n"
+"PO-Revision-Date: 2025-01-14 14:38+0100\n"
+"Last-Translator: Xavier Besnard <xavier.besnard@kde.org>\n"
+"Language-Team: French <French <kde-francophone@kde.org>>\n"
+"Language: fr\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n > 1);\n"
+"X-Generator: Lokalize 24.12.1\n"
+
+#. +> trunk5
+#: ../../user_manual/terrain.rst:3
+msgid "Terrain"
+msgstr "Terrain"
+
+#. +> trunk5
+#: ../../user_manual/terrain.rst:5
+#, fuzzy
+#| msgid "Set Location Window"
+msgid "|Terrain Window|"
+msgstr "Régler la fenêtre de position"
+
+#. +> trunk5
+#: ../../user_manual/terrain.rst:7
+#, fuzzy
+#| msgid "The <guilabel>Terrain</guilabel> page lets you configure whether the terrain (landscape) image will be shown on the skymap."
+msgid "The ``Terrain`` page lets you configure whether the terrain (landscape) image will be shown on the skymap."
+msgstr "La page <guilabel>Terrain</guilabel> vous permet de choisir si l'image du terrain sera affichée sur la carte du ciel."
+
+#. +> trunk5
+#: ../../user_manual/terrain.rst:9
+#, fuzzy
+#| msgid "The user is responsible for creating a partially-transparent image, that is overlayed onto the sky map. This image should have transparent regions that the user creates to let the skymap show through, and opaque regions representing the trees, buildings, the landscape around the telescope. There is a particular format required, and this is a significant effort. There are many resources on the web that explain how this is done for <ulink url=\"https://stellarium.org/landscapes.html\">Stellarium</ulink>. The details of image creation are the same."
+msgid "The user is responsible for creating a partially-transparent image, that is overlayed onto the sky map. This image should have transparent regions that the user creates to let the skymap show through, and opaque regions representing the trees, buildings, the landscape around the telescope. There is a particular format required, and this is a significant effort.  There are many resources on the web that explain how this is done for `Stellarium <https://stellarium.org/landscapes.html>`__. The details of image creation are the same."
+msgstr "L'utilisateur a la possibilité de créer une image partiellement transparente qui sera superposée sur la carte du ciel. Cette image devrait avoir des régions transparentes qui laissera passer la carte du ciel et d'autres opaques qui représentent les arbres, les bâtiments et le paysage autour du télescope. Un format particulier est requis pour cette image qui demande d'ailleurs un effort significatif à créer. Il existe beaucoup d'informations sur le web expliquant la manière de faire pour <ulink url=\"https://stellarium.org/landscapes.html\">Stellarium</ulink>. Les détails de la création d'image sont les mêmes que pour &kstars;."
+
+#. +> trunk5
+#: ../../user_manual/terrain.rst:11
+msgid "Initially, the user captures a full sphere equirectangular projection image from approximately the same point-of-view as his/her telescope. This kind of image can be captured with the Google Camera App, or the Google YouTube App on iPhone, or likely many other camera apps. The user then needs to edit the resulting image so that the sky is erased/transparent, and save it as a PNG. Finally, the user needs to determine where North is in the image, so it can eventually be aligned with the skymap. Once all that is done, the sky map can simulate the local sky view including the local terrain."
+msgstr "L'utilisateur prend d'abord une image à 360° en projection équi-rectangulaire depuis approximativement le même point de vue que son télescope. Ce type d'image peut être prise avec l'application de l'appareil photo de Google, ou l'application YouTube de Google, avec son téléphone portable ou tout autre application de l'appareil photo. L'utilisateur doit ensuite modifier l'image pour rendre le ciel transparent et l'enregistrer dans le format PNG. Enfin, il doit déterminer où est le nord dans l'image pour l'aligner avec le nord de la carte du ciel. Une fois tout ceci terminé, la carte du ciel peut simuler la vision locale du ciel en incluant le terrain local."
+
+#. +> trunk5
+#: ../../user_manual/terrain.rst:13
+#, fuzzy
+#| msgid "Once the image is created, it is possible to upload it via the <guilabel>Terrain</guilabel> page and configure the azimuth correction value (in degrees) that allows the user to rotate the view so north in the sky map is aligned with the north in the image."
+msgid "Once the image is created, it is possible to upload it via the ``Terrain`` page and configure the azimuth correction value (in degrees) that allows the user to rotate the view so north in the sky map is aligned with the north in the image."
+msgstr "Une fois l'image créée, il faut la charger via la page <guilabel>Terrain</guilabel> et configurer la valeur de la correction d'azimut (en degrés) afin de permettre à l'utilisateur d'effectuer une rotation de la vue pour avoir le nord de la carte du ciel aligné avec le nord de l'image."
+
+#. +> trunk5
+#: ../../user_manual/terrain.rst:15
+msgid "Moreover, some speedup options can be configured to achieve the best user experience when rendering the terrain on the sky map."
+msgstr "De plus il existe d'autres options d'accélération pour obtenir la meilleure expérience utilisateur lors de la présentation du terrain sur la carte du ciel."
+
+#. +> trunk5
+#: ../../user_manual/terrain.rst:19
+#, fuzzy
+#| msgid "You can toggle the terrain overlay on and off using a keyboard shortcut <keycombo>&Ctrl;&Shift;<keycap>T</keycap></keycombo> and the <menuchoice><guimenu>View</guimenu><guimenuitem>Show Terrain</guimenuitem></menuchoice> menu item."
+msgid "You can toggle the terrain overlay on and off using a keyboard shortcut **Ctrl**\\ +\\ **Shift**\\ +\\ **T** and the ``View`` → ``Show`` Terrain menu item."
+msgstr "Vous pouvez (dés)activer la superposition du terrain en utilisant le raccourci clavier <keycombo>&Ctrl;&Maj;<keycap>T</keycap></keycombo> ou avec le menu <menuchoice><guimenu>Affichage</guimenu> <guimenuitem>Afficher terrain</guimenuitem></menuchoice>."
+
+#. +> trunk5
+#: ../../user_manual/terrain.rst:23
+#, fuzzy
+#| msgid "Set Location Window"
+msgid "Terrain Window"
+msgstr "Régler la fenêtre de position"
+
+#. +> trunk5
+#: ../../user_manual/terrain.rst:23
+#, fuzzy
+msgid ".. image:: /images/terrain_page.png"
+msgstr ".. image : : /images/terrain_page.png"

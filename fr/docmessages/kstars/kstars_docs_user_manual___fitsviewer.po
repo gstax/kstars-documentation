@@ -1,0 +1,84 @@
+# translation of kstars_fitsviewer.po to Français
+#
+# SPDX-FileCopyrightText: 2024 Xavier Besnard <xavier.besnard@kde.org>
+# Delafond <gerard@delafond.org>, 2005.
+# Ludovic Grossard <grossard@kde.org>, 2005, 2007, 2012.
+# Stanislas Zeller <uncensored.assault@gmail.com>, 2008.
+# Joëlle Cornavin <jcornavin@laposte.net>, 2011.
+# steve <stax@ik.me>, 2022, 2023.
+msgid ""
+msgstr ""
+"Project-Id-Version: kstars_fitsviewer_3.7.4\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2025-08-14 09:24+0200\n"
+"PO-Revision-Date: 2024-05-07 09:43+0200\n"
+"Last-Translator: Xavier Besnard <xavier.besnard@kde.org>\n"
+"Language-Team: French <French <kde-francophone@kde.org>>\n"
+"Language: fr\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n > 1);\n"
+"X-Generator: Lokalize 23.08.5\n"
+
+#. +> trunk5
+#: ../../user_manual/fitsviewer.rst:3
+#, fuzzy
+#| msgid "The FITS Viewer"
+msgid "Chapter 6. FITS Viewer"
+msgstr "L'afficheur FITS"
+
+#. +> trunk5
+#: ../../user_manual/fitsviewer.rst:6
+#, fuzzy
+#| msgid "FITS, or Flexible Image Transport System, is the standard format for representing images and data in Astronomy. The &kstars; FITS Viewer is a tool to view those images. It is not designed for editing of FITS Images."
+msgid "FITS, or Flexible Image Transport System, is the standard format for representing images and data in Astronomy. The KStars FITS Viewer is a tool to view those images. It is not designed for editing of FITS Images."
+msgstr "FITS (Flexible Image Transport System) est le format standard pour représenter les images et les données en astronomie. L'afficheur « FITS » de &kstars; permet l'affichage de ces images. Il n'est pas conçu pour modifier les images « FITS »."
+
+#. +> trunk5
+#: ../../user_manual/fitsviewer.rst:11
+#, fuzzy
+#| msgid "The FITS Viewer can be automatically invoked for images received from the camera. It can also be invoked directly from the main &kstars; menu. To open a FITS file, select the <menuchoice><guimenu>File</guimenu> <guimenuitem>Open Image...</guimenuitem></menuchoice> menu item, or press <keycombo action=\"simul\">&Ctrl;<keycap>O</keycap></keycombo>."
+msgid "The FITS Viewer can be automatically invoked for images received from the camera. It can also be invoked directly from the main KStars menu. To open a FITS file, select the ``File`` → ``Open Image...`` menu item, or press **Ctrl**\\ +\\ **O**."
+msgstr "L'outil d'affichage « FITS » peut s'utiliser automatiquement pour afficher les images reçues de l'appareil. Il peut aussi être lancé directement depuis le menu principal de &kstars;. Pour ouvrir un fichier « FITS », sélectionnez depuis le menu <menuchoice><guimenu>Fichier</guimenu> <guimenuitem>Ouvrir FITS…</guimenuitem></menuchoice> ou appuyez sur <keycombo action=\"simul\">&Ctrl;<keycap>O</keycap></keycombo>."
+
+#. +> trunk5
+#: ../../user_manual/fitsviewer.rst:16
+#, fuzzy
+#| msgid "FITS Viewer"
+msgid "|FITS Viewer|"
+msgstr "Afficheur FITS"
+
+#. +> trunk5
+#: ../../user_manual/fitsviewer.rst:18
+msgid "The above diagram illustrates the FITS Viewer main work area and window. There is also a hidden area that can be exposed by moving the mouse over the 6 small dots on the left side (about center of the image vertically) and pressing and holding the mouse, sliding it over to the right a bit."
+msgstr "Le diagramme ci-dessus illustre l'endroit principal de travail de l'afficheur FITS ainsi que sa fenêtre. Il existe également un endroit caché qui peut être présenté en déplaçant la souris sur les 6 petits points sur le côté gauche (à peu près au centre de l'image) et en cliquant et gardant le bouton de la souris enfoncé et en la déplaçant un peu vers la droite."
+
+#. +> trunk5
+#: ../../user_manual/fitsviewer.rst:24
+#, fuzzy
+#| msgid "FITS Viewer with sliding panel open"
+msgid "|FITS Viewer with sliding panel open|"
+msgstr "L'afficheur FITS avec le panneau glissant ouvert"
+
+#. +> trunk5
+#: ../../user_manual/fitsviewer.rst:37
+msgid "FITS Viewer"
+msgstr "Afficheur FITS"
+
+#. +> trunk5
+#: ../../user_manual/fitsviewer.rst:37
+#, fuzzy
+msgid ".. image:: /images/fitsviewer1.png"
+msgstr ".. image : : /images/fitsviewer1.png"
+
+#. +> trunk5
+#: ../../user_manual/fitsviewer.rst:38
+msgid "FITS Viewer with sliding panel open"
+msgstr "L'afficheur FITS avec le panneau glissant ouvert"
+
+#. +> trunk5
+#: ../../user_manual/fitsviewer.rst:38
+#, fuzzy
+msgid ".. image:: /images/fitsviewer2.png"
+msgstr ".. image : : /images/fitsviewer2.png"

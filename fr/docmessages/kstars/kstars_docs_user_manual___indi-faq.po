@@ -1,0 +1,215 @@
+# translation of kstars_indi.po to french
+# traduction de kstars_indi.po en Français
+#
+# Copyright (C) 2003, 2004, 2005 Free Software Foundation, Inc.
+# Delafond <gerard@delafond.org>, 2003, 2004, 2005.
+# Ludovic Grossard <grossard@kde.org>, 2003, 2004, 2009, 2012.
+# Bieuzent Cyrille <bieuzent@gmail.com>, 2009.
+# Xavier Besnard <xavier.besnard@kde.org>, 2012.
+# steve <stax@ik.me>, 2022, 2023.
+msgid ""
+msgstr ""
+"Project-Id-Version: kstars_indi_3.7.4\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2025-11-19 00:53+0100\n"
+"PO-Revision-Date: 2024-01-13 18:16+0100\n"
+"Last-Translator: steve <stax@ik.me>\n"
+"Language-Team: French <kde-francophone@kde.org>\n"
+"Language: fr\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n > 1);\n"
+"X-Generator: Poedit 3.2.2\n"
+
+#. +> trunk5
+#: ../../user_manual/indi-faq.rst:3
+msgid "INDI Frequently Asked Questions"
+msgstr "Foire aux questions d'INDI"
+
+#. +> trunk5
+#: ../../user_manual/indi-faq.rst:8
+msgid "What is INDI?"
+msgstr "Qu'est qu'INDI ?"
+
+#. +> trunk5
+#: ../../user_manual/indi-faq.rst:10
+#, fuzzy
+#| msgid "<acronym>INDI</acronym> is the <ulink url=\"https://indilib.org\"> Instrument-Neutral-Distributed-Interface</ulink> control protocol developed by <author><firstname>Elwood</firstname><surname>C. Downey</surname></author> of <ulink url=\"https://www.clearskyinstitute.com/\">ClearSky Institute</ulink>. &kstars; employs device drivers that are compatible with the INDI protocol. INDI has many advantages including loose coupling between hardware devices and software drivers. Clients that use the device drivers (like &kstars;) are completely unaware of the device capabilities. In run time, &kstars; communicates with the device drivers and builds a completely dynamical &GUI; based on services provided by the device. Therefore, new device drivers can be written or updated and &kstars; can take full advantage of them without any changes on the client side."
+msgid "INDI is the `Instrument-Neutral-Distributed-Interface <https://indilib.org>`__ control protocol developed by **Elwood C. Downey** of `ClearSky Institute <https://www.clearskyinstitute.com/>`__. KStars employs device drivers that are compatible with the INDI protocol. INDI has many advantages including loose coupling between hardware devices and software drivers. Clients that use the device drivers (like KStars) are completely unaware of the device capabilities. In run time, KStars communicates with the device drivers and builds a completely dynamical GUI based on services provided by the device. Therefore, new device drivers can be written or updated and KStars can take full advantage of them without any changes on the client side."
+msgstr "<acronym>INDI</acronym> est le protocole de contrôle <ulink url=\"http://indi.sourceforge.net\">Instrument-Neutral-Distributed-Interface</ulink> développé par <author><firstname>Elwood</firstname><surname>C. Downey</surname></author> du <ulink url=\"http://www.clearskyinstitute.com/\">ClearSky Institute</ulink>. &kstars; emploie des pilotes de périphériques qui sont compatibles avec le protocole INDI. INDI a beaucoup d'avantages, y compris le couplage non lié entre les périphériques et les pilotes logiciels. Les clients qui utilisent les pilotes de périphériques (comme &kstars;) sont complètement ignorants des possibilités du matériel. En fonctionnement, &kstars; communique avec les pilotes de périphériques et construit une interface graphique complètement dynamique utilisant les services fournis par le matériel. De ce fait, les nouveaux pilotes de périphériques peuvent être écrits ou mis à jour, et &kstars; peut en tirer avantage sans changement du côté client."
+
+#. +> trunk5
+#: ../../user_manual/indi-faq.rst:15
+msgid "Do you plan to support more devices?"
+msgstr "Comptez-vous gérer plus de périphériques ?"
+
+#. +> trunk5
+#: ../../user_manual/indi-faq.rst:17
+#, fuzzy
+#| msgid "Yes. We plan to support major CCD cameras and focusers and extend support for more telescopes. If you would like INDI to support a particular device, please send an email to <email>indi-devel@lists.sourceforge.net</email>"
+msgid "Yes. We plan to support major CCD cameras and focusers and extend support for more telescopes. If you would like INDI to support a particular device, please send an email to *indi-devel@lists.sourceforge.net*"
+msgstr "Oui. Nous comptons gérer la plupart des caméras CCD et viseurs et étendre la gestion pour les télescopes. Si vous vouliez gérer un matériel particulier, veuillez envoyer un courrier électronique à <email>indi-devel@lists.sourceforge.net</email>"
+
+#. +> trunk5
+#: ../../user_manual/indi-faq.rst:24
+#, fuzzy
+#| msgid "What operations does &kstars; provide to control the telescope?"
+msgid "What operations does KStars provide to control the telescope?"
+msgstr "Quelles opérations &kstars; fournit-il pour contrôler le télescope ?"
+
+#. +> trunk5
+#: ../../user_manual/indi-faq.rst:26
+#, fuzzy
+#| msgid "It depends on the particular telescope you're running, but the minimum three operations are <command>Slew</command>, <command>Track</command>, and <command>Sync</command>, which you can issue directly from the sky map. Your telescope must be aligned for those operations to perform correctly. Some telescopes offer you more operations like site management, slew modes, focusing, parking, and more. You can access the telescopes extended features from the <menuchoice><guimenu>Tools</guimenu> <guisubmenu>Devices</guisubmenu> <guimenuitem>INDI Control Panel...</guimenuitem></menuchoice> menu item."
+msgid "It depends on the particular telescope you're running, but the minimum three operations are :command:`Slew`, :command:`Track`, and :command:`Sync`, which you can issue directly from the sky map. Your telescope must be aligned for those operations to perform correctly. Some telescopes offer you more operations like site management, slew modes, focusing, parking, and more. You can access the telescopes extended features from the ``Tools`` → ``Devices`` → ``INDI Control Panel...`` menu item."
+msgstr "Cela dépend du télescope que vous utilisez, mais les trois opérations minimales sont : <command>Pivoter</command>, <command>Suivre</command> et <command>Synchroniser</command>, que vous pouvez utiliser directement depuis la carte du ciel. Votre télescope doit être mis en station pour que ces opérations fonctionnent correctement. Certains télescopes fournissent davantage d'opérations comme la gestion des sites, les modes de pivotage, la mise au point, le stationnement, et plus encore. Vous pouvez accéder aux caractéristiques étendues des télescopes depuis le menu <menuchoice><guimenu>Outils</guimenu> <guisubmenu>Périphériques</guisubmenu> <guimenuitem>Tableau de bord INDI…</guimenuitem></menuchoice>."
+
+#. +> trunk5
+#: ../../user_manual/indi-faq.rst:31
+#, fuzzy
+#| msgid "What's the difference between <command>Slew</command>, <command>Track</command>, and <command>Sync</command> exactly?"
+msgid "What's the difference between :command:`Slew`, :command:`Track`, and :command:`Sync` exactly?"
+msgstr "Quelle est exactement la différence entre <command>Pivoter</command>, <command>Suivre</command> et <command>Synchroniser</command> ?"
+
+#. +> trunk5
+#: ../../user_manual/indi-faq.rst:33
+#, fuzzy
+#| msgid "The command <command>Slew</command> orders the telescope to move to a particular target, and once the telescope reaches its target, the telescope keeps tracking that target at a <emphasis>sidereal</emphasis> rate (&ie;, the rate at which stars move across the sky). This works well for stars, Messier objects, and about everything outside our solar system. But solar system objects travel differently across the sky and so the telescope must <command>Track</command> the objects as they move."
+msgid "The command :command:`Slew` orders the telescope to move to a particular target, and once the telescope reaches its target, the telescope keeps tracking that target at a *sidereal* rate (i.e., the rate at which stars move across the sky). This works well for stars, Messier objects, and about everything outside our solar system. But solar system objects travel differently across the sky and so the telescope must :command:`Track` the objects as they move."
+msgstr "La commande <command>Pivoter</command> ordonne au télescope de se déplacer vers une cible particulière, et, une fois que le télescope a atteint sa cible, le télescope continue à suivre la cible à une vitesse <emphasis>sidérale</emphasis> (c'est-à-dire la vitesse à laquelle l'objet se déplace dans le ciel). Ceci fonctionne bien pour les étoiles, les objets Messier, et à peu près tout hors du système solaire. Mais les objets du système solaire voyagent différemment à travers le ciel, et le télescope doit <command>Suivre</command> les objets comme ils bougent."
+
+#. +> trunk5
+#: ../../user_manual/indi-faq.rst:35
+#, fuzzy
+#| msgid "Therefore, you need to issue a track command if you want to track an object with non-sidereal motion. On the other hand, <command>Sync</command> is used to synchronize the telescope's internal coordinates with that of an object you select."
+msgid "Therefore, you need to issue a track command if you want to track an object with non-sidereal motion. On the other hand, :command:`Sync` is used to synchronize the telescope's internal coordinates with that of an object you select."
+msgstr "Pour cela, vous avez besoin d'effectuer une commande de suivi, si vous voulez suivre un objet avec un mouvement non sidéral. D'une autre manière, <command>Synchroniser</command> sert à synchroniser les coordonnées internes du télescope avec un objet que vous sélectionnez."
+
+#. +> trunk5
+#: ../../user_manual/indi-faq.rst:42
+msgid "Can I control my telescope remotely?"
+msgstr "Puis-je contrôler mon télescope à distance ?"
+
+#. +> trunk5
+#: ../../user_manual/indi-faq.rst:44
+#, fuzzy
+#| msgid "Yes. You can start an INDI server on the machine connected to your telescope and the server will listen to requests from &kstars; clients. Once you're connected, you can control your telescope directly from the sky map. This procedure is described in detail in the <link linkend=\"indi-remote-control\">Remote device control</link> section."
+msgid "Yes. You can start an INDI server on the machine connected to your telescope and the server will listen to requests from KStars clients. Once you're connected, you can control your telescope directly from the sky map. This procedure is described in detail in the :doc:`Remote device control <indi-remote-control>` section."
+msgstr "Oui. Vous pouvez démarrer un serveur INDI sur la machine connectée à votre télescope, et le serveur écoutera les requêtes des clients &kstars;. Une fois que vous aurez connecté, vous pouvez contrôler votre télescope directement depuis la carte du ciel. Cette procédure est décrite en détail dans la section <link linkend=\"indi-remote-control\">Contrôle de périphérique distant</link>."
+
+#. +> trunk5
+#: ../../user_manual/indi-faq.rst:51
+#, fuzzy
+#| msgid "When I try to <guibutton>Connect</guibutton>, &kstars; reports that the telescope is not connected to the serial/USB port. What can I do?"
+msgid "When I try to ``Connect``, KStars reports that the telescope is not connected to the serial/USB port. What can I do?"
+msgstr "Lorsque j'essaye de <guibutton>connecter</guibutton>, &kstars; rapporte que le télescope n'est pas connecté au port série/USB. Que puis-je faire ?"
+
+#. +> trunk5
+#: ../../user_manual/indi-faq.rst:53
+#, fuzzy
+#| msgid "This message is triggered when &kstars; cannot communicate with the telescope. Here are few things you can do:"
+msgid "This message is triggered when KStars cannot communicate with the telescope. Here are few things you can do:"
+msgstr "Ce message est déclenché lorsque &kstars; ne peut pas communiquer avec le télescope. Voici quelques manipulations que vous pouvez effectuer :"
+
+#. +> trunk5
+#: ../../user_manual/indi-faq.rst:55
+msgid "Check that you have both reading and writing permission for the port you are trying to connect to."
+msgstr "Vérifiez que vous avez à la fois les droits en lecture et en écriture pour le port auquel vous essayez de vous connecter."
+
+#. +> trunk5
+#: ../../user_manual/indi-faq.rst:57
+msgid "Check the connection cable, make sure it is in good condition and test it with other applications."
+msgstr "Vérifiez la connexion du câble et assurez-vous qu'il est en bon état et testez-le avec d'autres applications."
+
+#. +> trunk5
+#: ../../user_manual/indi-faq.rst:59
+msgid "Check your telescope power, make sure the power is on and that the telescope is getting enough power."
+msgstr "Vérifiez l'alimentation de votre télescope et assurez-vous que le contact est mis et que le télescope reçoit assez d'énergie."
+
+#. +> trunk5
+#: ../../user_manual/indi-faq.rst:61
+#, fuzzy
+#| msgid "Select the <menuchoice><guimenu>Tools</guimenu> <guisubmenu>Devices</guisubmenu> <guimenuitem>INDI Control Panel...</guimenuitem></menuchoice> menu item and set the correct port in the <guilabel>INDI Control Panel</guilabel> dialog. The default device is <constant>/dev/ttyS0</constant>"
+msgid "Select the ``Tools`` → ``Devices`` → ``INDI Control Panel...`` menu item and set the correct port in the ``INDI Control Panel`` dialog. The default device is ``/dev/ttyS0``"
+msgstr "Sélectionner le menu <menuchoice><guimenu>Outils</guimenu> <guisubmenu>Périphériques</guisubmenu> <guimenuitem>Tableau de bord INDI…</guimenuitem></menuchoice>. Le périphérique par défaut est <constant>/dev/ttyS0</constant>"
+
+#. +> trunk5
+#: ../../user_manual/indi-faq.rst:64
+#, fuzzy
+#| msgid "Restart &kstars; and retry again."
+msgid "Restart KStars and retry again."
+msgstr "Redémarrez &kstars; et réessayez."
+
+#. +> trunk5
+#: ../../user_manual/indi-faq.rst:69
+#, fuzzy
+#| msgid "&kstars; reports that the telescope is online and ready, but I cannot find the telescope's crosshair, where is it?"
+msgid "KStars reports that the telescope is online and ready, but I cannot find the telescope's crosshair, where is it?"
+msgstr "&kstars; rapporte que le télescope est en ligne et prêt, mais je ne peux pas trouver la croix du télescope. Où est-elle ?"
+
+#. +> trunk5
+#: ../../user_manual/indi-faq.rst:71
+#, fuzzy
+#| msgid "&kstars; retrieves the telescopes RA and DEC coordinates upon connection. If your alignment was performed correctly, then you should see the crosshair around your target in the Sky Map. However, the RA and DEC coordinates provided by the telescope may be incorrect (even below the horizon) and you need to <link linkend=\"indi-sync\">Sync</link> your telescope to your current target. You can use the right-click menu to center and track the telescope crosshair in the sky map."
+msgid "KStars retrieves the telescopes RA and DEC coordinates upon connection. If your alignment was performed correctly, then you should see the crosshair around your target in the Sky Map. However, the RA and DEC coordinates provided by the telescope may be incorrect (even below the horizon) and you need to :ref:`Sync <indi-telescope-setup-indi-sync>` your telescope to your current target. You can use the right-click menu to center and track the telescope crosshair in the sky map."
+msgstr "&kstars; trouve les coordonnées AD et DEC du télescope en connexion. Si votre alignement a été effectué correctement, vous pouvez voir la croix près de votre cible dans la carte du ciel. Cependant, les coordonnées AD et DEC fournies par le télescope peuvent être incorrectes (même sous l'horizon) et vous avez besoin de <link linkend=\"indi-sync\">synchroniser</link> votre télescope vers votre cible courante. Vous pouvez utiliser le menu contextuel pour centrer et suivre la croix du télescope dans la carte du ciel."
+
+#. +> trunk5
+#: ../../user_manual/indi-faq.rst:81
+msgid "The telescope is moving erratically or not moving at all. What can I do?"
+msgstr "Le télescope se déplace d'une manière erratique ou pas du tout. Que puis-je faire ?"
+
+#. +> trunk5
+#: ../../user_manual/indi-faq.rst:83
+msgid "This behavior is mostly due to incorrect settings, please verify the following check list:"
+msgstr "Ce comportement est la plupart du temps dû à des réglages incorrects. Veuillez vérifier la liste suivante :"
+
+#. +> trunk5
+#: ../../user_manual/indi-faq.rst:85
+msgid "Is the telescope aligned?"
+msgstr "Le télescope est-il aligné ?"
+
+#. +> trunk5
+#: ../../user_manual/indi-faq.rst:87
+#, fuzzy
+#| msgid "Is the telescope alignment mode correct? Use <guilabel>INDI Control Panel</guilabel> to check and change these settings (<constant>Alt/Az,Polar, Land</constant>)."
+msgid "Is the telescope alignment mode correct? Use ``INDI Control Panel`` to check and change these settings (``Alt/Az,Polar, Land``)."
+msgstr "Le mode d'alignement du télescope est-il correct ? Utilisez le <guilabel>Tableau de bord INDI</guilabel> pour le vérifier et changez ces réglages (<constant>Alt/Az, Polar, Land</constant>)."
+
+#. +> trunk5
+#: ../../user_manual/indi-faq.rst:90
+msgid "Are the telescope's time and date settings correct?"
+msgstr "Les réglages d'heure et date du télescope sont-ils corrects ?"
+
+#. +> trunk5
+#: ../../user_manual/indi-faq.rst:92
+msgid "Are the telescope's longitude and latitude settings correct?"
+msgstr "Les réglages de latitude et de longitude du télescope sont-ils corrects ?"
+
+#. +> trunk5
+#: ../../user_manual/indi-faq.rst:94
+msgid "Is the telescope's UTC offset correct?"
+msgstr "Le calage UTC du télescope est-il correct ?"
+
+#. +> trunk5
+#: ../../user_manual/indi-faq.rst:96
+msgid "Are the telescope's RA and DEC axis locked firmly?"
+msgstr "Les axes d'AD et de DEC du télescope sont-ils bien verrouillés ?"
+
+#. +> trunk5
+#: ../../user_manual/indi-faq.rst:98
+msgid "Is the telescope's N/S switch (when applicable) setup correctly for your hemisphere?"
+msgstr "Le réglage d'inverseur N/S de télescope (lorsque applicable) est-il correctement effectué pour votre hémisphère ?"
+
+#. +> trunk5
+#: ../../user_manual/indi-faq.rst:100
+msgid "Is the cable between the telescope and computer in good condition?"
+msgstr "Le câble entre le télescope et l'ordinateur est-il en bon état ?"
+
+#. +> trunk5
+#: ../../user_manual/indi-faq.rst:102
+#, fuzzy
+#| msgid "If you think all settings are correct but the telescope still moves erratically or not at all, then please send a report to <email>indi-devel@lists.sourceforge.net</email>."
+msgid "If you think all settings are correct but the telescope still moves erratically or not at all, then please send a report to indi-devel@lists.sourceforge.net."
+msgstr "Si vous pensez que tous les réglages sont corrects, mais que le télescope continue à bouger n'importe comment ou pas du tout, veuillez envoyer un rapport de bogue à <email>indi-devel@lists.sourceforge.net</email>."

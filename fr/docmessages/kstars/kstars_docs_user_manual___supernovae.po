@@ -1,0 +1,67 @@
+# translation of kstars_config.po to french
+# traduction de kstars_config.po en Français
+# Copyright (C) 2002,2003, 2004 Free Software Foundation, Inc.
+# Gérard Delafond <gerard@delafond.org>, 2002,2003, 2004.
+# Ludovic Grossard <grossard@kde.org>, 2002, 2003, 2004, 2012.
+# Cyrille Bieuzent <bieuzent@gmail.com>, 2012, 2013.
+# SPDX-FileCopyrightText: 2012, 2024, 2025 Xavier Besnard <xavier.besnard@kde.org>
+# steve <stax@ik.me>, 2022, 2023, 2024.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: kstars_config_3.7.4\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2025-06-14 09:49+0200\n"
+"PO-Revision-Date: 2025-01-14 14:38+0100\n"
+"Last-Translator: Xavier Besnard <xavier.besnard@kde.org>\n"
+"Language-Team: French <French <kde-francophone@kde.org>>\n"
+"Language: fr\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n > 1);\n"
+"X-Generator: Lokalize 24.12.1\n"
+
+#. +> trunk5
+#: ../../user_manual/supernovae.rst:3
+msgid "Supernovae"
+msgstr "Supernova"
+
+#. +> trunk5
+#: ../../user_manual/supernovae.rst:5
+#, fuzzy
+#| msgid "Supernovae"
+msgid "|Supernovae Window|"
+msgstr "Supernova"
+
+#. +> trunk5
+#: ../../user_manual/supernovae.rst:7
+#, fuzzy
+#| msgid "The <guilabel>Supernovae</guilabel> page allows you to decide if the supernovae are displayed or not by checking the <guilabel>Show supernovae</guilabel> checkbox. By default, supernovae are drawn as small light orange <quote>+</quote> mark. As for satellites, the color of supernovae can be easily customized using the <guilabel>Colors</guilabel> page."
+msgid "The ``Supernovae`` page allows you to decide if the supernovae are displayed or not by checking the ``Show supernovae`` checkbox. By default, supernovae are drawn as small light orange “+” mark.  As for satellites, the color of supernovae can be easily customized using the ``Colors`` page."
+msgstr "La page <guilabel>Supernova</guilabel> vous permet de choisir si les supernova sont affichées ou non en cochant la case <guilabel>Afficher les supernova</guilabel>. Par défaut les supernova sont dessinées comme de petit <quote>+</quote> de couleur orange clair. Comme pour les satellites, la couleur des supernova peut facilement être modifiée sur la page des <guilabel>Couleurs</guilabel>."
+
+#. +> trunk5
+#: ../../user_manual/supernovae.rst:9
+msgid "You can set the magnitude limit for showing a supernova as well as magnitude limit for supernova alerts using the spin boxes control. The limiting magnitude is the faintest apparent magnitude of an skyobject that is visible with the naked-eye or a telescope."
+msgstr "Vous pouvez régler la magnitude limite d'affichage des supernova ainsi que la magnitude limite pour les alertes. La magnitude limite est la plus faible magnitude d'un objet du ciel visible à l'œil nu ou avec un télescope."
+
+#. +> trunk5
+#: ../../user_manual/supernovae.rst:11
+#, fuzzy
+#| msgid "The list of recent supernovae can be updated via the <menuchoice><guimenu>Data</guimenu> <guisubmenu>Updates</guisubmenu> <guimenuitem>Update Recent Supernovae data</guimenuitem></menuchoice> menu item."
+msgid "The list of recent supernovae can be updated via the ``Data`` → ``Updates`` → ``Update Recent Supernovae data`` menu item."
+msgstr "La liste des supernova récentes peut être mise à jour dans le menu <menuchoice><guimenu>Données</guimenu> <guimenuitem>Mettre à jour les données des supernova récentes</guimenuitem></menuchoice>."
+
+#. +> trunk5
+#: ../../user_manual/supernovae.rst:13
+#, fuzzy
+#| msgid "Supernovae"
+msgid "Supernovae Window"
+msgstr "Supernova"
+
+#. +> trunk5
+#: ../../user_manual/supernovae.rst:13
+#, fuzzy
+msgid ".. image:: /images/supernovae_page.png"
+msgstr ".. image : : /images/supernovae_page.png"

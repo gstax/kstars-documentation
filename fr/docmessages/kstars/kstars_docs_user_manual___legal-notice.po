@@ -1,0 +1,26 @@
+#
+# SPDX-FileCopyrightText: 2026 Xavier Besnard <xavier.besnard@kde.org>
+msgid ""
+msgstr ""
+"Project-Id-Version: KStars Handbook 3.7\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2025-11-19 00:53+0100\n"
+"PO-Revision-Date: 2026-02-01 20:44+0100\n"
+"Last-Translator: Xavier Besnard <xavier.besnard@kde.org>\n"
+"Language-Team: \n"
+"Language: fr\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n > 1);\n"
+"X-Generator: Lokalize 25.12.1\n"
+
+#. +> trunk5
+#: ../../user_manual/legal-notice.rst:5
+msgid "Legal Notice"
+msgstr "Mentions légales"
+
+#. +> trunk5
+#: ../../user_manual/legal-notice.rst:7
+msgid "Permission is granted to copy, distribute and/or modify this document under the terms of the GNU Free Documentation License, Version 1.2 or any later version published by the Free Software Foundation; with no Invariant Sections, with no Front-Cover Texts, and with no Back-Cover Texts. A copy of the license is included in :doc:`the section entitled \"GNU Free Documentation License\" <gnu-fdl>`."
+msgstr "Vous avez la permission de copier, distribuer et / ou modifier ce document selon les termes de la Licence de documentation libre GNU, version 1.2 ou plus récente publiée par la Free Software Foundation, sans sections inaltérables, sans texte de première page de couverture et sans texte de dernière page de couverture. Une copie de la licence est incluse dans :doc:`la section intitulée « GNU Free Documentation License » <gnu-fdl>`."

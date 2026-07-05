@@ -1,0 +1,53 @@
+# translation of kstars_config.po to french
+# traduction de kstars_config.po en Français
+# Copyright (C) 2002,2003, 2004 Free Software Foundation, Inc.
+# Gérard Delafond <gerard@delafond.org>, 2002,2003, 2004.
+# Ludovic Grossard <grossard@kde.org>, 2002, 2003, 2004, 2012.
+# Cyrille Bieuzent <bieuzent@gmail.com>, 2012, 2013.
+# SPDX-FileCopyrightText: 2012, 2024, 2025 Xavier Besnard <xavier.besnard@kde.org>
+# steve <stax@ik.me>, 2022, 2023, 2024.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: kstars_config_3.7.4\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2025-06-14 09:49+0200\n"
+"PO-Revision-Date: 2025-01-14 14:38+0100\n"
+"Last-Translator: Xavier Besnard <xavier.besnard@kde.org>\n"
+"Language-Team: French <French <kde-francophone@kde.org>>\n"
+"Language: fr\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n > 1);\n"
+"X-Generator: Lokalize 24.12.1\n"
+
+#. +> trunk5
+#: ../../user_manual/ekos-window.rst:3
+msgid "Ekos"
+msgstr "Ekos"
+
+#. +> trunk5
+#: ../../user_manual/ekos-window.rst:5
+#, fuzzy
+msgid "|Ekos Window|"
+msgstr "| Fenêtre Ekos |"
+
+#. +> trunk5
+#: ../../user_manual/ekos-window.rst:7
+#, fuzzy
+#| msgid "Ekos is an astrophotography suite, a complete astrophotography solution that can control all INDI devices including numerous telescopes, CCDs, DSLRs, focusers, filters, and a lot more. Ekos supports highly accurate tracking using online and offline astrometry solver, autofocus and autoguiding capabilities, and capture of single or multiple images using the powerful built in sequence manager. For detailed explanation of <guilabel>Ekos</guilabel>, see the <link linkend=\"ekos\">Ekos section of this manual</link>."
+msgid "Ekos is an astrophotography suite, a complete astrophotography solution that can control all INDI devices including numerous telescopes, CCDs, DSLRs, focusers, filters, and a lot more.  Ekos supports highly accurate tracking using online and offline astrometry solver, autofocus and autoguiding capabilities, and capture of single or multiple images using the powerful built in sequence manager. For detailed explanation of ``Ekos``, see the :doc:`Ekos section of this manual <ekos>`."
+msgstr "Ekos est une suite d'astrophotographie complète qui permet de contrôler tout périphérique INDI tels que des montures, des CCD, des APN, des moteurs de mise au point, des roues à filtres et bien plus encore. Ekos gère le suivi de haute précision en utilisant des résolveurs en ligne et hors ligne, la mise au point automatique et l'autoguidage ainsi que l'acquisition d'images unique ou multiple en utilisant le puissant gestionnaire de séquences. Pour des explications détaillées d'<guilabel>Ekos</guilabel>, veuillez lire la <link linkend=\"ekos\">section Ekos de ce manuel</link>."
+
+#. +> trunk5
+#: ../../user_manual/ekos-window.rst:9
+#, fuzzy
+msgid "Ekos Window"
+msgstr "Fenêtre Ekos"
+
+#. +> trunk5
+#: ../../user_manual/ekos-window.rst:9
+#, fuzzy
+msgid ".. image:: /images/ekos_page.png"
+msgstr ".. image : : /images/ekos_page.png"

@@ -1,0 +1,54 @@
+# translation of kstars_config.po to french
+# traduction de kstars_config.po en Français
+# Copyright (C) 2002,2003, 2004 Free Software Foundation, Inc.
+# Gérard Delafond <gerard@delafond.org>, 2002,2003, 2004.
+# Ludovic Grossard <grossard@kde.org>, 2002, 2003, 2004, 2012.
+# Cyrille Bieuzent <bieuzent@gmail.com>, 2012, 2013.
+# SPDX-FileCopyrightText: 2012, 2024, 2025 Xavier Besnard <xavier.besnard@kde.org>
+# steve <stax@ik.me>, 2022, 2023, 2024.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: kstars_config_3.7.4\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2025-06-14 09:49+0200\n"
+"PO-Revision-Date: 2025-01-14 14:38+0100\n"
+"Last-Translator: Xavier Besnard <xavier.besnard@kde.org>\n"
+"Language-Team: French <French <kde-francophone@kde.org>>\n"
+"Language: fr\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n > 1);\n"
+"X-Generator: Lokalize 24.12.1\n"
+
+#. +> trunk5
+#: ../../user_manual/guides.rst:3
+msgid "Guides"
+msgstr "Guides"
+
+#. +> trunk5
+#: ../../user_manual/guides.rst:5
+#, fuzzy
+msgid "|Guides Window|"
+msgstr "| Fenêtre Guides |"
+
+#. +> trunk5
+#: ../../user_manual/guides.rst:7
+#, fuzzy
+#| msgid "The <guilabel>Guides</guilabel> page lets you toggle whether non-objects are displayed (&ie;, constellation lines, constellation names, the Milky Way contour, the <link linkend=\"ai-cequator\">celestial equator</link>, <link linkend=\"ai-ecliptic\">the ecliptic</link>, <link linkend=\"ai-horizon\">the horizon line</link>, and the opaque ground). You can also choose a sky culture, whether you would like to see Latin constellation names, <acronym>IAU</acronym>-standard three-letter abbreviations, or constellation names using your local language."
+msgid "The ``Guides`` page lets you toggle whether non-objects are displayed (i.e., constellation lines, constellation names, the Milky Way contour, the :doc:`celestial equator  <ai-cequator>`, :doc:`the ecliptic  <ai-ecliptic>`, :doc:`the horizon line  <ai-horizon>`, and the opaque ground). You can also choose a sky culture, whether you would like to see Latin constellation names, IAU-standard three-letter abbreviations, or constellation names using your local language."
+msgstr "L'onglet <guilabel>Guides</guilabel> vous permet de (dés)activer l'affichage des éléments qui ne sont pas des objets célestes (c'est-à-dire les lignes des constellations, les noms des constellations, le contour de la Voie Lactée, l'<link linkend=\"ai-cequator\">équateur céleste</link>, l'<link linkend=\"ai-ecliptic\">écliptique</link>, la <link linkend=\"ai-horizon\">ligne d'horizon</link> et le sol opaque). Vous pouvez aussi choisir si vous préférez voir les noms latins des constellations, les abréviations standard <acronym>IAU</acronym> à trois lettres ou les noms des constellations dans votre langue."
+
+#. +> trunk5
+#: ../../user_manual/guides.rst:9
+#, fuzzy
+#| msgid "Guides"
+msgid "Guides Window"
+msgstr "Guides"
+
+#. +> trunk5
+#: ../../user_manual/guides.rst:9
+#, fuzzy
+msgid ".. image:: /images/guides_page.png"
+msgstr ".. image : : /images/guides_page.png"

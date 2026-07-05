@@ -1,0 +1,548 @@
+#
+# SPDX-FileCopyrightText: 2025, 2026 Xavier Besnard <xavier.besnard@kde.org>
+msgid ""
+msgstr ""
+"Project-Id-Version: KStars Handbook 3.7\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2025-06-20 11:05+0200\n"
+"PO-Revision-Date: 2026-05-04 17:13+0200\n"
+"Last-Translator: Xavier Besnard <xavier.besnard@kde.org>\n"
+"Language-Team: fr\n"
+"Language: fr\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n > 1);\n"
+"X-Generator: Lokalize 25.12.3\n"
+
+#. +> trunk5
+#: ../../user_manual/gnu-fdl.rst:5
+#, fuzzy
+msgid "GNU Free Documentation License"
+msgstr "Licence de documentation libre GNU"
+
+#. +> trunk5
+#: ../../user_manual/gnu-fdl.rst:7
+#, fuzzy
+msgid "*Version 1.3, 3 November 2008* *Copyright © 2000, 2001, 2002, 2007, 2008 Free Software Foundation, Inc*. <http://fsf.org/>"
+msgstr "*Version 1.3, 3 novembre 2008* *Copyright © 2000, 2001, 2002, 2007, 2008 Free Software Foundation, Inc*. <http://fsf.org/>"
+
+#. +> trunk5
+#: ../../user_manual/gnu-fdl.rst:10
+#, fuzzy
+msgid "Everyone is permitted to copy and distribute verbatim copies of this license document, but changing it is not allowed."
+msgstr "Il est permis à tout le monde de reproduire et distribuer des copies conformes de ce document de licence, mais aucune modification ne doit y être apportée."
+
+#. +> trunk5
+#: ../../user_manual/gnu-fdl.rst:14
+#, fuzzy
+msgid "0. Preamble"
+msgstr "PRÉAMBULE"
+
+#. +> trunk5
+#: ../../user_manual/gnu-fdl.rst:16
+#, fuzzy
+msgid "The purpose of this License is to make a manual, textbook, or other functional and useful document \"free\" in the sense of freedom: to assure everyone the effective freedom to copy and redistribute it, with or without modifying it, either commercially or noncommercially. Secondarily, this License preserves for the author and publisher a way to get credit for their work, while not being considered responsible for modifications made by others."
+msgstr "Le but de cette Licence est de rendre un manuel, un manuel ou tout autre document fonctionnel et utile « libre » au sens de la liberté : assurer à chacun la liberté effective de le copier et de le redistribuer, avec ou sans modification, que ce soit commercialement ou non. Secondairement, cette Licence préserve pour l'auteur et l'éditeur un moyen d'obtenir du crédit pour leur travail, tout en n'étant pas considéré comme responsable des modifications apportées par d'autres."
+
+#. +> trunk5
+#: ../../user_manual/gnu-fdl.rst:24
+#, fuzzy
+msgid "This License is a kind of \"copyleft\", which means that derivative works of the document must themselves be free in the same sense.  It complements the GNU General Public License, which is a copyleft license designed for free software."
+msgstr "Elle complète la Licence Publique Générale GNU, qui est également une Licence copyleft, conçue pour les logiciels libres."
+
+#. +> trunk5
+#: ../../user_manual/gnu-fdl.rst:29
+#, fuzzy
+msgid "We have designed this License in order to use it for manuals for free software, because free software needs free documentation: a free program should come with manuals providing the same freedoms that the software does.  But this License is not limited to software manuals; it can be used for any textual work, regardless of subject matter or whether it is published as a printed book.  We recommend this License principally for works whose purpose is instruction or reference."
+msgstr "Nous avons conçu cette licence afin de l'utiliser pour des manuels de logiciels libres, car les logiciels libres ont besoin de documentation libre : un programme libre doit être livré avec des manuels offrant les mêmes libertés que le logiciel.  Mais cette Licence n'est pas limitée aux manuels de logiciels ; elle peut être utilisée pour tout travail textuel, quel que soit le sujet ou le fait qu'elle soit publiée sous forme de livre imprimé.  Nous recommandons cette licence principalement pour les œuvres dont le but est l'instruction ou la référence."
+
+#. +> trunk5
+#: ../../user_manual/gnu-fdl.rst:39
+#, fuzzy
+msgid "1. Applicability and Definitions"
+msgstr "CHAMP D' APPLICATION ET DÉFINITIONS"
+
+#. +> trunk5
+#: ../../user_manual/gnu-fdl.rst:41
+#, fuzzy
+msgid "This License applies to any manual or other work, in any medium, that contains a notice placed by the copyright holder saying it can be distributed under the terms of this License.  Such a notice grants a world-wide, royalty-free license, unlimited in duration, to use that work under the conditions stated herein.  The \"Document\", below, refers to any such manual or work.  Any member of the public is a licensee, and is addressed as \"you\".  You accept the license if you copy, modify or distribute the work in a way requiring permission under copyright law."
+msgstr "Cette licence s'applique à tout manuel ou autre œuvre, sur n'importe quel support, qui contient un avis placé par le détenteur des droits d'auteur indiquant qu'il peut être distribué selon les termes de cette licence.  Un tel avis accorde une licence mondiale, libre de droits et d'une durée illimitée, pour utiliser cette œuvre dans les conditions énoncées dans les présentes.  Le « Document » ci-dessous fait référence à un tel manuel ou ouvrage.  Tout membre du public est titulaire d'une licence et est appelé « vous ».  Vous acceptez la licence si vous copiez, modifiez ou distribuez l'œuvre d'une manière nécessitant une autorisation en vertu de la loi sur le droit d'auteur."
+
+#. +> trunk5
+#: ../../user_manual/gnu-fdl.rst:51
+#, fuzzy
+msgid "A \"Modified Version\" of the Document means any work containing the Document or a portion of it, either copied verbatim, or with modifications and/or translated into another language."
+msgstr "Une «Version Modifiée» du Document signifie : tout travail contenant le Document, en intégralité ou en partie, aussi bien une copie verbatim ou avec des modifications qu'une traduction dans une autre langue."
+
+#. +> trunk5
+#: ../../user_manual/gnu-fdl.rst:55
+#, fuzzy
+msgid "A \"Secondary Section\" is a named appendix or a front-matter section of the Document that deals exclusively with the relationship of the publishers or authors of the Document to the Document's overall subject (or to related matters) and contains nothing that could fall directly within that overall subject.  (Thus, if the Document is in part a textbook of mathematics, a Secondary Section may not explain any mathematics.)  The relationship could be a matter of historical connection with the subject or with related matters, or of legal, commercial, philosophical, ethical or political position regarding them."
+msgstr "Une « Section secondaire » est une annexe nommée ou une section préliminaire du Document qui traite exclusivement de la relation des éditeurs ou des auteurs du Document avec le sujet général du Document (ou avec des questions connexes) et ne contient rien qui pourrait relever directement de ce sujet général.  (Ainsi, si le document est en partie un manuel de mathématiques, une section secondaire ne peut expliquer aucune mathématique.) La relation peut être une question de lien historique avec le sujet ou avec des questions connexes, ou de position juridique, commerciale, philosophique, éthique ou politique à leur égard."
+
+#. +> trunk5
+#: ../../user_manual/gnu-fdl.rst:66
+#, fuzzy
+msgid "The \"Invariant Sections\" are certain Secondary Sections whose titles are designated, as being those of Invariant Sections, in the notice that says that the Document is released under this License.  If a section does not fit the above definition of Secondary then it is not allowed to be designated as Invariant.  The Document may contain zero Invariant Sections.  If the Document does not identify any Invariant Sections then there are none."
+msgstr "Les «Sections inaltérables» sont des sections secondaires considérées comme ne pouvant être modifiées et citées comme telles dans la notice légale qui place le Document sous cette Licence."
+
+#. +> trunk5
+#: ../../user_manual/gnu-fdl.rst:74
+#, fuzzy
+msgid "The \"Cover Texts\" are certain short passages of text that are listed, as Front-Cover Texts or Back-Cover Texts, in the notice that says that the Document is released under this License.  A Front-Cover Text may be at most 5 words, and a Back-Cover Text may be at most 25 words."
+msgstr "Les « Textes de Couverture » sont certains courts passages de texte qui sont énumérés, en tant que Textes de Première de Couverture ou Textes de Couverture Arrière, dans l'avis qui dit que le Document est publié sous cette Licence.  Un texte de couverture peut contenir au plus 5 mots, et un texte de couverture peut contenir au plus 25 mots."
+
+#. +> trunk5
+#: ../../user_manual/gnu-fdl.rst:79
+#, fuzzy
+msgid "A \"Transparent\" copy of the Document means a machine-readable copy, represented in a format whose specification is available to the general public, that is suitable for revising the document straightforwardly with generic text editors or (for images composed of pixels) generic paint programs or (for drawings) some widely available drawing editor, and that is suitable for input to text formatters or for automatic translation to a variety of formats suitable for input to text formatters.  A copy made in an otherwise Transparent file format whose markup, or absence of markup, has been arranged to thwart or discourage subsequent modification by readers is not Transparent. An image format is not Transparent if used for any substantial amount of text.  A copy that is not \"Transparent\" is called \"Opaque\"."
+msgstr "Une copie « transparente » du document désigne une copie lisible par machine, représentée dans un format dont les spécifications sont accessibles au grand public, qui convient à la révision du document directement avec des éditeurs de texte génériques ou (pour les images composées de pixels) des programmes de peinture génériques ou (pour les dessins) un éditeur de dessin largement disponible, et qui convient à la saisie dans des formateurs de texte ou à la traduction automatique vers une variété de formats adaptés à la saisie dans des formateurs de texte.  Une copie réalisée dans un format de fichier par ailleurs transparent dont le balisage, ou l'absence de balisage, a été organisé pour contrecarrer ou décourager toute modification ultérieure par les lecteurs n'est pas transparente. Un format d'image n'est pas transparent s'il est utilisé pour une quantité importante de texte.  Une copie qui n'est pas \"Transparente\" est dite \"Opaque\"."
+
+#. +> trunk5
+#: ../../user_manual/gnu-fdl.rst:92
+#, fuzzy
+msgid "Examples of suitable formats for Transparent copies include plain ASCII without markup, Texinfo input format, LaTeX input format, SGML or XML using a publicly available DTD, and standard-conforming simple HTML, PostScript or PDF designed for human modification.  Examples of transparent image formats include PNG, XCF and JPG.  Opaque formats include proprietary formats that can be read and edited only by proprietary word processors, SGML or XML for which the DTD and/or processing tools are not generally available, and the machine-generated HTML, PostScript or PDF produced by some word processors for output purposes only."
+msgstr "Des exemples de formats appropriés pour les copies transparentes incluent l'ASCII simple sans balisage, le format d'entrée Texinfo, le format d'entrée LaTeX, SGML ou XML utilisant une DTD accessible au public et le HTML, PostScript ou PDF simple conforme aux normes conçu pour la modification humaine.  Des exemples de formats d'image transparents incluent PNG, XCF et JPG.  Les formats opaques incluent les formats propriétaires qui peuvent être lus et modifiés uniquement par des traitements de texte propriétaires, SGML ou XML pour lesquels la DTD et/ou les outils de traitement ne sont généralement pas disponibles, ainsi que le HTML, PostScript ou PDF généré automatiquement par certains traitements de texte à des fins de sortie uniquement."
+
+#. +> trunk5
+#: ../../user_manual/gnu-fdl.rst:103
+#, fuzzy
+msgid "The \"Title Page\" means, for a printed book, the title page itself, plus such following pages as are needed to hold, legibly, the material this License requires to appear in the title page.  For works in formats which do not have any title page as such, \"Title Page\" means the text near the most prominent appearance of the work's title, preceding the beginning of the body of the text."
+msgstr "La « Page de titre » désigne, pour un livre imprimé, la page de titre elle-même, plus les pages suivantes nécessaires pour contenir, de manière lisible, le matériel dont la présente Licence a besoin pour apparaitre sur la page de titre.  Pour les œuvres dans des formats qui n'ont pas de page de titre en tant que telle, « Page de titre » désigne le texte près de l'apparence la plus visible du titre de l'œuvre, précédant le début du corps du texte."
+
+#. +> trunk5
+#: ../../user_manual/gnu-fdl.rst:110
+#, fuzzy
+msgid "The \"publisher\" means any person or entity that distributes copies of the Document to the public."
+msgstr "L '« éditeur » désigne toute personne ou entité qui distribue des copies du Document au public."
+
+#. +> trunk5
+#: ../../user_manual/gnu-fdl.rst:113
+#, fuzzy
+msgid "A section \"Entitled XYZ\" means a named subunit of the Document whose title either is precisely XYZ or contains XYZ in parentheses following text that translates XYZ in another language.  (Here XYZ stands for a specific section name mentioned below, such as \"Acknowledgements\", \"Dedications\", \"Endorsements\", or \"History\".)  To \"Preserve the Title\" of such a section when you modify the Document means that it remains a section \"Entitled XYZ\" according to this definition."
+msgstr "Une section « Intitulée XYZ » désigne une sous-unité nommée du Document dont le titre est précisément XYZ ou contient XYZ entre parenthèses après le texte qui traduit XYZ dans une autre langue.  (Ici, XYZ signifie un nom de section spécifique mentionné ci-dessous, tel que « Remerciements », « Dédicaces », « Approbations » ou « Historique ».) « Préserver le titre » d'une telle section lorsque vous modifiez le document signifie qu'elle reste une section « Intitulée XYZ » selon cette définition."
+
+#. +> trunk5
+#: ../../user_manual/gnu-fdl.rst:121
+#, fuzzy
+msgid "The Document may include Warranty Disclaimers next to the notice which states that this License applies to the Document.  These Warranty Disclaimers are considered to be included by reference in this License, but only as regards disclaiming warranties: any other implication that these Warranty Disclaimers may have is void and has no effect on the meaning of this License."
+msgstr "Le document peut inclure des exclusions de garantie à côté de l'avis qui indique que cette licence s'applique au document.  Ces exclusions de garantie sont considérées comme incluses par référence dans cette licence, mais uniquement en ce qui concerne les exclusions de garantie : toute autre implication que ces exclusions de garantie peuvent avoir est nulle et n'a aucun effet sur la signification de cette licence."
+
+#. +> trunk5
+#: ../../user_manual/gnu-fdl.rst:129
+#, fuzzy
+msgid "2. Verbatim Copying"
+msgstr "2. Copie textuelle"
+
+#. +> trunk5
+#: ../../user_manual/gnu-fdl.rst:131
+msgid "You may copy and distribute the Document in any medium, either commercially or noncommercially, provided that this License, the copyright notices, and the license notice saying this License applies to the Document are reproduced in all copies, and that you add no other conditions whatsoever to those of this License.  You may not use technical measures to obstruct or control the reading or further copying of the copies you make or distribute.  However, you may accept compensation in exchange for copies.  If you distribute a large enough number of copies you must also follow the conditions in section 3."
+msgstr "Vous pouvez copier et distribuer le document sur n'importe quel média, commercial ou non, à condition que cette licence, les avis de droits d'auteur et l'avis de licence indiquant que cette licence s'applique au document soient reproduits dans toutes les copies, et que vous n'ajoutiez aucune autre condition à celles de cette licence.  Vous ne pouvez pas utiliser de mesures techniques pour entraver ou contrôler la lecture ou la copie ultérieure des copies que vous faites ou distribuez.  Vous pouvez toutefois accepter une compensation en échange de copies.  Si vous distribuez un nombre d'exemplaires suffisant, vous devez également respecter les conditions de la section 3."
+
+#. +> trunk5
+#: ../../user_manual/gnu-fdl.rst:141
+#, fuzzy
+msgid "You may also lend copies, under the same conditions stated above, and you may publicly display copies."
+msgstr "Vous pouvez aussi prêter des copies, selon les mêmes conditions que celles mentionnées ci-dessus, et vous pouvez exposer publiquement des copies."
+
+#. +> trunk5
+#: ../../user_manual/gnu-fdl.rst:146
+#, fuzzy
+msgid "3. Copying in Quantity"
+msgstr "3. Copie en quantité"
+
+#. +> trunk5
+#: ../../user_manual/gnu-fdl.rst:148
+msgid "If you publish printed copies (or copies in media that commonly have printed covers) of the Document, numbering more than 100, and the Document's license notice requires Cover Texts, you must enclose the copies in covers that carry, clearly and legibly, all these Cover Texts: Front-Cover Texts on the front cover, and Back-Cover Texts on the back cover.  Both covers must also clearly and legibly identify you as the publisher of these copies.  The front cover must present the full title with all words of the title equally prominent and visible.  You may add other material on the covers in addition. Copying with changes limited to the covers, as long as they preserve the title of the Document and satisfy these conditions, can be treated as verbatim copying in other respects."
+msgstr "Si vous publiez des copies imprimées (ou des copies sur des documents comportant généralement des couvertures imprimées) du document, au nombre de plus de 100, et que l'avis de licence du document exige des textes de couverture, vous devez placer les copies dans des couvertures qui portent, de manière claire et lisible, tous ces textes de couverture : les textes de couverture sur la couverture avant et les textes de couverture arrière sur la couverture arrière.  Les deux couvertures doivent également vous identifier clairement et lisiblement en tant qu'éditeur de ces exemplaires.  La couverture doit présenter le titre complet avec tous les mots du titre également proéminents et visibles.  Vous pouvez également ajouter d'autres matériaux sur les couvertures. La copie avec des modifications limitées aux couvertures, pour autant qu'elles préservent le titre du Document et satisfassent à ces conditions, peut être assimilée à une copie textuelle à d'autres égards."
+
+#. +> trunk5
+#: ../../user_manual/gnu-fdl.rst:161
+#, fuzzy
+msgid "If the required texts for either cover are too voluminous to fit legibly, you should put the first ones listed (as many as fit reasonably) on the actual cover, and continue the rest onto adjacent pages."
+msgstr "Si les textes destinés à l'une ou l'autre page de couverture sont trop volumineux pour y figurer lisiblement, vous devez en mettre les premiers (autant qu'il est raisonnablement possible) sur la couverture proprement dite, et poursuivre sur les pages adjacentes."
+
+#. +> trunk5
+#: ../../user_manual/gnu-fdl.rst:166
+#, fuzzy
+msgid "If you publish or distribute Opaque copies of the Document numbering more than 100, you must either include a machine-readable Transparent copy along with each Opaque copy, or state in or with each Opaque copy a computer-network location from which the general network-using public has access to download using public-standard network protocols a complete Transparent copy of the Document, free of added material. If you use the latter option, you must take reasonably prudent steps, when you begin distribution of Opaque copies in quantity, to ensure that this Transparent copy will remain thus accessible at the stated location until at least one year after the last time you distribute an Opaque copy (directly or through your agents or retailers) of that edition to the public."
+msgstr "Si vous publiez ou distribuez plus de 100 copies opaques du document, vous devez soit inclure une copie transparente lisible par machine avec chaque copie opaque, soit indiquer dans ou avec chaque copie opaque un emplacement de réseau informatique à partir duquel le grand public utilisant le réseau a accès pour télécharger en utilisant des protocoles de réseau publics standard une copie transparente complète du document, sans matériel ajouté. Si vous utilisez cette dernière option, vous devez prendre des mesures raisonnablement prudentes, lorsque vous commencez la distribution de copies opaques en quantité, pour vous assurer que cette copie transparente restera ainsi accessible à l'emplacement indiqué jusqu'à au moins un an après la dernière fois que vous distribuez une copie opaque (directement ou par l'intermédiaire de vos agents ou détaillants) de cette édition au public."
+
+#. +> trunk5
+#: ../../user_manual/gnu-fdl.rst:179
+#, fuzzy
+msgid "It is requested, but not required, that you contact the authors of the Document well before redistributing any large number of copies, to give them a chance to provide you with an updated version of the Document."
+msgstr "Il est souhaité, mais non exigé, que vous contactiez les auteurs du Document bien avant la redistribution de tout grand nombre de copies, afin de leur laisser la possibilité de vous fournir une version mise à jour du Document."
+
+#. +> trunk5
+#: ../../user_manual/gnu-fdl.rst:186
+#, fuzzy
+msgid "4. Modifications"
+msgstr "4 modifications."
+
+#. +> trunk5
+#: ../../user_manual/gnu-fdl.rst:188
+#, fuzzy
+msgid "You may copy and distribute a Modified Version of the Document under the conditions of sections 2 and 3 above, provided that you release the Modified Version under precisely this License, with the Modified Version filling the role of the Document, thus licensing distribution and modification of the Modified Version to whoever possesses a copy of it.  In addition, you must do these things in the Modified Version:"
+msgstr "Vous pouvez copier et distribuer une Version modifiée du Document en respectant les conditions des sections 2 et 3 précédentes, à condition de placer cette Version modifiée sous la présente Licence, dans laquelle le terme «Document» doit être remplacé par les termes «Version modifiée», donnant ainsi l'autorisation de redistribuer et de modifier cette Version modifiée à quiconque en possède une copie. De plus, vous devez effectuer les actions suivantes dans la Version modifiée:"
+
+#. +> trunk5
+#: ../../user_manual/gnu-fdl.rst:195
+#, fuzzy
+msgid "**A.** Use in the Title Page (and on the covers, if any) a title distinct from that of the Document, and from those of previous versions (which should, if there were any, be listed in the History section of the Document).  You may use the same title as a previous version if the original publisher of that version gives permission."
+msgstr "**A.** Utiliser dans la Page de titre (et sur les couvertures, le cas échéant) un titre distinct de celui du Document, et de ceux des versions précédentes (qui devraient, le cas échéant, être répertoriés dans la section Historique du Document).  Vous pouvez utiliser le même titre qu'une version précédente si l'éditeur d'origine de cette version vous en donne l'autorisation."
+
+#. +> trunk5
+#: ../../user_manual/gnu-fdl.rst:200
+#, fuzzy
+msgid "**B.** List on the Title Page, as authors, one or more persons or entities responsible for authorship of the modifications in the Modified Version, together with at least five of the principal authors of the Document (all of its principal authors, if it has fewer than five), unless they release you from this requirement."
+msgstr "Mentionner sur la Page de titre en tant qu'auteurs une ou plusieurs des personnes ou entités responsables des modifications de la Version modifiée, avec au moins les cinq principaux auteurs du Document (ou tous les auteurs s'il y en a moins de cinq)."
+
+#. +> trunk5
+#: ../../user_manual/gnu-fdl.rst:205
+#, fuzzy
+msgid "**C.** State on the Title page the name of the publisher of the Modified Version, as the publisher."
+msgstr "Préciser sur la Page de titre le nom de l'éditeur de la Version modifiée, en tant qu'éditeur du Document."
+
+#. +> trunk5
+#: ../../user_manual/gnu-fdl.rst:207
+#, fuzzy
+msgid "**D.** Preserve all the copyright notices of the Document."
+msgstr "Préserver intégralement toutes les notices de copyright du Document"
+
+#. +> trunk5
+#: ../../user_manual/gnu-fdl.rst:208
+#, fuzzy
+msgid "**E.** Add an appropriate copyright notice for your modifications adjacent to the other copyright notices."
+msgstr "Ajoutez une mention de copyright appropriée à vos modifications, aux côtés des autres mentions de copyright."
+
+#. +> trunk5
+#: ../../user_manual/gnu-fdl.rst:210
+#, fuzzy
+msgid "**F.** Include, immediately after the copyright notices, a license notice giving the public permission to use the Modified Version under the terms of this License, in the form shown in the Addendum below."
+msgstr "Incluez, immédiatement après les mentions de copyright, une mention de licence qui accorde la permission publique d'utiliser la Version Modifiée selon les termes de la présente Licence, sous la forme présentée dans la section Addendum ci-dessous."
+
+#. +> trunk5
+#: ../../user_manual/gnu-fdl.rst:213
+#, fuzzy
+msgid "**G.** Preserve in that license notice the full lists of Invariant Sections and required Cover Texts given in the Document's license notice."
+msgstr "Préserver dans cette notice la liste complète des Sections inaltérables et les Textes de couverture donnés avec la notice de la Licence du Document."
+
+#. +> trunk5
+#: ../../user_manual/gnu-fdl.rst:215
+#, fuzzy
+msgid "**H.** Include an unaltered copy of this License."
+msgstr "Inclure une copie non modifiée de cette Licence."
+
+#. +> trunk5
+#: ../../user_manual/gnu-fdl.rst:216
+#, fuzzy
+msgid "**I.** Preserve the section Entitled \"History\", Preserve its Title, and add to it an item stating at least the title, year, new authors, and publisher of the Modified Version as given on the Title Page.  If there is no section Entitled \"History\" in the Document, create one stating the title, year, authors, and publisher of the Document as given on its Title Page, then add an item describing the Modified Version as stated in the previous sentence."
+msgstr "Préserver la section nommée «Historique» et son titre, et y ajouter une nouvelle entrée décrivant le titre, l'année, les nouveaux auteurs et l'éditeur de la Version modifiée, tels que décrits sur la Page de titre, ainsi qu'un descriptif des modifications apportées depuis la précédente version."
+
+#. +> trunk5
+#: ../../user_manual/gnu-fdl.rst:223
+#, fuzzy
+msgid "**J.** Preserve the network location, if any, given in the Document for public access to a Transparent copy of the Document, and likewise the network locations given in the Document for previous versions it was based on.  These may be placed in the \"History\" section. You may omit a network location for a work that was published at least four years before the Document itself, or if the original publisher of the version it refers to gives permission."
+msgstr "**J.** Préserver l'emplacement réseau, le cas échéant, indiqué dans le Document pour l'accès public à une copie transparente du Document, ainsi que les emplacements réseau indiqués dans le Document pour les versions précédentes sur lesquelles il était basé.  Ceux-ci peuvent être placés dans la section « Historique ». Vous pouvez omettre un emplacement réseau pour une œuvre qui a été publiée au moins quatre ans avant le Document lui-même, ou si l'éditeur d'origine de la version à laquelle il fait référence donne son autorisation."
+
+#. +> trunk5
+#: ../../user_manual/gnu-fdl.rst:230
+#, fuzzy
+msgid "**K.** For any section Entitled \"Acknowledgements\" or \"Dedications\", Preserve the Title of the section, and preserve in the section all the substance and tone of each of the contributor acknowledgements and/or dedications given therein."
+msgstr "Si une section «Dédicaces» ou une section «Remerciements» sont présentes, les informations et les appréciations concernant les contributeurs et les personnes auxquelles s'adressent ces remerciements doivent être conservées, ainsi que le titre de ces sections."
+
+#. +> trunk5
+#: ../../user_manual/gnu-fdl.rst:234
+#, fuzzy
+msgid "**L.** Preserve all the Invariant Sections of the Document, unaltered in their text and in their titles.  Section numbers or the equivalent are not considered part of the section titles."
+msgstr "**L.** Préserver toutes les Sections Invariables du Document, inchangées dans leur texte et dans leurs titres. Les numéros de section ou l'équivalent ne sont pas considérés comme faisant partie des titres de section."
+
+#. +> trunk5
+#: ../../user_manual/gnu-fdl.rst:237
+#, fuzzy
+msgid "**M.** Delete any section Entitled \"Endorsements\".  Such a section may not be included in the Modified Version."
+msgstr "Les milliards de dollars qu&apos;ils ont investis dans le développement de leur technologie n&apos;auraient jamais rien donné sans la protection des fruits de leur travail intellectuel."
+
+#. +> trunk5
+#: ../../user_manual/gnu-fdl.rst:239
+#, fuzzy
+msgid "**N.** Do not retitle any existing section to be Entitled \"Endorsements\" or to conflict in title with any Invariant Section."
+msgstr "Le logiciel libre a cependant trouvé sa place dans l&apos;écosystème informatique et il donne aux concepteurs et aux utilisateurs de logiciels la possibilité importante d&apos;un style différent de développement et de distribution."
+
+#. +> trunk5
+#: ../../user_manual/gnu-fdl.rst:241
+#, fuzzy
+msgid "**O.** Preserve any Warranty Disclaimers."
+msgstr "**O.** Préserver les exclusions de garantie."
+
+#. +> trunk5
+#: ../../user_manual/gnu-fdl.rst:243
+#, fuzzy
+msgid "If the Modified Version includes new front-matter sections or appendices that qualify as Secondary Sections and contain no material copied from the Document, you may at your option designate some or all of these sections as invariant.  To do this, add their titles to the list of Invariant Sections in the Modified Version's license notice. These titles must be distinct from any other section titles."
+msgstr "Pour prendre la décision soit d&apos;adopter des solutions offertes par les logiciels libres, soit de payer des logiciels commerciaux, il est important de considérer comment la solution du logiciel libre se place par rapport à celle du logiciel commercial non seulement en termes de caractéristiques techniques, mais aussi en termes d&apos;investissement global et de coût total de possession."
+
+#. +> trunk5
+#: ../../user_manual/gnu-fdl.rst:250
+#, fuzzy
+msgid "You may add a section Entitled \"Endorsements\", provided it contains nothing but endorsements of your Modified Version by various parties--for example, statements of peer review or that the text has been approved by an organization as the authoritative definition of a standard."
+msgstr "Vous pouvez ajouter une section nommée «Approbations» à condition que ces approbations ne concernent que les modifications ayant donné naissance à la Version modifiée (par exemple, comptes rendus de revue du document ou acceptation du texte par une organisation le reconnaissant comme étant la définition d'un standard)."
+
+#. +> trunk5
+#: ../../user_manual/gnu-fdl.rst:256
+#, fuzzy
+msgid "You may add a passage of up to five words as a Front-Cover Text, and a passage of up to 25 words as a Back-Cover Text, to the end of the list of Cover Texts in the Modified Version.  Only one passage of Front-Cover Text and one of Back-Cover Text may be added by (or through arrangements made by) any one entity.  If the Document already includes a cover text for the same cover, previously added by you or by arrangement made by the same entity you are acting on behalf of, you may not add another; but you may replace the old one, on explicit permission from the previous publisher that added the old one."
+msgstr "Vous pouvez ajouter un passage de cinq mots maximum comme texte de couverture et un passage de 25 mots maximum comme texte de couverture arrière à la fin de la liste des textes de couverture dans la version modifiée.  Un seul passage du texte de couverture et un seul du texte de couverture arrière peuvent être ajoutés par (ou par le biais d'arrangements pris par) une seule entité.  Si le Document comprend déjà un texte de couverture pour la même couverture, préalablement ajouté par vous ou par arrangement pris par la même entité pour le compte de laquelle vous agissez, vous ne pouvez pas en ajouter un autre ; mais vous pouvez remplacer l'ancien, avec l'autorisation explicite de l'éditeur précédent qui a ajouté l'ancien."
+
+#. +> trunk5
+#: ../../user_manual/gnu-fdl.rst:266
+#, fuzzy
+msgid "The author(s) and publisher(s) of the Document do not by this License give permission to use their names for publicity for or to assert or imply endorsement of any Modified Version."
+msgstr "Cette Licence ne vous donne pas le droit d'utiliser le nom des auteurs et des éditeurs de ce Document à des fins publicitaires ou pour prétendre à l'approbation d'une Version modifiée."
+
+#. +> trunk5
+#: ../../user_manual/gnu-fdl.rst:272
+#, fuzzy
+msgid "5. Combining Documents"
+msgstr "5. Combinaison de documents"
+
+#. +> trunk5
+#: ../../user_manual/gnu-fdl.rst:274
+#, fuzzy
+msgid "You may combine the Document with other documents released under this License, under the terms defined in section 4 above for modified versions, provided that you include in the combination all of the Invariant Sections of all of the original documents, unmodified, and list them all as Invariant Sections of your combined work in its license notice, and that you preserve all their Warranty Disclaimers."
+msgstr "Vous pouvez fusionner le Document avec d'autres documents soumis à cette Licence, suivant les spécifications de la section 4 pour les Versions modifiées, à condition d'inclure dans le document résultant toutes les Sections inaltérables des documents originaux sans modification, et de toutes les lister dans la liste des Sections inaltérables de la notice de Licence du document résultant de la fusion."
+
+#. +> trunk5
+#: ../../user_manual/gnu-fdl.rst:281
+#, fuzzy
+msgid "The combined work need only contain one copy of this License, and multiple identical Invariant Sections may be replaced with a single copy.  If there are multiple Invariant Sections with the same name but different contents, make the title of each such section unique by adding at the end of it, in parentheses, the name of the original author or publisher of that section if known, or else a unique number. Make the same adjustment to the section titles in the list of Invariant Sections in the license notice of the combined work."
+msgstr "Le travail combiné ne doit contenir qu'une seule copie de cette licence, et plusieurs sections invariantes identiques peuvent être remplacées par une seule copie.  S'il existe plusieurs sections invariantes avec le même nom mais un contenu différent, rendez le titre de chacune de ces sections unique en ajoutant à la fin de celui-ci, entre parenthèses, le nom de l'auteur ou de l'éditeur original de cette section s'il est connu, ou bien un numéro unique. Effectuez le même ajustement aux titres des sections dans la liste des sections invariantes dans l'avis de licence de l'œuvre combinée."
+
+#. +> trunk5
+#: ../../user_manual/gnu-fdl.rst:290
+#, fuzzy
+msgid "In the combination, you must combine any sections Entitled \"History\" in the various original documents, forming one section Entitled \"History\"; likewise combine any sections Entitled \"Acknowledgements\", and any sections Entitled \"Dedications\".  You must delete all sections Entitled \"Endorsements\"."
+msgstr "Dans le document résultant de la fusion, vous devez rassembler en une seule toutes les sections «Historique» des documents d'origine. De même, vous devez rassembler les sections «Remerciements» et «Dédicaces»."
+
+#. +> trunk5
+#: ../../user_manual/gnu-fdl.rst:298
+#, fuzzy
+msgid "6. Collections of Documents"
+msgstr "6. Collections de documents"
+
+#. +> trunk5
+#: ../../user_manual/gnu-fdl.rst:300
+#, fuzzy
+msgid "You may make a collection consisting of the Document and other documents released under this License, and replace the individual copies of this License in the various documents with a single copy that is included in the collection, provided that you follow the rules of this License for verbatim copying of each of the documents in all other respects."
+msgstr "Vous pouvez créer un regroupement de documents comprenant le Document et d'autres documents soumis à cette Licence, et remplacer les copies individuelles de cette Licence des différents documents par une unique copie incluse dans le regroupement de documents, à condition de respecter pour chacun de ces documents l'ensemble des règles de cette Licence concernant les copies conformes."
+
+#. +> trunk5
+#: ../../user_manual/gnu-fdl.rst:307
+#, fuzzy
+msgid "You may extract a single document from such a collection, and distribute it individually under this License, provided you insert a copy of this License into the extracted document, and follow this License in all other respects regarding verbatim copying of that document."
+msgstr "Vous pouvez extraire un document d'un tel regroupement et le distribuer individuellement sous couvert de cette Licence, à condition d'y inclure une copie de cette Licence et d'en respecter l'ensemble des règles concernant les copies conformes."
+
+#. +> trunk5
+#: ../../user_manual/gnu-fdl.rst:315
+#, fuzzy
+msgid "7. Aggregation with Independent Works"
+msgstr "7. Agrégation avec des œuvres indépendantes"
+
+#. +> trunk5
+#: ../../user_manual/gnu-fdl.rst:317
+#, fuzzy
+msgid "A compilation of the Document or its derivatives with other separate and independent documents or works, in or on a volume of a storage or distribution medium, is called an \"aggregate\" if the copyright resulting from the compilation is not used to limit the legal rights of the compilation's users beyond what the individual works permit. When the Document is included in an aggregate, this License does not apply to the other works in the aggregate which are not themselves derivative works of the Document."
+msgstr "Une compilation du Document ou de ses dérivés avec d'autres documents ou œuvres séparés et indépendants, dans ou sur un volume d'un support de stockage ou de distribution, est appelée un « agrégat » si le droit d'auteur résultant de la compilation n'est pas utilisé pour limiter les droits légaux des utilisateurs de la compilation au-delà de ce que permettent les œuvres individuelles. Lorsque le Document est inclus dans un ensemble, cette Licence ne s'applique pas aux autres œuvres dans l'ensemble qui ne sont pas elles-mêmes des œuvres dérivées du Document."
+
+#. +> trunk5
+#: ../../user_manual/gnu-fdl.rst:326
+#, fuzzy
+msgid "If the Cover Text requirement of section 3 is applicable to these copies of the Document, then if the Document is less than one half of the entire aggregate, the Document's Cover Texts may be placed on covers that bracket the Document within the aggregate, or the electronic equivalent of covers if the Document is in electronic form. Otherwise they must appear on printed covers that bracket the whole aggregate."
+msgstr "Si les exigences de la section 3 concernant les Textes de couverture sont applicables à ces copies du Document, et si le Document représente un volume inférieur à un quart du volume total de l'agrégat, les Textes de couverture du Document peuvent être placés sur des pages de couverture qui n'encadrent que le Document au sein de l'agrégat."
+
+#. +> trunk5
+#: ../../user_manual/gnu-fdl.rst:336
+#, fuzzy
+msgid "8. Translation"
+msgstr "8 - TRADUCTION"
+
+#. +> trunk5
+#: ../../user_manual/gnu-fdl.rst:338
+#, fuzzy
+msgid "Translation is considered a kind of modification, so you may distribute translations of the Document under the terms of section 4. Replacing Invariant Sections with translations requires special permission from their copyright holders, but you may include translations of some or all Invariant Sections in addition to the original versions of these Invariant Sections.  You may include a translation of this License, and all the license notices in the Document, and any Warranty Disclaimers, provided that you also include the original English version of this License and the original versions of those notices and disclaimers.  In case of a disagreement between the translation and the original version of this License or a notice or disclaimer, the original version will prevail."
+msgstr "La traduction est considérée comme une sorte de modification, vous pouvez donc distribuer des traductions du document selon les termes de la section 4. Le remplacement des sections invariantes par des traductions nécessite une autorisation spéciale de leurs détenteurs de droits d'auteur, mais vous pouvez inclure des traductions de certaines ou de toutes les sections invariantes en plus des versions originales de ces sections invariantes.  Vous pouvez inclure une traduction de cette licence et de tous les avis de licence dans le document, ainsi que toute clause de non-responsabilité, à condition d'inclure également la version originale anglaise de cette licence et les versions originales de ces avis et clauses de non-responsabilité.  En cas de désaccord entre la traduction et la version originale de cette Licence ou un avis ou une clause de non-responsabilité, la version originale prévaudra."
+
+#. +> trunk5
+#: ../../user_manual/gnu-fdl.rst:351
+#, fuzzy
+msgid "If a section in the Document is Entitled \"Acknowledgements\", \"Dedications\", or \"History\", the requirement (section 4) to Preserve its Title (section 1) will typically require changing the actual title."
+msgstr "Si une section du document est intitulée « Remerciements », « Dédicaces » ou « Historique », l'exigence (section 4) de préserver son titre (section 1) nécessitera généralement de changer le titre réel."
+
+#. +> trunk5
+#: ../../user_manual/gnu-fdl.rst:358
+#, fuzzy
+msgid "9. Termination"
+msgstr "9. Abrogation"
+
+#. +> trunk5
+#: ../../user_manual/gnu-fdl.rst:360
+#, fuzzy
+msgid "You may not copy, modify, sublicense, or distribute the Document except as expressly provided under this License.  Any attempt otherwise to copy, modify, sublicense, or distribute it is void, and will automatically terminate your rights under this License."
+msgstr "Vous ne pouvez pas copier, modifier, sous-licencier ou distribuer le Document, sauf dans les cas expressément prévus par la présente Licence.  Toute tentative de copie, de modification, de sous-licence ou de distribution est nulle et non avenue et mettra automatiquement fin à vos droits en vertu de la présente Licence."
+
+#. +> trunk5
+#: ../../user_manual/gnu-fdl.rst:365
+#, fuzzy
+msgid "However, if you cease all violation of this License, then your license from a particular copyright holder is reinstated **(a)** provisionally, unless and until the copyright holder explicitly and finally terminates your license, and **(b)** permanently, if the copyright holder fails to notify you of the violation by some reasonable means prior to 60 days after the cessation."
+msgstr "Cependant, si vous cessez toute violation de cette Licence, alors votre licence d'un détenteur de droits d'auteur particulier est rétablie **(a)** provisoirement, à moins que et jusqu'à ce que le détenteur de droits d'auteur résilie explicitement et définitivement votre licence, et * * (b) * * définitivement, si le détenteur de droits d'auteur ne vous informe pas de la violation par un moyen raisonnable avant 60 jours après la cessation."
+
+#. +> trunk5
+#: ../../user_manual/gnu-fdl.rst:372
+#, fuzzy
+msgid "Moreover, your license from a particular copyright holder is reinstated permanently if the copyright holder notifies you of the violation by some reasonable means, this is the first time you have received notice of violation of this License (for any work) from that copyright holder, and you cure the violation prior to 30 days after your receipt of the notice."
+msgstr "De plus, votre licence depuis un titulaire particulier de Droit d’Auteur est réinstaurée de façon permanente si ce titulaire vous notifie de la violation par quelque moyen raisonnable, c’est la première fois que vous avez reçu une notification deviolation de cette Licence (pour un travail quelconque) depuis ce titulaire de Droit d’Auteur, et vous résolvez la violation dans les trente (30) jours qui suivent votre réception de la notification."
+
+#. +> trunk5
+#: ../../user_manual/gnu-fdl.rst:379
+#, fuzzy
+msgid "Termination of your rights under this section does not terminate the licenses of parties who have received copies or rights from you under this License.  If your rights have been terminated and not permanently reinstated, receipt of a copy of some or all of the same material does not give you any rights to use it."
+msgstr "La résiliation de vos droits en vertu de cette section ne met pas fin aux licences des parties qui ont reçu des copies ou des droits de votre part en vertu de cette licence.  Si vos droits ont été résiliés et non rétablis définitivement, la réception d'une copie de tout ou partie du même matériel ne vous donne aucun droit de l'utiliser."
+
+#. +> trunk5
+#: ../../user_manual/gnu-fdl.rst:387
+#, fuzzy
+msgid "10. Future Revisions of this License"
+msgstr "10. Révisions futures de cette licence"
+
+#. +> trunk5
+#: ../../user_manual/gnu-fdl.rst:389
+#, fuzzy
+msgid "The Free Software Foundation may publish new, revised versions of the GNU Free Documentation License from time to time.  Such new versions will be similar in spirit to the present version, but may differ in detail to address new problems or concerns.  See <http://www.gnu.org/copyleft/>."
+msgstr "La Free Software Foundation peut publier de temps en temps de nouvelles versions révisées de cette Licence. Ces nouvelles versions seront semblables à la présente version dans l'esprit, mais pourront différer sur des points particuliers en fonction de nouvelles questions ou nouveaux problèmes."
+
+#. +> trunk5
+#: ../../user_manual/gnu-fdl.rst:395
+#, fuzzy
+msgid "Each version of the License is given a distinguishing version number. If the Document specifies that a particular numbered version of this License \"or any later version\" applies to it, you have the option of following the terms and conditions either of that specified version or of any later version that has been published (not as a draft) by the Free Software Foundation.  If the Document does not specify a version number of this License, you may choose any version ever published (not as a draft) by the Free Software Foundation.  If the Document specifies that a proxy can decide which future versions of this License can be used, that proxy's public statement of acceptance of a version permanently authorizes you to choose that version for the Document."
+msgstr "Chaque version de la Licence reçoit un numéro de version distinctif. Si le document précise qu'une version numérotée particulière de cette licence « ou toute version ultérieure » s'y applique, vous avez la possibilité de suivre les termes et conditions soit de cette version spécifiée, soit de toute version ultérieure qui a été publiée (et non sous forme de brouillon) par la Free Software Foundation.  Si le document ne précise pas de numéro de version de cette licence, vous pouvez choisir n'importe quelle version jamais publiée (et non sous forme de brouillon) par la Free Software Foundation.  Si le Document précise qu'un mandataire peut décider quelles versions futures de cette Licence peuvent être utilisées, la déclaration publique d'acceptation d'une version par ce mandataire vous autorise en permanence à choisir cette version pour le Document."
+
+#. +> trunk5
+#: ../../user_manual/gnu-fdl.rst:409
+#, fuzzy
+msgid "11. Relicensing"
+msgstr "11. Relicensing"
+
+#. +> trunk5
+#: ../../user_manual/gnu-fdl.rst:411
+#, fuzzy
+msgid "\"Massive Multiauthor Collaboration Site\" (or \"MMC Site\") means any World Wide Web server that publishes copyrightable works and also provides prominent facilities for anybody to edit those works.  A public wiki that anybody can edit is an example of such a server.  A \"Massive Multiauthor Collaboration\" (or \"MMC\") contained in the site means any set of copyrightable works thus published on the MMC site."
+msgstr "« Site de collaboration multi-auteurs massif » (ou « Site MMC ») désigne tout serveur World Wide Web qui publie des œuvres protégées par le droit d'auteur et fournit également des installations de premier plan à quiconque pour éditer ces œuvres.  Un wiki public que tout le monde peut modifier est un exemple d'un tel serveur.  Une « Collaboration Massive Multi-auteur » (ou « MMC ») contenue dans le site désigne tout ensemble d'œuvres protégeables par le droit d'auteur ainsi publié sur le site MMC."
+
+#. +> trunk5
+#: ../../user_manual/gnu-fdl.rst:418
+#, fuzzy
+msgid "\"CC-BY-SA\" means the Creative Commons Attribution-Share Alike 3.0 license published by Creative Commons Corporation, a not-for-profit corporation with a principal place of business in San Francisco, California, as well as future copyleft versions of that license published by that same organization."
+msgstr "« CC-BY-SA » désigne la licence Creative Commons Attribution-Share Alike 3.0 publiée par Creative Commons Corporation, une société à but non lucratif dont le siège social est situé à San Francisco, en Californie, ainsi que les futures versions copyleft de cette licence publiées par cette même organisation."
+
+#. +> trunk5
+#: ../../user_manual/gnu-fdl.rst:424
+#, fuzzy
+msgid "\"Incorporate\" means to publish or republish a Document, in whole or in part, as part of another Document."
+msgstr "« Incorporer » signifie publier ou republier un Document, en tout ou en partie, dans le cadre d'un autre Document."
+
+#. +> trunk5
+#: ../../user_manual/gnu-fdl.rst:427
+#, fuzzy
+msgid "An MMC is \"eligible for relicensing\" if it is licensed under this License, and if all works that were first published under this License somewhere other than this MMC, and subsequently incorporated in whole or in part into the MMC, **(1)** had no cover texts or invariant sections, and **(2)** were thus incorporated prior to November 1, 2008."
+msgstr "Une MMC est « admissible à une nouvelle licence » si elle est sous licence en vertu de la présente licence, et si toutes les œuvres qui ont été publiées pour la première fois sous cette licence ailleurs que dans cette MMC, et incorporées par la suite en tout ou en partie dans la MMC, * * (1)** n'avaient pas de textes de couverture ou de sections invariantes, et * * (2) * * ont donc été incorporées avant le 1er novembre 2008."
+
+#. +> trunk5
+#: ../../user_manual/gnu-fdl.rst:433
+#, fuzzy
+msgid "The operator of an MMC Site may republish an MMC contained in the site under CC-BY-SA on the same site at any time before August 1, 2009, provided the MMC is eligible for relicensing."
+msgstr "L'exploitant d'un site MMC peut republier une MMC contenue dans le site sous CC-BY-SA sur le même site à tout moment avant le 1er août 2009, à condition que la MMC soit admissible à une nouvelle licence."
+
+#. +> trunk5
+#: ../../user_manual/gnu-fdl.rst:439
+#, fuzzy
+msgid "ADDENDUM: How to use this License for your documents"
+msgstr "Addendum: Comment utiliser la présente licence dans vos documents"
+
+#. +> trunk5
+#: ../../user_manual/gnu-fdl.rst:441
+#, fuzzy
+msgid "To use this License in a document you have written, include a copy of the License in the document and put the following copyright and license notices just after the title page:"
+msgstr "Pour utiliser cette Licence avec un document que vous avez écrit, incorporez une copie du texte de cette Licence en anglais et placez le texte ci-dessous juste après la page de titre:"
+
+#. +> trunk5
+#: ../../user_manual/gnu-fdl.rst:445
+#, fuzzy
+msgid "Copyright (c)  <YEAR>  <YOUR NAME>."
+msgstr "Copyright (c)<YEAR>  <YOUR NAME>."
+
+#. +> trunk5
+#: ../../user_manual/gnu-fdl.rst:446
+#, fuzzy
+msgid "Permission is granted to copy, distribute and/or modify this document"
+msgstr "L'autorisation est accordée de copier, distribuer et/ou modifier ce document"
+
+#. +> trunk5
+#: ../../user_manual/gnu-fdl.rst:447
+#, fuzzy
+msgid "under the terms of the GNU Free Documentation License, Version 1.3"
+msgstr "aux termes de la Licence de Documentation Libre GNU, Version 1.3"
+
+#. +> trunk5
+#: ../../user_manual/gnu-fdl.rst:448
+#, fuzzy
+msgid "or any later version published by the Free Software Foundation;"
+msgstr "ou toute version ultérieure publiée par la Free Software Foundation ;"
+
+#. +> trunk5
+#: ../../user_manual/gnu-fdl.rst:449
+#, fuzzy
+msgid "with no Invariant Sections, no Front-Cover Texts, and no Back-Cover Texts."
+msgstr "sans Sections Invariantes, sans Textes de Première de Couverture et sans Textes de Couverture Arrière."
+
+#. +> trunk5
+#: ../../user_manual/gnu-fdl.rst:450
+#, fuzzy
+msgid "A copy of the license is included in the section entitled \"GNU"
+msgstr "Une copie de la licence est incluse dans la section intitulée « GNU"
+
+#. +> trunk5
+#: ../../user_manual/gnu-fdl.rst:451
+#, fuzzy
+msgid "Free Documentation License\"."
+msgstr "Licence de la documentation"
+
+#. +> trunk5
+#: ../../user_manual/gnu-fdl.rst:453
+#, fuzzy
+msgid "If you have Invariant Sections, Front-Cover Texts and Back-Cover Texts, replace the `with...Texts.` line with this:"
+msgstr "Si vous avez des Sections Invariantes, des Textes de Première de Couverture et des Textes de Seconde de Couverture, remplacez la ligne `par...Textes.` par ceci :"
+
+#. +> trunk5
+#: ../../user_manual/gnu-fdl.rst:456
+#, fuzzy
+msgid "with the Invariant Sections being <LIST THEIR TITLES>, with the"
+msgstr "avec les Sections Invariantes étant<LIST THEIR TITLES>, avec le"
+
+#. +> trunk5
+#: ../../user_manual/gnu-fdl.rst:457
+#, fuzzy
+msgid "Front-Cover Texts being <LIST>, and with the Back-Cover Texts being <LIST>."
+msgstr "Les Textes de Première de Couverture étant<LIST>, et les Textes de Couverture Arrière étant<LIST>."
+
+#. +> trunk5
+#: ../../user_manual/gnu-fdl.rst:459
+#, fuzzy
+msgid "If you have Invariant Sections without Cover Texts, or some other combination of the three, merge those two alternatives to suit the situation."
+msgstr "Si vous avez des Sections Invariantes sans Textes de Couverture, ou une autre combinaison des trois, fusionnez ces deux alternatives en fonction de la situation."
+
+#. +> trunk5
+#: ../../user_manual/gnu-fdl.rst:463
+#, fuzzy
+msgid "If your document contains nontrivial examples of program code, we recommend releasing these examples in parallel under your choice of free software license, such as the GNU General Public License, to permit their use in free software."
+msgstr "Si votre Document contient des exemples non triviaux de code programme, nous recommandons de distribuer ces exemples en parallèle sous Licence GNU General Public License, qui permet leur usage dans les logiciels libres."

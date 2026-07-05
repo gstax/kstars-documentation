@@ -1,0 +1,168 @@
+# translation of kstars_config.po to french
+# traduction de kstars_config.po en Français
+# Copyright (C) 2002,2003, 2004 Free Software Foundation, Inc.
+# Gérard Delafond <gerard@delafond.org>, 2002,2003, 2004.
+# Ludovic Grossard <grossard@kde.org>, 2002, 2003, 2004, 2012.
+# Cyrille Bieuzent <bieuzent@gmail.com>, 2012, 2013.
+# SPDX-FileCopyrightText: 2012, 2024, 2025 Xavier Besnard <xavier.besnard@kde.org>
+# steve <stax@ik.me>, 2022, 2023, 2024.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: kstars_config_3.7.4\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2025-06-14 09:49+0200\n"
+"PO-Revision-Date: 2025-01-14 14:38+0100\n"
+"Last-Translator: Xavier Besnard <xavier.besnard@kde.org>\n"
+"Language-Team: French <French <kde-francophone@kde.org>>\n"
+"Language: fr\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n > 1);\n"
+"X-Generator: Lokalize 24.12.1\n"
+
+#. +> trunk5
+#: ../../user_manual/viewops.rst:3
+#, fuzzy
+#| msgid "The Configure &kstars; Window"
+msgid "The Configure KStars Window"
+msgstr "La fenêtre de configuration de &kstars;"
+
+#. +> trunk5
+#: ../../user_manual/viewops.rst:5
+#, fuzzy
+#| msgid "The <guilabel>Configure - &kstars;</guilabel> window allows you to modify a wide range of display options. You can access the window with the <guiicon>Configure</guiicon> toolbar icon, or by selecting the <menuchoice><guimenu>Settings</guimenu> <guimenuitem>Configure &kstars;...</guimenuitem></menuchoice> menu item. The window is depicted below:"
+msgid "The ``Configure - KStars`` window allows you to modify a wide range of display options. You can access the window with the ``Configure toolbar`` icon, or by selecting the ``Settings`` → ``Configure KStars...`` menu item. The window is depicted below:"
+msgstr "La fenêtre <guilabel>Configuration de &kstars;</guilabel> vous permet de modifier une grande variété d'options d'affichage. Vous pouvez accéder à la fenêtre avec l'icône de barre d'outils <guiicon>Configurer</guiicon> ou en sélectionnant le menu <menuchoice><guimenu>Configuration</guimenu> <guimenuitem>Configurer &kstars;…</guimenuitem></menuchoice>. Cette fenêtre est décrite ci-après :"
+
+#. +> trunk5
+#: ../../user_manual/viewops.rst:10
+#, fuzzy
+#| msgid "Configure &kstars; window"
+msgid "|Configure - KStars Window|"
+msgstr "La fenêtre de configuration de &kstars;"
+
+#. +> trunk5
+#: ../../user_manual/viewops.rst:12
+#, fuzzy
+msgid "The ``Configure - KStars`` window is divided into fourteen pages: ``Catalogs``, ``Solar System``, ``Satellites``, ``Supernovae``, ``Guides``, ``Terrain``, ``Image Overlays``, ``Colors``, ``FITS``, ``INDI``, ``Ekos``, ``Xplanet``, ``Advanced`` and ``Developer``."
+msgstr "La fenêtre ``Configurer - KStars `` est divisée en quatorze pages : `` Catalogues ``, `` Système solaire ``, `` Satellites ``, `` Supernovae ``, `` Guides ``, `` Terrain ``, `` Superpositions d'images ``, `` Couleurs ``, `` AJUSTEMENTS ``, `` INDI ``, `` Ekos ``, `` Xplanet ``, `` Avancé `` et `` Développeur ``."
+
+#. +> trunk5
+#: ../../user_manual/viewops.rst:17
+#, fuzzy
+#| msgid "In the <guilabel>Catalogs</guilabel> page, you determine several properties concerning the display of the star and deep sky object catalogs."
+msgid "In the ``Catalogs`` page, you determine several properties concerning the display of the star and deep sky object catalogs."
+msgstr "Sur la page des <guilabel>Catalogues</guilabel>, Vous pouvez choisir plusieurs configurations concernant l'affichage des catalogues des étoiles et des objets du ciel profond."
+
+#. +> trunk5
+#: ../../user_manual/viewops.rst:21
+#, fuzzy
+#| msgid "In the <guilabel>Solar System</guilabel> page, you can specify whether the Sun, Moon, planets, comets and asteroids are displayed."
+msgid "In the ``Solar System`` page, you can specify whether the Sun, Moon, planets, comets and asteroids are displayed."
+msgstr "Sur la page du <guilabel>Système solaire</guilabel>, vous pouvez spécifier si le Soleil, la Lune, les planètes, les comètes et les astéroïdes sont affichés."
+
+#. +> trunk5
+#: ../../user_manual/viewops.rst:24
+#, fuzzy
+#| msgid "The <guilabel>Satellites</guilabel> page allows you to set the satellites view options."
+msgid "The ``Satellites`` page allows you to set the satellites view options."
+msgstr "L'onglet des <guilabel>satellites</guilabel> vous permet de définir les options d'affichage des satellites."
+
+#. +> trunk5
+#: ../../user_manual/viewops.rst:27
+#, fuzzy
+#| msgid "The <guilabel>Supernovae</guilabel> page allows you to manage how supernovae are displayed by &kstars;."
+msgid "The ``Supernovae`` page allows you to manage how supernovae are displayed by KStars."
+msgstr "L'onglet <guilabel>Supernova</guilabel> permet de gérer la manière dont les supernova sont affichées dans &kstars;."
+
+#. +> trunk5
+#: ../../user_manual/viewops.rst:30
+#, fuzzy
+#| msgid "The <guilabel>Guides</guilabel> page lets you toggle whether non-objects are displayed (&ie;, constellation lines, constellation names, the Milky Way contour)."
+msgid "The ``Guides`` page lets you toggle whether non-objects are displayed (i.e., constellation lines, constellation names, the Milky Way contour)."
+msgstr "La page des <guilabel>Guides</guilabel> vous permet d'afficher ou non les non-objets (c'est-à-dire les lignes de constellations, leurs noms ou encore le contour de la Voie Lactée)."
+
+#. +> trunk5
+#: ../../user_manual/viewops.rst:34
+#, fuzzy
+#| msgid "It is possible to choose a <guilabel>Sky culture:</guilabel> for the constellation lines and names on this page. The current version of &kstars; includes data for more than a dozen sky cultures."
+msgid "It is possible to choose a ``Sky culture``: for the constellation lines and names on this page. The current version of KStars includes data for more than a dozen sky cultures."
+msgstr "Il est possible de choisir une <guilabel>culture du ciel</guilabel> (civilisation) pour les lignes de constellations et les noms sur cette page. La version actuelle de &kstars; inclut des données pour plus d'une dizaine de cultures du ciel."
+
+#. +> trunk5
+#: ../../user_manual/viewops.rst:39
+#, fuzzy
+#| msgid "The <guilabel>Terrain</guilabel> page allows you to set the terrain or landscape image and configure its speedup options."
+msgid "The ``Terrain page`` allows you to set the terrain or landscape image and configure its speedup options."
+msgstr "La page des <guilabel>terrains</guilabel> vous permet de définir les terrains ou les images de paysage et de configurer leurs options d'accélération."
+
+#. +> trunk5
+#: ../../user_manual/viewops.rst:42
+#, fuzzy
+#| msgid "The <guilabel>Image Overlays</guilabel> page allows you to add and manage your own images that will be displayed in the skymap."
+msgid "The ``Image Overlays`` page allows you to add and manage your own images that will be displayed in the skymap."
+msgstr "La page de <guilabel>Superposition d'image</guilabel> permet d'ajouter et de gérer vos propres images qui peuvent être affichées dans la carte du ciel."
+
+#. +> trunk5
+#: ../../user_manual/viewops.rst:45
+#, fuzzy
+#| msgid "The <guilabel>Colors</guilabel> page allows you to set the color scheme, and to define new custom color schemes."
+msgid "The ``Colors`` page allows you to set the color scheme, and to define new custom color schemes."
+msgstr "La page des <guilabel>couleurs</guilabel> vous permet de définir le thème de couleur, et de définir des thèmes de couleurs personnalisés."
+
+#. +> trunk5
+#: ../../user_manual/viewops.rst:48
+#, fuzzy
+#| msgid "For detailed explanation of the options on the <guilabel>FITS</guilabel> page see the <link linkend=\"fits-configure\">Configure FITS</link> section."
+msgid "For detailed explanation of the options on the ``FITS`` page see the :doc:`Configure FITS  <fits-configure>` section."
+msgstr "Pour une explication détaillée des options sur <guilabel>FITS</guilabel>, veuillez vous reporter à la section <link linkend=\"fits-configure\">Configurer FITS</link>."
+
+#. +> trunk5
+#: ../../user_manual/viewops.rst:51
+#, fuzzy
+#| msgid "For detailed explanation of the options on the <guilabel>INDI</guilabel> page see the <link linkend=\"indi-configure\">Configure INDI</link> section."
+msgid "For detailed explanation of the options on the ``INDI`` page see the :doc:`Configure INDI  <indi-configure>` section."
+msgstr "Pour une explication détaillée des options sur <guilabel>INDI</guilabel>, veuillez vous reporter à la section <link linkend=\"indi-configure\">Configurer INDI</link>."
+
+#. +> trunk5
+#: ../../user_manual/viewops.rst:54
+#, fuzzy
+#| msgid "For detailed explanation of <guilabel>Ekos</guilabel> astrophotography suite, see the <link linkend=\"ekos\">Ekos section of this manual</link>."
+msgid "For detailed explanation of ``Ekos`` astrophotography suite, see the :doc:`Ekos section of this manual  <ekos>`."
+msgstr "Pour une explication détaillée des options de la suite astrophotographie <guilabel>Ekos</guilabel>, veuillez vous reporter à la section <link linkend=\"ekos\">Section Ekos</link> de ce manuel."
+
+#. +> trunk5
+#: ../../user_manual/viewops.rst:57
+#, fuzzy
+#| msgid "The <guilabel>Xplanet</guilabel> page provides fine-grained control over <ulink url=\"http://xplanet.sourceforge.net/\">Solar system planet surface renderer Xplanet</ulink> (should be installed separately)."
+msgid "The ``Xplanet`` page provides fine-grained control over `Solar system planet surface renderer Xplanet <http://xplanet.sourceforge.net/>`__ (should be installed separately)."
+msgstr "La page de <guilabel>XPlanet</guilabel> fournit un contrôle détaillé du <ulink url=\"http://xplanet.sourceforge.net/\">rendu de la surface des planètes du système solaire par XPlanet</ulink> (à installer séparément)."
+
+#. +> trunk5
+#: ../../user_manual/viewops.rst:62
+#, fuzzy
+#| msgid "The <guilabel>Advanced</guilabel> page provides fine-grained control over the more subtle behaviors of &kstars;."
+msgid "The ``Advanced`` page provides fine-grained control over the more subtle behaviors of KStars."
+msgstr "La page <guilabel>Avancé</guilabel> fournit un contrôle fin des comportements les plus subtils de &kstars;."
+
+#. +> trunk5
+#: ../../user_manual/viewops.rst:65
+#, fuzzy
+#| msgid "The <guilabel>Developer</guilabel> page allows you to enable or disable a few options mostly useful for developers or for folks looking to help debug issues. Currently these are enabling the saving of images during Ekos's autofocus, guiding and alignment."
+msgid "The ``Developer`` page allows you to enable or disable a few options mostly useful for developers or for folks looking to help debug issues. Currently these are enabling the saving of images during Ekos's autofocus, guiding and alignment."
+msgstr "La page des <guilabel>Développeurs</guilabel> permet d'activer ou de désactiver quelques options surtout utiles pour les développeurs ou pour les personnes qui souhaitent aider à déterrer les bogues. Actuellement elles activent l'enregistrement des images des processus de mise au point automatique, de guidage et d'alignement."
+
+#. +> trunk5
+#: ../../user_manual/viewops.rst:70
+#, fuzzy
+#| msgid "Configure &kstars; window"
+msgid "Configure - KStars Window"
+msgstr "La fenêtre de configuration de &kstars;"
+
+#. +> trunk5
+#: ../../user_manual/viewops.rst:70
+#, fuzzy
+msgid ".. image:: /images/viewops.png"
+msgstr ".. image : : /images/viewops.png"

@@ -1,0 +1,49 @@
+# translation of kstars_quicktour.po to français
+# traduction de kstars_quicktour.po en Français
+# Copyright (C) 2002,2003, 2004, 2005, 2007, 2008 Free Software Foundation, Inc.
+# Gérard Delafond <gerard@delafond.org>, 2002,2003, 2004, 2005.
+# Ludovic Grossard <grossard@kde.org>, 2002, 2003, 2004, 2007, 2012, 2013.
+# Stanislas Zeller <uncensored.assault@gmail.com>, 2008.
+# steve <stax@ik.me>, 2022, 2023
+# SPDX-FileCopyrightText: 2024 Xavier Besnard <xavier.besnard@kde.org>
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: kstars_quicktour_3.7.4\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2025-11-19 00:53+0100\n"
+"PO-Revision-Date: 2024-05-06 18:21+0200\n"
+"Last-Translator: Xavier Besnard <xavier.besnard@kde.org>\n"
+"Language-Team: French <French <kde-francophone@kde.org>>\n"
+"Language: fr\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n > 1);\n"
+"X-Generator: Lokalize 23.08.5\n"
+
+#. +> trunk5
+#: ../../user_manual/setup-wizard.rst:4
+msgid "The Setup Wizard"
+msgstr "L'assistant de configuration"
+
+#. +> trunk5
+#: ../../user_manual/setup-wizard.rst:6
+#, fuzzy
+#| msgid "The first time you run &kstars;, you will be presented with a Setup Wizard, which allows you to easily set your geographic location and download some extra data files. You can press the <guilabel>OK</guilabel> button at any time to exit the Setup Wizard."
+msgid "The first time you run KStars, you will be presented with a Setup Wizard, which allows you to easily set your geographic location and download some extra data files. You can press the ``OK`` button at any time to exit the Setup Wizard."
+msgstr "La première fois que vous lancez &kstars;, il vous sera présenté un assistant de configuration qui permet de spécifier facilement votre position géographique et de télécharger des fichiers de données supplémentaires. Vous pouvez cliquer sur le bouton <guilabel>Ok</guilabel> à tout moment pour quitter l'assistant de configuration."
+
+#. +> trunk5
+#: ../../user_manual/setup-wizard.rst:8
+#, fuzzy
+#| msgid "The second page of the Setup Wizard allows you to choose the starting geographic location, by selecting from the list of the 3400+ known locations on the right side of the window. The list of locations can be filtered to match the text you enter in the <guilabel>City filter:</guilabel>, <guilabel>Province filter:</guilabel>, and <guilabel>Country filter:</guilabel> edit boxes. If your desired location is not present in the list, you can select a nearby city instead for now. Later on, you can add your precise location manually using the <link linkend=\"setgeo\">Set Geographic Location tool</link>. Once you have selected a starting location, press the <guilabel>Next</guilabel> button."
+msgid "The second page of the Setup Wizard allows you to choose the starting geographic location, by selecting from the list of the 3400+ known locations on the right side of the window.  The list of locations can be filtered to match the text you enter in the ``City filter:``, ``Province filter:``, and ``Country filter:`` edit boxes. If your desired location is not present in the list, you can select a nearby city instead for now.  Later on, you can add your precise location manually using the :doc:`Set Geographic Location tool  <config-setgeo>`.  Once you have selected a starting location, press the ``Next`` button."
+msgstr "La deuxième page de l'assistant de configuration vous permet de choisir la position géographique de départ en la sélectionnant dans une liste de plus de 3400 positions. La liste des positions peut être filtrée pour correspondre au texte que vous avez saisi dans les zones de texte <guilabel>Ville</guilabel>, <guilabel>Province</guilabel> et <guilabel>Pays</guilabel>. Si votre position n'est pas présente dans la liste, choisissez une ville proche. Plus tard, vous pourrez ajouter votre position précise vous-même en utilisant l'outil <link linkend=\"setgeo\">Déterminer la position géographique</link>. Une fois que vous avez sélectionné une position de démarrage, cliquez sur le bouton <guilabel>Suivant</guilabel>."
+
+#. +> trunk5
+#: ../../user_manual/setup-wizard.rst:10
+#, fuzzy
+#| msgid "The last page of the Setup Wizard allows you to download extra data that are not included with the standard distribution of &kstars;. Simply press the <guilabel>Download Extra Data...</guilabel> button to open the <guilabel>Get New Stuff</guilabel> tool. When you are all done, press the <guilabel>OK</guilabel> button in the Setup Wizard to start exploring &kstars;."
+msgid "The last page of the Setup Wizard allows you to download extra data that are not included with the standard distribution of KStars. Simply press the ``Download Extra Data...`` button to open the ``Get New Stuff`` tool. When you are all done, press the ``OK`` button in the Setup Wizard to start exploring KStars."
+msgstr "La dernière page de l'assistant de configuration vous permet de télécharger des données supplémentaires qui ne sont pas incluses dans la distribution standard de &kstars;. Cliquez sur le bouton <guilabel>Téléchargement de données supplémentaires…</guilabel> pour ouvrir l'outil <guilabel>Obtenir des nouvelles données</guilabel>. Lorsque ce sera fait, cliquez sur le bouton <guilabel>Ok</guilabel> dans l'assistant de configuration pour commencer à explorer &kstars;."

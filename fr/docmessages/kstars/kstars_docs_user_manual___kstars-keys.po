@@ -1,0 +1,716 @@
+# traduction de kstars_commands.po en Français
+# translation of kstars_commands.po to french
+# SPDX-FileCopyrightText: 2012, 2024, 2025 Xavier Besnard <xavier.besnard@kde.org>
+# Ludovic Grossard <grossard@kde.org>, 2004, 2005, 2007, 2012, 2013.
+# Delafond <gerard@delafond.org>, 2005.
+# Bieuzent Cyrille <bieuzent@gmail.com>, 2009.
+# Cyrille Bieuzent <bieuzent@gmail.com>, 2012, 2013.
+# steve <stax@ik.me>, 2022, 2023, 2024.
+msgid ""
+msgstr ""
+"Project-Id-Version: kstars_commands_3.7.4\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2025-06-13 07:14+0200\n"
+"PO-Revision-Date: 2025-02-13 19:31+0100\n"
+"Last-Translator: Xavier Besnard <xavier.besnard@kde.org>\n"
+"Language-Team: French <French <kde-francophone@kde.org>>\n"
+"Language: fr\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n > 1);\n"
+"X-Generator: Lokalize 24.12.2\n"
+
+#. +> trunk5
+#: ../../user_manual/kstars-keys.rst:2
+msgid "Keyboard Commands"
+msgstr "Commandes à partir du clavier"
+
+#. +> trunk5
+#: ../../user_manual/kstars-keys.rst:7
+msgid "Navigation Keys"
+msgstr "Touches de navigation"
+
+#. +> trunk5
+#: ../../user_manual/kstars-keys.rst:10
+msgid "Arrow Keys"
+msgstr "Les touche fléchées"
+
+#. +> trunk5
+#: ../../user_manual/kstars-keys.rst:10
+#, fuzzy
+#| msgid "Use the arrow keys to pan the display. Holding down the &Shift; key doubles the scrolling speed."
+msgid "Use the arrow keys to pan the display. Holding down the **Shift** key doubles the scrolling speed."
+msgstr "Les flèches de votre clavier servent à déplacer l'écran. L'écran se déplacera plus rapidement si vous maintenez la touche &Maj; enfoncée en même temps."
+
+#. +> trunk5
+#: ../../user_manual/kstars-keys.rst:13
+#, fuzzy
+msgid "**+** / **-**"
+msgstr "**+** / **-**"
+
+#. +> trunk5
+#: ../../user_manual/kstars-keys.rst:13
+msgid "Zoom In/Out."
+msgstr "Zoom avant et zoom arrière"
+
+#. +> trunk5
+#: ../../user_manual/kstars-keys.rst:16
+#, fuzzy
+msgid "**Ctrl** + **Z**"
+msgstr "Ctrl+Z"
+
+#. +> trunk5
+#: ../../user_manual/kstars-keys.rst:16
+msgid "Restore the default Zoom setting."
+msgstr "Restaure le réglage par défaut du zoom."
+
+#. +> trunk5
+#: ../../user_manual/kstars-keys.rst:19
+#, fuzzy
+msgid "**Ctrl** + **Shift** + **Z**"
+msgstr "Ctrl+Shift+Zverb, cuts the selected text"
+
+#. +> trunk5
+#: ../../user_manual/kstars-keys.rst:19
+msgid "Zoom to specified field-of-view angle."
+msgstr "Fait un zoom à l'angle de champ de vision spécifié."
+
+#. +> trunk5
+#: ../../user_manual/kstars-keys.rst:22
+msgid "Center Display on a major Solar System body:"
+msgstr "Centre l'image sur un objet majeur du système solaire :"
+
+#. +> trunk5
+#: ../../user_manual/kstars-keys.rst:24
+#, fuzzy
+msgid "**0**: Sun"
+msgstr "dim"
+
+#. +> trunk5
+#: ../../user_manual/kstars-keys.rst:26
+#, fuzzy
+msgid "**1**: Mercury"
+msgstr "1 . Mercure"
+
+#. +> trunk5
+#: ../../user_manual/kstars-keys.rst:28
+#, fuzzy
+msgid "**2**: Venus"
+msgstr "2 & #160;: Vénus"
+
+#. +> trunk5
+#: ../../user_manual/kstars-keys.rst:30
+#, fuzzy
+msgid "**3**: Moon"
+msgstr "3"
+
+#. +> trunk5
+#: ../../user_manual/kstars-keys.rst:32
+#, fuzzy
+msgid "**4**: Mars"
+msgstr "4 & #160;: Mars"
+
+#. +> trunk5
+#: ../../user_manual/kstars-keys.rst:34
+#, fuzzy
+msgid "**5**: Jupiter"
+msgstr "5 & #160;: Jupiter"
+
+#. +> trunk5
+#: ../../user_manual/kstars-keys.rst:36
+#, fuzzy
+msgid "**6**: Saturn"
+msgstr "6 & #160;: Saturne"
+
+#. +> trunk5
+#: ../../user_manual/kstars-keys.rst:38
+#, fuzzy
+msgid "**7**: Uranus"
+msgstr "Vicky's favourite word!♥"
+
+#. +> trunk5
+#: ../../user_manual/kstars-keys.rst:40
+#, fuzzy
+msgid "**8**: Neptune"
+msgstr "8 & #160;: Neptune"
+
+#. +> trunk5
+#: ../../user_manual/kstars-keys.rst:42
+#, fuzzy
+msgid "**0**–**9**"
+msgstr "0 9"
+
+#. +> trunk5
+#: ../../user_manual/kstars-keys.rst:42
+#, fuzzy
+msgid "**9**: Pluto"
+msgstr "9 & #160;: Pluton"
+
+#. +> trunk5
+#: ../../user_manual/kstars-keys.rst:45
+#, fuzzy
+msgid "**Z**"
+msgstr "Z"
+
+#. +> trunk5
+#: ../../user_manual/kstars-keys.rst:45
+#, fuzzy
+#| msgid "Center the display at the <link linkend=\"ai-zenith\">Zenith</link> Point (straight up)."
+msgid "Center the display at the :doc:`Zenith  <ai-zenith>` Point (straight up)."
+msgstr "Centre l'affichage au <link linkend=\"ai-zenith\">Zénith</link> (juste à la verticale)"
+
+#. +> trunk5
+#: ../../user_manual/kstars-keys.rst:48
+#, fuzzy
+msgid "**N**"
+msgstr "N"
+
+#. +> trunk5
+#: ../../user_manual/kstars-keys.rst:48
+msgid "Center the display above the North point on the horizon."
+msgstr "Centre l'affichage au-dessus de l'horizon nord."
+
+#. +> trunk5
+#: ../../user_manual/kstars-keys.rst:51
+#, fuzzy
+msgid "**E**"
+msgstr "E"
+
+#. +> trunk5
+#: ../../user_manual/kstars-keys.rst:51
+msgid "Center the display above the East point on the horizon."
+msgstr "Centre l'affichage au-dessus de l'horizon est."
+
+#. +> trunk5
+#: ../../user_manual/kstars-keys.rst:54
+#, fuzzy
+msgid "**S**"
+msgstr "S"
+
+#. +> trunk5
+#: ../../user_manual/kstars-keys.rst:54
+msgid "Center the display above the South point on the horizon."
+msgstr "Centre l'affichage au-dessus de l'horizon sud."
+
+#. +> trunk5
+#: ../../user_manual/kstars-keys.rst:57
+#, fuzzy
+msgid "**W**"
+msgstr "w"
+
+#. +> trunk5
+#: ../../user_manual/kstars-keys.rst:57
+msgid "Center the display above the West point on the horizon."
+msgstr "Centre l'affichage au-dessus de l'horizon ouest."
+
+#. +> trunk5
+#: ../../user_manual/kstars-keys.rst:60
+#, fuzzy
+msgid "**Ctrl** + **T**"
+msgstr "Ctrl + T"
+
+#. +> trunk5
+#: ../../user_manual/kstars-keys.rst:60
+msgid "Toggle tracking mode."
+msgstr "(Dés)active le mode de suivi."
+
+#. +> trunk5
+#: ../../user_manual/kstars-keys.rst:63
+#, fuzzy
+msgid "**<**"
+msgstr "**<**"
+
+#. +> trunk5
+#: ../../user_manual/kstars-keys.rst:63
+msgid "Advance the simulation clock backwards by one time step."
+msgstr "Recule l'horloge de simulation d'un pas de temps."
+
+#. +> trunk5
+#: ../../user_manual/kstars-keys.rst:66
+#, fuzzy
+msgid "**>**"
+msgstr "**>**"
+
+#. +> trunk5
+#: ../../user_manual/kstars-keys.rst:66
+msgid "Advance the simulation clock forwards by one time step."
+msgstr "Avance l'horloge de simulation d'un pas de temps."
+
+#. +> trunk5
+#: ../../user_manual/kstars-keys.rst:71
+msgid "Menu Shortcuts"
+msgstr "Raccourcis des menus"
+
+#. +> trunk5
+#: ../../user_manual/kstars-keys.rst:74
+#, fuzzy
+msgid "**Ctrl** + **N**"
+msgstr "Ctrl+N"
+
+#. +> trunk5
+#: ../../user_manual/kstars-keys.rst:74
+msgid "Download extra data."
+msgstr "Télécharge des données supplémentaires."
+
+#. +> trunk5
+#: ../../user_manual/kstars-keys.rst:77
+#, fuzzy
+msgid "**Ctrl** + **O**"
+msgstr "Ctrl+O"
+
+#. +> trunk5
+#: ../../user_manual/kstars-keys.rst:77
+msgid "Open a FITS image in the FITS Editor."
+msgstr "Ouvre une image FITS dans l'éditeur FITS."
+
+#. +> trunk5
+#: ../../user_manual/kstars-keys.rst:80
+#, fuzzy
+msgid "**Ctrl** + **I**"
+msgstr "Ctrl+I"
+
+#. +> trunk5
+#: ../../user_manual/kstars-keys.rst:80
+msgid "Export sky image to a file."
+msgstr "Exporte une image du ciel dans un fichier."
+
+#. +> trunk5
+#: ../../user_manual/kstars-keys.rst:83
+#, fuzzy
+msgid "**Ctrl** + **L**"
+msgstr "Ctrl + L"
+
+#. +> trunk5
+#: ../../user_manual/kstars-keys.rst:83
+#, fuzzy
+msgid "Run a KStars :doc:`Observation Planner  <tool-obsplanner>`."
+msgstr "Exécutez un KStars :doc :`Planificateur d'observation<tool-obsplanner>`."
+
+#. +> trunk5
+#: ../../user_manual/kstars-keys.rst:86
+#, fuzzy
+msgid "**Ctrl** + **Shift** + **P**"
+msgstr "Ctrl+Maj+P"
+
+#. +> trunk5
+#: ../../user_manual/kstars-keys.rst:86
+msgid "Open the Imaging Planner tool."
+msgstr "Ouvrez l'outil Planificateur d'acquisition."
+
+#. +> trunk5
+#: ../../user_manual/kstars-keys.rst:89
+#, fuzzy
+msgid "**Ctrl** + **R**"
+msgstr "Ctrl + R"
+
+#. +> trunk5
+#: ../../user_manual/kstars-keys.rst:89
+#, fuzzy
+#| msgid "Run a &kstars; &DBus; script."
+msgid "Run a KStars D-Bus script."
+msgstr "Exécute un script &DBus; de &kstars;."
+
+#. +> trunk5
+#: ../../user_manual/kstars-keys.rst:92
+#, fuzzy
+msgid "**Ctrl** + **P**"
+msgstr "Ctrl+P"
+
+#. +> trunk5
+#: ../../user_manual/kstars-keys.rst:92
+msgid "Print the current sky map."
+msgstr "Imprime la carte actuelle du ciel."
+
+#. +> trunk5
+#: ../../user_manual/kstars-keys.rst:95
+#, fuzzy
+msgid "**Ctrl** + **Q**"
+msgstr "Ctrl + Q"
+
+#. +> trunk5
+#: ../../user_manual/kstars-keys.rst:95
+#, fuzzy
+#| msgid "Quit &kstars;."
+msgid "Quit KStars."
+msgstr "Quitte &kstars;."
+
+#. +> trunk5
+#: ../../user_manual/kstars-keys.rst:98
+#, fuzzy
+msgid "**Ctrl** + **E**"
+msgstr "Ctrl + E"
+
+#. +> trunk5
+#: ../../user_manual/kstars-keys.rst:98
+msgid "Sync the simulation clock with the current system time."
+msgstr "Synchronise l'horloge de simulation avec l'heure courante du système."
+
+#. +> trunk5
+#: ../../user_manual/kstars-keys.rst:101
+#, fuzzy
+msgid "**Ctrl** + **S**"
+msgstr "Ctrl + S"
+
+#. +> trunk5
+#: ../../user_manual/kstars-keys.rst:101
+msgid "Set the simulation clock to a specified Time and Date."
+msgstr "Règle l'horloge de simulation sur une date et heure spécifiée."
+
+#. +> trunk5
+#: ../../user_manual/kstars-keys.rst:104
+#, fuzzy
+msgid "**Ctrl** + **Shift** + **F**"
+msgstr "Ctrl+Maj+F"
+
+#. +> trunk5
+#: ../../user_manual/kstars-keys.rst:104
+msgid "Toggle full-screen mode."
+msgstr "(Dés)active le mode plein écran."
+
+#. +> trunk5
+#: ../../user_manual/kstars-keys.rst:107
+#, fuzzy
+msgid "**Ctrl** + **0**"
+msgstr "Ctrl+"
+
+#. +> trunk5
+#: ../../user_manual/kstars-keys.rst:107
+msgid "Define equipment (telescope, eyepiece, lens and filter) characteristics for observation logs."
+msgstr "Définit les caractéristiques des équipement (télescope, oculaire, objectif et filtre) pour les fichiers journaux des observations."
+
+#. +> trunk5
+#: ../../user_manual/kstars-keys.rst:110
+#, fuzzy
+msgid "**Ctrl** + **1**"
+msgstr "Ouvrir une base de données"
+
+#. +> trunk5
+#: ../../user_manual/kstars-keys.rst:110
+msgid "Add a new observer item for your observation logs."
+msgstr "Ajoute un nouvel élément d'observateur pour vos fichiers journaux d'observations."
+
+#. +> trunk5
+#: ../../user_manual/kstars-keys.rst:113
+#, fuzzy
+#| msgid "&Space;"
+msgid "**Space**"
+msgstr "<keysym>Espace</keysym>"
+
+#. +> trunk5
+#: ../../user_manual/kstars-keys.rst:113
+#, fuzzy
+msgid "Toggle between the :ref:`Horizontal  <ai-skycoords-horizontal>` and :ref:`Equatorial  <ai-skycoords-equatorial>` :doc:`Coordinate Systems  <ai-skycoords>`."
+msgstr "Basculer entre les :ref :`Horizontal<ai-skycoords-horizontal>` et :ref :`Equatorial<ai-skycoords-equatorial>` :doc :`Systèmes de coordonnées<ai-skycoords>`."
+
+#. +> trunk5
+#: ../../user_manual/kstars-keys.rst:116
+#, fuzzy
+msgid "**F1**"
+msgstr "F1"
+
+#. +> trunk5
+#: ../../user_manual/kstars-keys.rst:116
+#, fuzzy
+#| msgid "Open the &kstars; Handbook."
+msgid "Open the KStars Handbook."
+msgstr "Ouvre le manuel de &kstars;."
+
+#. +> trunk5
+#: ../../user_manual/kstars-keys.rst:119
+#, fuzzy
+#| msgid "Switch sky chart view to the <ulink url=\"https://en.wikipedia.org/wiki/Lambert_azimuthal_equal-area_projection\">Lambert azimuthal equal-area</ulink> projection."
+msgid "Switch sky chart view to the `Lambert azimuthal equal-area <https://en.wikipedia.org/wiki/Lambert_azimuthal_equal-area_projection>`__ projection."
+msgstr "Passe l'affichage de la carte du ciel à la projection <ulink url=\"https://fr.wikipedia.org/wiki/Projection_azimutale_%C3%A9quivalente_de_Lambert\">azimutale équivalente de Lambert</ulink>."
+
+#. +> trunk5
+#: ../../user_manual/kstars-keys.rst:120
+#, fuzzy
+msgid "**F5**"
+msgstr "F5"
+
+#. +> trunk5
+#: ../../user_manual/kstars-keys.rst:123
+#, fuzzy
+msgid "**F6**"
+msgstr "F6"
+
+#. +> trunk5
+#: ../../user_manual/kstars-keys.rst:123
+#, fuzzy
+#| msgid "Switch sky chart view to the <ulink url=\"https://en.wikipedia.org/wiki/Azimuthal_equidistant_projection\">azimuthal equidistant</ulink> projection."
+msgid "Switch sky chart view to the `azimuthal equidistant <https://en.wikipedia.org/wiki/Azimuthal_equidistant_projection>`__ projection."
+msgstr "Passe l'affichage de la carte du ciel à la projection <ulink url=\"https://https://fr.wikipedia.org/wiki/Projection_de_Postel\">azimutale équidistante</ulink> (ou projection de Postel)."
+
+#. +> trunk5
+#: ../../user_manual/kstars-keys.rst:126
+#, fuzzy
+msgid "**F7**"
+msgstr "F7"
+
+#. +> trunk5
+#: ../../user_manual/kstars-keys.rst:126
+#, fuzzy
+#| msgid "Switch sky chart view to the <ulink url=\"https://en.wikipedia.org/wiki/Orthographic_projection_(cartography)\">orthographic</ulink> projection."
+msgid "Switch sky chart view to the `orthographic <https://en.wikipedia.org/wiki/Orthographic_projection_(cartography)>`__ projection."
+msgstr "Passe l'affichage de la carte du ciel à la projection <ulink url=\"https://fr.wikipedia.org/wiki/Projection_orthographique\">orthographique</ulink>."
+
+#. +> trunk5
+#: ../../user_manual/kstars-keys.rst:129
+#, fuzzy
+#| msgid "Switch sky chart view to the <ulink url=\"https://en.wikipedia.org/wiki/Equirectangular_projection\">equirectangular</ulink> projection."
+msgid "Switch sky chart view to the `equirectangular <https://en.wikipedia.org/wiki/Equirectangular_projection>`__ projection."
+msgstr "Passe l'affichage de la carte du ciel à la projection <ulink url=\"https://fr.wikipedia.org/wiki/Projection_cylindrique_%C3%A9quidistante\">équirectangulaire </ulink> (appelée encore cylindrique équidistante)."
+
+#. +> trunk5
+#: ../../user_manual/kstars-keys.rst:130
+#, fuzzy
+msgid "**F8**"
+msgstr "F8"
+
+#. +> trunk5
+#: ../../user_manual/kstars-keys.rst:133
+#, fuzzy
+msgid "**F9**"
+msgstr "F9"
+
+#. +> trunk5
+#: ../../user_manual/kstars-keys.rst:133
+#, fuzzy
+#| msgid "Switch sky chart view to the <ulink url=\"https://en.wikipedia.org/wiki/Stereographic_projection\">stereographic</ulink> projection."
+msgid "Switch sky chart view to the `stereographic <https://en.wikipedia.org/wiki/Stereographic_projection>`__ projection."
+msgstr "Passe l'affichage de la carte du ciel à la projection <ulink url=\"https://fr.wikipedia.org/wiki/Projection_st%C3%A9r%C3%A9ographique\">stéréographique</ulink>."
+
+#. +> trunk5
+#: ../../user_manual/kstars-keys.rst:136
+#, fuzzy
+msgid "**F10**"
+msgstr "F10"
+
+#. +> trunk5
+#: ../../user_manual/kstars-keys.rst:136
+#, fuzzy
+#| msgid "Switch sky chart view to the <ulink url=\"https://en.wikipedia.org/wiki/Gnomonic_projection\">gnomonic</ulink> projection."
+msgid "Switch sky chart view to the `gnomonic <https://en.wikipedia.org/wiki/Gnomonic_projection>`__ projection."
+msgstr "Passe l'affichage de la carte du ciel à la projection <ulink url=\"https://fr.wikipedia.org/wiki/Projection_gnomonique\">gnomonique</ulink>"
+
+#. +> trunk5
+#: ../../user_manual/kstars-keys.rst:141
+msgid "Actions for the Selected Object"
+msgstr "Actions pour l'objet sélectionné"
+
+#. +> trunk5
+#: ../../user_manual/kstars-keys.rst:143
+#, fuzzy
+#| msgid "Each of the following keystrokes performs an action on the <firstterm>selected object</firstterm>. The selected object is the last object which was clicked on (identified in the status bar). Alternatively, if you hold down the &Shift; key, then the action is performed on the centered object instead."
+msgid "Each of the following keystrokes performs an action on the *selected object*. The selected object is the last object which was clicked on (identified in the status bar).  Alternatively, if you hold down the **Shift** key, then the action is performed on the centered object instead."
+msgstr "Chacune des actions sur le clavier effectue une action sur l'<firstterm>objet sélectionné</firstterm>. L'objet sélectionné est le dernier objet sur lequel on a cliqué (identifié dans la barre d'état). Autrement, si vous maintenez enfoncée la touche &Maj;, l'action sera effectuée sur l'objet centré."
+
+#. +> trunk5
+#: ../../user_manual/kstars-keys.rst:146
+#, fuzzy
+msgid "**C**"
+msgstr "C"
+
+#. +> trunk5
+#: ../../user_manual/kstars-keys.rst:146
+msgid "Center and Track on the selected object."
+msgstr "Centre et suit l'objet sélectionné."
+
+#. +> trunk5
+#: ../../user_manual/kstars-keys.rst:149
+#, fuzzy
+msgid "**D**"
+msgstr "D "
+
+#. +> trunk5
+#: ../../user_manual/kstars-keys.rst:149
+msgid "Open the Details window for the selected object."
+msgstr "Ouvre la fenêtre des détails pour l'objet sélectionné."
+
+#. +> trunk5
+#: ../../user_manual/kstars-keys.rst:152
+#, fuzzy
+msgid "**L**"
+msgstr "L"
+
+#. +> trunk5
+#: ../../user_manual/kstars-keys.rst:152
+msgid "Toggle a name label for the selected object."
+msgstr "(Dés)active l'étiquette pour l'objet sélectionné."
+
+#. +> trunk5
+#: ../../user_manual/kstars-keys.rst:155
+#, fuzzy
+msgid "**O**"
+msgstr "**O**"
+
+#. +> trunk5
+#: ../../user_manual/kstars-keys.rst:155
+msgid "Add the selected object to the observing list."
+msgstr "Ajoute l'objet sélectionné à la liste d'observations."
+
+#. +> trunk5
+#: ../../user_manual/kstars-keys.rst:158
+#, fuzzy
+msgid "**P**"
+msgstr "P"
+
+#. +> trunk5
+#: ../../user_manual/kstars-keys.rst:158
+msgid "Open the selected object's popup menu."
+msgstr "Ouvre le menu contextuel pour l'objet sélectionné."
+
+#. +> trunk5
+#: ../../user_manual/kstars-keys.rst:161
+#, fuzzy
+msgid "**T**"
+msgstr "T"
+
+#. +> trunk5
+#: ../../user_manual/kstars-keys.rst:161
+msgid "Toggle a trail on the selected object (solar system bodies only)."
+msgstr "(Dés)active une trace sur l'objet sélectionné (objets du système solaire seulement)."
+
+#. +> trunk5
+#: ../../user_manual/kstars-keys.rst:166
+msgid "Tools Shortcuts"
+msgstr "Raccourcis des outils"
+
+#. +> trunk5
+#: ../../user_manual/kstars-keys.rst:169
+#, fuzzy
+msgid "**Ctrl** + **F**"
+msgstr "Ctrl+F"
+
+#. +> trunk5
+#: ../../user_manual/kstars-keys.rst:169
+#, fuzzy
+#| msgid "Open the <link linkend=\"findobjects\">Find Object window</link>, for specifying a sky object on which to center."
+msgid "Open the :ref:`Find Object window  <skyobjects-finding-objects>`, for specifying a sky object on which to center."
+msgstr "Ouvre la <link linkend=\"findobjects\">fenêtre de recherche d'objet</link> pour spécifier un objet du ciel sur lequel centrer."
+
+#. +> trunk5
+#: ../../user_manual/kstars-keys.rst:172
+#, fuzzy
+msgid "**Ctrl** + **M**"
+msgstr "Ctrl + M"
+
+#. +> trunk5
+#: ../../user_manual/kstars-keys.rst:172
+#, fuzzy
+#| msgid "Open the <guilabel>Set Coordinates Manually</guilabel> tool, for specifying RA/Dec or Az/Alt coordinates on which to center. The tool defaults to <link linkend=\"ai-epoch\">J2000 epoch</link> for the RA/Dec."
+msgid "Open the Set Coordinates Manually tool, for specifying RA/Dec or Az/Alt coordinates on which to center. The tool defaults to :doc:`J2000 epoch  <ai-epoch>` for the RA/Dec."
+msgstr "Ouvre l'outil <guilabel>Définir les coordonnées manuellement</guilabel> pour spécifier les coordonnées « AD / DEC » ou « Az / Alt » sur lesquelles centrer. L'outil applique par défaut une <link linkend=\"ai-epoch\">époque « J2000 »</link> pour « AD / DEC »."
+
+#. +> trunk5
+#: ../../user_manual/kstars-keys.rst:175
+#, fuzzy
+msgid "**[**"
+msgstr "**[**"
+
+#. +> trunk5
+#: ../../user_manual/kstars-keys.rst:175
+msgid "Start an Angular Distance measurement at the current mouse cursor position. The angular distance between start and end points is displayed at the endpoint."
+msgstr "Commence une mesure de distance angulaire à la position actuelle du pointeur de la souris. La distance angulaire entre les points de départ et d'arrivée est affichée au point d'arrivée."
+
+#. +> trunk5
+#: ../../user_manual/kstars-keys.rst:178
+#, fuzzy
+msgid "**Ctrl** + **G**"
+msgstr "Ctrl+G"
+
+#. +> trunk5
+#: ../../user_manual/kstars-keys.rst:178
+#, fuzzy
+#| msgid "Open the <link linkend=\"setgeo\">Set Geographic Location</link> window."
+msgid "Open the :doc:`Set Geographic Location  <config-setgeo>` window."
+msgstr "Ouvre la fenêtre de <link linkend=\"setgeo\">position géographique</link>."
+
+#. +> trunk5
+#: ../../user_manual/kstars-keys.rst:181
+#, fuzzy
+msgid "**Ctrl** + **C**"
+msgstr "Ctrl + C"
+
+#. +> trunk5
+#: ../../user_manual/kstars-keys.rst:181
+#, fuzzy
+msgid "Open the :doc:`AstroCalculator  <tool-calculator>`."
+msgstr "Ouvrez le :doc :`AstroCalculator<tool-calculator>`."
+
+#. +> trunk5
+#: ../../user_manual/kstars-keys.rst:184
+#, fuzzy
+msgid "Open the :doc:`Altitude vs. Time  <tool-altvstime>` tool."
+msgstr "Ouvre l&apos;outil Altitude selon l&apos; heure"
+
+#. +> trunk5
+#: ../../user_manual/kstars-keys.rst:185
+#, fuzzy
+msgid "**Ctrl** + **A**"
+msgstr "Ctrl+A"
+
+#. +> trunk5
+#: ../../user_manual/kstars-keys.rst:188
+#, fuzzy
+#| msgid "Open the <link linkend=\"tool-whatsup\">What's up Tonight?</link> tool."
+msgid "Open the :doc:`What's up Tonight?  <tool-whatsup>` tool."
+msgstr "Ouvre l'outil <link linkend=\"tool-whatsup\">Dans le ciel cette nuit</link>."
+
+#. +> trunk5
+#: ../../user_manual/kstars-keys.rst:189
+#, fuzzy
+msgid "**Ctrl** + **U**"
+msgstr "Ctrl+U"
+
+#. +> trunk5
+#: ../../user_manual/kstars-keys.rst:192
+#, fuzzy
+msgid "**Ctrl** + **W**"
+msgstr "Ctrl+W"
+
+#. +> trunk5
+#: ../../user_manual/kstars-keys.rst:192
+#, fuzzy
+#| msgid "Open the <quote>What's Interesting</quote> tool."
+msgid "Open the “What's Interesting” tool."
+msgstr "Ouvrir l'outil <quote>Digne d'intérêt</quote>."
+
+#. +> trunk5
+#: ../../user_manual/kstars-keys.rst:195
+#, fuzzy
+#| msgid "Open the <link linkend=\"tool-scriptbuilder\">Script Builder</link> tool."
+msgid "Open the :doc:`Script Builder  <tool-scriptbuilder>` tool."
+msgstr "Ouvre l'outil <link linkend=\"tool-scriptbuilder\">Constructeur de scripts</link>."
+
+#. +> trunk5
+#: ../../user_manual/kstars-keys.rst:196
+#, fuzzy
+msgid "**Ctrl** + **B**"
+msgstr "Ctrl+B"
+
+#. +> trunk5
+#: ../../user_manual/kstars-keys.rst:199
+#, fuzzy
+msgid "**Ctrl** + **Y**"
+msgstr "Ctrl+Y"
+
+#. +> trunk5
+#: ../../user_manual/kstars-keys.rst:199
+#, fuzzy
+msgid "Open the :doc:`Solar System Viewer  <tool-solarsys>`."
+msgstr "Ouvre le Visualisateur du système solaire"
+
+#. +> trunk5
+#: ../../user_manual/kstars-keys.rst:202
+#, fuzzy
+msgid "**Ctrl** + **J**"
+msgstr "Ctrl + J"
+
+#. +> trunk5
+#: ../../user_manual/kstars-keys.rst:202
+#, fuzzy
+#| msgid "Open the <link linkend=\"tool-jmoons\">Jupiter Moons</link> tool."
+msgid "Open the :doc:`Jupiter Moons  <tool-jmoons>` tool."
+msgstr "Ouvre l'outil <link linkend=\"tool-jmoons\">des lunes de Jupiter</link>."

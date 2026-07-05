@@ -1,0 +1,99 @@
+# translation of kstars_fitsviewer.po to Français
+#
+# SPDX-FileCopyrightText: 2024 Xavier Besnard <xavier.besnard@kde.org>
+# Delafond <gerard@delafond.org>, 2005.
+# Ludovic Grossard <grossard@kde.org>, 2005, 2007, 2012.
+# Stanislas Zeller <uncensored.assault@gmail.com>, 2008.
+# Joëlle Cornavin <jcornavin@laposte.net>, 2011.
+# steve <stax@ik.me>, 2022, 2023.
+msgid ""
+msgstr ""
+"Project-Id-Version: kstars_fitsviewer_3.7.4\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2025-06-14 09:49+0200\n"
+"PO-Revision-Date: 2024-05-07 09:43+0200\n"
+"Last-Translator: Xavier Besnard <xavier.besnard@kde.org>\n"
+"Language-Team: French <French <kde-francophone@kde.org>>\n"
+"Language: fr\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n > 1);\n"
+"X-Generator: Lokalize 23.08.5\n"
+
+#. +> trunk5
+#: ../../user_manual/fits-viewer-embedded.rst:3
+msgid "Embedded FITS Viewer"
+msgstr "Afficheur FITS intégré"
+
+#. +> trunk5
+#: ../../user_manual/fits-viewer-embedded.rst:5
+#, fuzzy
+#| msgid "<phrase>FITS Viewer embedded</phrase>"
+msgid "|FITS Viewer embedded|"
+msgstr "<phrase>Afficheur FITS intégré</phrase>"
+
+#. +> trunk5
+#: ../../user_manual/fits-viewer-embedded.rst:7
+#, fuzzy
+#| msgid "In Ekos <link linkend=\"ekos-focus\">Focus</link>, <link linkend=\"ekos-guide\">Guide</link>, and <link linkend=\"ekos-align\">Align</link> modules, captured images are displayed in the embedded FITS Viewer. The embedded viewer includes a <emphasis>floating bar</emphasis> that can be used to perform several functions:"
+msgid "In Ekos :doc:`Focus <ekos-focus>`, :doc:`Guide <ekos-guide>`, and :doc:`Align <ekos-align>` modules, captured images are displayed in the embedded FITS Viewer. The embedded viewer includes a *floating bar* that can be used to perform several functions:"
+msgstr "Dans les modules de <link linkend=\"ekos-focus\">mise au point</link>, de <link linkend=\"ekos-guide\">guidage</link> et d'<link linkend=\"ekos-align\">alignement</link>, les images acquises sont affichées dans l'afficheur FITS intégré. Il inclut une <emphasis>barre flottante</emphasis> qui peut être utilisée pour effectuer plusieurs fonctions :"
+
+#. +> trunk5
+#: ../../user_manual/fits-viewer-embedded.rst:9
+msgid "Zoom Out"
+msgstr "Zoom arrière"
+
+#. +> trunk5
+#: ../../user_manual/fits-viewer-embedded.rst:11
+msgid "Zoom In"
+msgstr "Zoom avant"
+
+#. +> trunk5
+#: ../../user_manual/fits-viewer-embedded.rst:13
+msgid "Default Zoom"
+msgstr "Zoom par défaut"
+
+#. +> trunk5
+#: ../../user_manual/fits-viewer-embedded.rst:15
+msgid "Zoom To Fit"
+msgstr "Zoom pour ajuster"
+
+#. +> trunk5
+#: ../../user_manual/fits-viewer-embedded.rst:17
+msgid "Toggle Cross Hairs"
+msgstr "Basculer le réticule"
+
+#. +> trunk5
+#: ../../user_manual/fits-viewer-embedded.rst:19
+msgid "Toggle Pixel Gridlines"
+msgstr "Basculer la grille de pixel"
+
+#. +> trunk5
+#: ../../user_manual/fits-viewer-embedded.rst:21
+msgid "Toggle Detected Stars: Highlight detected stars with red circles."
+msgstr "Afficher les étoiles détectées : mise en valeur des étoiles détectées avec des cercles rouges."
+
+#. +> trunk5
+#: ../../user_manual/fits-viewer-embedded.rst:24
+msgid "Star Profile: View detailed 3D star profile."
+msgstr "Profile d'étoile : affiche le profile 3D détaillé de l'étoile."
+
+#. +> trunk5
+#: ../../user_manual/fits-viewer-embedded.rst:26
+msgid "The floating bar is automatically hidden once the mouse leaves the embedded viewer area. You can use the mouse to pan and zoom just like the standalone FITS Viewer. The green tracking box can be used to select a specific star or region within the image, for example, to select a guide star."
+msgstr "La barre flottante est automatiquement cachée dès que la souris quitte la zone de l'afficheur intégré. Vous pouvez utiliser la souris pour déplacer et zoomer comme avec l'afficheur FITS. La boite de suivi verte peut être utilisée pour sélectionner une étoile particulière ou une région de l'image, par exemple pour choisir une étoile guide."
+
+#. +> trunk5
+#: ../../user_manual/fits-viewer-embedded.rst:28
+#, fuzzy
+#| msgid "FITS Viewer"
+msgid "FITS Viewer embedded"
+msgstr "Afficheur FITS"
+
+#. +> trunk5
+#: ../../user_manual/fits-viewer-embedded.rst:28
+#, fuzzy
+msgid ".. image:: /images/fitsviewer_embedded.png"
+msgstr ".. image : : /images/fitsviewer_embedded.png"

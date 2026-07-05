@@ -1,0 +1,145 @@
+# translation of kstars_indi.po to french
+# traduction de kstars_indi.po en Français
+#
+# Copyright (C) 2003, 2004, 2005 Free Software Foundation, Inc.
+# Delafond <gerard@delafond.org>, 2003, 2004, 2005.
+# Ludovic Grossard <grossard@kde.org>, 2003, 2004, 2009, 2012.
+# Bieuzent Cyrille <bieuzent@gmail.com>, 2009.
+# Xavier Besnard <xavier.besnard@kde.org>, 2012.
+# steve <stax@ik.me>, 2022, 2023.
+msgid ""
+msgstr ""
+"Project-Id-Version: kstars_indi_3.7.4\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2025-06-13 07:14+0200\n"
+"PO-Revision-Date: 2024-01-13 18:16+0100\n"
+"Last-Translator: steve <stax@ik.me>\n"
+"Language-Team: French <kde-francophone@kde.org>\n"
+"Language: fr\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n > 1);\n"
+"X-Generator: Poedit 3.2.2\n"
+
+#. +> trunk5
+#: ../../user_manual/indi-configure.rst:3
+msgid "Configure INDI"
+msgstr "Configurer INDI"
+
+#. +> trunk5
+#: ../../user_manual/indi-configure.rst:5
+#, fuzzy
+#| msgid "The <guilabel>INDI</guilabel> page allows you to modify <emphasis>Client side</emphasis> INDI specific options. To access it, select the <guilabel>INDI</guilabel> page from <menuchoice><guimenu>Settings</guimenu> <guimenuitem>Configure &kstars;...</guimenuitem></menuchoice> menu item. The window is divided into several main categories: General, Device Updates, Display and Server Port:"
+msgid "The ``INDI`` page allows you to modify *Client side* INDI specific options. To access it, select the ``INDI`` page from ``Settings → Configure KStars...`` menu item. The window is divided into several main categories: General, Device Updates, Display and Server Port:"
+msgstr "La page d'<guilabel>INDI</guilabel> vous permet de modifier les options spécifiques du <emphasis>Côté client</emphasis> d'INDI. Pour y accéder, sélectionnez <menuchoice><guimenu>Configuration</guimenu> <guimenuitem>Configurer &kstars;</guimenuitem></menuchoice> de cette page. La fenêtre est divisée en plusieurs catégories principales : général, mises à jour des périphériques automatique, affichage, source de mise à jour, roue à filtres et port du serveur :"
+
+#. +> trunk5
+#: ../../user_manual/indi-configure.rst:12
+#, fuzzy
+#| msgid "<guilabel>INDI server:</guilabel> Specify the binary of installed INDI server in your system. By default, &kstars; uses <quote>/usr/bin/indiserver</quote> binary."
+msgid "``INDI server``: Specify the binary of installed INDI server in your system. By default, KStars uses “/usr/bin/indiserver” binary."
+msgstr "<guilabel>Serveur INDI</guilabel> : indiquez l'exécutable du serveur INDI installé sur votre système. Par défaut, &kstars; utilise <quote>/usr/bin/indiserver</quote>."
+
+#. +> trunk5
+#: ../../user_manual/indi-configure.rst:16
+#, fuzzy
+#| msgid "<guilabel>INDI drivers XML directory:</guilabel> Specify the &XML; directory where INDI drivers are located in your system. By default, &kstars; uses <quote>/usr/share/indi</quote> directory."
+msgid "``INDI drivers XML directory``: Specify the XML directory where INDI drivers are located in your system. By default, KStars uses “/usr/share/indi” directory."
+msgstr "<guilabel>Dossier XML des pilotes INDI</guilabel> : spécifie le dossier &XML; sur votre système contenant les pilotes INDI. Par défaut &kstars; utilise le dossier <quote>/usr/share/indi</quote>."
+
+#. +> trunk5
+#: ../../user_manual/indi-configure.rst:21
+#, fuzzy
+#| msgid "<guilabel>Default FITS directory:</guilabel> Specify the directory where all captured FITS images will be saved to. If no directory is specified, images will be stored in <varname>$HOME</varname>."
+msgid "``Default FITS directory``: Specify the directory where all captured FITS images will be saved to. If no directory is specified, images will be stored in `$HOME`."
+msgstr "<guilabel>Dossier FITS par défaut : </guilabel> spécifie le dossier où toutes les images FITS seront enregistrées. S'il n'y a pas de dossier spécifié, les images seront enregistrées dans <varname>$HOME</varname>."
+
+#. +> trunk5
+#: ../../user_manual/indi-configure.rst:24
+#, fuzzy
+#| msgid "General"
+msgid "``General``"
+msgstr "Général"
+
+#. +> trunk5
+#: ../../user_manual/indi-configure.rst:27
+#, fuzzy
+#| msgid "<guilabel>KStars updates all devices</guilabel>: KStars is the master source for time and location settings. All INDI devices time and locations settings are synchronized to KStars settings."
+msgid "``KStars updates all devices``: KStars is the master source for time and location settings. All INDI devices time and locations settings are synchronized to KStars settings."
+msgstr "<guilabel>&kstars; synchronise tous les périphériques</guilabel> : &kstars; est la source des réglages de l'heure et de la position. Tous les réglages d'heure et de position des périphériques INDI sont synchronisés avec les réglages de &kstars;."
+
+#. +> trunk5
+#: ../../user_manual/indi-configure.rst:32
+#, fuzzy
+#| msgid "<guilabel>Mount updates KStars</guilabel>: Mount handset is the master source of time and location settings. KStars time and location settings are synchronized with controller settings."
+msgid "``Mount updates KStars``: Mount handset is the master source of time and location settings. KStars time and location settings are synchronized with controller settings."
+msgstr "<guilabel>La monture synchronise &kstars;</guilabel> : la télécommande de la monture est la source des réglages de l'heure et de la position. Les réglages de l'heure et de la position de &kstars; sont synchronisés avec les réglages de la télécommande de la monture."
+
+#. +> trunk5
+#: ../../user_manual/indi-configure.rst:37
+#, fuzzy
+#| msgid "<guilabel>GPS updates KStars</guilabel>: GPS driver is the master source of time and location settings. KStars time and location settings are synchronized with GPS settings."
+msgid "``GPS updates KStars``: GPS driver is the master source of time and location settings. KStars time and location settings are synchronized with GPS settings."
+msgstr "<guilabel>Le GPS synchronise &kstars;</guilabel> : le pilote du GPS est la source des réglages d'heure et de position. Les réglages de l'heure et de la position de &kstars; sont synchronisés avec les réglages du GPS."
+
+#. +> trunk5
+#: ../../user_manual/indi-configure.rst:42
+#, fuzzy
+#| msgid "<guilabel>Time</guilabel>: Synchronize KStars date and time automatically from the update source."
+msgid "``Time``: Synchronize KStars date and time automatically from the update source."
+msgstr "<guilabel>Heure</guilabel> : la date et l'heure de &kstars; est synchronisé automatiquement à partir de la source de synchronisation."
+
+#. +> trunk5
+#: ../../user_manual/indi-configure.rst:45
+#, fuzzy
+#| msgid "<guilabel>Location</guilabel>: Synchronize KStars location settings from the update source."
+msgid "``Location``: Synchronize KStars location settings from the update source."
+msgstr "<guilabel>Position</guilabel> : la position de &kstars; est synchronisée automatiquement à partir de la source de synchronisation."
+
+#. +> trunk5
+#: ../../user_manual/indi-configure.rst:46
+#, fuzzy
+#| msgid "Time &amp; Location Updates"
+msgid "``Time & Location Updates``"
+msgstr "Synchronisation heure et position"
+
+#. +> trunk5
+#: ../../user_manual/indi-configure.rst:49
+#, fuzzy
+#| msgid "<guilabel>Telescope crosshair</guilabel>: When checked, &kstars; displays the telescope's target crosshair on the sky map. The crosshair is displayed upon a successful connection to the telescope and its location is updated periodically. The telescope's name is displayed next to the crosshair. &kstars; displays one crosshair per each connected telescope. To change the color of the telescope's crosshair, open the <link linkend=\"viewops\">Configure - &kstars;</link> window. Select the <guilabel>Colors</guilabel> page, and then change the color of the <guimenuitem>Target Indicator</guimenuitem> item to the desired color."
+msgid "``Telescope crosshair``: When checked, KStars displays the telescope's target crosshair on the sky map. The crosshair is displayed upon a successful connection to the telescope and its location is updated periodically. The telescope's name is displayed next to the crosshair. KStars displays one crosshair per each connected telescope. To change the color of the telescope's crosshair, open the :doc:`Configure - KStars <viewops>` window. Select the ``Colors`` page, and then change the color of the ``Target Indicator`` item to the desired color."
+msgstr "<guilabel>Réticule du télescope</guilabel> : lorsque cela est coché, &kstars; affiche le réticule du télescope sur la carte du ciel. La croix est affichée lors d'une connexion réussie au télescope, et sa position est actualisée périodiquement. Le nom du télescope est affiché à côté du réticule. &kstars; affiche un réticule pour chaque télescope connecté. Pour changer la couleur du réticule du télescope, ouvrez la fenêtre <link linkend=\"viewops\">Configuration de &kstars;</link>. Sélectionnez l'onglet <guilabel>Couleurs</guilabel>, et changez la couleur de l'élément <guimenuitem>Indicateur de cible</guimenuitem> dans la couleur désirée."
+
+#. +> trunk5
+#: ../../user_manual/indi-configure.rst:61
+#, fuzzy
+#| msgid "<guilabel>Independent window</guilabel>: Make <guilabel>FITS Viewer</guilabel> window independent."
+msgid "``Independent window``: Make ``FITS Viewer`` window independent."
+msgstr "<guilabel>Fenêtre indépendante</guilabel> : rendre la fenêtre de l'<guilabel>afficheur FITS</guilabel> indépendante."
+
+#. +> trunk5
+#: ../../user_manual/indi-configure.rst:64
+#, fuzzy
+#| msgid "<guilabel>Message notifications</guilabel>: Show INDI messages as desktop notifications instead of dialogs."
+msgid "``Message notifications``: Show INDI messages as desktop notifications instead of dialogs."
+msgstr "<guilabel>Notifications des messages</guilabel> : afficher les messages d'INDI comme des notifications du bureau plutôt que dans des boites de dialogue."
+
+#. +> trunk5
+#: ../../user_manual/indi-configure.rst:65
+#, fuzzy
+#| msgid "Display"
+msgid "``Display``"
+msgstr "Affichage"
+
+#. +> trunk5
+#: ../../user_manual/indi-configure.rst:68
+msgid "Specify range of ports that INDI Server will bind to when starting new drivers."
+msgstr "Spécifiez une plage de ports que le serveur INDI puisse utiliser lors du démarrage de nouveaux pilotes."
+
+#. +> trunk5
+#: ../../user_manual/indi-configure.rst:69
+#, fuzzy
+#| msgid "Server Port"
+msgid "``Server Port``"
+msgstr "Port du serveur"

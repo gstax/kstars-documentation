@@ -1,0 +1,2197 @@
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: KStars Handbook 3.7\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2025-11-06 19:23+0100\n"
+"PO-Revision-Date: 2025-11-07 05:30+0100\n"
+"Last-Translator: KDE Francophone <kde-francophone@kde.org>\n"
+"Language-Team: KDE Francophone <kde-francophone@kde.org>\n"
+"Language: fr\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n > 1);\n"
+
+#. +> trunk5
+#: ../../user_manual/ekos-scheduler-taskqueue.rst:3
+#, fuzzy
+msgid "Task Queue System"
+msgstr "<g id=\"1\">Système de file d'attente</g>."
+
+#. +> trunk5
+#: ../../user_manual/ekos-scheduler-taskqueue.rst:7
+#, fuzzy
+msgid "Table of Contents"
+msgstr "Table of Contents"
+
+#. +> trunk5
+#: ../../user_manual/ekos-scheduler-taskqueue.rst:11
+#, fuzzy
+msgid "The Task Queue System is a modern, flexible automation framework that replaces traditional startup and shutdown scripts with a template-based, configurable task execution system. It provides a visual interface for building sequences of automated operations that can control your observatory equipment through INDI. It is accessible from Ekos Scheduler."
+msgstr "Le système de file d'attente des tâches est un cadre d'automatisation moderne et flexible qui remplace les scripts de démarrage et d'arrêt traditionnels par un système d'exécution des tâches configurable basé sur un modèle. Il fournit une interface visuelle pour la construction de séquences d'opérations automatisées qui peuvent contrôler votre équipement d'observatoire via INDI. Il est accessible depuis Ekos Scheduler."
+
+#. +> trunk5
+#: ../../user_manual/ekos-scheduler-taskqueue.rst:14
+#, fuzzy
+msgid "|Task Queue|"
+msgstr "File d’attente des tâches"
+
+#. +> trunk5
+#: ../../user_manual/ekos-scheduler-taskqueue.rst:17
+#, fuzzy
+msgid "Key Benefits"
+msgstr "Avantages"
+
+#. +> trunk5
+#: ../../user_manual/ekos-scheduler-taskqueue.rst:19
+#, fuzzy
+msgid "The Task Queue system offers several advantages over traditional scripting:"
+msgstr "Le système de file d'attente des tâches offre plusieurs avantages par rapport aux scripts traditionnels :"
+
+#. +> trunk5
+#: ../../user_manual/ekos-scheduler-taskqueue.rst:21
+#, fuzzy
+msgid "**Visual Management**: Build and monitor task sequences through an intuitive graphical interface"
+msgstr "** Gestion visuelle ** : Créez et surveillez les séquences de tâches via une interface graphique intuitive"
+
+#. +> trunk5
+#: ../../user_manual/ekos-scheduler-taskqueue.rst:22
+#, fuzzy
+msgid "**Reusability**: Use pre-built templates for common operations without writing code"
+msgstr "**Réutilisabilité** : utilisez des modèles prédéfinis pour les opérations courantes sans écrire de code"
+
+#. +> trunk5
+#: ../../user_manual/ekos-scheduler-taskqueue.rst:23
+#, fuzzy
+msgid "**Error Handling**: Built-in retry logic and configurable failure responses"
+msgstr "** Gestion des erreurs ** : logique de relance intégrée et réponses aux défaillances configurables"
+
+#. +> trunk5
+#: ../../user_manual/ekos-scheduler-taskqueue.rst:24
+#, fuzzy
+msgid "**Device Compatibility**: Automatic matching of templates to available devices"
+msgstr "** Compatibilité des appareils ** : mise en correspondance automatique des modèles avec les appareils disponibles"
+
+#. +> trunk5
+#: ../../user_manual/ekos-scheduler-taskqueue.rst:25
+#, fuzzy
+msgid "**Progress Monitoring**: Real-time status updates and detailed execution logs"
+msgstr "** Suivi des progrès ** : mises à jour de statut en temps réel et journaux d'exécution détaillés"
+
+#. +> trunk5
+#: ../../user_manual/ekos-scheduler-taskqueue.rst:26
+#, fuzzy
+msgid "**Collections**: Pre-defined task sets for startup, shutdown, and other common scenarios"
+msgstr "**Collections** : ensembles de tâches prédéfinis pour le démarrage, l'arrêt et d'autres scénarios courants"
+
+#. +> trunk5
+#: ../../user_manual/ekos-scheduler-taskqueue.rst:27
+#, fuzzy
+msgid "**Flexibility**: Combine templates or create custom variations without programming"
+msgstr "**Flexibilité** : Combinez des modèles ou créez des variations personnalisées sans programmation"
+
+#. +> trunk5
+#: ../../user_manual/ekos-scheduler-taskqueue.rst:30
+#, fuzzy
+msgid "When to Use Task Queue"
+msgstr "Quand utiliser la file d'attente des tâches"
+
+#. +> trunk5
+#: ../../user_manual/ekos-scheduler-taskqueue.rst:32
+#, fuzzy
+msgid "The Task Queue system is ideal for:"
+msgstr "Le système de file d'attente de tâches est idéal pour :"
+
+#. +> trunk5
+#: ../../user_manual/ekos-scheduler-taskqueue.rst:34
+#, fuzzy
+msgid "Observatory startup and shutdown procedures"
+msgstr "Procédures de démarrage et d'arrêt de l'observatoire"
+
+#. +> trunk5
+#: ../../user_manual/ekos-scheduler-taskqueue.rst:35
+#, fuzzy
+msgid "Equipment warm-up and cool-down sequences"
+msgstr "Séquences d'échauffement et de refroidissement de l'équipement"
+
+#. +> trunk5
+#: ../../user_manual/ekos-scheduler-taskqueue.rst:36
+#, fuzzy
+msgid "Between-job operations (e.g., parking mount between scheduler jobs)"
+msgstr "Opérations entre les tâches (par exemple, montage de stationnement entre les tâches du planificateur)"
+
+#. +> trunk5
+#: ../../user_manual/ekos-scheduler-taskqueue.rst:37
+#, fuzzy
+msgid "Weather response automation"
+msgstr "Automatisation de la réponse météorologique"
+
+#. +> trunk5
+#: ../../user_manual/ekos-scheduler-taskqueue.rst:38
+#, fuzzy
+msgid "Any repetitive equipment control tasks"
+msgstr "Toute tâche répétitive de contrôle de l'équipement"
+
+#. +> trunk5
+#: ../../user_manual/ekos-scheduler-taskqueue.rst:40
+#, fuzzy
+msgid "You can still use traditional shell scripts when needed through the SCRIPT action type, combining the flexibility of scripting with the structure of the Task Queue."
+msgstr "Vous pouvez toujours utiliser des scripts shell traditionnels si nécessaire via le type d'action de SCRIPT, en combinant la flexibilité du script avec la structure de la file d'attente des tâches."
+
+#. +> trunk5
+#: ../../user_manual/ekos-scheduler-taskqueue.rst:42
+#, fuzzy
+msgid "Key Concepts"
+msgstr "Concepts Clés"
+
+#. +> trunk5
+#: ../../user_manual/ekos-scheduler-taskqueue.rst:45
+#, fuzzy
+msgid "Understanding Templates and Tasks"
+msgstr "Comprendre les modèles et les tâches"
+
+#. +> trunk5
+#: ../../user_manual/ekos-scheduler-taskqueue.rst:47
+#, fuzzy
+msgid "The Task Queue system is built around two fundamental concepts:"
+msgstr "Le système de file d'attente des tâches est construit autour de deux concepts fondamentaux :"
+
+#. +> trunk5
+#: ../../user_manual/ekos-scheduler-taskqueue.rst:50
+#, fuzzy
+msgid "Templates are reusable blueprints that define what a task should do. They specify:"
+msgstr "Les modèles sont des plans réutilisables qui définissent ce qu'une tâche doit faire. Ils spécifient :"
+
+#. +> trunk5
+#: ../../user_manual/ekos-scheduler-taskqueue.rst:52
+#, fuzzy
+msgid "The sequence of actions to execute"
+msgstr "La séquence d'actions à exécuter"
+
+#. +> trunk5
+#: ../../user_manual/ekos-scheduler-taskqueue.rst:53
+#, fuzzy
+msgid "Configurable parameters (with defaults and constraints)"
+msgstr "Paramètres configurables (avec valeurs par défaut et contraintes)"
+
+#. +> trunk5
+#: ../../user_manual/ekos-scheduler-taskqueue.rst:54
+#, fuzzy
+msgid "Which INDI device interfaces are supported"
+msgstr "Quelles interfaces DE PÉRIPHÉRIQUES INDI sont prises en charge"
+
+#. +> trunk5
+#: ../../user_manual/ekos-scheduler-taskqueue.rst:55
+#, fuzzy
+msgid "Category and description for organization"
+msgstr "Catégorie et description de l'organisation"
+
+#. +> trunk5
+#: ../../user_manual/ekos-scheduler-taskqueue.rst:57
+#, fuzzy
+msgid "Templates come in two types:"
+msgstr "Les modèles sont de deux types :"
+
+#. +> trunk5
+#: ../../user_manual/ekos-scheduler-taskqueue.rst:59
+#, fuzzy
+msgid "**System Templates**: Pre-built templates provided with KStars for common operations (park mount, enable cooling, etc.)"
+msgstr "** Modèles de système ** : modèles pré-construits fournis avec KStars pour les opérations courantes (montage en parc, activation du refroidissement, etc.)"
+
+#. +> trunk5
+#: ../../user_manual/ekos-scheduler-taskqueue.rst:60
+#, fuzzy
+msgid "**Templates**"
+msgstr "Modèles"
+
+#. +> trunk5
+#: ../../user_manual/ekos-scheduler-taskqueue.rst:60
+#, fuzzy
+msgid "**User Templates**: Custom templates you create by selecting a device and specifying which property to set or evaluate, along with the target values and conditions"
+msgstr "** Modèles utilisateur ** : modèles personnalisés que vous créez en sélectionnant un appareil et en spécifiant la propriété à définir ou à évaluer, ainsi que les valeurs et conditions cibles"
+
+#. +> trunk5
+#: ../../user_manual/ekos-scheduler-taskqueue.rst:63
+#, fuzzy
+msgid "Tasks are specific instances created from templates. When you add a template to the queue, you create a task by:"
+msgstr "Les tâches sont des instances spécifiques créées à partir de modèles. Lorsque vous ajoutez un modèle à la file d'attente, vous créez une tâche en :"
+
+#. +> trunk5
+#: ../../user_manual/ekos-scheduler-taskqueue.rst:65
+#, fuzzy
+msgid "Selecting which device to use (e.g., which mount or camera)"
+msgstr "Sélectionner l'appareil à utiliser (par exemple, quelle monture ou caméra)"
+
+#. +> trunk5
+#: ../../user_manual/ekos-scheduler-taskqueue.rst:66
+#, fuzzy
+msgid "Setting parameter values (timeouts, target temperatures, etc.)"
+msgstr "Réglage des valeurs des paramètres (délais d'attente, températures cibles, etc.)"
+
+#. +> trunk5
+#: ../../user_manual/ekos-scheduler-taskqueue.rst:67
+#, fuzzy
+msgid "Optionally scheduling when it should run"
+msgstr "Planification facultative du moment où il devrait être exécuté"
+
+#. +> trunk5
+#: ../../user_manual/ekos-scheduler-taskqueue.rst:69
+#, fuzzy
+msgid "**Tasks**"
+msgstr "Tâches"
+
+#. +> trunk5
+#: ../../user_manual/ekos-scheduler-taskqueue.rst:69
+#, fuzzy
+msgid "Each task in the queue has its own runtime state, tracking its progress and any errors."
+msgstr "Chaque tâche de la file d'attente a son propre état d'exécution, qui suit sa progression et toute erreur."
+
+#. +> trunk5
+#: ../../user_manual/ekos-scheduler-taskqueue.rst:71
+#, fuzzy
+msgid "|Task Queue Template|"
+msgstr "| Modèle de file d'attente de tâches |"
+
+#. +> trunk5
+#: ../../user_manual/ekos-scheduler-taskqueue.rst:74
+#, fuzzy
+msgid "Understanding Actions"
+msgstr "Comprendre les actions"
+
+#. +> trunk5
+#: ../../user_manual/ekos-scheduler-taskqueue.rst:76
+#, fuzzy
+msgid "Each task is composed of one or more **actions** that execute sequentially. The Task Queue system supports five action types:"
+msgstr "Chaque tâche est composée d'une ou plusieurs **actions** qui s'exécutent séquentiellement. Le système de file d'attente de tâches prend en charge cinq types d'actions :"
+
+#. +> trunk5
+#: ../../user_manual/ekos-scheduler-taskqueue.rst:79
+#, fuzzy
+msgid "**SET Action**"
+msgstr "Définir une action"
+
+#. +> trunk5
+#: ../../user_manual/ekos-scheduler-taskqueue.rst:79
+#, fuzzy
+msgid "Sets an INDI property to a specific value. For example, setting a switch to ON, changing a number property, or updating text. The action can optionally wait for the property state to become OK before completing."
+msgstr "Définit une propriété INDI à une valeur spécifique. Par exemple, définir un commutateur sur ON, modifier une propriété numérique ou mettre à jour du texte. L'action peut éventuellement attendre que l'état de la propriété devienne OK avant de terminer."
+
+#. +> trunk5
+#: ../../user_manual/ekos-scheduler-taskqueue.rst:82
+#, fuzzy
+msgid "**EVALUATE Action**"
+msgstr "**ÉVALUER L'ACTION**"
+
+#. +> trunk5
+#: ../../user_manual/ekos-scheduler-taskqueue.rst:82
+#, fuzzy
+msgid "Waits for a condition to be met by polling an INDI property. Useful for waiting until equipment reaches a target state (e.g., temperature stabilized, mount parked, dome opened). Supports various condition types (equals, greater than, within range, etc.)."
+msgstr "Attend qu'une condition soit remplie en interrogeant une propriété INDI. Utile pour attendre que l'équipement atteigne un état cible (par exemple, température stabilisée, montage stationné, dôme ouvert). Prend en charge divers types de conditions (égales, supérieures, à portée, etc.)."
+
+#. +> trunk5
+#: ../../user_manual/ekos-scheduler-taskqueue.rst:85
+#, fuzzy
+msgid "**DELAY Action**"
+msgstr "** action DE RETARD **"
+
+#. +> trunk5
+#: ../../user_manual/ekos-scheduler-taskqueue.rst:85
+#, fuzzy
+msgid "Pauses execution for a specified duration. Useful for allowing equipment to settle, rate-limiting operations, or adding time-based spacing between actions."
+msgstr "Suspend l'exécution pendant une durée spécifiée. Utile pour permettre à l'équipement de se stabiliser, limiter les opérations ou ajouter un espacement temporel entre les actions."
+
+#. +> trunk5
+#: ../../user_manual/ekos-scheduler-taskqueue.rst:88
+#, fuzzy
+msgid "**START Action**"
+msgstr "Lancer l'action"
+
+#. +> trunk5
+#: ../../user_manual/ekos-scheduler-taskqueue.rst:88
+#, fuzzy
+msgid "Controls when a task begins execution. Can be set to start immediately (ASAP) or at a scheduled date/time. Useful for time-based automation."
+msgstr "Contrôle le début de l'exécution d'une tâche. Peut être configuré pour démarrer immédiatement (dès que possible) ou à une date/heure planifiée. Utile pour l'automatisation basée sur le temps."
+
+#. +> trunk5
+#: ../../user_manual/ekos-scheduler-taskqueue.rst:91
+#, fuzzy
+msgid "**SCRIPT Action**"
+msgstr "** action SCRIPT **"
+
+#. +> trunk5
+#: ../../user_manual/ekos-scheduler-taskqueue.rst:91
+#, fuzzy
+msgid "Executes an external script or program. This allows integration of custom logic or operations not directly supported by INDI properties. The action monitors the script's exit code and captures stdout/stderr for logging."
+msgstr "Exécute un script ou un programme externe. Cela permet l'intégration d'une logique personnalisée ou d'opérations non directement prises en charge par LES PROPRIÉTÉS INDI. L'action surveille le code de sortie du script et capture stdout/stderr pour la journalisation."
+
+#. +> trunk5
+#: ../../user_manual/ekos-scheduler-taskqueue.rst:94
+#, fuzzy
+msgid "Action Configuration"
+msgstr "Configuration de l'action"
+
+#. +> trunk5
+#: ../../user_manual/ekos-scheduler-taskqueue.rst:96
+#, fuzzy
+msgid "All actions support common configuration options:"
+msgstr "Toutes les actions prennent en charge les options de configuration communes :"
+
+#. +> trunk5
+#: ../../user_manual/ekos-scheduler-taskqueue.rst:98
+#, fuzzy
+msgid "**Timeout**: Maximum time to wait for action completion (in seconds)"
+msgstr "**Délai d'attente** : temps maximum pour attendre la fin de l'action (en secondes)"
+
+#. +> trunk5
+#: ../../user_manual/ekos-scheduler-taskqueue.rst:99
+#, fuzzy
+msgid "**Retries**: Number of retry attempts if the action fails"
+msgstr "**Réessais** : nombre de tentatives de réessai si l'action échoue"
+
+#. +> trunk5
+#: ../../user_manual/ekos-scheduler-taskqueue.rst:100
+#, fuzzy
+msgid "**Failure Action**: What to do if the action fails after all retries:"
+msgstr "** Action en cas d'échec ** : que faire si l'action échoue après toutes les tentatives :"
+
+#. +> trunk5
+#: ../../user_manual/ekos-scheduler-taskqueue.rst:102
+#, fuzzy
+msgid "**ABORT_QUEUE**: Stop the entire queue (default for critical operations)"
+msgstr "**ABORT_QUEUE** : Arrêter toute la file d'attente (par défaut pour les opérations critiques)"
+
+#. +> trunk5
+#: ../../user_manual/ekos-scheduler-taskqueue.rst:103
+#, fuzzy
+msgid "**CONTINUE**: Log the error but continue to the next action"
+msgstr "**CONTINUEZ** : enregistrez l'erreur mais passez à l'action suivante"
+
+#. +> trunk5
+#: ../../user_manual/ekos-scheduler-taskqueue.rst:104
+#, fuzzy
+msgid "**SKIP_TO_NEXT_TASK**: Skip remaining actions in current task and move to the next task"
+msgstr "**SKIP_TO_NEXT_TASK** : ignorez les actions restantes dans la tâche en cours et passez à la tâche suivante"
+
+#. +> trunk5
+#: ../../user_manual/ekos-scheduler-taskqueue.rst:107
+#, fuzzy
+msgid "Understanding Collections"
+msgstr "Comprendre les collections"
+
+#. +> trunk5
+#: ../../user_manual/ekos-scheduler-taskqueue.rst:109
+#, fuzzy
+msgid "**Collections** are pre-defined sets of tasks designed for common scenarios. They provide quick-start solutions without requiring you to build queues from scratch."
+msgstr "**Les collections** sont des ensembles prédéfinis de tâches conçues pour des scénarios courants. Ils fournissent des solutions de démarrage rapide sans vous obliger à créer des files d'attente à partir de zéro."
+
+#. +> trunk5
+#: ../../user_manual/ekos-scheduler-taskqueue.rst:111
+#, fuzzy
+msgid "The system provides two collections:"
+msgstr "Le système fournit deux collections :"
+
+#. +> trunk5
+#: ../../user_manual/ekos-scheduler-taskqueue.rst:113
+#, fuzzy
+msgid "**Observatory Startup**: Unparks dome, unparks mount, and opens dust cap (if applicable)"
+msgstr "** Démarrage de l'observatoire ** : dégage le dôme, dégage le montage et ouvre le capuchon anti-poussière (le cas échéant)"
+
+#. +> trunk5
+#: ../../user_manual/ekos-scheduler-taskqueue.rst:114
+#, fuzzy
+msgid "**Observatory Shutdown**: Parks mount, parks dome, and closes dust cap (if applicable)"
+msgstr "** Arrêt de l'observatoire ** : les parcs montent, le dôme des parcs et ferment le capuchon anti-poussière (le cas échéant)"
+
+#. +> trunk5
+#: ../../user_manual/ekos-scheduler-taskqueue.rst:116
+#, fuzzy
+msgid "Collections are loaded as complete queues, ready to execute. You can load a collection and then customize it by adding, removing, or reordering tasks."
+msgstr "Les collections sont chargées en tant que files d'attente complètes, prêtes à être exécutées. Vous pouvez charger une collection, puis la personnaliser en ajoutant, supprimant ou réorganisant des tâches."
+
+#. +> trunk5
+#: ../../user_manual/ekos-scheduler-taskqueue.rst:118
+#, fuzzy
+msgid "|Task Queue Collection|"
+msgstr "| Collection de files d'attente de tâches |"
+
+#. +> trunk5
+#: ../../user_manual/ekos-scheduler-taskqueue.rst:121
+#, fuzzy
+msgid "Device Interface Matching"
+msgstr "Correspondance de l'interface de l'appareil"
+
+#. +> trunk5
+#: ../../user_manual/ekos-scheduler-taskqueue.rst:123
+#, fuzzy
+msgid "Templates specify which INDI device interfaces they support (e.g., Telescope, CCD, Dome, Weather). When you add a template to the queue, the system automatically presents only compatible devices."
+msgstr "Les modèles spécifient LES interfaces de périphériques INDI qu'ils prennent en charge (par exemple, télescope, CCD, dôme, météo). Lorsque vous ajoutez un modèle à la file d'attente, le système ne présente automatiquement que les appareils compatibles."
+
+#. +> trunk5
+#: ../../user_manual/ekos-scheduler-taskqueue.rst:125
+#, fuzzy
+msgid "For example: - A \"Park Mount\" template requires the Telescope interface - A \"Set Cooling\" template requires the CCD interface - A \"Set Dome Azimuth\" template requires the Dome interface"
+msgstr "Par exemple : - Un modèle « Park Mount » nécessite l'interface Telescope - Un modèle « Set Cooling » nécessite l'interface CCD - Un modèle « Set Dome Azimuth » nécessite l'interface Dome"
+
+#. +> trunk5
+#: ../../user_manual/ekos-scheduler-taskqueue.rst:130
+#, fuzzy
+msgid "This ensures you cannot accidentally assign incompatible devices to tasks."
+msgstr "Cela garantit que vous ne pouvez pas affecter accidentellement des appareils incompatibles à des tâches."
+
+#. +> trunk5
+#: ../../user_manual/ekos-scheduler-taskqueue.rst:132
+#, fuzzy
+msgid "Getting Started"
+msgstr "Par où commencer"
+
+#. +> trunk5
+#: ../../user_manual/ekos-scheduler-taskqueue.rst:135
+#, fuzzy
+msgid "Quick Start: Loading a Collection"
+msgstr "Démarrage rapide : chargement d'une collection"
+
+#. +> trunk5
+#: ../../user_manual/ekos-scheduler-taskqueue.rst:137
+#, fuzzy
+msgid "The fastest way to start using the Task Queue is to load a pre-built collection:"
+msgstr "Le moyen le plus rapide de commencer à utiliser la file d'attente des tâches est de charger une collection pré-construite :"
+
+#. +> trunk5
+#: ../../user_manual/ekos-scheduler-taskqueue.rst:139
+#, fuzzy
+msgid "Open the **Ekos Scheduler** module"
+msgstr "Ouvrez le module **Ekos Scheduler**"
+
+#. +> trunk5
+#: ../../user_manual/ekos-scheduler-taskqueue.rst:140
+#, fuzzy
+msgid "Click the **Task Queue** or **Collections** button (location depends on UI integration)"
+msgstr "Cliquez sur le bouton ** File d'attente des tâches * * ou * *Collections** (l'emplacement dépend de l'intégration de l'interface utilisateur)"
+
+#. +> trunk5
+#: ../../user_manual/ekos-scheduler-taskqueue.rst:141
+#, fuzzy
+msgid "In the Collections dialog, browse available collections:"
+msgstr "Dans la boîte de dialogue Collections, parcourez les collections disponibles :"
+
+#. +> trunk5
+#: ../../user_manual/ekos-scheduler-taskqueue.rst:143
+#, fuzzy
+msgid "**Observatory Startup**: Complete startup sequence for your equipment"
+msgstr "** Démarrage de l'observatoire ** : séquence de démarrage complète de votre équipement"
+
+#. +> trunk5
+#: ../../user_manual/ekos-scheduler-taskqueue.rst:144
+#, fuzzy
+msgid "**Observatory Shutdown**: Safe shutdown procedures"
+msgstr "** Arrêt de l'observatoire ** : Procédures d'arrêt sécurisées"
+
+#. +> trunk5
+#: ../../user_manual/ekos-scheduler-taskqueue.rst:145
+#, fuzzy
+msgid "**Emergency Shutdown**: Fast shutdown for weather alerts"
+msgstr "** Arrêt d'urgence ** : arrêt rapide pour les alertes météorologiques"
+
+#. +> trunk5
+#: ../../user_manual/ekos-scheduler-taskqueue.rst:146
+#, fuzzy
+msgid "**Camera Cooling**: Controlled camera temperature management"
+msgstr "** Refroidissement de la caméra ** : gestion contrôlée de la température de la caméra"
+
+#. +> trunk5
+#: ../../user_manual/ekos-scheduler-taskqueue.rst:148
+#, fuzzy
+msgid "Select a collection and click **Load**"
+msgstr "Sélectionnez une collection et cliquez sur **Charger**"
+
+#. +> trunk5
+#: ../../user_manual/ekos-scheduler-taskqueue.rst:149
+#, fuzzy
+msgid "The Queue Viewer will display all tasks in the collection"
+msgstr "La visionneuse de file d'attente affichera toutes les tâches de la collection"
+
+#. +> trunk5
+#: ../../user_manual/ekos-scheduler-taskqueue.rst:150
+#, fuzzy
+msgid "Review the tasks and customize if needed (see :ref:`taskqueue-building-queues`)"
+msgstr "Passez en revue les tâches et personnalisez-les si nécessaire (voir :ref :`taskqueue-building-queues`)"
+
+#. +> trunk5
+#: ../../user_manual/ekos-scheduler-taskqueue.rst:151
+#, fuzzy
+msgid "Click **Start** to execute the queue"
+msgstr "Cliquez sur **Démarrer** pour exécuter la file d'attente"
+
+#. +> trunk5
+#: ../../user_manual/ekos-scheduler-taskqueue.rst:154
+#, fuzzy
+msgid "Adding Tasks from Templates"
+msgstr "Ajouter des tâches à partir de modèles"
+
+#. +> trunk5
+#: ../../user_manual/ekos-scheduler-taskqueue.rst:156
+#, fuzzy
+msgid "To add a task to your queue:"
+msgstr "Pour ajouter une tâche à votre file d'attente :"
+
+#. +> trunk5
+#: ../../user_manual/ekos-scheduler-taskqueue.rst:158
+#, fuzzy
+msgid "Click the **Add from Template** button in the Queue Viewer"
+msgstr "Cliquez sur le bouton **Ajouter à partir du modèle** dans le visualiseur de file d'attente"
+
+#. +> trunk5
+#: ../../user_manual/ekos-scheduler-taskqueue.rst:159
+#, fuzzy
+msgid "The Template Library opens, showing available templates organized by category:"
+msgstr "La bibliothèque de modèles s'ouvre, montrant les modèles disponibles organisés par catégorie :"
+
+#. +> trunk5
+#: ../../user_manual/ekos-scheduler-taskqueue.rst:161
+#, fuzzy
+msgid "**Mount**: Park, unpark."
+msgstr "**Mount** : Park, unpark."
+
+#. +> trunk5
+#: ../../user_manual/ekos-scheduler-taskqueue.rst:162
+#, fuzzy
+msgid "**Camera**: Cooling, warming."
+msgstr "**Caméra** : Refroidissement, réchauffement."
+
+#. +> trunk5
+#: ../../user_manual/ekos-scheduler-taskqueue.rst:163
+#, fuzzy
+msgid "**Dome**: Park, unpark"
+msgstr "**Dôme** : Park, unpark"
+
+#. +> trunk5
+#: ../../user_manual/ekos-scheduler-taskqueue.rst:164
+#, fuzzy
+msgid "**Dust Cap**: Park, unpark"
+msgstr "** Capuchon anti-poussière ** : stationner, débarquer"
+
+#. +> trunk5
+#: ../../user_manual/ekos-scheduler-taskqueue.rst:166
+#, fuzzy
+msgid "Browse or search for the desired template"
+msgstr "Parcourez ou recherchez le modèle souhaité"
+
+#. +> trunk5
+#: ../../user_manual/ekos-scheduler-taskqueue.rst:167
+#, fuzzy
+msgid "Select a template to preview its description and parameters"
+msgstr "Sélectionnez un modèle pour prévisualiser sa description et ses paramètres"
+
+#. +> trunk5
+#: ../../user_manual/ekos-scheduler-taskqueue.rst:168
+#, fuzzy
+msgid "Click **Add to Queue** or double-click the template"
+msgstr "Cliquez sur **Ajouter à la file d'attente** ou double-cliquez sur le modèle"
+
+#. +> trunk5
+#: ../../user_manual/ekos-scheduler-taskqueue.rst:171
+#, fuzzy
+msgid "Selecting the Device"
+msgstr "Sélection de l'appareil"
+
+#. +> trunk5
+#: ../../user_manual/ekos-scheduler-taskqueue.rst:173
+#, fuzzy
+msgid "After selecting a template, you'll be prompted to choose which device to use:"
+msgstr "Après avoir sélectionné un modèle, vous serez invité à choisir l'appareil à utiliser :"
+
+#. +> trunk5
+#: ../../user_manual/ekos-scheduler-taskqueue.rst:175
+#, fuzzy
+msgid "The **Device Selection** dialog appears"
+msgstr "La boîte de dialogue ** Sélection de l'appareil ** apparaît"
+
+#. +> trunk5
+#: ../../user_manual/ekos-scheduler-taskqueue.rst:176
+#, fuzzy
+msgid "Only compatible devices are shown (based on interface matching)"
+msgstr "Seuls les appareils compatibles sont affichés (en fonction de la correspondance de l'interface)"
+
+#. +> trunk5
+#: ../../user_manual/ekos-scheduler-taskqueue.rst:177
+#, fuzzy
+msgid "Select the device from the list"
+msgstr "Sélectionner le dispositif dans la liste"
+
+#. +> trunk5
+#: ../../user_manual/ekos-scheduler-taskqueue.rst:178
+#, fuzzy
+msgid "Click **OK**"
+msgstr "Cliquez sur OK"
+
+#. +> trunk5
+#: ../../user_manual/ekos-scheduler-taskqueue.rst:180
+#, fuzzy
+msgid "For example, if you selected a \"Park Mount\" template, you'll see only telescope devices. If you have multiple mounts connected, choose which one this task should control."
+msgstr "Par exemple, si vous avez sélectionné un modèle « Park Mount », vous ne verrez que les appareils télescopiques. Si vous avez plusieurs montures connectées, choisissez celle que cette tâche doit contrôler."
+
+#. +> trunk5
+#: ../../user_manual/ekos-scheduler-taskqueue.rst:182
+#, fuzzy
+msgid "|Task Queue Select Device|"
+msgstr "| Dispositif de sélection de file d'attente de tâches |"
+
+#. +> trunk5
+#: ../../user_manual/ekos-scheduler-taskqueue.rst:185
+#, fuzzy
+msgid "Customizing Parameters"
+msgstr "Personnalisation des paramètres"
+
+#. +> trunk5
+#: ../../user_manual/ekos-scheduler-taskqueue.rst:187
+#, fuzzy
+msgid "After device selection, the **Parameter Customization** dialog opens:"
+msgstr "Après la sélection de l'appareil, la boîte de dialogue * * Personnalisation des paramètres * * s'ouvre :"
+
+#. +> trunk5
+#: ../../user_manual/ekos-scheduler-taskqueue.rst:189
+#, fuzzy
+msgid "Review the available parameters for this template"
+msgstr "Passez en revue les paramètres disponibles pour ce modèle"
+
+#. +> trunk5
+#: ../../user_manual/ekos-scheduler-taskqueue.rst:190
+#, fuzzy
+msgid "Each parameter shows:"
+msgstr "Chaque paramètre affiche :"
+
+#. +> trunk5
+#: ../../user_manual/ekos-scheduler-taskqueue.rst:192
+#, fuzzy
+msgid "**Name**: Parameter identifier"
+msgstr "**Nom** : Identifiant du paramètre"
+
+#. +> trunk5
+#: ../../user_manual/ekos-scheduler-taskqueue.rst:193
+#, fuzzy
+msgid "**Description**: What this parameter controls"
+msgstr "**Description** : Ce que ce paramètre contrôle"
+
+#. +> trunk5
+#: ../../user_manual/ekos-scheduler-taskqueue.rst:194
+#, fuzzy
+msgid "**Default Value**: Pre-set value from the template"
+msgstr "** Valeur par défaut ** : valeur prédéfinie à partir du modèle"
+
+#. +> trunk5
+#: ../../user_manual/ekos-scheduler-taskqueue.rst:195
+#, fuzzy
+msgid "**Constraints**: Min/max values or allowed options"
+msgstr "**Contraintes** : Valeurs min/max ou options autorisées"
+
+#. +> trunk5
+#: ../../user_manual/ekos-scheduler-taskqueue.rst:196
+#, fuzzy
+msgid "**Unit**: Measurement unit (seconds, degrees, °C, etc.)"
+msgstr "**Unité** : Unité de mesure (secondes, degrés, °C, etc.)"
+
+#. +> trunk5
+#: ../../user_manual/ekos-scheduler-taskqueue.rst:198
+#, fuzzy
+msgid "Modify parameters as needed:"
+msgstr "Modifiez les paramètres au besoin :"
+
+#. +> trunk5
+#: ../../user_manual/ekos-scheduler-taskqueue.rst:200
+#, fuzzy
+msgid "Timeouts: Adjust based on your equipment's response time"
+msgstr "Délais d'attente : ajustez en fonction du temps de réponse de votre équipement"
+
+#. +> trunk5
+#: ../../user_manual/ekos-scheduler-taskqueue.rst:201
+#, fuzzy
+msgid "Target values: Set specific temperatures, positions, etc."
+msgstr "Valeurs cibles : définir des températures, des positions spécifiques, etc."
+
+#. +> trunk5
+#: ../../user_manual/ekos-scheduler-taskqueue.rst:202
+#, fuzzy
+msgid "Retry counts: Increase for unreliable connections"
+msgstr "Nombre de tentatives : Augmentation pour les connexions non fiables"
+
+#. +> trunk5
+#: ../../user_manual/ekos-scheduler-taskqueue.rst:204
+#, fuzzy
+msgid "Click **OK** to add the configured task to the queue"
+msgstr "Cliquez sur **OK** pour ajouter la tâche configurée à la file d'attente"
+
+#. +> trunk5
+#: ../../user_manual/ekos-scheduler-taskqueue.rst:206
+#, fuzzy
+msgid "|Task Queue Customize Parameters|"
+msgstr "| Paramètres de personnalisation de la file d'attente des tâches |"
+
+#. +> trunk5
+#: ../../user_manual/ekos-scheduler-taskqueue.rst:208
+#, fuzzy
+msgid "Common parameters you'll encounter:"
+msgstr "Paramètres courants que vous rencontrerez :"
+
+#. +> trunk5
+#: ../../user_manual/ekos-scheduler-taskqueue.rst:210
+#, fuzzy
+msgid "**timeout**: Maximum seconds to wait (default: 30-60s)"
+msgstr "**délai D'ATTENTE ** : nombre maximum de secondes à attendre (par défaut : 30-60s)"
+
+#. +> trunk5
+#: ../../user_manual/ekos-scheduler-taskqueue.rst:211
+#, fuzzy
+msgid "**retries**: Number of retry attempts (default: 2)"
+msgstr "**réessais** : Nombre de tentatives de réessai (par défaut : 2)"
+
+#. +> trunk5
+#: ../../user_manual/ekos-scheduler-taskqueue.rst:212
+#, fuzzy
+msgid "**target_temp**: Target temperature for cameras (°C)"
+msgstr "**Target_temp** : Température cible pour les caméras (°C)"
+
+#. +> trunk5
+#: ../../user_manual/ekos-scheduler-taskqueue.rst:213
+#, fuzzy
+msgid "**settle_time**: Delay to allow equipment stabilization (seconds)"
+msgstr "**Settle_time** : Délai pour permettre la stabilisation de l'équipement (secondes)"
+
+#. +> trunk5
+#: ../../user_manual/ekos-scheduler-taskqueue.rst:216
+#, fuzzy
+msgid "Managing Queue Items"
+msgstr "Gestion des éléments de file d'attente"
+
+#. +> trunk5
+#: ../../user_manual/ekos-scheduler-taskqueue.rst:218
+#, fuzzy
+msgid "Once tasks are in the queue, you can manage them:"
+msgstr "Une fois les tâches dans la file d'attente, vous pouvez les gérer :"
+
+#. +> trunk5
+#: ../../user_manual/ekos-scheduler-taskqueue.rst:221
+#, fuzzy
+msgid "Select a task in the queue table"
+msgstr "Sélectionnez une tâche dans la table de file d'attente"
+
+#. +> trunk5
+#: ../../user_manual/ekos-scheduler-taskqueue.rst:222
+#, fuzzy
+msgid "Click **Move Up** or **Move Down** to change execution order"
+msgstr "Cliquez sur **Monter** ou **Descendre * * pour modifier l'ordre d'exécution"
+
+#. +> trunk5
+#: ../../user_manual/ekos-scheduler-taskqueue.rst:223
+#, fuzzy
+msgid "**Reordering Tasks**"
+msgstr "**Réorganisation des tâches**"
+
+#. +> trunk5
+#: ../../user_manual/ekos-scheduler-taskqueue.rst:223
+#, fuzzy
+msgid "Tasks execute from top to bottom"
+msgstr "Les tâches s'exécutent de haut en bas"
+
+#. +> trunk5
+#: ../../user_manual/ekos-scheduler-taskqueue.rst:226
+#, fuzzy
+msgid "Select one or more tasks"
+msgstr "Sélectionner une ou plusieurs tâches"
+
+#. +> trunk5
+#: ../../user_manual/ekos-scheduler-taskqueue.rst:227
+#, fuzzy
+msgid "**Removing Tasks**"
+msgstr "supprimer des tâches"
+
+#. +> trunk5
+#: ../../user_manual/ekos-scheduler-taskqueue.rst:227
+#, fuzzy
+msgid "Click **Remove** to delete them from the queue"
+msgstr "Cliquez sur **Supprimer** pour les supprimer de la file d'attente"
+
+#. +> trunk5
+#: ../../user_manual/ekos-scheduler-taskqueue.rst:230
+#, fuzzy
+msgid "Double-click a task to view/edit its parameters"
+msgstr "Double-cliquez sur une tâche pour afficher/modifier ses paramètres"
+
+#. +> trunk5
+#: ../../user_manual/ekos-scheduler-taskqueue.rst:231
+#, fuzzy
+msgid "Modify device assignment or parameter values"
+msgstr "Modifier l'affectation de l'appareil ou les valeurs des paramètres"
+
+#. +> trunk5
+#: ../../user_manual/ekos-scheduler-taskqueue.rst:232
+#, fuzzy
+msgid "**Editing Tasks**"
+msgstr "**Modification des tâches**"
+
+#. +> trunk5
+#: ../../user_manual/ekos-scheduler-taskqueue.rst:232
+#, fuzzy
+msgid "Changes take effect immediately"
+msgstr "Ces changements entrent en vigueur immédiatement."
+
+#. +> trunk5
+#: ../../user_manual/ekos-scheduler-taskqueue.rst:235
+#, fuzzy
+msgid "Click **Clear** to remove all tasks"
+msgstr "Cliquez sur **Effacer** pour supprimer toutes les tâches"
+
+#. +> trunk5
+#: ../../user_manual/ekos-scheduler-taskqueue.rst:236
+#, fuzzy
+msgid "**Clearing the Queue**"
+msgstr "**Effacement de la file d'attente**"
+
+#. +> trunk5
+#: ../../user_manual/ekos-scheduler-taskqueue.rst:236
+#, fuzzy
+msgid "Useful when starting fresh or loading a different collection"
+msgstr "Utile lors du démarrage frais ou du chargement d'une autre collection"
+
+#. +> trunk5
+#: ../../user_manual/ekos-scheduler-taskqueue.rst:238
+#, fuzzy
+msgid "Queue Execution"
+msgstr "Exécution de la file d'attente"
+
+#. +> trunk5
+#: ../../user_manual/ekos-scheduler-taskqueue.rst:241
+#, fuzzy
+msgid "Running the Queue"
+msgstr "Exécution de la file d'attente"
+
+#. +> trunk5
+#: ../../user_manual/ekos-scheduler-taskqueue.rst:243
+#, fuzzy
+msgid "Once your queue is built, you can execute it:"
+msgstr "Une fois votre file d'attente construite, vous pouvez l'exécuter :"
+
+#. +> trunk5
+#: ../../user_manual/ekos-scheduler-taskqueue.rst:245
+#, fuzzy
+msgid "Review all tasks in the queue to ensure correct order"
+msgstr "Passez en revue toutes les tâches dans la file d'attente pour assurer le bon ordre"
+
+#. +> trunk5
+#: ../../user_manual/ekos-scheduler-taskqueue.rst:246
+#, fuzzy
+msgid "Click the **Start** button in the Queue Viewer"
+msgstr "Cliquez sur le bouton **Démarrer** dans la visionneuse de file d'attente"
+
+#. +> trunk5
+#: ../../user_manual/ekos-scheduler-taskqueue.rst:247
+#, fuzzy
+msgid "The queue begins executing tasks sequentially from top to bottom"
+msgstr "La file d'attente commence à exécuter les tâches de manière séquentielle de haut en bas"
+
+#. +> trunk5
+#: ../../user_manual/ekos-scheduler-taskqueue.rst:248
+#, fuzzy
+msgid "Monitor progress in real-time through the status indicators"
+msgstr "Suivre les progrès en temps réel grâce aux indicateurs d'état"
+
+#. +> trunk5
+#: ../../user_manual/ekos-scheduler-taskqueue.rst:250
+#, fuzzy
+msgid "**Queue Controls:**"
+msgstr "** Contrôles de la file d'attente :**"
+
+#. +> trunk5
+#: ../../user_manual/ekos-scheduler-taskqueue.rst:252
+#, fuzzy
+msgid "**Start**: Begin queue execution (only available when queue is idle)"
+msgstr "**Démarrer * * : commencer l'exécution de la file d'attente (disponible uniquement lorsque la file d'attente est inactive)"
+
+#. +> trunk5
+#: ../../user_manual/ekos-scheduler-taskqueue.rst:253
+#, fuzzy
+msgid "**Pause**: Temporarily halt execution (current action completes first)"
+msgstr "**Pause * * : interrompre temporairement l'exécution (l'action en cours s'achève en premier)"
+
+#. +> trunk5
+#: ../../user_manual/ekos-scheduler-taskqueue.rst:254
+#, fuzzy
+msgid "**Resume**: Continue a paused queue"
+msgstr "**Reprendre** : Continuer une file d'attente en pause"
+
+#. +> trunk5
+#: ../../user_manual/ekos-scheduler-taskqueue.rst:255
+#, fuzzy
+msgid "**Stop**: Gracefully stop the queue (allows current task to finish)"
+msgstr "**Arrêter * * : arrêtez gracieusement la file d'attente (permet à la tâche en cours de se terminer)"
+
+#. +> trunk5
+#: ../../user_manual/ekos-scheduler-taskqueue.rst:256
+#, fuzzy
+msgid "**Abort**: Immediately terminate execution (may leave equipment in intermediate state)"
+msgstr "**Abandonner** : mettre immédiatement fin à l'exécution (peut laisser l'équipement à l'état intermédiaire)"
+
+#. +> trunk5
+#: ../../user_manual/ekos-scheduler-taskqueue.rst:258
+#, fuzzy
+msgid "|Task Queue Running|"
+msgstr "| File d'attente de tâches en cours|"
+
+#. +> trunk5
+#: ../../user_manual/ekos-scheduler-taskqueue.rst:261
+#, fuzzy
+msgid "Understanding Status Indicators"
+msgstr "Comprendre les indicateurs d'état"
+
+#. +> trunk5
+#: ../../user_manual/ekos-scheduler-taskqueue.rst:263
+#, fuzzy
+msgid "Each task and action displays a status indicator:"
+msgstr "Chaque tâche et action affiche un indicateur d'état :"
+
+#. +> trunk5
+#: ../../user_manual/ekos-scheduler-taskqueue.rst:265
+#, fuzzy
+msgid "**Task Status:**"
+msgstr "État de la tâche"
+
+#. +> trunk5
+#: ../../user_manual/ekos-scheduler-taskqueue.rst:267
+#, fuzzy
+msgid "**PENDING** (Gray): Task waiting to execute"
+msgstr "**EN ATTENTE** (gris) : tâche en attente d'exécution"
+
+#. +> trunk5
+#: ../../user_manual/ekos-scheduler-taskqueue.rst:268
+#, fuzzy
+msgid "**SCHEDULED** (Blue): Task scheduled for future time (START action with datetime)"
+msgstr "**PLANIFIÉ** (bleu) : Tâche planifiée pour l'heure future (action de DÉBUT avec date-heure)"
+
+#. +> trunk5
+#: ../../user_manual/ekos-scheduler-taskqueue.rst:269
+#, fuzzy
+msgid "**RUNNING** (Yellow/Orange): Task currently executing"
+msgstr "**EN COURS** (Jaune/Orange) : Tâche en cours d'exécution"
+
+#. +> trunk5
+#: ../../user_manual/ekos-scheduler-taskqueue.rst:270
+#, fuzzy
+msgid "**COMPLETED** (Green): Task finished successfully"
+msgstr "**TERMINÉ** (vert) : tâche terminée avec succès"
+
+#. +> trunk5
+#: ../../user_manual/ekos-scheduler-taskqueue.rst:271
+#, fuzzy
+msgid "**FAILED** (Red): Task failed after all retries"
+msgstr "**ÉCHEC** (rouge) : la tâche a échoué après toutes les tentatives"
+
+#. +> trunk5
+#: ../../user_manual/ekos-scheduler-taskqueue.rst:272
+#, fuzzy
+msgid "**ABORTED** (Red): Task manually stopped"
+msgstr "**ABANDONNÉ** (rouge) : tâche arrêtée manuellement"
+
+#. +> trunk5
+#: ../../user_manual/ekos-scheduler-taskqueue.rst:273
+#, fuzzy
+msgid "**SKIPPED** (Gray): Task skipped due to conditions"
+msgstr "**IGNORÉ** (gris) : tâche ignorée en raison de conditions"
+
+#. +> trunk5
+#: ../../user_manual/ekos-scheduler-taskqueue.rst:275
+#, fuzzy
+msgid "**Action Status:**"
+msgstr "Statut de l’action"
+
+#. +> trunk5
+#: ../../user_manual/ekos-scheduler-taskqueue.rst:277
+#, fuzzy
+msgid "**PENDING**: Action not yet started"
+msgstr "**EN ATTENTE** : action non encore commencée"
+
+#. +> trunk5
+#: ../../user_manual/ekos-scheduler-taskqueue.rst:278
+#, fuzzy
+msgid "**RUNNING**: Action currently executing"
+msgstr "**EN COURS D'EXÉCUTION** : Action en cours d'exécution"
+
+#. +> trunk5
+#: ../../user_manual/ekos-scheduler-taskqueue.rst:279
+#, fuzzy
+msgid "**COMPLETED**: Action finished successfully"
+msgstr "**TERMINÉ** : Action terminée avec succès"
+
+#. +> trunk5
+#: ../../user_manual/ekos-scheduler-taskqueue.rst:280
+#, fuzzy
+msgid "**FAILED**: Action failed after retries"
+msgstr "**ÉCHEC** : l'action a échoué après plusieurs tentatives"
+
+#. +> trunk5
+#: ../../user_manual/ekos-scheduler-taskqueue.rst:281
+#, fuzzy
+msgid "**ABORTED**: Action manually aborted"
+msgstr "**AVORTÉ** : Action abandonnée manuellement"
+
+#. +> trunk5
+#: ../../user_manual/ekos-scheduler-taskqueue.rst:284
+#, fuzzy
+msgid "Progress Monitoring"
+msgstr "SUIVI DU PROJET"
+
+#. +> trunk5
+#: ../../user_manual/ekos-scheduler-taskqueue.rst:286
+#, fuzzy
+msgid "The Queue Viewer provides multiple ways to monitor execution:"
+msgstr "La visionneuse de file d'attente offre plusieurs façons de surveiller l'exécution :"
+
+#. +> trunk5
+#: ../../user_manual/ekos-scheduler-taskqueue.rst:289
+#, fuzzy
+msgid "Each task row shows:"
+msgstr "Chaque ligne de tâche montre :"
+
+#. +> trunk5
+#: ../../user_manual/ekos-scheduler-taskqueue.rst:291
+#, fuzzy
+msgid "Current status icon and text"
+msgstr "Icône d'état actuel et texte"
+
+#. +> trunk5
+#: ../../user_manual/ekos-scheduler-taskqueue.rst:292
+#, fuzzy
+msgid "Device being controlled"
+msgstr "Dispositif en cours de contrôle"
+
+#. +> trunk5
+#: ../../user_manual/ekos-scheduler-taskqueue.rst:293
+#, fuzzy
+msgid "Progress percentage"
+msgstr "Pourcentage de progression"
+
+#. +> trunk5
+#: ../../user_manual/ekos-scheduler-taskqueue.rst:294
+#, fuzzy
+msgid "**Queue Table**"
+msgstr "** Table de file d'attente **"
+
+#. +> trunk5
+#: ../../user_manual/ekos-scheduler-taskqueue.rst:294
+#, fuzzy
+msgid "Current action being executed"
+msgstr "Action en cours d'exécution"
+
+#. +> trunk5
+#: ../../user_manual/ekos-scheduler-taskqueue.rst:297
+#, fuzzy
+msgid "Bottom of the window displays:"
+msgstr "Le bas de la fenêtre affiche :"
+
+#. +> trunk5
+#: ../../user_manual/ekos-scheduler-taskqueue.rst:299
+#, fuzzy
+msgid "Overall queue status (IDLE, RUNNING, PAUSED, COMPLETED, ABORTED)"
+msgstr "État général de la file d'attente (INACTIF, EN COURS D'EXÉCUTION, EN PAUSE, TERMINÉ, ABANDONNÉ)"
+
+#. +> trunk5
+#: ../../user_manual/ekos-scheduler-taskqueue.rst:300
+#, fuzzy
+msgid "Progress bar showing completion percentage"
+msgstr "Barre de progression indiquant le pourcentage d'achèvement"
+
+#. +> trunk5
+#: ../../user_manual/ekos-scheduler-taskqueue.rst:301
+#, fuzzy
+msgid "**Status Bar**"
+msgstr "Barre d’état"
+
+#. +> trunk5
+#: ../../user_manual/ekos-scheduler-taskqueue.rst:301
+#, fuzzy
+msgid "Statistics: X of Y tasks completed, Z failed"
+msgstr "Statistiques : X tâches sur Y terminées, Z ont échoué"
+
+#. +> trunk5
+#: ../../user_manual/ekos-scheduler-taskqueue.rst:304
+#, fuzzy
+msgid "Detailed execution log shows:"
+msgstr "Le journal d'exécution détaillé montre :"
+
+#. +> trunk5
+#: ../../user_manual/ekos-scheduler-taskqueue.rst:306
+#, fuzzy
+msgid "Timestamp for each event"
+msgstr "Horodatage pour chaque événement"
+
+#. +> trunk5
+#: ../../user_manual/ekos-scheduler-taskqueue.rst:307
+#, fuzzy
+msgid "Action start/completion messages"
+msgstr "Messages de début/fin d'action"
+
+#. +> trunk5
+#: ../../user_manual/ekos-scheduler-taskqueue.rst:308
+#, fuzzy
+msgid "Property changes and INDI communications"
+msgstr "Changements de propriété et communications INDI"
+
+#. +> trunk5
+#: ../../user_manual/ekos-scheduler-taskqueue.rst:309
+#, fuzzy
+msgid "Error messages and retry attempts"
+msgstr "Messages d'erreur et tentatives de nouvelle tentative"
+
+#. +> trunk5
+#: ../../user_manual/ekos-scheduler-taskqueue.rst:310
+#, fuzzy
+msgid "**Log Panel**"
+msgstr "** Panneau de journal **"
+
+#. +> trunk5
+#: ../../user_manual/ekos-scheduler-taskqueue.rst:310
+#, fuzzy
+msgid "Script output (for SCRIPT actions)"
+msgstr "Sortie de script (pour les actions de SCRIPT)"
+
+#. +> trunk5
+#: ../../user_manual/ekos-scheduler-taskqueue.rst:313
+#, fuzzy
+msgid "Expand a task in the table to see:"
+msgstr "Développez une tâche dans le tableau pour voir :"
+
+#. +> trunk5
+#: ../../user_manual/ekos-scheduler-taskqueue.rst:315
+#, fuzzy
+msgid "List of all actions in the task"
+msgstr "Liste de toutes les actions de la tâche"
+
+#. +> trunk5
+#: ../../user_manual/ekos-scheduler-taskqueue.rst:316
+#, fuzzy
+msgid "Status of each action"
+msgstr "Statut de chaque action"
+
+#. +> trunk5
+#: ../../user_manual/ekos-scheduler-taskqueue.rst:317
+#, fuzzy
+msgid "Current values being set or evaluated"
+msgstr "Valeurs actuelles en cours de définition ou d'évaluation"
+
+#. +> trunk5
+#: ../../user_manual/ekos-scheduler-taskqueue.rst:318
+#, fuzzy
+msgid "**Action Details**"
+msgstr "Détails de l’action"
+
+#. +> trunk5
+#: ../../user_manual/ekos-scheduler-taskqueue.rst:318
+#, fuzzy
+msgid "Timeout countdown for long-running actions"
+msgstr "Compte à rebours du délai d'attente pour les actions de longue durée"
+
+#. +> trunk5
+#: ../../user_manual/ekos-scheduler-taskqueue.rst:321
+#, fuzzy
+msgid "Error Handling and Recovery"
+msgstr "Gestion et récupération des erreurs"
+
+#. +> trunk5
+#: ../../user_manual/ekos-scheduler-taskqueue.rst:323
+#, fuzzy
+msgid "The Task Queue system includes robust error handling:"
+msgstr "Le système de file d'attente des tâches comprend une gestion robuste des erreurs :"
+
+#. +> trunk5
+#: ../../user_manual/ekos-scheduler-taskqueue.rst:326
+#, fuzzy
+msgid "When an action fails:"
+msgstr "Lorsqu'une action échoue :"
+
+#. +> trunk5
+#: ../../user_manual/ekos-scheduler-taskqueue.rst:328
+#, fuzzy
+msgid "The error is logged with details"
+msgstr "L'erreur est enregistrée avec des détails"
+
+#. +> trunk5
+#: ../../user_manual/ekos-scheduler-taskqueue.rst:329
+#, fuzzy
+msgid "The system waits briefly (configurable delay)"
+msgstr "Le système attend brièvement (délai configurable)"
+
+#. +> trunk5
+#: ../../user_manual/ekos-scheduler-taskqueue.rst:330
+#, fuzzy
+msgid "The action is retried up to the configured retry count"
+msgstr "L'action est réessayée jusqu'au nombre de réessais configuré"
+
+#. +> trunk5
+#: ../../user_manual/ekos-scheduler-taskqueue.rst:331
+#, fuzzy
+msgid "**Automatic Retries**"
+msgstr "** Réessais automatiques **"
+
+#. +> trunk5
+#: ../../user_manual/ekos-scheduler-taskqueue.rst:331
+#, fuzzy
+msgid "If all retries fail, the failure action is executed"
+msgstr "Si toutes les tentatives échouent, l'action d'échec est exécutée"
+
+#. +> trunk5
+#: ../../user_manual/ekos-scheduler-taskqueue.rst:334
+#, fuzzy
+msgid "Based on the action's failure configuration:"
+msgstr "En fonction de la configuration de défaillance de l'action :"
+
+#. +> trunk5
+#: ../../user_manual/ekos-scheduler-taskqueue.rst:337
+#, fuzzy
+msgid "Stops the entire queue immediately"
+msgstr "Arrête immédiatement toute la file d'attente"
+
+#. +> trunk5
+#: ../../user_manual/ekos-scheduler-taskqueue.rst:338
+#, fuzzy
+msgid "Allows safe intervention before continuing"
+msgstr "Permet une intervention en toute sécurité avant de continuer"
+
+#. +> trunk5
+#: ../../user_manual/ekos-scheduler-taskqueue.rst:339
+#, fuzzy
+msgid "**ABORT_QUEUE** (Default for critical operations)"
+msgstr "**ABORT_QUEUE** (Par défaut pour les opérations critiques)"
+
+#. +> trunk5
+#: ../../user_manual/ekos-scheduler-taskqueue.rst:339
+#, fuzzy
+msgid "Used for: Mount parking, emergency shutdowns, critical safety checks"
+msgstr "Utilisé pour : stationnement de montage, arrêts d'urgence, contrôles de sécurité critiques"
+
+#. +> trunk5
+#: ../../user_manual/ekos-scheduler-taskqueue.rst:342
+#, fuzzy
+msgid "Logs the error"
+msgstr "Enregistre l'erreur"
+
+#. +> trunk5
+#: ../../user_manual/ekos-scheduler-taskqueue.rst:343
+#, fuzzy
+msgid "Proceeds to the next action in the task"
+msgstr "Passe à l'action suivante dans la tâche"
+
+#. +> trunk5
+#: ../../user_manual/ekos-scheduler-taskqueue.rst:344
+#, fuzzy
+msgid "**CONTINUE** (For non-critical operations)"
+msgstr "**CONTINUER** (Pour les opérations non critiques)"
+
+#. +> trunk5
+#: ../../user_manual/ekos-scheduler-taskqueue.rst:344
+#, fuzzy
+msgid "Used for: Optional optimizations, best-effort operations"
+msgstr "Utilisé pour : Optimisations optionnelles, opérations au mieux"
+
+#. +> trunk5
+#: ../../user_manual/ekos-scheduler-taskqueue.rst:347
+#, fuzzy
+msgid "Skips remaining actions in the current task"
+msgstr "Ignore les actions restantes dans la tâche en cours"
+
+#. +> trunk5
+#: ../../user_manual/ekos-scheduler-taskqueue.rst:348
+#, fuzzy
+msgid "Continues with the next task in the queue"
+msgstr "Continue avec la tâche suivante dans la file d'attente"
+
+#. +> trunk5
+#: ../../user_manual/ekos-scheduler-taskqueue.rst:349
+#, fuzzy
+msgid "**Failure Actions**"
+msgstr "** Actions en cas d'échec **"
+
+#. +> trunk5
+#: ../../user_manual/ekos-scheduler-taskqueue.rst:349
+#, fuzzy
+msgid "**SKIP_TO_NEXT_TASK**"
+msgstr "**SKIP_TO_NEXT_TASK**"
+
+#. +> trunk5
+#: ../../user_manual/ekos-scheduler-taskqueue.rst:349
+#, fuzzy
+msgid "Used for: When task prerequisites fail but other tasks can still run"
+msgstr "Utilisé pour : Lorsque les conditions préalables à la tâche échouent, mais que d'autres tâches peuvent encore être exécutées"
+
+#. +> trunk5
+#: ../../user_manual/ekos-scheduler-taskqueue.rst:352
+#, fuzzy
+msgid "During execution, you can:"
+msgstr "Pendant l'exécution, vous pouvez :"
+
+#. +> trunk5
+#: ../../user_manual/ekos-scheduler-taskqueue.rst:354
+#, fuzzy
+msgid "Pause the queue to investigate issues"
+msgstr "Mettre la file d'attente en pause pour enquêter sur les problèmes"
+
+#. +> trunk5
+#: ../../user_manual/ekos-scheduler-taskqueue.rst:355
+#, fuzzy
+msgid "Abort a problematic action"
+msgstr "Abandonner une action problématique"
+
+#. +> trunk5
+#: ../../user_manual/ekos-scheduler-taskqueue.rst:356
+#, fuzzy
+msgid "Remove or reorder pending tasks"
+msgstr "Supprimer ou réorganiser les tâches en attente"
+
+#. +> trunk5
+#: ../../user_manual/ekos-scheduler-taskqueue.rst:357
+#, fuzzy
+msgid "**Manual Intervention**"
+msgstr "Intervention manuelle"
+
+#. +> trunk5
+#: ../../user_manual/ekos-scheduler-taskqueue.rst:357
+#, fuzzy
+msgid "Resume execution after making corrections"
+msgstr "Reprendre l'exécution après avoir apporté des corrections"
+
+#. +> trunk5
+#: ../../user_manual/ekos-scheduler-taskqueue.rst:360
+#, fuzzy
+msgid "Many actions check if their operation is already complete before executing:"
+msgstr "De nombreuses actions vérifient si leur opération est déjà terminée avant de s'exécuter :"
+
+#. +> trunk5
+#: ../../user_manual/ekos-scheduler-taskqueue.rst:362
+#, fuzzy
+msgid "Mount already parked? Skip parking action"
+msgstr "Montage déjà stationné ? Sauter l'action de stationnement"
+
+#. +> trunk5
+#: ../../user_manual/ekos-scheduler-taskqueue.rst:363
+#, fuzzy
+msgid "Temperature already at target? Skip cooling action"
+msgstr "Température déjà à la cible ? Sauter l'action de refroidissement"
+
+#. +> trunk5
+#: ../../user_manual/ekos-scheduler-taskqueue.rst:364
+#, fuzzy
+msgid "Property already has desired value? Skip set action"
+msgstr "La propriété a déjà la valeur souhaitée ? Ignorer l'action définie"
+
+#. +> trunk5
+#: ../../user_manual/ekos-scheduler-taskqueue.rst:366
+#, fuzzy
+msgid "**Idempotency**"
+msgstr "**Idempotence**"
+
+#. +> trunk5
+#: ../../user_manual/ekos-scheduler-taskqueue.rst:366
+#, fuzzy
+msgid "This prevents unnecessary operations and supports queue re-runs."
+msgstr "Cela évite les opérations inutiles et prend en charge les réexécutions de file d'attente."
+
+#. +> trunk5
+#: ../../user_manual/ekos-scheduler-taskqueue.rst:369
+#, fuzzy
+msgid "Queue Persistence"
+msgstr "Persistance de la file d'attente"
+
+#. +> trunk5
+#: ../../user_manual/ekos-scheduler-taskqueue.rst:372
+#, fuzzy
+msgid "Save and Load Queues"
+msgstr "Enregistrer et charger les files d'attente"
+
+#. +> trunk5
+#: ../../user_manual/ekos-scheduler-taskqueue.rst:374
+#, fuzzy
+msgid "You can save queues for later use:"
+msgstr "Vous pouvez enregistrer les files d'attente pour une utilisation ultérieure :"
+
+#. +> trunk5
+#: ../../user_manual/ekos-scheduler-taskqueue.rst:377
+#, fuzzy
+msgid "Build or load a queue"
+msgstr "Créer ou charger une file d'attente"
+
+#. +> trunk5
+#: ../../user_manual/ekos-scheduler-taskqueue.rst:378
+#, fuzzy
+msgid "Click **Save Queue** button"
+msgstr "Cliquez sur le bouton **Enregistrer la file d'attente**"
+
+#. +> trunk5
+#: ../../user_manual/ekos-scheduler-taskqueue.rst:379
+#, fuzzy
+msgid "Choose a filename (*.json extension)"
+msgstr "Choisissez un nom de fichier (extension *.json)"
+
+#. +> trunk5
+#: ../../user_manual/ekos-scheduler-taskqueue.rst:380
+#, fuzzy
+msgid "**Saving a Queue:**"
+msgstr "**Enregistrement d'une file d'attente :**"
+
+#. +> trunk5
+#: ../../user_manual/ekos-scheduler-taskqueue.rst:380
+#, fuzzy
+msgid "The queue file contains all tasks and their configurations"
+msgstr "Le fichier de file d'attente contient toutes les tâches et leurs configurations"
+
+#. +> trunk5
+#: ../../user_manual/ekos-scheduler-taskqueue.rst:383
+#, fuzzy
+msgid "Click **Load Queue** button"
+msgstr "Cliquez sur le bouton **Charger la file d'attente**"
+
+#. +> trunk5
+#: ../../user_manual/ekos-scheduler-taskqueue.rst:384
+#, fuzzy
+msgid "Select a saved queue file"
+msgstr "Sélectionner un fichier de file d'attente enregistré"
+
+#. +> trunk5
+#: ../../user_manual/ekos-scheduler-taskqueue.rst:385
+#, fuzzy
+msgid "The queue replaces any existing tasks"
+msgstr "La file d'attente remplace toutes les tâches existantes"
+
+#. +> trunk5
+#: ../../user_manual/ekos-scheduler-taskqueue.rst:386
+#, fuzzy
+msgid "**Loading a Queue:**"
+msgstr "**Chargement d'une file d'attente :**"
+
+#. +> trunk5
+#: ../../user_manual/ekos-scheduler-taskqueue.rst:386
+#, fuzzy
+msgid "Review and start when ready"
+msgstr "Passez en revue et commencez lorsque vous êtes prêt"
+
+#. +> trunk5
+#: ../../user_manual/ekos-scheduler-taskqueue.rst:389
+#, fuzzy
+msgid "Queue files are JSON-based and include:"
+msgstr "Les fichiers de file d'attente sont basés sur JSON et comprennent :"
+
+#. +> trunk5
+#: ../../user_manual/ekos-scheduler-taskqueue.rst:391
+#, fuzzy
+msgid "Task definitions with device assignments"
+msgstr "Définitions de tâches avec affectations d'appareils"
+
+#. +> trunk5
+#: ../../user_manual/ekos-scheduler-taskqueue.rst:392
+#, fuzzy
+msgid "Parameter values for each task"
+msgstr "Valeurs des paramètres pour chaque tâche"
+
+#. +> trunk5
+#: ../../user_manual/ekos-scheduler-taskqueue.rst:393
+#, fuzzy
+msgid "Task order and scheduling information"
+msgstr "Ordre des tâches et informations de planification"
+
+#. +> trunk5
+#: ../../user_manual/ekos-scheduler-taskqueue.rst:394
+#, fuzzy
+msgid "**Queue File Format**"
+msgstr "** Format de fichier de file d'attente **"
+
+#. +> trunk5
+#: ../../user_manual/ekos-scheduler-taskqueue.rst:394
+#, fuzzy
+msgid "Metadata (creation date, description)"
+msgstr "Métadonnées (date de création, description)"
+
+#. +> trunk5
+#: ../../user_manual/ekos-scheduler-taskqueue.rst:396
+#, fuzzy
+msgid "Common Use Cases"
+msgstr "Cas d'utilisation fréquents :"
+
+#. +> trunk5
+#: ../../user_manual/ekos-scheduler-taskqueue.rst:399
+#, fuzzy
+msgid "Observatory Startup Sequence"
+msgstr "Séquence de démarrage de l'observatoire"
+
+#. +> trunk5
+#: ../../user_manual/ekos-scheduler-taskqueue.rst:401
+#, fuzzy
+msgid "A typical startup sequence prepares all equipment for imaging:"
+msgstr "Une séquence de démarrage typique prépare tous les équipements à l'imagerie :"
+
+#. +> trunk5
+#: ../../user_manual/ekos-scheduler-taskqueue.rst:403
+#, fuzzy
+msgid "**Example Startup Queue:**"
+msgstr "**Exemple de file d'attente de démarrage :**"
+
+#. +> trunk5
+#: ../../user_manual/ekos-scheduler-taskqueue.rst:405
+#, fuzzy
+msgid "**Unpark Dome** (if applicable)"
+msgstr "**Unpark Dome** (le cas échéant)"
+
+#. +> trunk5
+#: ../../user_manual/ekos-scheduler-taskqueue.rst:407
+#, fuzzy
+msgid "Template: \"Dome - Unpark\""
+msgstr "Modèle : \"Dôme - Unpark\""
+
+#. +> trunk5
+#: ../../user_manual/ekos-scheduler-taskqueue.rst:408
+#: ../../user_manual/ekos-scheduler-taskqueue.rst:485
+#, fuzzy
+msgid "Device: Your dome controller"
+msgstr "Appareil : Votre contrôleur de dôme"
+
+#. +> trunk5
+#: ../../user_manual/ekos-scheduler-taskqueue.rst:409
+#: ../../user_manual/ekos-scheduler-taskqueue.rst:479
+#, fuzzy
+msgid "Timeout: 60 seconds"
+msgstr "Délai d'attente : 60 secondes"
+
+#. +> trunk5
+#: ../../user_manual/ekos-scheduler-taskqueue.rst:410
+#, fuzzy
+msgid "Failure Action: ABORT_QUEUE (cannot proceed without dome access)"
+msgstr "Action d'échec : ABORT_QUEUE (ne peut pas continuer sans accès au dôme)"
+
+#. +> trunk5
+#: ../../user_manual/ekos-scheduler-taskqueue.rst:412
+#, fuzzy
+msgid "**Unpark Mount**"
+msgstr "**Unpark Mount**"
+
+#. +> trunk5
+#: ../../user_manual/ekos-scheduler-taskqueue.rst:414
+#, fuzzy
+msgid "Template: \"Mount - Unpark\""
+msgstr "Modèle : \"Mount - Unpark\""
+
+#. +> trunk5
+#: ../../user_manual/ekos-scheduler-taskqueue.rst:415
+#: ../../user_manual/ekos-scheduler-taskqueue.rst:422
+#: ../../user_manual/ekos-scheduler-taskqueue.rst:478
+#, fuzzy
+msgid "Device: Your telescope mount"
+msgstr "Appareil : Votre monture de télescope"
+
+#. +> trunk5
+#: ../../user_manual/ekos-scheduler-taskqueue.rst:416
+#: ../../user_manual/ekos-scheduler-taskqueue.rst:494
+#, fuzzy
+msgid "Timeout: 30 seconds"
+msgstr "Délai d'attente : 30 secondes"
+
+#. +> trunk5
+#: ../../user_manual/ekos-scheduler-taskqueue.rst:417
+#, fuzzy
+msgid "Failure Action: ABORT_QUEUE (critical for all operations)"
+msgstr "Action d'échec : ABORT_QUEUE (critique pour toutes les opérations)"
+
+#. +> trunk5
+#: ../../user_manual/ekos-scheduler-taskqueue.rst:419
+#, fuzzy
+msgid "**Enable Mount Tracking**"
+msgstr "**Activer le suivi de montage **"
+
+#. +> trunk5
+#: ../../user_manual/ekos-scheduler-taskqueue.rst:421
+#, fuzzy
+msgid "Template: \"Mount - Enable Tracking\""
+msgstr "Modèle : \"Monter - Activer le suivi\""
+
+#. +> trunk5
+#: ../../user_manual/ekos-scheduler-taskqueue.rst:423
+#, fuzzy
+msgid "Timeout: 10 seconds"
+msgstr "Délai d'attente : 10 secondes"
+
+#. +> trunk5
+#: ../../user_manual/ekos-scheduler-taskqueue.rst:424
+#, fuzzy
+msgid "Failure Action: CONTINUE (can enable later if needed)"
+msgstr "Action en cas d'échec : CONTINUER (peut être activé plus tard si nécessaire)"
+
+#. +> trunk5
+#: ../../user_manual/ekos-scheduler-taskqueue.rst:426
+#, fuzzy
+msgid "**Enable Camera Cooling**"
+msgstr "**Activer le refroidissement de la caméra **"
+
+#. +> trunk5
+#: ../../user_manual/ekos-scheduler-taskqueue.rst:428
+#, fuzzy
+msgid "Template: \"Camera - Set Cooling\""
+msgstr "Modèle : \"Caméra - Régler le refroidissement\""
+
+#. +> trunk5
+#: ../../user_manual/ekos-scheduler-taskqueue.rst:429
+#: ../../user_manual/ekos-scheduler-taskqueue.rst:439
+#: ../../user_manual/ekos-scheduler-taskqueue.rst:462
+#, fuzzy
+msgid "Device: Your CCD camera"
+msgstr "Appareil : Votre caméra CCD"
+
+#. +> trunk5
+#: ../../user_manual/ekos-scheduler-taskqueue.rst:430
+#, fuzzy
+msgid "Parameters: - target_temp: -15°C (adjust for your camera) - ramp_rate: 2°C/minute (prevents thermal shock)"
+msgstr "Paramètres : - TARGET_temp : -15°C (ajustez pour votre caméra) - RAMP_rate : 2°C/minute (empêche les chocs thermiques)"
+
+#. +> trunk5
+#: ../../user_manual/ekos-scheduler-taskqueue.rst:433
+#, fuzzy
+msgid "Timeout: 600 seconds (10 minutes for cooling)"
+msgstr "Délai d'attente : 600 secondes (10 minutes pour le refroidissement)"
+
+#. +> trunk5
+#: ../../user_manual/ekos-scheduler-taskqueue.rst:434
+#, fuzzy
+msgid "Failure Action: CONTINUE (can image without optimal cooling)"
+msgstr "Action en cas de défaillance : CONTINUER (image CAN sans refroidissement optimal)"
+
+#. +> trunk5
+#: ../../user_manual/ekos-scheduler-taskqueue.rst:436
+#, fuzzy
+msgid "**Wait for Temperature Stabilization**"
+msgstr "**Attendez la stabilisation de la température **"
+
+#. +> trunk5
+#: ../../user_manual/ekos-scheduler-taskqueue.rst:438
+#: ../../user_manual/ekos-scheduler-taskqueue.rst:548
+#, fuzzy
+msgid "Template: \"Camera - Wait for Temperature\""
+msgstr "Modèle : \"Caméra - Attendre la température\""
+
+#. +> trunk5
+#: ../../user_manual/ekos-scheduler-taskqueue.rst:440
+#, fuzzy
+msgid "Parameters: - tolerance: ±1°C - settle_time: 60 seconds"
+msgstr "Paramètres : - tolérance : ±1°C - délai de stabilisation : 60 secondes"
+
+#. +> trunk5
+#: ../../user_manual/ekos-scheduler-taskqueue.rst:443
+#, fuzzy
+msgid "Timeout: 300 seconds"
+msgstr "Délai d'attente : 300 secondes"
+
+#. +> trunk5
+#: ../../user_manual/ekos-scheduler-taskqueue.rst:444
+#: ../../user_manual/ekos-scheduler-taskqueue.rst:473
+#, fuzzy
+msgid "Failure Action: CONTINUE"
+msgstr "Action en cas de défaillance : CONTINUER"
+
+#. +> trunk5
+#: ../../user_manual/ekos-scheduler-taskqueue.rst:446
+#, fuzzy
+msgid "**Turn On Flat Panel** (if applicable)"
+msgstr "**Allumer l'écran plat** (le cas échéant)"
+
+#. +> trunk5
+#: ../../user_manual/ekos-scheduler-taskqueue.rst:448
+#, fuzzy
+msgid "Template: \"Flat Panel - Enable\""
+msgstr "Modèle : \"Panneau plat - Activer\""
+
+#. +> trunk5
+#: ../../user_manual/ekos-scheduler-taskqueue.rst:449
+#, fuzzy
+msgid "Device: Your flat panel"
+msgstr "Appareil : Votre écran plat"
+
+#. +> trunk5
+#: ../../user_manual/ekos-scheduler-taskqueue.rst:450
+#, fuzzy
+msgid "Failure Action: CONTINUE (optional equipment)"
+msgstr "Action en cas de défaillance : CONTINUER (équipement en option)"
+
+#. +> trunk5
+#: ../../user_manual/ekos-scheduler-taskqueue.rst:453
+#, fuzzy
+msgid "Observatory Shutdown Sequence"
+msgstr "Séquence d'arrêt de l'observatoire"
+
+#. +> trunk5
+#: ../../user_manual/ekos-scheduler-taskqueue.rst:455
+#, fuzzy
+msgid "A safe shutdown sequence protects equipment and conserves power:"
+msgstr "Une séquence d'arrêt sécurisée protège l'équipement et permet d'économiser de l'énergie :"
+
+#. +> trunk5
+#: ../../user_manual/ekos-scheduler-taskqueue.rst:457
+#, fuzzy
+msgid "**Example Shutdown Queue:**"
+msgstr "**Exemple de file d'attente d'arrêt :**"
+
+#. +> trunk5
+#: ../../user_manual/ekos-scheduler-taskqueue.rst:459
+#, fuzzy
+msgid "**Disable Camera Cooling** (Gradual warm-up)"
+msgstr "**Désactiver le refroidissement de la caméra ** (échauffement progressif)"
+
+#. +> trunk5
+#: ../../user_manual/ekos-scheduler-taskqueue.rst:461
+#, fuzzy
+msgid "Template: \"Camera - Disable Cooling\""
+msgstr "Modèle : \"Caméra - Désactiver le refroidissement\""
+
+#. +> trunk5
+#: ../../user_manual/ekos-scheduler-taskqueue.rst:463
+#, fuzzy
+msgid "Parameters: - ramp_rate: 1°C/minute (slow warm-up prevents condensation)"
+msgstr "Paramètres : - ramp_rate : 1°C/minute (échauffement lent évite la condensation)"
+
+#. +> trunk5
+#: ../../user_manual/ekos-scheduler-taskqueue.rst:465
+#, fuzzy
+msgid "Failure Action: CONTINUE (important but not critical)"
+msgstr "Action en cas de défaillance : CONTINUER (important mais non critique)"
+
+#. +> trunk5
+#: ../../user_manual/ekos-scheduler-taskqueue.rst:467
+#, fuzzy
+msgid "**Wait for Camera Warm-up**"
+msgstr "**Attendez l'échauffement de la caméra **"
+
+#. +> trunk5
+#: ../../user_manual/ekos-scheduler-taskqueue.rst:469
+#, fuzzy
+msgid "Template: \"Camera - Wait for Ambient Temperature\""
+msgstr "Modèle : \"Caméra - Attendez la température ambiante\""
+
+#. +> trunk5
+#: ../../user_manual/ekos-scheduler-taskqueue.rst:470
+#, fuzzy
+msgid "Parameters: - target: ambient + 2°C - timeout: 900 seconds (15 minutes)"
+msgstr "Paramètres : - cible : ambiante + 2°C - délai d'attente : 900 secondes (15 minutes)"
+
+#. +> trunk5
+#: ../../user_manual/ekos-scheduler-taskqueue.rst:475
+#, fuzzy
+msgid "**Park Mount**"
+msgstr "**Park Mount**"
+
+#. +> trunk5
+#: ../../user_manual/ekos-scheduler-taskqueue.rst:477
+#: ../../user_manual/ekos-scheduler-taskqueue.rst:531
+#, fuzzy
+msgid "Template: \"Mount - Park\""
+msgstr "Modèle : \"Montage - Stationnement\""
+
+#. +> trunk5
+#: ../../user_manual/ekos-scheduler-taskqueue.rst:480
+#, fuzzy
+msgid "Failure Action: ABORT_QUEUE (critical for safety)"
+msgstr "Action d'échec : ABORT_QUEUE (critique pour la sécurité)"
+
+#. +> trunk5
+#: ../../user_manual/ekos-scheduler-taskqueue.rst:482
+#, fuzzy
+msgid "**Park Dome** (if applicable)"
+msgstr "**Park Dome** (le cas échéant)"
+
+#. +> trunk5
+#: ../../user_manual/ekos-scheduler-taskqueue.rst:484
+#, fuzzy
+msgid "Template: \"Dome - Park\""
+msgstr "Modèle : \"Dôme - Parc\""
+
+#. +> trunk5
+#: ../../user_manual/ekos-scheduler-taskqueue.rst:486
+#, fuzzy
+msgid "Timeout: 120 seconds"
+msgstr "Délai d'attente : 120 secondes"
+
+#. +> trunk5
+#: ../../user_manual/ekos-scheduler-taskqueue.rst:487
+#, fuzzy
+msgid "Failure Action: ABORT_QUEUE (critical for protection)"
+msgstr "Action d'échec : ABORT_QUEUE (critique pour la protection)"
+
+#. +> trunk5
+#: ../../user_manual/ekos-scheduler-taskqueue.rst:489
+#, fuzzy
+msgid "**Turn Off Equipment Power** (via script)"
+msgstr "**Éteindre l'alimentation de l'équipement ** (via script)"
+
+#. +> trunk5
+#: ../../user_manual/ekos-scheduler-taskqueue.rst:491
+#: ../../user_manual/ekos-scheduler-taskqueue.rst:577
+#, fuzzy
+msgid "Template: \"Script - Execute\""
+msgstr "Template : \"Script - Exécuter\""
+
+#. +> trunk5
+#: ../../user_manual/ekos-scheduler-taskqueue.rst:492
+#, fuzzy
+msgid "Parameters: - script_path: /path/to/power_off.sh"
+msgstr "Paramètres : - script_path : /path/to/power_off.sh"
+
+#. +> trunk5
+#: ../../user_manual/ekos-scheduler-taskqueue.rst:495
+#, fuzzy
+msgid "Failure Action: CONTINUE (log error for manual intervention)"
+msgstr "Action en cas de défaillance : CONTINUER (erreur de journal pour intervention manuelle)"
+
+#. +> trunk5
+#: ../../user_manual/ekos-scheduler-taskqueue.rst:497
+#, fuzzy
+msgid "Migration from Scripts"
+msgstr "Migration à partir de scripts"
+
+#. +> trunk5
+#: ../../user_manual/ekos-scheduler-taskqueue.rst:500
+#, fuzzy
+msgid "Understanding the Transition"
+msgstr "Comprendre la transition"
+
+#. +> trunk5
+#: ../../user_manual/ekos-scheduler-taskqueue.rst:502
+#, fuzzy
+msgid "The Task Queue system replaces traditional startup/shutdown shell scripts with a more structured approach:"
+msgstr "Le système Task Queue remplace les scripts shell traditionnels de démarrage/arrêt par une approche plus structurée :"
+
+#. +> trunk5
+#: ../../user_manual/ekos-scheduler-taskqueue.rst:505
+#, fuzzy
+msgid "Manually written bash/python scripts"
+msgstr "Scripts bash/python écrits manuellement"
+
+#. +> trunk5
+#: ../../user_manual/ekos-scheduler-taskqueue.rst:506
+#, fuzzy
+msgid "Execute commands sequentially"
+msgstr "Exécuter les commandes séquentiellement"
+
+#. +> trunk5
+#: ../../user_manual/ekos-scheduler-taskqueue.rst:507
+#, fuzzy
+msgid "Limited error handling"
+msgstr "Gestion limitée des erreurs"
+
+#. +> trunk5
+#: ../../user_manual/ekos-scheduler-taskqueue.rst:508
+#, fuzzy
+msgid "No visual feedback during execution"
+msgstr "Pas de retour visuel pendant l'exécution"
+
+#. +> trunk5
+#: ../../user_manual/ekos-scheduler-taskqueue.rst:509
+#, fuzzy
+msgid "**Traditional Scripts:**"
+msgstr "** Scripts traditionnels :**"
+
+#. +> trunk5
+#: ../../user_manual/ekos-scheduler-taskqueue.rst:509
+#, fuzzy
+msgid "Difficult to modify without coding knowledge"
+msgstr "Difficile à modifier sans connaissance de codage"
+
+#. +> trunk5
+#: ../../user_manual/ekos-scheduler-taskqueue.rst:512
+#, fuzzy
+msgid "Template-based task composition"
+msgstr "Composition des tâches basée sur un modèle"
+
+#. +> trunk5
+#: ../../user_manual/ekos-scheduler-taskqueue.rst:513
+#, fuzzy
+msgid "Visual building and monitoring"
+msgstr "Construction visuelle et suivi"
+
+#. +> trunk5
+#: ../../user_manual/ekos-scheduler-taskqueue.rst:514
+#, fuzzy
+msgid "Built-in retry and error handling"
+msgstr "Réessai et gestion des erreurs intégrés"
+
+#. +> trunk5
+#: ../../user_manual/ekos-scheduler-taskqueue.rst:515
+#, fuzzy
+msgid "Progress tracking and status updates"
+msgstr "Suivi des progrès et mises à jour de statut"
+
+#. +> trunk5
+#: ../../user_manual/ekos-scheduler-taskqueue.rst:516
+#, fuzzy
+msgid "**Task Queue System:**"
+msgstr "** Système de file d'attente des tâches :**"
+
+#. +> trunk5
+#: ../../user_manual/ekos-scheduler-taskqueue.rst:516
+#, fuzzy
+msgid "Modifiable through GUI"
+msgstr "Modifiable via l'interface graphique"
+
+#. +> trunk5
+#: ../../user_manual/ekos-scheduler-taskqueue.rst:519
+#, fuzzy
+msgid "Converting Script Operations"
+msgstr "Conversion des opérations de script"
+
+#. +> trunk5
+#: ../../user_manual/ekos-scheduler-taskqueue.rst:521
+#, fuzzy
+msgid "Common script operations can be converted to Task Queue actions:"
+msgstr "Les opérations de script courantes peuvent être converties en actions de file d'attente de tâches :"
+
+#. +> trunk5
+#: ../../user_manual/ekos-scheduler-taskqueue.rst:523
+#, fuzzy
+msgid "**INDI Property Changes**"
+msgstr "**INDI Modifications de propriété **"
+
+#. +> trunk5
+#: ../../user_manual/ekos-scheduler-taskqueue.rst:526
+#, fuzzy
+msgid "indi_setprop \"Telescope.TELESCOPE_PARK.PARK=On\""
+msgstr "indi_setprop \"Télescope.TELESCOPE_PARK.PARK=Activé\""
+
+#. +> trunk5
+#: ../../user_manual/ekos-scheduler-taskqueue.rst:528
+#: ../../user_manual/ekos-scheduler-taskqueue.rst:545
+#: ../../user_manual/ekos-scheduler-taskqueue.rst:561
+#: ../../user_manual/ekos-scheduler-taskqueue.rst:574
+#, fuzzy
+msgid "Old Script:"
+msgstr "Ancien script :"
+
+#. +> trunk5
+#: ../../user_manual/ekos-scheduler-taskqueue.rst:532
+#, fuzzy
+msgid "Action Type: SET"
+msgstr "Type d'action :"
+
+#. +> trunk5
+#: ../../user_manual/ekos-scheduler-taskqueue.rst:533
+#, fuzzy
+msgid "Device: Telescope"
+msgstr "Appareil : Télescope"
+
+#. +> trunk5
+#: ../../user_manual/ekos-scheduler-taskqueue.rst:534
+#, fuzzy
+msgid "Property: TELESCOPE_PARK"
+msgstr "Propriété : TELESCOPE_PARK"
+
+#. +> trunk5
+#: ../../user_manual/ekos-scheduler-taskqueue.rst:535
+#, fuzzy
+msgid "Element: PARK"
+msgstr "Élément : PARC"
+
+#. +> trunk5
+#: ../../user_manual/ekos-scheduler-taskqueue.rst:536
+#: ../../user_manual/ekos-scheduler-taskqueue.rst:554
+#: ../../user_manual/ekos-scheduler-taskqueue.rst:567
+#: ../../user_manual/ekos-scheduler-taskqueue.rst:580
+#, fuzzy
+msgid "New Task Queue:"
+msgstr "Nouvelle file d'attente de tâches :"
+
+#. +> trunk5
+#: ../../user_manual/ekos-scheduler-taskqueue.rst:536
+#, fuzzy
+msgid "Value: On"
+msgstr "Valeur activé"
+
+#. +> trunk5
+#: ../../user_manual/ekos-scheduler-taskqueue.rst:538
+#, fuzzy
+msgid "**Conditional Waits**"
+msgstr "** Attentes conditionnelles **"
+
+#. +> trunk5
+#: ../../user_manual/ekos-scheduler-taskqueue.rst:541
+#, fuzzy
+msgid ""
+"while [ $(indi_getprop \"CCD.CCD_TEMPERATURE.CCD_TEMPERATURE_VALUE\") -gt -10 ]; do\n"
+"    sleep 5\n"
+"done"
+msgstr ""
+"while [ $( indi_getprop \"CCD.CCD_TEMPERATURE.CCD_TEMPERATURE_VALUE\") -gt -10 ] ; do\n"
+"    sommeil 5\n"
+"terminé"
+
+#. +> trunk5
+#: ../../user_manual/ekos-scheduler-taskqueue.rst:549
+#, fuzzy
+msgid "Action Type: EVALUATE"
+msgstr "Type d'action : ÉVALUER"
+
+#. +> trunk5
+#: ../../user_manual/ekos-scheduler-taskqueue.rst:550
+#, fuzzy
+msgid "Device: CCD"
+msgstr "Appareil : CCD"
+
+#. +> trunk5
+#: ../../user_manual/ekos-scheduler-taskqueue.rst:551
+#, fuzzy
+msgid "Property: CCD_TEMPERATURE.CCD_TEMPERATURE_VALUE"
+msgstr "Propriété : CCD_TEMPERATURE.CCD_TEMPERATURE_VALUE"
+
+#. +> trunk5
+#: ../../user_manual/ekos-scheduler-taskqueue.rst:552
+#, fuzzy
+msgid "Condition: LESS_THAN"
+msgstr "Condition : LESS_THAN"
+
+#. +> trunk5
+#: ../../user_manual/ekos-scheduler-taskqueue.rst:553
+#, fuzzy
+msgid "Target: -10"
+msgstr "Visé: 10"
+
+#. +> trunk5
+#: ../../user_manual/ekos-scheduler-taskqueue.rst:554
+#, fuzzy
+msgid "Poll Interval: 5 seconds"
+msgstr "Intervalle de sondage : 5 secondes"
+
+#. +> trunk5
+#: ../../user_manual/ekos-scheduler-taskqueue.rst:556
+#, fuzzy
+msgid "**Time Delays**"
+msgstr "Retards :"
+
+#. +> trunk5
+#: ../../user_manual/ekos-scheduler-taskqueue.rst:559
+#, fuzzy
+msgid "sleep 60"
+msgstr "sommeil 60"
+
+#. +> trunk5
+#: ../../user_manual/ekos-scheduler-taskqueue.rst:564
+#, fuzzy
+msgid "Template: \"Delay\""
+msgstr "Modèle : \"Retard\""
+
+#. +> trunk5
+#: ../../user_manual/ekos-scheduler-taskqueue.rst:565
+#, fuzzy
+msgid "Action Type: DELAY"
+msgstr "Type d'action : DÉLAI"
+
+#. +> trunk5
+#: ../../user_manual/ekos-scheduler-taskqueue.rst:566
+#, fuzzy
+msgid "Duration: 60"
+msgstr "Durée: 60'."
+
+#. +> trunk5
+#: ../../user_manual/ekos-scheduler-taskqueue.rst:567
+#, fuzzy
+msgid "Unit: SECONDS"
+msgstr "Unité : SECONDES"
+
+#. +> trunk5
+#: ../../user_manual/ekos-scheduler-taskqueue.rst:569
+#, fuzzy
+msgid "**External Scripts**"
+msgstr "Scripts externes"
+
+#. +> trunk5
+#: ../../user_manual/ekos-scheduler-taskqueue.rst:572
+#, fuzzy
+msgid "/usr/local/bin/dome_control.sh open"
+msgstr "/usr/local/bin/dome_control.sh ouvert"
+
+#. +> trunk5
+#: ../../user_manual/ekos-scheduler-taskqueue.rst:578
+#, fuzzy
+msgid "Action Type: SCRIPT"
+msgstr "Type d'action : SCRIPT"
+
+#. +> trunk5
+#: ../../user_manual/ekos-scheduler-taskqueue.rst:579
+#, fuzzy
+msgid "Script Path: /usr/local/bin/dome_control.sh"
+msgstr "Chemin du script : /usr/local/bin/dome_control.sh"
+
+#. +> trunk5
+#: ../../user_manual/ekos-scheduler-taskqueue.rst:580
+#, fuzzy
+msgid "Arguments: open"
+msgstr "Arguments : ouvert"
+
+#. +> trunk5
+#: ../../user_manual/ekos-scheduler-taskqueue.rst:582
+#, fuzzy
+msgid "Task Queue"
+msgstr "File d’attente des tâches"
+
+#. +> trunk5
+#: ../../user_manual/ekos-scheduler-taskqueue.rst:582
+#, fuzzy
+msgid ".. image:: /images/task-queue.png"
+msgstr ".. image : : /images/task-queue.png"
+
+#. +> trunk5
+#: ../../user_manual/ekos-scheduler-taskqueue.rst:583
+#, fuzzy
+msgid "Task Queue Template"
+msgstr "Modèle de file d'attente de tâches"
+
+#. +> trunk5
+#: ../../user_manual/ekos-scheduler-taskqueue.rst:583
+#, fuzzy
+msgid ".. image:: /images/task-queue-template.png"
+msgstr ".. image : : /images/task-queue-template.png"
+
+#. +> trunk5
+#: ../../user_manual/ekos-scheduler-taskqueue.rst:584
+#, fuzzy
+msgid "Task Queue Collection"
+msgstr "Collection de files d'attente de tâches"
+
+#. +> trunk5
+#: ../../user_manual/ekos-scheduler-taskqueue.rst:584
+#, fuzzy
+msgid ".. image:: /images/task-queue-collection.png"
+msgstr ".. image : : /images/task-queue-collection.png"
+
+#. +> trunk5
+#: ../../user_manual/ekos-scheduler-taskqueue.rst:585
+#, fuzzy
+msgid "Task Queue Select Device"
+msgstr "Périphérique de sélection de file d'attente de tâches"
+
+#. +> trunk5
+#: ../../user_manual/ekos-scheduler-taskqueue.rst:585
+#, fuzzy
+msgid ".. image:: /images/task-queue-select-device.png"
+msgstr ".. image : : /images/task-queue-select-device.png"
+
+#. +> trunk5
+#: ../../user_manual/ekos-scheduler-taskqueue.rst:586
+#, fuzzy
+msgid "Task Queue Customize Parameters"
+msgstr "Paramètres de personnalisation de la file d'attente des tâches"
+
+#. +> trunk5
+#: ../../user_manual/ekos-scheduler-taskqueue.rst:586
+#, fuzzy
+msgid ".. image:: /images/task-queue-customize-parameters.png"
+msgstr ".. image : : /images/task-queue-customize-parameters.png"
+
+#. +> trunk5
+#: ../../user_manual/ekos-scheduler-taskqueue.rst:587
+#, fuzzy
+msgid "Task Queue Running"
+msgstr "File d'attente des tâches en cours d'exécution"
+
+#. +> trunk5
+#: ../../user_manual/ekos-scheduler-taskqueue.rst:587
+#, fuzzy
+msgid ".. image:: /images/task-queue-running.png"
+msgstr ".. image : : /images/task-queue-running.png"

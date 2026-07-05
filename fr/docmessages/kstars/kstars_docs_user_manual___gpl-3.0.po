@@ -1,0 +1,765 @@
+#
+# SPDX-FileCopyrightText: 2025 Xavier Besnard <xavier.besnard@kde.org>
+msgid ""
+msgstr ""
+"Project-Id-Version: KStars Handbook 3.7\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2025-11-19 00:53+0100\n"
+"PO-Revision-Date: 2025-11-17 19:38+0100\n"
+"Last-Translator: Xavier Besnard <xavier.besnard@kde.org>\n"
+"Language-Team: French <French <kde-francophone@kde.org>>\n"
+"Language: fr\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n > 1);\n"
+"X-Generator: Lokalize 25.11.80\n"
+
+#. +> trunk5
+#: ../../user_manual/gpl-3.0.rst:4
+#, fuzzy
+msgid "GNU GENERAL PUBLIC LICENSE"
+msgstr "GNU General Public License v2"
+
+#. +> trunk5
+#: ../../user_manual/gpl-3.0.rst:6
+#, fuzzy
+msgid "Version 3, 29 June 2007"
+msgstr "Version 3, 29 Juin 2007"
+
+#. +> trunk5
+#: ../../user_manual/gpl-3.0.rst:8
+#, fuzzy
+msgid "Copyright (C) 2007 Free Software Foundation, Inc. https://fsf.org/"
+msgstr "Copyright (C) 2007 Free Software Foundation, Inc. https ://fsf.org/"
+
+#. +> trunk5
+#: ../../user_manual/gpl-3.0.rst:10
+#, fuzzy
+msgid "Everyone is permitted to copy and distribute verbatim copies of this license document, but changing it is not allowed."
+msgstr "Il est permis à tout le monde de reproduire et distribuer des copies conformes de ce document de licence, mais aucune modification ne doit y être apportée."
+
+#. +> trunk5
+#: ../../user_manual/gpl-3.0.rst:14
+#, fuzzy
+msgid "Preamble"
+msgstr "Préambule"
+
+#. +> trunk5
+#: ../../user_manual/gpl-3.0.rst:16
+#, fuzzy
+msgid "The GNU General Public License is a free, copyleft license for software and other kinds of works."
+msgstr "La Licence Publique Générale GNU (“GNU General Public License”) est une licence libre, en “copyleft”, destinée aux œuvres logicielles et d’autres types de travaux."
+
+#. +> trunk5
+#: ../../user_manual/gpl-3.0.rst:19
+#, fuzzy
+msgid "The licenses for most software and other practical works are designed to take away your freedom to share and change the works. By contrast, the GNU General Public License is intended to guarantee your freedom to share and change all versions of a program--to make sure it remains free software for all its users. We, the Free Software Foundation, use the GNU General Public License for most of our software; it applies also to any other work released this way by its authors. You can apply it to your programs, too."
+msgstr "Les licences pour la plupart des logiciels et autres travaux pratiques sont conçues pour enlevez votre liberté de partager et de changer les œuvres. En revanche, le GNU La licence publique générale est destinée à garantir votre liberté de partager et changer toutes les versions d’un programme--pour s’assurer qu’il reste un logiciel libre pour tous ses utilisateurs. Nous, la Free Software Foundation, utilisons le GNU grand public Licence pour la plupart de nos logiciels ; elle s’applique également à tout autre travail publié de cette façon par ses auteurs. Vous pouvez également l’appliquer à vos programmes."
+
+#. +> trunk5
+#: ../../user_manual/gpl-3.0.rst:28
+#, fuzzy
+msgid "When we speak of free software, we are referring to freedom, not price. Our General Public Licenses are designed to make sure that you have the freedom to distribute copies of free software (and charge for them if you wish), that you receive source code or can get it if you want it, that you can change the software or use pieces of it in new free programs, and that you know you can do these things."
+msgstr "Nos Licences Publiques Générales sont conçues pour assurer que vous ayez la liberté de distribuer des copies de logiciel libre (et le facturer si vous le souhaitez), que vous receviez le code source ou pouviez l’obtenir si vous le voulez, que vous pouviez modifier le logiciel ou en utiliser toute partie dans de nouveaux logiciels libres, et que vous sachiez que vous avez le droit de faire tout ceci."
+
+#. +> trunk5
+#: ../../user_manual/gpl-3.0.rst:35
+#, fuzzy
+msgid "To protect your rights, we need to prevent others from denying you these rights or asking you to surrender the rights. Therefore, you have certain responsibilities if you distribute copies of the software, or if you modify it: responsibilities to respect the freedom of others."
+msgstr "Pour protéger vos droits, nous avons besoin d’empêcher que d’autres vous restreignent ces droits ou vous demande de leur abandonner ces droits. En conséquence, vous avez certaines responsabilités si vous distribuez des copies d’un tel programme ou si vous le modifiez : les responsabilités de respecter la liberté des autres."
+
+#. +> trunk5
+#: ../../user_manual/gpl-3.0.rst:40
+#, fuzzy
+msgid "For example, if you distribute copies of such a program, whether gratis or for a fee, you must pass on to the recipients the same freedoms that you received. You must make sure that they, too, receive or can get the source code. And you must show them these terms so they know their rights."
+msgstr "Par exemple, si vous distribuez des copies d'un tel programme, que ce soit à titre gracieux ou payant, vous devez transmettre aux destinataires les mêmes libertés que celles que vous avez reçues. Vous devez vous assurer qu'eux aussi reçoivent ou peuvent obtenir le code source. Et vous devez leur montrer ces conditions afin qu'ils connaissent leurs droits."
+
+#. +> trunk5
+#: ../../user_manual/gpl-3.0.rst:46
+#, fuzzy
+msgid "Developers that use the GNU GPL protect your rights with two steps: (1) assert copyright on the software, and (2) offer you this License giving you legal permission to copy, distribute and/or modify it."
+msgstr "Les développeurs qui utilisent la GPL GNU protègent vos droits en deux étapes: (1) ils affirment leur droits d’auteur (“copyright”) sur le logiciel, et (2) vous accordent cette Licence qui vous donne la permission légale de le copier, le distribuer et/ou le modifier."
+
+#. +> trunk5
+#: ../../user_manual/gpl-3.0.rst:50
+#, fuzzy
+msgid "For the developers' and authors' protection, the GPL clearly explains that there is no warranty for this free software. For both users' and authors' sake, the GPL requires that modified versions be marked as changed, so that their problems will not be attributed erroneously to authors of previous versions."
+msgstr "Pour la protection des développeurs et des auteurs, la GPL explique clairement qu'il n'y a aucune garantie pour ce logiciel libre. Pour le bien des utilisateurs et des auteurs, la GPL exige que les versions modifiées soient marquées comme modifiées, afin que leurs problèmes ne soient pas attribués par erreur aux auteurs des versions précédentes."
+
+#. +> trunk5
+#: ../../user_manual/gpl-3.0.rst:56
+#, fuzzy
+msgid "Some devices are designed to deny users access to install or run modified versions of the software inside them, although the manufacturer can do so. This is fundamentally incompatible with the aim of protecting users' freedom to change the software. The systematic pattern of such abuse occurs in the area of products for individuals to use, which is precisely where it is most unacceptable. Therefore, we have designed this version of the GPL to prohibit the practice for those products. If such problems arise substantially in other domains, we stand ready to extend this provision to those domains in future versions of the GPL, as needed to protect the freedom of users."
+msgstr "Certains appareils sont conçus pour refuser aux utilisateurs l’accès à installer ou exécuter des modifications versions du logiciel à l’intérieur, bien que le fabricant puisse le faire. Cela est fondamentalement incompatible avec l’objectif de protéger la liberté des utilisateurs pour changer le logiciel. Le schéma systématique de tels abus se produit dans le zone de produits pour les particuliers à utiliser, qui est précisément là où il est le plus inacceptable. Par conséquent, nous avons conçu cette version de la GPL pour interdire la pratique pour ces produits. Si de tels problèmes surviennent substantiellement dans d’autres domaines, nous sommes prêts à étendre cette disposition à ces domaines dans les futures versions de la GPL, comme nécessaire pour protéger le liberté des utilisateurs."
+
+#. +> trunk5
+#: ../../user_manual/gpl-3.0.rst:67
+#, fuzzy
+msgid "Finally, every program is threatened constantly by software patents. States should not allow patents to restrict development and use of software on general-purpose computers, but in those that do, we wish to avoid the special danger that patents applied to a free program could make it effectively proprietary. To prevent this, the GPL assures that patents cannot be used to render the program non-free."
+msgstr "Enfin, chaque programme est constamment menacé par des brevets logiciels. Les États ne devraient pas autoriser les brevets à restreindre le développement et l'utilisation de logiciels sur des ordinateurs à usage général, mais dans ceux qui le font, nous souhaitons éviter le danger particulier que les brevets appliqués à un programme libre puissent le rendre effectivement propriétaire. Pour éviter cela, la GPL garantit que les brevets ne peuvent pas être utilisés pour rendre le programme non libre."
+
+#. +> trunk5
+#: ../../user_manual/gpl-3.0.rst:74
+#, fuzzy
+msgid "The precise terms and conditions for copying, distribution and modification follow."
+msgstr "Les termes exacts et les conditions de copie, distribution et modification sont les suivants :"
+
+#. +> trunk5
+#: ../../user_manual/gpl-3.0.rst:78
+#, fuzzy
+msgid "TERMS AND CONDITIONS"
+msgstr "MODALITÉS GÉNÉRALES"
+
+#. +> trunk5
+#: ../../user_manual/gpl-3.0.rst:81
+#, fuzzy
+msgid "0. Definitions."
+msgstr "Définitions"
+
+#. +> trunk5
+#: ../../user_manual/gpl-3.0.rst:83
+#, fuzzy
+msgid "\"This License\" refers to version 3 of the GNU General Public License."
+msgstr "«Cette Licence» se réfère à la version 3 de la GNU General Public License."
+
+#. +> trunk5
+#: ../../user_manual/gpl-3.0.rst:85
+#, fuzzy
+msgid "\"Copyright\" also means copyright-like laws that apply to other kinds of works, such as semiconductor masks."
+msgstr "\"Copyright\" signifie également les lois sur le droit d'auteur comme applicables à d'autres types de travaux, tels que des masques de semi-conducteurs."
+
+#. +> trunk5
+#: ../../user_manual/gpl-3.0.rst:88
+#, fuzzy
+msgid "\"The Program\" refers to any copyrightable work licensed under this License. Each licensee is addressed as \"you\". \"Licensees\" and \"recipients\" may be individuals or organizations."
+msgstr "« Le Programme » fait référence à toute œuvre protégée par le droit d'auteur sous licence en vertu de la présente Licence. Chaque licencié est désigné par « vous ». Les « Licenciés » et les « destinataires » peuvent être des personnes physiques ou morales."
+
+#. +> trunk5
+#: ../../user_manual/gpl-3.0.rst:92
+#, fuzzy
+msgid "To \"modify\" a work means to copy from or adapt all or part of the work in a fashion requiring copyright permission, other than the making of an exact copy. The resulting work is called a \"modified version\" of the earlier work or a work \"based on\" the earlier work."
+msgstr "« Modifier » une œuvre signifie copier ou adapter tout ou partie de l'œuvre d'une manière nécessitant une autorisation de droit d'auteur, autre que la réalisation d'une copie exacte. L'œuvre résultante est appelée une « version modifiée » de l'œuvre antérieure ou une œuvre « basée sur » l'œuvre antérieure."
+
+#. +> trunk5
+#: ../../user_manual/gpl-3.0.rst:97
+#, fuzzy
+msgid "A \"covered work\" means either the unmodified Program or a work based on the Program."
+msgstr "Un «Travail Couvert» signifie soit le Programme non modifié soit un travail basé sur le Programme."
+
+#. +> trunk5
+#: ../../user_manual/gpl-3.0.rst:100
+#, fuzzy
+msgid "To \"propagate\" a work means to do anything with it that, without permission, would make you directly or secondarily liable for infringement under applicable copyright law, except executing it on a computer or modifying a private copy. Propagation includes copying, distribution (with or without modification), making available to the public, and in some countries other activities as well."
+msgstr "« Propager » une œuvre signifie faire quoi que ce soit avec elle qui, sans autorisation, vous rendrait directement ou indirectement responsable de la violation en vertu de la loi sur le droit d'auteur applicable, à l'exception de son exécution sur un ordinateur ou de la modification d'une copie privée. La propagation comprend la copie, la distribution (avec ou sans modification), la mise à la disposition du public et, dans certains pays, d'autres activités."
+
+#. +> trunk5
+#: ../../user_manual/gpl-3.0.rst:107
+#, fuzzy
+msgid "To \"convey\" a work means any kind of propagation that enables other parties to make or receive copies. Mere interaction with a user through a computer network, with no transfer of a copy, is not conveying."
+msgstr "« Transmettre » une œuvre signifie tout type de propagation qui permet à d'autres parties d'en faire ou d'en recevoir des copies. Une simple interaction avec un utilisateur via un réseau informatique, sans transfert de copie, n'est pas une transmission."
+
+#. +> trunk5
+#: ../../user_manual/gpl-3.0.rst:111
+#, fuzzy
+msgid "An interactive user interface displays \"Appropriate Legal Notices\" to the extent that it includes a convenient and prominently visible feature that (1) displays an appropriate copyright notice, and (2) tells the user that there is no warranty for the work (except to the extent that warranties are provided), that licensees may convey the work under this License, and how to view a copy of this License. If the interface presents a list of user commands or options, such as a menu, a prominent item in the list meets this criterion."
+msgstr "Une interface utilisateur interactive affiche des « Mentions légales appropriées » à l’ dans la mesure où il inclut une caractéristique pratique et bien visible qui (1) affiche un avis de droit d’auteur approprié, et (2) indique à l’utilisateur que il n’y a pas de garantie pour le travail (sauf dans la mesure où les garanties sont prévu), que les licenciés peuvent transmettre le travail sous cette Licence, et comment voir une copie de cette licence. Si l’interface présente une liste d’utilisateurs commandes ou options, telles qu’un menu, un élément important dans la liste répond à ceci critère."
+
+#. +> trunk5
+#: ../../user_manual/gpl-3.0.rst:121
+#, fuzzy
+msgid "1. Source Code."
+msgstr "Article 1."
+
+#. +> trunk5
+#: ../../user_manual/gpl-3.0.rst:123
+#, fuzzy
+msgid "The \"source code\" for a work means the preferred form of the work for making modifications to it. \"Object code\" means any non-source form of a work."
+msgstr "Le « code source » d'une œuvre désigne la forme privilégiée de l'œuvre pour y apporter des modifications. « Code objet » désigne toute forme non source d'une œuvre."
+
+#. +> trunk5
+#: ../../user_manual/gpl-3.0.rst:127
+#, fuzzy
+msgid "A \"Standard Interface\" means an interface that either is an official standard defined by a recognized standards body, or, in the case of interfaces specified for a particular programming language, one that is widely used among developers working in that language."
+msgstr "Une «Interface Standard» signifie une interface qui soit est une norme officielle définie par un organisme de normalisation reconnu, ou, dans le cas des interfaces spécifiées pour un langage de programmation particulier, une qui est largement utilisée parmi les développeurs travaillant dans ce langage."
+
+#. +> trunk5
+#: ../../user_manual/gpl-3.0.rst:132
+#, fuzzy
+msgid "The \"System Libraries\" of an executable work include anything, other than the work as a whole, that (a) is included in the normal form of packaging a Major Component, but which is not part of that Major Component, and (b) serves only to enable use of the work with that Major Component, or to implement a Standard Interface for which an implementation is available to the public in source code form. A \"Major Component\", in this context, means a major essential component (kernel, window system, and so on) of the specific operating system (if any) on which the executable work runs, or a compiler used to produce the work, or an object code interpreter used to run it."
+msgstr "Les « bibliothèques système » d’un travail exécutable incluent tout, sauf l’œuvre dans son ensemble, qui (a) est incluse dans la forme normale d’emballage un Composante majeure, mais qui ne fait pas partie de cette composante majeure, et (b) sert uniquement à permettre l’utilisation du travail avec ce Composant Majeur, ou à implémenter une interface standard pour laquelle une mise en œuvre est disponible pour le public sous forme de code source. Un \"Composant Majeur\", dans ce contexte, signifie un composant essentiel majeur (noyau, système de fenêtre, etc.) du système d’exploitation spécifique (le cas échéant) sur lequel s’exécute le travail exécutable, ou un compilateur utilisé pour produire le travail, ou un interpréteur de code objet utilisé pour l'exécuter."
+
+#. +> trunk5
+#: ../../user_manual/gpl-3.0.rst:143
+#, fuzzy
+msgid "The \"Corresponding Source\" for a work in object code form means all the source code needed to generate, install, and (for an executable work) run the object code and to modify the work, including scripts to control those activities. However, it does not include the work's System Libraries, or general-purpose tools or generally available free programs which are used unmodified in performing those activities but which are not part of the work. For example, Corresponding Source includes interface definition files associated with source files for the work, and the source code for shared libraries and dynamically linked subprograms that the work is specifically designed to require, such as by intimate data communication or control flow between those subprograms and other parts of the work."
+msgstr "La « Source Correspondante » pour une œuvre sous forme de code objet signifie toutes les code source nécessaire pour générer, installer et (pour un travail exécutable) exécuter le code objet et de modifier le travail, y compris les scripts pour contrôler ceux activités. Cependant, cela n’inclut pas les bibliothèques système de l’œuvre, ou outils à usage général ou programmes gratuits généralement disponibles qui sont utilisés non modifié dans la réalisation de ces activités mais qui ne font pas partie du travail. Par exemple, la source correspondante inclut des fichiers de définition d’interface associé aux fichiers sources pour le travail, et au code source pour partagé bibliothèques et sous-programmes liés dynamiquement que le travail est spécifiquement conçu pour nécessiter, par exemple par une communication de données intime ou un flux de contrôle entre ces sous-programmes et d’autres parties du travail."
+
+#. +> trunk5
+#: ../../user_manual/gpl-3.0.rst:156
+#, fuzzy
+msgid "The Corresponding Source need not include anything that users can regenerate automatically from other parts of the Corresponding Source."
+msgstr "Le Source Correspondant n’a pas besoin d’inclure tout ce que les utilisateurs peuvent regénérer automatiquement à partir d’autres parties du Source Correspondant."
+
+#. +> trunk5
+#: ../../user_manual/gpl-3.0.rst:159
+#, fuzzy
+msgid "The Corresponding Source for a work in source code form is that same work."
+msgstr "Le Source Correspondant pour un travail sous forme de code source est ce même travail."
+
+#. +> trunk5
+#: ../../user_manual/gpl-3.0.rst:163
+#, fuzzy
+msgid "2. Basic Permissions."
+msgstr "Article 2. Permissions de base."
+
+#. +> trunk5
+#: ../../user_manual/gpl-3.0.rst:165
+#, fuzzy
+msgid "All rights granted under this License are granted for the term of copyright on the Program, and are irrevocable provided the stated conditions are met. This License explicitly affirms your unlimited permission to run the unmodified Program. The output from running a covered work is covered by this License only if the output, given its content, constitutes a covered work. This License acknowledges your rights of fair use or other equivalent, as provided by copyright law."
+msgstr "Tous les droits accordés en vertu de la présente Licence sont accordés pour la durée du droit d'auteur sur le Programme et sont irrévocables à condition que les conditions énoncées soient remplies. Cette licence confirme explicitement votre autorisation illimitée d'exécuter le programme non modifié. La sortie de l'exécution d'un travail couvert n'est couverte par la présente licence que si la sortie, compte tenu de son contenu, constitue un travail couvert. Cette licence reconnaît vos droits d'utilisation équitable ou tout autre équivalent, tel que prévu par la loi sur le droit d'auteur."
+
+#. +> trunk5
+#: ../../user_manual/gpl-3.0.rst:173
+#, fuzzy
+msgid "You may make, run and propagate covered works that you do not convey, without conditions so long as your license otherwise remains in force. You may convey covered works to others for the sole purpose of having them make modifications exclusively for you, or provide you with facilities for running those works, provided that you comply with the terms of this License in conveying all material for which you do not control copyright. Those thus making or running the covered works for you must do so exclusively on your behalf, under your direction and control, on terms that prohibit them from making any copies of your copyrighted material outside their relationship with you."
+msgstr "Vous pouvez créer, exécuter et propager des œuvres couvertes que vous ne transmettez pas, sans conditions tant que votre licence reste en vigueur autrement. Vous peut transmettre des œuvres couvertes à d’autres dans le seul but de les faire réaliser modifications exclusivement pour vous, ou vous fournir des installations pour exécuter ces travaux, à condition que vous respectiez les termes de cette Licence dans la transmission de tout le matériel pour lequel vous ne contrôlez pas les droits d’auteur. Ceux ainsi faire ou exécuter les travaux couverts pour vous doit le faire exclusivement sur votre nom, sous votre direction et contrôle, selon des termes qui les interdisent de faire des copies de votre matériel protégé par le droit d’auteur en dehors de leur relation avec vous."
+
+#. +> trunk5
+#: ../../user_manual/gpl-3.0.rst:184
+#, fuzzy
+msgid "Conveying under any other circumstances is permitted solely under the conditions stated below. Sublicensing is not allowed; section 10 makes it unnecessary."
+msgstr "L’acheminement dans toutes les autres circonstances n’est permis que selon les conditions établies ci-dessous. La concession de sous-licences n’est pas autorisé; l’article 10 rend cet usage non nécessaire."
+
+#. +> trunk5
+#: ../../user_manual/gpl-3.0.rst:189
+#, fuzzy
+msgid "3. Protecting Users' Legal Rights From Anti-Circumvention Law."
+msgstr "Article 3. Protection des droits légaux des utilisateurs envers les lois anti-contournement."
+
+#. +> trunk5
+#: ../../user_manual/gpl-3.0.rst:191
+#, fuzzy
+msgid "No covered work shall be deemed part of an effective technological measure under any applicable law fulfilling obligations under article 11 of the WIPO copyright treaty adopted on 20 December 1996, or similar laws prohibiting or restricting circumvention of such measures."
+msgstr "Aucun Travail Couvert ne doit être vu comme faisant partie d’une mesure technologique effective selon toute loi applicable remplissant les obligations prévues à l’article 11 du traité international sur le droit d’auteur adopté à l’OMPI le 20 décembre 1996, ou toutes lois similaires qui prohibent ou restreignent le contournement de telles mesures."
+
+#. +> trunk5
+#: ../../user_manual/gpl-3.0.rst:196
+#, fuzzy
+msgid "When you convey a covered work, you waive any legal power to forbid circumvention of technological measures to the extent such circumvention is effected by exercising rights under this License with respect to the covered work, and you disclaim any intention to limit operation or modification of the work as a means of enforcing, against the work's users, your or third parties' legal rights to forbid circumvention of technological measures."
+msgstr "Si vous acheminez un Travail Couvert, vous renoncez à tout pouvoir légal d’interdire le contournement des mesures technologiques dans tous les cas où un tel contournement serait effectué en exerçant les droits prévus dans cette Licence pour ce Travail Couvert, et vous déclarez rejeter toute intention de limiter l’opération ou la modification du Travail, en tant que moyens de renforcer, à l’encontre des utilisateurs de ce Travail, vos droits légaux ou ceux de tierces parties d’interdire le contournement des mesures technologiques."
+
+#. +> trunk5
+#: ../../user_manual/gpl-3.0.rst:205
+#, fuzzy
+msgid "4. Conveying Verbatim Copies."
+msgstr "4. Acheminement des copies."
+
+#. +> trunk5
+#: ../../user_manual/gpl-3.0.rst:207
+#, fuzzy
+msgid "You may convey verbatim copies of the Program's source code as you receive it, in any medium, provided that you conspicuously and appropriately publish on each copy an appropriate copyright notice; keep intact all notices stating that this License and any non-permissive terms added in accord with section 7 apply to the code; keep intact all notices of the absence of any warranty; and give all recipients a copy of this License along with the Program."
+msgstr "Vous pouvez acheminer des copies conformes du code source du Programme tel que vous l’avez reçu, sur n’importe quel support, pourvu que vous publiiez scrupuleusement et de façon appropriée sur chaque copie une notice de Droit d’Auteur appropriée; gardez intactes toutes les notices établissant que cette Licence et tous les termes additionnels non permissifs ajoutés en accord avec l’article 7 s’appliquent à ce code; et donnez à chacun des Destinataires une copie de cette Licence en même temps que le Programme."
+
+#. +> trunk5
+#: ../../user_manual/gpl-3.0.rst:215
+#, fuzzy
+msgid "You may charge any price or no price for each copy that you convey, and you may offer support or warranty protection for a fee."
+msgstr "Vous pouvez facturer un prix quelconque, y compris gratuit, pour chacune des copies que vous acheminez, et vous pouvez offrir une protection additionnelle de support ou de garantie en échange d’un paiement."
+
+#. +> trunk5
+#: ../../user_manual/gpl-3.0.rst:219
+#, fuzzy
+msgid "5. Conveying Modified Source Versions."
+msgstr "5. Acheminement des versions sources modifiées."
+
+#. +> trunk5
+#: ../../user_manual/gpl-3.0.rst:221
+#, fuzzy
+msgid "You may convey a work based on the Program, or the modifications to produce it from the Program, in the form of source code under the terms of section 4, provided that you also meet all of these conditions:"
+msgstr "Vous pouvez acheminer un travail basé sur le Programme, ou bien les modifications pour le produire à partir du Programme, sous la forme de code source suivant les termes de l’article 4, pourvu que vous satisfassiez aussi à chacune des conditions requises suivantes:"
+
+#. +> trunk5
+#: ../../user_manual/gpl-3.0.rst:225
+#, fuzzy
+msgid "The work must carry prominent notices stating that you modified it, and giving a relevant date."
+msgstr "a) Le travail doit comporter des notices évidentes établissant que vous l’avez modifié et donnant la date correspondante."
+
+#. +> trunk5
+#: ../../user_manual/gpl-3.0.rst:228
+#, fuzzy
+msgid "The work must carry prominent notices stating that it is released under this License and any conditions added under section 7. This requirement modifies the requirement in section 4 to \"keep intact all notices\"."
+msgstr "L'œuvre doit porter des avis bien en vue indiquant qu'elle est libérée en vertu de la présente licence et de toute condition ajoutée en vertu de l'article 7. Cette exigence modifie l'exigence de l'article 4 de « conserver intacts tous les avis »."
+
+#. +> trunk5
+#: ../../user_manual/gpl-3.0.rst:233
+#, fuzzy
+msgid "You must license the entire work, as a whole, under this License to anyone who comes into possession of a copy. This License will therefore apply, along with any applicable section 7 additional terms, to the whole of the work, and all its parts, regardless of how they are packaged. This License gives no permission to license the work in any other way, but it does not invalidate such permission if you have separately received it."
+msgstr "Vous devez concéder la licence de l'œuvre entière, dans son ensemble, en vertu de la présente licence à toute personne qui entre en possession d'une copie. Cette Licence s'appliquera donc, ainsi que toutes les conditions supplémentaires applicables de l'article 7, à l'ensemble de l'œuvre et à toutes ses parties, quelle que soit la manière dont elles sont emballées. Cette licence ne donne aucune autorisation de concéder sous licence le travail d'une autre manière, mais elle n'invalide pas cette autorisation si vous l'avez reçue séparément."
+
+#. +> trunk5
+#: ../../user_manual/gpl-3.0.rst:241
+#, fuzzy
+msgid "If the work has interactive user interfaces, each must display Appropriate Legal Notices; however, if the Program has interactive interfaces that do not display Appropriate Legal Notices, your work need not make them do so."
+msgstr "d) Si le travail a des interfaces utilisateurs interactives, chacune doit afficher les Notices Légales Appropriées; cependant si le Programme a des interfaces qui n’affichent pas les Notices Légales Appropriées, votre travail n’a pas à les modifier pour qu’elles les affichent."
+
+#. +> trunk5
+#: ../../user_manual/gpl-3.0.rst:246
+#, fuzzy
+msgid "A compilation of a covered work with other separate and independent works, which are not by their nature extensions of the covered work, and which are not combined with it such as to form a larger program, in or on a volume of a storage or distribution medium, is called an \"aggregate\" if the compilation and its resulting copyright are not used to limit the access or legal rights of the compilation's users beyond what the individual works permit. Inclusion of a covered work in an aggregate does not cause this License to apply to the other parts of the aggregate."
+msgstr "Une compilation d’une œuvre couverte avec d’autres œuvres séparées et indépendantes, qui ne sont pas par leur nature des extensions de l’œuvre couverte, et qui sont non combiné avec lui de manière à former un programme plus large, dans ou sur un volume de un support de stockage ou de distribution, est appelé un « agrégat » si le compilation et ses droits d’auteur résultants ne sont pas utilisés pour limiter l’accès ou droits légaux des utilisateurs de la compilation au-delà de ce que l’individu travaille permis. L’inclusion d’un travail couvert dans un agrégat ne cause pas cela Licence à appliquer aux autres parties de l’agrégat."
+
+#. +> trunk5
+#: ../../user_manual/gpl-3.0.rst:257
+#, fuzzy
+msgid "6. Conveying Non-Source Forms."
+msgstr "6. Acheminement des formes non sources."
+
+#. +> trunk5
+#: ../../user_manual/gpl-3.0.rst:259
+#, fuzzy
+msgid "You may convey a covered work in object code form under the terms of sections 4 and 5, provided that you also convey the machine-readable Corresponding Source under the terms of this License, in one of these ways:"
+msgstr "Vous pouvez acheminer sous forme de code objet un Travail Couvert suivant les termes des articles 4 et 5, pourvu que vous acheminiez également suivant les termes de cette Licence le Source Correspondant lisible par une machine, d’une des façons suivantes:"
+
+#. +> trunk5
+#: ../../user_manual/gpl-3.0.rst:264
+#, fuzzy
+msgid "Convey the object code in, or embodied in, a physical product (including a physical distribution medium), accompanied by the Corresponding Source fixed on a durable physical medium customarily used for software interchange."
+msgstr "a) Acheminer le code objet sur, ou inclus dans, un produit physique (y compris un support de distribution physique), accompagné par le Source Correspondant fixé sur un support physique durable habituellement utilisé pour les échanges de logiciels."
+
+#. +> trunk5
+#: ../../user_manual/gpl-3.0.rst:269
+#, fuzzy
+msgid "Convey the object code in, or embodied in, a physical product (including a physical distribution medium), accompanied by a written offer, valid for at least three years and valid for as long as you offer spare parts or customer support for that product model, to give anyone who possesses the object code either (1) a copy of the Corresponding Source for all the software in the product that is covered by this License, on a durable physical medium customarily used for software interchange, for a price no more than your reasonable cost of physically performing this conveying of source, or (2) access to copy the Corresponding Source from a network server at no charge."
+msgstr "Transmettre le code objet dans, ou incorporé dans, un produit physique (y compris un support de distribution physique), accompagné d’une offre écrite, valable pour au moins trois ans et valable aussi longtemps que vous proposez des pièces de rechange ou au client soutien pour ce modèle de produit, pour donner à quiconque possède l’objet code soit (1) une copie de la Source Correspondante pour tous les logiciels dans le produit couvert par cette Licence, sur un support physique durable habituellement utilisé pour l’échange de logiciels, pour un prix qui ne dépasse pas votre coût raisonnable de l’exécution physique de ce transfert de source, ou (2) accès pour copier la source correspondante à partir d’un serveur réseau sans frais."
+
+#. +> trunk5
+#: ../../user_manual/gpl-3.0.rst:281
+#, fuzzy
+msgid "Convey individual copies of the object code with a copy of the written offer to provide the Corresponding Source. This alternative is allowed only occasionally and noncommercially, and only if you received the object code with such an offer, in accord with subsection 6b."
+msgstr "Transmettre des copies individuelles du code objet avec une copie de l'offre écrite de fournir le Source Correspondant. Cette alternative n'est autorisée qu'occasionnellement et non commercialement, et seulement si vous avez reçu le code objet avec une telle offre, conformément au paragraphe 6b."
+
+#. +> trunk5
+#: ../../user_manual/gpl-3.0.rst:287
+#, fuzzy
+msgid "Convey the object code by offering access from a designated place (gratis or for a charge), and offer equivalent access to the Corresponding Source in the same way through the same place at no further charge. You need not require recipients to copy the Corresponding Source along with the object code. If the place to copy the object code is a network server, the Corresponding Source may be on a different server (operated by you or a third party) that supports equivalent copying facilities, provided you maintain clear directions next to the object code saying where to find the Corresponding Source. Regardless of what server hosts the Corresponding Source, you remain obligated to ensure that it is available for as long as needed to satisfy these requirements."
+msgstr "Transmettre le code objet en offrant l’accès depuis un endroit désigné (gratis ou pour un supplément), et offrir un accès équivalent à la Source Correspondante dans le même chemin à travers le même endroit sans frais supplémentaires. Vous n’avez pas besoin exige que les destinataires copient la source correspondante avec l’objet code. Si l’endroit pour copier le code objet est un serveur réseau, le La source correspondante peut être sur un serveur différent (géré par vous ou un tierce partie) qui prend en charge des installations de copie équivalentes, à condition que vous maintenir des directions claires à côté du code objet indiquant où trouver le Source Correspondante. Quel que soit le serveur qui héberge la Correspondante Source, vous restez tenu de veiller à ce qu’il soit disponible aussi longtemps que devait satisfaire ces exigences."
+
+#. +> trunk5
+#: ../../user_manual/gpl-3.0.rst:300
+#, fuzzy
+msgid "Convey the object code using peer-to-peer transmission, provided you inform other peers where the object code and Corresponding Source of the work are being offered to the general public at no charge under subsection 6d."
+msgstr "e) Acheminer le code objet en utilisant une transmission d’égal-à-égal, pourvu que vous informiez les autres participants sur où le code objet et le Source Correspondant du travail sont offerts sans frais au public général suivant l’article 6 alinéa d."
+
+#. +> trunk5
+#: ../../user_manual/gpl-3.0.rst:305
+#, fuzzy
+msgid "A separable portion of the object code, whose source code is excluded from the Corresponding Source as a System Library, need not be included in conveying the object code work."
+msgstr "Une portion séparable du code objet, dont le code source est exclu du Source Correspondant en tant que Bibliothèque Système, n’a pas besoin d’être inclu dans l’acheminement du travail sous forme de code objet."
+
+#. +> trunk5
+#: ../../user_manual/gpl-3.0.rst:309
+#, fuzzy
+msgid "A \"User Product\" is either (1) a \"consumer product\", which means any tangible personal property which is normally used for personal, family, or household purposes, or (2) anything designed or sold for incorporation into a dwelling. In determining whether a product is a consumer product, doubtful cases shall be resolved in favor of coverage. For a particular product received by a particular user, \"normally used\" refers to a typical or common use of that class of product, regardless of the status of the particular user or of the way in which the particular user actually uses, or expects or is expected to use, the product. A product is a consumer product regardless of whether the product has substantial commercial, industrial or non-consumer uses, unless such uses represent the only significant mode of use of the product."
+msgstr "Un « produit utilisateur » est soit (1) un « produit de consommation », ce qui signifie tout biens personnels tangibles qui sont normalement utilisés à des fins personnelles, familiales, ou à des fins domestiques, ou (2) tout ce qui est conçu ou vendu pour incorporation dans une habitation. Pour déterminer si un produit est un produit de consommation, douteux les cas seront résolus en faveur de la couverture. Pour un produit particulier reçu par un utilisateur particulier, \"normalement utilisé\" se réfère à un typique ou utilisation courante de cette classe de produit, quel que soit le statut du utilisateur particulier ou de la manière dont l’utilisateur particulier utilise réellement, ou attend ou est censé utiliser, le produit. Un produit est un produit de consommation indépendamment du fait que le produit ait une importance commerciale, industrielle ou utilisations non grand public, à moins que ces utilisations ne représentent le seul mode significatif de utilisation du produit."
+
+#. +> trunk5
+#: ../../user_manual/gpl-3.0.rst:323
+#, fuzzy
+msgid "\"Installation Information\" for a User Product means any methods, procedures, authorization keys, or other information required to install and execute modified versions of a covered work in that User Product from a modified version of its Corresponding Source. The information must suffice to ensure that the continued functioning of the modified object code is in no case prevented or interfered with solely because modification has been made."
+msgstr "Les «Informations d’Installation» d’un Produit Utilisateur signifient toutes les méthodes, procédures, clés d’autorisation ou autres informations requises pour installer et exécuter des versions modifiées d’un Travail Couvert dans ce Produit Utilisateur à partir d’une version modifiée de son Source Correspondant. Les informations qui suffisent à assurer la continuité de fonctionnement du code objet modifié ne doivent en aucun cas être empêchées ou interférées du seul fait qu’une modification a été effectuée."
+
+#. +> trunk5
+#: ../../user_manual/gpl-3.0.rst:331
+#, fuzzy
+msgid "If you convey an object code work under this section in, or with, or specifically for use in, a User Product, and the conveying occurs as part of a transaction in which the right of possession and use of the User Product is transferred to the recipient in perpetuity or for a fixed term (regardless of how the transaction is characterized), the Corresponding Source conveyed under this section must be accompanied by the Installation Information. But this requirement does not apply if neither you nor any third party retains the ability to install modified object code on the User Product (for example, the work has been installed in ROM)."
+msgstr "Si vous transmettez un travail de code objet en vertu de cette section dans, ou avec, ou spécifiquement pour une utilisation dans, un produit utilisateur, et le transport se produit dans le cadre de une transaction dans laquelle le droit de possession et d’utilisation du produit utilisateur est transféré au destinataire à perpétuité ou pour une durée déterminée  (indépendamment de la façon dont la transaction est caractérisée), le Correspondant La source transmise sous cette section doit être accompagnée de l’installation Informations. Mais cette exigence ne s’applique pas si ni vous ni aucun tiers conserve la possibilité d’installer un code objet modifié sur l’utilisateur Produit (par exemple, le travail a été installé dans ROM)."
+
+#. +> trunk5
+#: ../../user_manual/gpl-3.0.rst:342
+#, fuzzy
+msgid "The requirement to provide Installation Information does not include a requirement to continue to provide support service, warranty, or updates for a work that has been modified or installed by the recipient, or for the User Product in which it has been modified or installed. Access to a network may be denied when the modification itself materially and adversely affects the operation of the network or violates the rules and protocols for communication across the network."
+msgstr "L'obligation de fournir des informations d'installation n'inclut pas l'obligation de continuer à fournir un service de support, une garantie ou des mises à jour pour un travail qui a été modifié ou installé par le destinataire, ou pour le produit utilisateur dans lequel il a été modifié ou installé. L'accès à un réseau peut être refusé lorsque la modification elle-même affecte matériellement et négativement le fonctionnement du réseau ou viole les règles et protocoles de communication sur le réseau."
+
+#. +> trunk5
+#: ../../user_manual/gpl-3.0.rst:350
+#, fuzzy
+msgid "Corresponding Source conveyed, and Installation Information provided, in accord with this section must be in a format that is publicly documented (and with an implementation available to the public in source code form), and must require no special password or key for unpacking, reading or copying."
+msgstr "Le Source Correspondant acheminé et les Informations d’Installation fournies, en accord avec cet article, doivent être dans un format publiquement documenté (et dont une implémentation est disponible auprès du public sous forme de code source) et ne doit nécessiter aucune clé ou mot de passe spécial pour le dépaquetage, la lecture ou la copie."
+
+#. +> trunk5
+#: ../../user_manual/gpl-3.0.rst:357
+#, fuzzy
+msgid "7. Additional Terms."
+msgstr "Article 7. Termes additionnels."
+
+#. +> trunk5
+#: ../../user_manual/gpl-3.0.rst:359
+#, fuzzy
+msgid "\"Additional permissions\" are terms that supplement the terms of this License by making exceptions from one or more of its conditions. Additional permissions that are applicable to the entire Program shall be treated as though they were included in this License, to the extent that they are valid under applicable law. If additional permissions apply only to part of the Program, that part may be used separately under those permissions, but the entire Program remains governed by this License without regard to the additional permissions."
+msgstr "\"Autorisations supplémentaires\" sont des termes qui complètent les termes de ce Licence en faisant des exceptions à une ou plusieurs de ses conditions. Supplémentaire les autorisations qui s’appliquent à l’ensemble du Programme doivent être traitées comme bien qu’ils aient été inclus dans cette Licence, dans la mesure où ils sont valides en vertu de la loi applicable. Si des autorisations supplémentaires s’appliquent uniquement à une partie du Programme, cette partie peut être utilisée séparément sous ces autorisations, mais le l’ensemble du Programme reste régi par la présente Licence sans égard au autorisations supplémentaires."
+
+#. +> trunk5
+#: ../../user_manual/gpl-3.0.rst:368
+#, fuzzy
+msgid "When you convey a copy of a covered work, you may at your option remove any additional permissions from that copy, or from any part of it. (Additional permissions may be written to require their own removal in certain cases when you modify the work.) You may place additional permissions on material, added by you to a covered work, for which you have or can give appropriate copyright permission."
+msgstr "Lorsque vous transmettez une copie d'une œuvre couverte, vous pouvez, à votre choix, supprimer toute autorisation supplémentaire de cette copie ou de toute partie de celle-ci. (Des autorisations supplémentaires peuvent être écrites pour exiger leur propre suppression dans certains cas lorsque vous modifiez le travail.) Vous pouvez placer des autorisations supplémentaires sur le matériel, ajouté par vous à une œuvre couverte, pour lequel vous avez ou pouvez donner l'autorisation de droit d'auteur appropriée."
+
+#. +> trunk5
+#: ../../user_manual/gpl-3.0.rst:375
+#, fuzzy
+msgid "Notwithstanding any other provision of this License, for material you add to a covered work, you may (if authorized by the copyright holders of that material) supplement the terms of this License with terms:"
+msgstr "Nonobstant toute autre clause de cette Licence, pour tout constituant que vous ajoutez à un Travail Couvert, vous pouvez (si autorisé par les titulaires de Droit d’Auteur pour ce constituant) supplémenter les termes de cette Licence avec des termes:"
+
+#. +> trunk5
+#: ../../user_manual/gpl-3.0.rst:379
+#, fuzzy
+msgid "Disclaiming warranty or limiting liability differently from the terms of sections 15 and 16 of this License; or"
+msgstr "a) qui rejettent la garantie ou limitent la responsabilité de façon différente des termes des articles 15 et 16 de cette Licence; ou"
+
+#. +> trunk5
+#: ../../user_manual/gpl-3.0.rst:382
+#, fuzzy
+msgid "Requiring preservation of specified reasonable legal notices or author attributions in that material or in the Appropriate Legal Notices displayed by works containing it; or"
+msgstr "b) qui requièrent la préservation de notices légales raisonnables spécifiées ou les attributions d’auteur dans ce constituant ou dans les Notices Légales Appropriées affichées par les travaux qui le contiennent; ou"
+
+#. +> trunk5
+#: ../../user_manual/gpl-3.0.rst:386
+#, fuzzy
+msgid "Prohibiting misrepresentation of the origin of that material, or requiring that modified versions of such material be marked in reasonable ways as different from the original version; or"
+msgstr "c) qui prohibent la représentation incorrecte de l’origine de ce constituant, ou qui requièrent que les versions modifiées d’un tel constituant soit marquées par des moyens raisonnables comme différentes de la version originale; ou"
+
+#. +> trunk5
+#: ../../user_manual/gpl-3.0.rst:390
+#, fuzzy
+msgid "Limiting the use for publicity purposes of names of licensors or authors of the material; or"
+msgstr "d) qui limitent l’usage à but publicitaire des noms des concédants de licence et des auteurs du constituant; ou"
+
+#. +> trunk5
+#: ../../user_manual/gpl-3.0.rst:393
+#, fuzzy
+msgid "Declining to grant rights under trademark law for use of some trade names, trademarks, or service marks; or"
+msgstr "e) qui refusent à accorder des droits selon la législation relative aux marques commerciales, pour l’utilisation dans des noms commerciaux, marques commerciales ou marques de services; ou"
+
+#. +> trunk5
+#: ../../user_manual/gpl-3.0.rst:396
+#, fuzzy
+msgid "Requiring indemnification of licensors and authors of that material by anyone who conveys the material (or modified versions of it) with contractual assumptions of liability to the recipient, for any liability that these contractual assumptions directly impose on those licensors and authors."
+msgstr "f) qui requièrent l’indemnisation des concédants de licences et auteurs du constituant par quiconque achemine ce constituant (ou des versions modifiées de celui-ci) en assumant contractuellement la responsabilité envers le Destinataire, pour toute responsabilité que ces engagements contractuels imposent directement à ces octroyants de licences et auteurs."
+
+#. +> trunk5
+#: ../../user_manual/gpl-3.0.rst:402
+#, fuzzy
+msgid "All other non-permissive additional terms are considered \"further restrictions\" within the meaning of section 10. If the Program as you received it, or any part of it, contains a notice stating that it is governed by this License along with a term that is a further restriction, you may remove that term. If a license document contains a further restriction but permits relicensing or conveying under this License, you may add to a covered work material governed by the terms of that license document, provided that the further restriction does not survive such relicensing or conveying."
+msgstr "Tous les autres termes supplémentaires non permissifs sont considérés \"davantage restrictions\" au sens de l’article 10. Si le Programme comme vous reçu, ou une partie de celui-ci, contient un avis indiquant qu’il est régi par cette Licence ainsi qu’une clause qui est une restriction supplémentaire, vous pouvez supprimer ce terme. Si un document de licence contient un autre restriction mais permet de renouveler la licence ou de transférer sous cette Licence, vous pouvez ajouter à un matériel de travail couvert régi par les termes de cette licence document, à condition que la restriction supplémentaire ne survive pas à ce relicensing ou conveying."
+
+#. +> trunk5
+#: ../../user_manual/gpl-3.0.rst:412
+#, fuzzy
+msgid "If you add terms to a covered work in accord with this section, you must place, in the relevant source files, a statement of the additional terms that apply to those files, or a notice indicating where to find the applicable terms."
+msgstr "Si vous ajoutez des termes à un Travail Couvert en accord avec cet article, vous devez placer, dans les fichiers sources appropriés, une déclaration des termes additionnels qui s’appliquent à ces fichiers, ou une notice indiquant où trouver les termes applicables."
+
+#. +> trunk5
+#: ../../user_manual/gpl-3.0.rst:417
+#, fuzzy
+msgid "Additional terms, permissive or non-permissive, may be stated in the form of a separately written license, or stated as exceptions; the above requirements apply either way."
+msgstr "Les termes additionnels, qu’ils soient permissifs ou non permissifs, peuvent être établis sous la forme d’une licence écrite séparément, ou établis comme des exceptions; les obligations ci-dessus s’appliquent dans chacun de ces cas."
+
+#. +> trunk5
+#: ../../user_manual/gpl-3.0.rst:422
+#, fuzzy
+msgid "8. Termination."
+msgstr "8. Résiliation"
+
+#. +> trunk5
+#: ../../user_manual/gpl-3.0.rst:424
+#, fuzzy
+msgid "You may not propagate or modify a covered work except as expressly provided under this License. Any attempt otherwise to propagate or modify it is void, and will automatically terminate your rights under this License (including any patent licenses granted under the third paragraph of section 11)."
+msgstr "Vous ne pouvez ni propager ni modifier un Travail Couvert autrement que suivant les termes de cette Licence. Toute autre tentative de le propager ou le modifier est nulle et terminera automatiquement vos droits selon cette Licence (y compris toute licence de brevet accordée selon le troisième paragraphe de l’article 11)."
+
+#. +> trunk5
+#: ../../user_manual/gpl-3.0.rst:430
+#, fuzzy
+msgid "However, if you cease all violation of this License, then your license from a particular copyright holder is reinstated (a) provisionally, unless and until the copyright holder explicitly and finally terminates your license, and (b) permanently, if the copyright holder fails to notify you of the violation by some reasonable means prior to 60 days after the cessation."
+msgstr "Cependant, si vous cessez toute violation de cette Licence, alors votre licence depuis un titulaire de Droit d’Auteur (“copyright”) est réinstaurée (a) à titre provisoire à moins que et jusqu’à ce que le titulaire de Droit d’Auteur termine finalement et explicitement votre licence, et (b) de façon permanente si le titulaire de Droit d’Auteur ne parvient pas à vous notifier de la violation par quelque moyen raisonnable dans les soixante (60) jours après la cessation."
+
+#. +> trunk5
+#: ../../user_manual/gpl-3.0.rst:437
+#, fuzzy
+msgid "Moreover, your license from a particular copyright holder is reinstated permanently if the copyright holder notifies you of the violation by some reasonable means, this is the first time you have received notice of violation of this License (for any work) from that copyright holder, and you cure the violation prior to 30 days after your receipt of the notice."
+msgstr "De plus, votre licence depuis un titulaire particulier de Droit d’Auteur est réinstaurée de façon permanente si ce titulaire vous notifie de la violation par quelque moyen raisonnable, c’est la première fois que vous avez reçu une notification deviolation de cette Licence (pour un travail quelconque) depuis ce titulaire de Droit d’Auteur, et vous résolvez la violation dans les trente (30) jours qui suivent votre réception de la notification."
+
+#. +> trunk5
+#: ../../user_manual/gpl-3.0.rst:444
+#, fuzzy
+msgid "Termination of your rights under this section does not terminate the licenses of parties who have received copies or rights from you under this License. If your rights have been terminated and not permanently reinstated, you do not qualify to receive new licenses for the same material under section 10."
+msgstr "La résiliation de vos droits en vertu de cette section ne met pas fin aux licences des parties qui ont reçu des copies ou des droits de votre part en vertu de cette licence. Si vos droits ont été résiliés et non rétablis de façon permanente, vous n'êtes pas admissible à recevoir de nouvelles licences pour le même matériel en vertu de l'article 10."
+
+#. +> trunk5
+#: ../../user_manual/gpl-3.0.rst:451
+#, fuzzy
+msgid "9. Acceptance Not Required for Having Copies."
+msgstr "Article 9. Acceptation non requise pour obtenir des copies."
+
+#. +> trunk5
+#: ../../user_manual/gpl-3.0.rst:453
+#, fuzzy
+msgid "You are not required to accept this License in order to receive or run a copy of the Program. Ancillary propagation of a covered work occurring solely as a consequence of using peer-to-peer transmission to receive a copy likewise does not require acceptance. However, nothing other than this License grants you permission to propagate or modify any covered work. These actions infringe copyright if you do not accept this License. Therefore, by modifying or propagating a covered work, you indicate your acceptance of this License to do so."
+msgstr "Vous n’êtes pas tenu d’accepter cette licence pour recevoir ou exécuter un copie du Programme. Propagation ancillaire d’un travail couvert survenant uniquement en conséquence de l’utilisation de la transmission pair-à-pair pour recevoir une copie de même ne nécessite pas d’acceptation. Cependant, rien d’autre que cela La licence vous accorde la permission de propager ou de modifier tout travail couvert. Ces actions enfreignent le droit d’auteur si vous n’acceptez pas cette Licence. Par conséquent, par modifier ou propager une œuvre couverte, vous indiquez votre acceptation de cette licence pour le faire."
+
+#. +> trunk5
+#: ../../user_manual/gpl-3.0.rst:463
+#, fuzzy
+msgid "10. Automatic Licensing of Downstream Recipients."
+msgstr "Article 10. Cession automatique de Licence aux Destinataires et intermédiaires."
+
+#. +> trunk5
+#: ../../user_manual/gpl-3.0.rst:465
+#, fuzzy
+msgid "Each time you convey a covered work, the recipient automatically receives a license from the original licensors, to run, modify and propagate that work, subject to this License. You are not responsible for enforcing compliance by third parties with this License."
+msgstr "Chaque fois que vous transmettez une œuvre couverte, le destinataire reçoit automatiquement une licence des concédants d'origine, pour exécuter, modifier et propager cette œuvre, sous réserve de cette licence. Vous n'êtes pas responsable du respect de la présente Licence par des tiers."
+
+#. +> trunk5
+#: ../../user_manual/gpl-3.0.rst:470
+#, fuzzy
+msgid "An \"entity transaction\" is a transaction transferring control of an organization, or substantially all assets of one, or subdividing an organization, or merging organizations. If propagation of a covered work results from an entity transaction, each party to that transaction who receives a copy of the work also receives whatever licenses to the work the party's predecessor in interest had or could give under the previous paragraph, plus a right to possession of the Corresponding Source of the work from the predecessor in interest, if the predecessor has it or can get it with reasonable efforts."
+msgstr "Une « transaction d’entité » est une transaction transférant le contrôle d’un organisation, ou la quasi-totalité des actifs d’une, ou en subdivisant un organisation, ou organisations fusionnantes. Si propagation d’un travail couvert résulte d’une transaction d’entité, chaque partie à cette transaction qui reçoit une copie de l’œuvre et reçoit également toutes les licences pour l’œuvre le le prédécesseur de la partie ayant des intérêts avait ou pouvait donner en vertu du précédent paragraphe, plus un droit à la possession de la Source Correspondante du travail du prédécesseur avec intérêt, si le prédécesseur l’a ou peut obtenir il avec des efforts raisonnables."
+
+#. +> trunk5
+#: ../../user_manual/gpl-3.0.rst:480
+#, fuzzy
+msgid "You may not impose any further restrictions on the exercise of the rights granted or affirmed under this License. For example, you may not impose a license fee, royalty, or other charge for exercise of rights granted under this License, and you may not initiate litigation (including a cross-claim or counterclaim in a lawsuit) alleging that any patent claim is infringed by making, using, selling, offering for sale, or importing the Program or any portion of it."
+msgstr "Vous ne pouvez imposer aucune restriction avancée dans l’exercice des droits accordés ou affirmés selon cette Licence. Par exemple, vous ne pouvez imposer aucun paiement pour la licence, aucune royaltie, ni aucune autre charge pour l’exercice des droits accordés selon cette Licence; et vous ne pouvez amorcer aucun litige judiciaire (y compris une réclamation croisée ou contre-réclamation dans un procès) sur l’allégation qu’une revendication de brevet est enfreinte par la réalisation, l’utilisation, la vente, l’offre de vente, ou l’importation du Programme ou d’une quelconque portion de celui-ci."
+
+#. +> trunk5
+#: ../../user_manual/gpl-3.0.rst:489
+#, fuzzy
+msgid "11. Patents."
+msgstr "Article 11. Brevets."
+
+#. +> trunk5
+#: ../../user_manual/gpl-3.0.rst:491
+#, fuzzy
+msgid "A \"contributor\" is a copyright holder who authorizes use under this License of the Program or a work on which the Program is based. The work thus licensed is called the contributor's \"contributor version\"."
+msgstr "Un « contributeur » est un détenteur de droits d'auteur qui autorise l'utilisation sous cette Licence du Programme ou d'une œuvre sur laquelle le Programme est basé. L'œuvre ainsi licenciée est appelée « version contributeur » du contributeur."
+
+#. +> trunk5
+#: ../../user_manual/gpl-3.0.rst:495
+#, fuzzy
+msgid "A contributor's \"essential patent claims\" are all patent claims owned or controlled by the contributor, whether already acquired or hereafter acquired, that would be infringed by some manner, permitted by this License, of making, using, or selling its contributor version, but do not include claims that would be infringed only as a consequence of further modification of the contributor version. For purposes of this definition, \"control\" includes the right to grant patent sublicenses in a manner consistent with the requirements of this License."
+msgstr "Les « revendications essentielles de brevet » d’un contributeur sont toutes les revendications de brevet possédées ou contrôlé par le contributeur, qu’il soit déjà acquis ou plus tard acquis, qui serait violé d’une manière quelconque, autorisée par cette Licence, de fabriquer, d’utiliser ou de vendre sa version contributeur, mais n’inclut pas allègue qu’il ne serait violé que par suite d’une modification ultérieure de la version du contributeur. Aux fins de cette définition, « contrôle » inclut le droit de concéder des sous-licences de brevet d’une manière compatible avec les exigences de cette Licence."
+
+#. +> trunk5
+#: ../../user_manual/gpl-3.0.rst:504
+#, fuzzy
+msgid "Each contributor grants you a non-exclusive, worldwide, royalty-free patent license under the contributor's essential patent claims, to make, use, sell, offer for sale, import and otherwise run, modify and propagate the contents of its contributor version."
+msgstr "Chaque contributeur vous accorde une licence de brevet non exclusive, mondiale et libre de toute royaltie, selon les revendications de brevet essentielles, pour réaliser, utiliser, vendre, offrir à la vente, importer et autrement exécuter, modifier et propager les contenus de sa version contributive."
+
+#. +> trunk5
+#: ../../user_manual/gpl-3.0.rst:509
+#, fuzzy
+msgid "In the following three paragraphs, a \"patent license\" is any express agreement or commitment, however denominated, not to enforce a patent (such as an express permission to practice a patent or covenant not to sue for patent infringement). To \"grant\" such a patent license to a party means to make such an agreement or commitment not to enforce a patent against the party."
+msgstr "Dans les trois paragraphes suivants, une « licence de brevet » est tout accord ou engagement exprès, quelle que soit sa dénomination, de ne pas faire respecter un brevet (comme une autorisation expresse de pratiquer un brevet ou un engagement de ne pas poursuivre pour contrefaçon de brevet). « Accorder » une telle licence de brevet à une partie signifie conclure un tel accord ou engagement de ne pas faire valoir un brevet contre la partie."
+
+#. +> trunk5
+#: ../../user_manual/gpl-3.0.rst:516
+#, fuzzy
+msgid "If you convey a covered work, knowingly relying on a patent license, and the Corresponding Source of the work is not available for anyone to copy, free of charge and under the terms of this License, through a publicly available network server or other readily accessible means, then you must either (1) cause the Corresponding Source to be so available, or (2) arrange to deprive yourself of the benefit of the patent license for this particular work, or (3) arrange, in a manner consistent with the requirements of this License, to extend the patent license to downstream recipients. \"Knowingly relying\" means you have actual knowledge that, but for the patent license, your conveying the covered work in a country, or your recipient's use of the covered work in a country, would infringe one or more identifiable patents in that country that you have reason to believe are valid."
+msgstr "Si vous transmettez une œuvre couverte, en vous appuyant sciemment sur une licence de brevet, et le La source correspondante de l’œuvre n’est pas disponible pour que quiconque puisse la copier, gratuitement à la charge et selon les termes de cette Licence, par le biais d’un publiquement disponible serveur réseau ou d’autres moyens facilement accessibles, alors vous devez soit (1) faire en sorte que la Source Correspondante soit ainsi disponible, ou (2) s’arranger pour priver vous-même du bénéfice de la licence de brevet pour cette œuvre particulière, ou (3) organiser, d’une manière conforme aux exigences de la présente Licence, pour étendre la licence de brevet aux destinataires en aval. \"Se fier sciemment\" signifie que vous avez une connaissance réelle de cela, mais pour la licence de brevet, votre transmettre le travail couvert dans un pays, ou l’utilisation par votre destinataire du travail couvert dans un pays, enfreindrait un ou plusieurs brevets identifiables dans ce pays que vous avez des raisons de croire sont valides."
+
+#. +> trunk5
+#: ../../user_manual/gpl-3.0.rst:530
+#, fuzzy
+msgid "If, pursuant to or in connection with a single transaction or arrangement, you convey, or propagate by procuring conveyance of, a covered work, and grant a patent license to some of the parties receiving the covered work authorizing them to use, propagate, modify or convey a specific copy of the covered work, then the patent license you grant is automatically extended to all recipients of the covered work and works based on it."
+msgstr "Si, conformément à ou en liaison avec une même transaction ou un même arrangement, vous acheminez, ou propagez en procurant un acheminement de, un Travail Couvert et accordez une licence de brevet à l’une des parties recevant le Travail Couvert pour lui permettre d’utiliser, propager, modifier ou acheminer une copie spécifique du Travail Couvert, alors votre accord est automatiquement étendu à tous les Destinataires du Travail Couvert et des travaux basés sur celui-ci."
+
+#. +> trunk5
+#: ../../user_manual/gpl-3.0.rst:538
+#, fuzzy
+msgid "A patent license is \"discriminatory\" if it does not include within the scope of its coverage, prohibits the exercise of, or is conditioned on the non-exercise of one or more of the rights that are specifically granted under this License. You may not convey a covered work if you are a party to an arrangement with a third party that is in the business of distributing software, under which you make payment to the third party based on the extent of your activity of conveying the work, and under which the third party grants, to any of the parties who would receive the covered work from you, a discriminatory patent license (a) in connection with copies of the covered work conveyed by you (or copies made from those copies), or (b) primarily for and in connection with specific products or compilations that contain the covered work, unless you entered into that arrangement, or that patent license was granted, prior to 28 March 2007."
+msgstr "Une licence de brevet est \"discriminatoire\" si elle n’inclut pas dans le portée de sa couverture, interdit l’exercice ou est conditionné à l’ non-exercice d’un ou plusieurs des droits qui sont spécifiquement accordés sous cette licence. Vous ne pouvez pas transmettre une œuvre couverte si vous êtes partie à un arrangement avec un tiers qui est dans l’entreprise de distribution logiciel, sous lequel vous effectuez le paiement au tiers en fonction du étendue de votre activité de transmission du travail, et sous laquelle le troisième partie accorde, à l’une des parties qui recevrait le travail couvert de vous, une licence de brevet discriminatoire (a) en lien avec des copies du travail couvert transmis par vous (ou copies faites à partir de ces copies), ou (b) principalement pour et en relation avec des produits ou compilations spécifiques qui contenir le travail couvert, sauf si vous avez conclu cet arrangement, ou que licence de brevet a été accordée, avant le 28 mars 2007."
+
+#. +> trunk5
+#: ../../user_manual/gpl-3.0.rst:553
+#, fuzzy
+msgid "Nothing in this License shall be construed as excluding or limiting any implied license or other defenses to infringement that may otherwise be available to you under applicable patent law."
+msgstr "Rien dans cette Licence ne devrait être interprété comme devant exclure ou limiter toute licence implicite ou d’autres moyens de défense à une infraction qui vous seraient autrement disponible selon la loi applicable relative aux brevets."
+
+#. +> trunk5
+#: ../../user_manual/gpl-3.0.rst:558
+#, fuzzy
+msgid "12. No Surrender of Others' Freedom."
+msgstr "Article 12. Non abandon de la liberté des autres."
+
+#. +> trunk5
+#: ../../user_manual/gpl-3.0.rst:560
+#, fuzzy
+msgid "If conditions are imposed on you (whether by court order, agreement or otherwise) that contradict the conditions of this License, they do not excuse you from the conditions of this License. If you cannot convey a covered work so as to satisfy simultaneously your obligations under this License and any other pertinent obligations, then as a consequence you may not convey it at all. For example, if you agree to terms that obligate you to collect a royalty for further conveying from those to whom you convey the Program, the only way you could satisfy both those terms and this License would be to refrain entirely from conveying the Program."
+msgstr "Si des conditions vous sont imposées (que ce soit par ordonnance du tribunal, accord ou autrement) qui contredisent les conditions de cette Licence, ils ne excusez-vous des conditions de cette Licence. Si vous ne pouvez pas transmettre un travail couvert de manière à satisfaire simultanément vos obligations en vertu de ce Licence et toutes autres obligations pertinentes, puis en conséquence vous pouvez ne le transmets pas du tout. Par exemple, si vous acceptez des termes qui vous obligent pour collecter une redevance pour transmettre davantage à ceux à qui vous transmettez le Programme, la seule façon dont vous pourriez satisfaire à la fois ces termes et cette licence serait de s’abstenir entièrement de transmettre le programme."
+
+#. +> trunk5
+#: ../../user_manual/gpl-3.0.rst:572
+#, fuzzy
+msgid "13. Use with the GNU Affero General Public License."
+msgstr "13. Utilisation avec la licence GNU Affero General Public License."
+
+#. +> trunk5
+#: ../../user_manual/gpl-3.0.rst:574
+#, fuzzy
+msgid "Notwithstanding any other provision of this License, you have permission to link or combine any covered work with a work licensed under version 3 of the GNU Affero General Public License into a single combined work, and to convey the resulting work. The terms of this License will continue to apply to the part which is the covered work, but the special requirements of the GNU Affero General Public License, section 13, concerning interaction through a network will apply to the combination as such."
+msgstr "Nonobstant toute autre disposition de cette Licence, vous avez la permission de lier ou combiner tout travail couvert avec un travail sous licence en version 3 du Licence publique générale GNU Affero en une seule œuvre combinée, et à transmettre le travail résultant. Les termes de cette licence continueront à s’appliquer à la partie qui est le travail couvert, mais les exigences spéciales du Licence publique générale GNU Affero, section 13, concernant l’interaction à travers un réseau s’appliquera à la combinaison en tant que telle."
+
+#. +> trunk5
+#: ../../user_manual/gpl-3.0.rst:584
+#, fuzzy
+msgid "14. Revised Versions of this License."
+msgstr "Article 14."
+
+#. +> trunk5
+#: ../../user_manual/gpl-3.0.rst:586
+#, fuzzy
+msgid "The Free Software Foundation may publish revised and/or new versions of the GNU General Public License from time to time. Such new versions will be similar in spirit to the present version, but may differ in detail to address new problems or concerns."
+msgstr "La Free Software Foundation peut publier des versions révisées et/ou nouvelles de la Licence Publique Générale GNU (“GNU General Public License”) de temps en temps. De telles version nouvelles resteront similaires dans l’esprit avec la présente version, mais peuvent différer dans le détail afin de traiter de nouveaux problèmes ou préoccupations."
+
+#. +> trunk5
+#: ../../user_manual/gpl-3.0.rst:591
+#, fuzzy
+msgid "Each version is given a distinguishing version number. If the Program specifies that a certain numbered version of the GNU General Public License \"or any later version\" applies to it, you have the option of following the terms and conditions either of that numbered version or of any later version published by the Free Software Foundation. If the Program does not specify a version number of the GNU General Public License, you may choose any version ever published by the Free Software Foundation."
+msgstr "Chaque version reçoit un numéro de version distinctif. Si le Programme spécifie qu'une certaine version numérotée de la Licence Publique Générale GNU « ou toute version ultérieure » s'y applique, vous avez la possibilité de suivre les termes et conditions de cette version numérotée ou de toute version ultérieure publiée par la Free Software Foundation. Si le Programme ne spécifie pas de numéro de version de la Licence Publique Générale GNU, vous pouvez choisir n'importe quelle version jamais publiée par la Free Software Foundation."
+
+#. +> trunk5
+#: ../../user_manual/gpl-3.0.rst:600
+#, fuzzy
+msgid "If the Program specifies that a proxy can decide which future versions of the GNU General Public License can be used, that proxy's public statement of acceptance of a version permanently authorizes you to choose that version for the Program."
+msgstr "Si le Programme spécifie qu’un intermédiaire peut décider quelles versions futures de la Licence Générale Publique GNU peut être utilisée, la déclaration publique d’acceptation d’une version par cet intermédiaire vous autorise à choisir cette version pour le Programme."
+
+#. +> trunk5
+#: ../../user_manual/gpl-3.0.rst:605
+#, fuzzy
+msgid "Later license versions may give you additional or different permissions. However, no additional obligations are imposed on any author or copyright holder as a result of your choosing to follow a later version."
+msgstr "Les versions ultérieures de la licence peuvent vous donner des autorisations supplémentaires ou différentes. Cependant, aucune obligation supplémentaire n'est imposée à tout auteur ou détenteur de droits d'auteur en raison de votre choix de suivre une version ultérieure."
+
+#. +> trunk5
+#: ../../user_manual/gpl-3.0.rst:610
+#, fuzzy
+msgid "15. Disclaimer of Warranty."
+msgstr "Article 15. Déclaration d’absence de garantie."
+
+#. +> trunk5
+#: ../../user_manual/gpl-3.0.rst:612
+#, fuzzy
+msgid "THERE IS NO WARRANTY FOR THE PROGRAM, TO THE EXTENT PERMITTED BY APPLICABLE LAW. EXCEPT WHEN OTHERWISE STATED IN WRITING THE COPYRIGHT HOLDERS AND/OR OTHER PARTIES PROVIDE THE PROGRAM \"AS IS\" WITHOUT WARRANTY OF ANY KIND, EITHER EXPRESSED OR IMPLIED, INCLUDING, BUT NOT LIMITED TO, THE IMPLIED WARRANTIES OF MERCHANTABILITY AND FITNESS FOR A PARTICULAR PURPOSE. THE ENTIRE RISK AS TO THE QUALITY AND PERFORMANCE OF THE PROGRAM IS WITH YOU. SHOULD THE PROGRAM PROVE DEFECTIVE, YOU ASSUME THE COST OF ALL NECESSARY SERVICING, REPAIR OR CORRECTION."
+msgstr "IL N’Y A PAS DE GARANTIE POUR LE PROGRAMME, DANS LA MESURE PERMISE PAR APPLICABLE LOI. SAUF INDICATION CONTRAIRE PAR ÉCRIT LES TITULAIRES DES DROITS D’AUTEUR ET/OU LES AUTRES PARTIES FOURNISSENT LE PROGRAMME « TEL QUEL » SANS GARANTIE D’AUCUNE SORTE, SOIT EXPRIMÉ OU IMPLICITE, Y COMPRIS, MAIS SANS S’Y LIMITER, L’IMPLICITE GARANTIES DE COMMERCIALISATION ET D’ADAPTATION À UN USAGE PARTICULIER. LE TOUT LE RISQUE QUANT À LA QUALITÉ ET À LA PERFORMANCE DU PROGRAMME EST AVEC VOUS. SI LE PROGRAMME S’AVÉRAIT DÉFECTUEUX, VOUS ASSUMEZ LE COÛT DE TOUS LES NECESSAIRES ENTRETIEN, RÉPARATION OU CORRECTION."
+
+#. +> trunk5
+#: ../../user_manual/gpl-3.0.rst:622
+#, fuzzy
+msgid "16. Limitation of Liability."
+msgstr "16. Limitation de responsabilité"
+
+#. +> trunk5
+#: ../../user_manual/gpl-3.0.rst:624
+#, fuzzy
+msgid "IN NO EVENT UNLESS REQUIRED BY APPLICABLE LAW OR AGREED TO IN WRITING WILL ANY COPYRIGHT HOLDER, OR ANY OTHER PARTY WHO MODIFIES AND/OR CONVEYS THE PROGRAM AS PERMITTED ABOVE, BE LIABLE TO YOU FOR DAMAGES, INCLUDING ANY GENERAL, SPECIAL, INCIDENTAL OR CONSEQUENTIAL DAMAGES ARISING OUT OF THE USE OR INABILITY TO USE THE PROGRAM (INCLUDING BUT NOT LIMITED TO LOSS OF DATA OR DATA BEING RENDERED INACCURATE OR LOSSES SUSTAINED BY YOU OR THIRD PARTIES OR A FAILURE OF THE PROGRAM TO OPERATE WITH ANY OTHER PROGRAMS), EVEN IF SUCH HOLDER OR OTHER PARTY HAS BEEN ADVISED OF THE POSSIBILITY OF SUCH DAMAGES."
+msgstr "EN AUCUN CAS À MOINS QUE REQUIS PAR LA LOI APPLICABLE OU CONVENU PAR ÉCRIT NE SERA TOUT TITULAIRE DE DROITS D’AUTEUR, OU TOUTE AUTRE PARTIE QUI MODIFIE ET/OU TRANSMET LE PROGRAMME COMME AUTORISÉ CI-DESSUS, ÊTRE RESPONSABLE ENVERS VOUS DES DOMMAGES, Y COMPRIS TOUT DOMMAGES GENERAUX, SPECIAUX, FORTUITS OU CONSÉCUTIFS SURVENANT DE L’UTILISATION OU INCAPACITÉ À UTILISER LE PROGRAMME (Y COMPRIS, MAIS SANS S’Y LIMITER, LA PERTE DE DONNÉES OU DES DONNÉES ÉTANT RENDUES INEXACTES OU DES PERTES SUBIES PAR VOUS OU UN TIERS PARTIES OU ÉCHEC DU PROGRAMME À FONCTIONNER AVEC D’AUTRES PROGRAMMES), MÊME SI CE TITULAIRE OU UNE AUTRE PARTIE A ÉTÉ INFORMÉ DE LA POSSIBILITÉ D’ DE TELS DOMMAGES."
+
+#. +> trunk5
+#: ../../user_manual/gpl-3.0.rst:635
+#, fuzzy
+msgid "17. Interpretation of Sections 15 and 16."
+msgstr "Article 17. Interprétation des sections 15 et 16."
+
+#. +> trunk5
+#: ../../user_manual/gpl-3.0.rst:637
+#, fuzzy
+msgid "If the disclaimer of warranty and limitation of liability provided above cannot be given local legal effect according to their terms, reviewing courts shall apply local law that most closely approximates an absolute waiver of all civil liability in connection with the Program, unless a warranty or assumption of liability accompanies a copy of the Program in return for a fee."
+msgstr "Si la déclaration d’absence de garantie et la limitation de responsabilité fournies ci-dessus ne peuvent prendre effet localement selon leurs termes, les cours de justice qui les examinent doivent appliquer la législation locale qui approche au plus près possible une levée absolue de toute responsabilité civile liée au Programme, à moins qu’une garantie ou assumation de responsabilité accompagne une copie du Programme en échange d’un paiement."
+
+#. +> trunk5
+#: ../../user_manual/gpl-3.0.rst:644
+#, fuzzy
+msgid "END OF TERMS AND CONDITIONS"
+msgstr "FIN DES TERMES ET CONDITIONS"
+
+#. +> trunk5
+#: ../../user_manual/gpl-3.0.rst:647
+#, fuzzy
+msgid "How to Apply These Terms to Your New Programs"
+msgstr "Comment appliquer ces conditions à vos nouveaux programmes"
+
+#. +> trunk5
+#: ../../user_manual/gpl-3.0.rst:649
+#, fuzzy
+msgid "If you develop a new program, and you want it to be of the greatest possible use to the public, the best way to achieve this is to make it free software which everyone can redistribute and change under these terms."
+msgstr "Si le concessionnaire développe un nouveau programme, et s'il en souhaite l'utilisation la plus large possible dans le public, le meilleur moyen d'y arriver est d'en faire un logiciel libre, que tout le monde pourra redistribuer et modifier au titre des présentes dispositions."
+
+#. +> trunk5
+#: ../../user_manual/gpl-3.0.rst:654
+#, fuzzy
+msgid "To do so, attach the following notices to the program. It is safest to attach them to the start of each source file to most effectively state the exclusion of warranty; and each file should have at least the \"copyright\" line and a pointer to where the full notice is found."
+msgstr "Dans ce but, il convient de rattacher au programme les avis suivants. Le moyen le plus sûr consiste à les rattacher au début de chaque fichier source, pour avertir le plus efficacement possible de l'exclusion de garantie; et chaque fichier doit comporter au moins la ligne «copyright», et un pointeur indiquant où est localisée la totalité de l'avis."
+
+#. +> trunk5
+#: ../../user_manual/gpl-3.0.rst:661
+#, fuzzy
+msgid ""
+"<one line to give the program's name and a brief idea of what it does.>\n"
+"Copyright (C) <year>  <name of author>\n"
+"\n"
+"This program is free software: you can redistribute it and/or modify\n"
+"it under the terms of the GNU General Public License as published by\n"
+"the Free Software Foundation, either version 3 of the License, or\n"
+"(at your option) any later version.\n"
+"\n"
+"This program is distributed in the hope that it will be useful,\n"
+"but WITHOUT ANY WARRANTY; without even the implied warranty of\n"
+"MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the\n"
+"GNU General Public License for more details.\n"
+"\n"
+"You should have received a copy of the GNU General Public License\n"
+"along with this program.  If not, see <https://www.gnu.org/licenses/>."
+msgstr "<une ligne pour donner le nom du programme et une brève idée de ce qu’il fait. > nCopyright (C) <année>  <nom de l’auteur> nnCe programme est un logiciel libre : vous pouvez le redistribuer et/ou modifier nil sous les termes de la Licence Publique Générale GNU telle que publiée par nla Free Software Foundation, soit la version 3 de la licence, soit n(à votre choix) toute version ultérieure. nnCe programme est distribué dans l’espoir qu’il sera utile, nmais SANS AUCUNE GARANTIE ; sans même la garantie implicite de nQUALITÉ MARCHANDE ou ADÉQUATION À UN USAGE PARTICULIER. Voir le nLicence publique générale GNU pour plus de détails. nnVous devriez avoir reçu une copie de la licence publique générale GNU navec ce programme. Sinon, voir <https://www.gnu.org/licenses/>"
+
+#. +> trunk5
+#: ../../user_manual/gpl-3.0.rst:677
+#, fuzzy
+msgid "Also add information on how to contact you by electronic and paper mail."
+msgstr "Ajoutez aussi des informations sur la manière de vous contacter par courrier électronique et courrier postal."
+
+#. +> trunk5
+#: ../../user_manual/gpl-3.0.rst:679
+#, fuzzy
+msgid "If the program does terminal interaction, make it output a short notice like this when it starts in an interactive mode:"
+msgstr "Si le programme ne interaction terminal, faire sortir un court préavis comme ça quand il démarre en mode interactif:"
+
+#. +> trunk5
+#: ../../user_manual/gpl-3.0.rst:684
+#, fuzzy
+msgid ""
+"<program>  Copyright (C) <year>  <name of author>\n"
+"This program comes with ABSOLUTELY NO WARRANTY; for details type `show w'.\n"
+"This is free software, and you are welcome to redistribute it\n"
+"under certain conditions; type `show c' for details."
+msgstr ""
+"<program>  Copyright (C) <year>  <name of author>\n"
+"Ce programme est livré avec ABSOLUMENT aucune GARANTIE ; pour plus de détails, tapez « show w ».\n"
+"Il s'agit d'un logiciel gratuit, et vous êtes invités à le redistribuer\n"
+"sous certaines conditions ; tapez « show c » pour plus de détails."
+
+#. +> trunk5
+#: ../../user_manual/gpl-3.0.rst:689
+#, fuzzy
+msgid "The hypothetical commands \\`show w' and \\`show c' should show the appropriate parts of the General Public License. Of course, your program's commands might be different; for a GUI interface, you would use an \"about box\"."
+msgstr "Les commandes hypothétiques\\`show w' et \\`show c'doivent afficher les parties appropriées de la licence publique générale. Bien sûr, les commandes de votre programme peuvent être différentes ; pour une interface graphique, vous utiliseriez une « boîte à propos »."
+
+#. +> trunk5
+#: ../../user_manual/gpl-3.0.rst:694
+#, fuzzy
+msgid "You should also get your employer (if you work as a programmer) or school, if any, to sign a \"copyright disclaimer\" for the program, if necessary. For more information on this, and how to apply and follow the GNU GPL, see https://www.gnu.org/licenses/."
+msgstr "Vous devez également demander à votre employeur (si vous travaillez en tant que programmeur) ou à votre école, le cas échéant, de signer une « clause de non-responsabilité » pour le programme, si nécessaire. Pour plus d'informations à ce sujet, et pour savoir comment appliquer et suivre la GNU GPL, consultez https://www.gnu.org/licenses/."
+
+#. +> trunk5
+#: ../../user_manual/gpl-3.0.rst:699
+#, fuzzy
+msgid "The GNU General Public License does not permit incorporating your program into proprietary programs. If your program is a subroutine library, you may consider it more useful to permit linking proprietary applications with the library. If this is what you want to do, use the GNU Lesser General Public License instead of this License. But first, please read https://www.gnu.org/licenses/why-not-lgpl.html."
+msgstr "La licence publique générale GNU ne permet pas d'incorporer votre programme dans des programmes propriétaires. Si votre programme est une bibliothèque de sous-programmes, vous pouvez considérer qu'il est plus utile d'autoriser la liaison d'applications propriétaires avec la bibliothèque. Si c'est ce que vous voulez faire, utilisez la Licence Publique Générale Limitée GNU au lieu de cette Licence. Mais d'abord, veuillez lire https://www.gnu.org/licenses/why-not-lgpl.html."

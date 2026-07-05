@@ -1,0 +1,118 @@
+# translation of kstars_config.po to french
+# traduction de kstars_config.po en Français
+# Copyright (C) 2002,2003, 2004 Free Software Foundation, Inc.
+# Gérard Delafond <gerard@delafond.org>, 2002,2003, 2004.
+# Ludovic Grossard <grossard@kde.org>, 2002, 2003, 2004, 2012.
+# Cyrille Bieuzent <bieuzent@gmail.com>, 2012, 2013.
+# SPDX-FileCopyrightText: 2012, 2024, 2025 Xavier Besnard <xavier.besnard@kde.org>
+# steve <stax@ik.me>, 2022, 2023, 2024.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: kstars_config_3.7.4\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2025-06-14 09:48+0200\n"
+"PO-Revision-Date: 2025-01-14 14:38+0100\n"
+"Last-Translator: Xavier Besnard <xavier.besnard@kde.org>\n"
+"Language-Team: French <French <kde-francophone@kde.org>>\n"
+"Language: fr\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n > 1);\n"
+"X-Generator: Lokalize 24.12.1\n"
+
+#. +> trunk5
+#: ../../user_manual/customize.rst:3
+msgid "Customizing the Display"
+msgstr "Personnaliser l'affichage"
+
+#. +> trunk5
+#: ../../user_manual/customize.rst:5
+msgid "There are several ways to modify the display to your liking."
+msgstr "Il y a plusieurs manières de modifier l'affichage à votre convenance."
+
+#. +> trunk5
+#: ../../user_manual/customize.rst:7
+#, fuzzy
+#| msgid "Toggle whether the Info Boxes are drawn in the <menuchoice><guimenu>Settings</guimenu> <guisubmenu>Info Boxes</guisubmenu></menuchoice> submenu. In addition, you can manipulate the three Info Boxes with the mouse. Each box has additional lines of data that are hidden by default. You can toggle whether these additional lines are visible by double-clicking a box to <quote>shade</quote> it. Also, you can reposition a box by dragging it with the mouse. When a box hits a window edge, it will <quote>stick</quote> to the edge when the window is resized."
+msgid "Toggle whether the Info Boxes are drawn in the ``Settings`` → ``Info Boxes`` submenu. In addition, you can manipulate the three Info Boxes with the mouse. Each box has additional lines of data that are hidden by default. You can toggle whether these additional lines are visible by double-clicking a box to “shade” it. Also, you can reposition a box by dragging it with the mouse. When a box hits a window edge, it will “stick” to the edge when the window is resized."
+msgstr "Vous pouvez (dés)activer l'affichage des boites d'informations dans le menu <menuchoice><guimenu>Configuration</guimenu> <guimenuitem>Boîtes d'informations</guimenuitem></menuchoice>. De plus, vous pouvez manipuler les trois boites d'informations avec la souris. Chaque boite possède des lignes additionnelles de données qui sont cachées par défaut. Vous pouvez (dés)activer le mode d'affichage complet en double-cliquant sur la boite pour l'<quote>enrouler</quote>. De plus, vous pouvez repositionner une boite en la tirant avec la souris. Quand une boite heurte un bord de fenêtre, elle s'y <quote>colle</quote> lorsque la fenêtre est redimensionnée."
+
+#. +> trunk5
+#: ../../user_manual/customize.rst:9
+#, fuzzy
+#| msgid "Toggle whether the Toolbars are drawn in the <menuchoice><guimenu>Settings</guimenu> <guisubmenu>Toolbars Shown</guisubmenu></menuchoice> submenu. Like most &kde; toolbars, they can also be dragged around and anchored on any window edge, or even detached from the window completely if they are unlocked."
+msgid "Toggle whether the Toolbars are drawn in the ``Settings`` → ``Toolbars Shown`` submenu. Like most KDE toolbars, they can also be dragged around and anchored on any window edge, or even detached from the window completely if they are unlocked."
+msgstr "(Dés)active la présence des barres d'outils dans le menu <menuchoice><guimenu>Configuration</guimenu> <guimenuitem>Barres d'outils</guimenuitem></menuchoice>. Comme la plupart des barres d'outils de &kde;, elles peuvent aussi être déplacées et ancrées à n'importe quel côté de la fenêtre, ou même complètement détachées de la fenêtre."
+
+#. +> trunk5
+#: ../../user_manual/customize.rst:11
+#, fuzzy
+#| msgid "Select a different color scheme in the <menuchoice><guimenu>Settings</guimenu> <guisubmenu>Color Schemes</guisubmenu></menuchoice> submenu. There are four predefined color schemes, and you can define your own in the <link linkend=\"config\"><guilabel>Configure - &kstars;</guilabel></link> window."
+msgid "Select a different color scheme in the ``Settings`` → ``Color Schemes`` submenu. There are four predefined color schemes, and you can define your own in the :doc:`Configure - KStars  <config>` window."
+msgstr "Choisissez un modèle de couleurs différent dans le menu <menuchoice><guimenu>Configuration</guimenu> <guisubmenu>Modèles de couleurs</guisubmenu></menuchoice>. Il y a quatre modèles de couleurs prédéfinis, et vous pouvez définir le vôtre dans la fenêtre <link linkend=\"config\"><guilabel>Configurer &kstars;</guilabel></link>."
+
+#. +> trunk5
+#: ../../user_manual/customize.rst:13
+#, fuzzy
+#| msgid "Choose an <quote>FOV Symbol</quote> using the <menuchoice><guimenu>Settings</guimenu><guisubmenu>FOV Symbols</guisubmenu></menuchoice> submenu. <firstterm>FOV</firstterm> is an acronym for <quote>field-of-view</quote>. An FOV symbol is drawn at the center of the window to indicate where the display is pointing. Different symbols have different angular sizes; you can use a symbol to show what the view through a particular telescope would look like. For example, if you choose the <quote>7x35 Binoculars</quote> FOV symbol, then a circle is drawn on the display that is 9.2 degrees in diameter; this is the field-of-view for 7x35 binoculars."
+msgid "Choose an “FOV Symbol” using the ``Settings`` → ``FOV Symbols`` submenu. *FOV* is an acronym for “field-of-view”. An FOV symbol is drawn at the center of the window to indicate where the display is pointing. Different symbols have different angular sizes; you can use a symbol to show what the view through a particular telescope would look like. For example, if you choose the “7x35 Binoculars” FOV symbol, then a circle is drawn on the display that is 9.2 degrees in diameter; this is the field-of-view for 7x35 binoculars."
+msgstr "Choisissez un <quote>Indicateur de champ de vision (FOV)</quote> en utilisant le menu <menuchoice><guimenu>configuration</guimenu> <guisubmenu>Indicateurs de champ de vision</guisubmenu></menuchoice>. <firstterm>FOV</firstterm> est un acronyme pour <quote>Field Of View</quote> (champ de vision = CdV). Un indicateur de champ de vision est dessiné au centre de la fenêtre pour indiquer où l'affichage pointe. Les indicateurs correspondant à différentes tailles angulaires ; vous pouvez utiliser un indicateur pour voir à quoi la vue ressemblerait à travers un certain télescope. Par exemple, si vous choisissez l'indicateur <quote>Jumelles 7x35</quote>, un cercle de 9,2 degrés de diamètre sera dessiné sur l'écran ; c'est le champ de vision d'une paire de jumelles 7x35."
+
+#. +> trunk5
+#: ../../user_manual/customize.rst:15
+#, fuzzy
+#| msgid "You can define your own FOV symbols (or modify the existing symbols) using the <guimenuitem>Edit FOV Symbols...</guimenuitem> menu item, which launches the FOV Editor:"
+msgid "You can define your own FOV symbols (or modify the existing symbols) using the ``Edit FOV Symbols...`` menu item, which launches the FOV Editor:"
+msgstr "Vous pouvez définir vos propres indicateurs de champ de vision (ou modifier les indicateurs existants) en utilisant l'élément de menu <guimenuitem>Modifier les indicateurs de champ de vision…</guimenuitem>, ce qui lance l'éditeur de champ de vision :"
+
+#. +> trunk5
+#: ../../user_manual/customize.rst:17
+#, fuzzy
+#| msgid "FOV Symbol Editor"
+msgid "|FOV Symbol Editor|"
+msgstr "Éditeur d'indicateurs de champ de vision"
+
+#. +> trunk5
+#: ../../user_manual/customize.rst:19
+#, fuzzy
+#| msgid "The list of defined FOV symbols is displayed on the left. On the right are buttons for adding a new symbol, editing the highlighted symbol's properties, and removing the highlighted symbol from the list. Note that you can even modify or remove the four predefined symbols (if you remove all symbols, the four defaults will be restored the next time you start &kstars;). Below these three buttons is a graphical preview display showing the highlighted symbol from the list. When the <guibutton>New...</guibutton> or <guibutton>Edit...</guibutton> button is pressed, the <guilabel>New FOV Indicator</guilabel> window is opened:"
+msgid "The list of defined FOV symbols is displayed on the left.  On the right are buttons for adding a new symbol, editing the highlighted symbol's properties, and removing the highlighted symbol from the list. Note that you can even modify or remove the four predefined symbols (if you remove all symbols, the four defaults will be restored the next time you start KStars). Below these three buttons is a graphical preview display showing the highlighted symbol from the list. When the ``New...`` or ``Edit...`` button is pressed, the ``New FOV Indicator`` window is opened:"
+msgstr "La liste des indicateurs de champ de vision prédéfinis est affichée à gauche. Sur la droite se trouvent des boutons pour ajouter un nouvel indicateur, modifier les propriétés de l'indicateur surligné et supprimer l'indicateur surligné de la liste. Notez que vous pouvez même modifier ou supprimer les quatre indicateurs prédéfinis (si vous supprimez tous les indicateurs, les quatre indicateurs par défaut seront restaurés au prochain démarrage de &kstars;). Sous ces trois boutons se trouve un aperçu graphique montrant les indicateurs surlignés de la liste. Quand le bouton <guibutton>Nouveau…</guibutton> ou <guibutton>Modifier…</guibutton> est actionné, la fenêtre <guilabel>Nouvel indicateur de champ de vision</guilabel> s'ouvre :"
+
+#. +> trunk5
+#: ../../user_manual/customize.rst:21
+#, fuzzy
+#| msgid "New FOV Symbol"
+msgid "|New FOV Symbol|"
+msgstr "Nouvel indicateur de champ de vision"
+
+#. +> trunk5
+#: ../../user_manual/customize.rst:23
+#, fuzzy
+#| msgid "This window lets you modify the four properties that define a FOV symbol: name, size, shape, and color. The angular size for the symbol can either be entered directly in the <guilabel>Field of View</guilabel> edit box, or you can use the Eyepiece/Camera Tabs to calculate the field-of-view angle, given parameters of your telescope/eyepiece or telescope/camera setup. The five available shapes are: Square, Circle, Crosshairs, Bullseye and Semitransparent circle. Once you have specified all four parameters, press <guibutton>Ok</guibutton>, and the symbol will appear in the list of defined symbols. It will also be available from the <menuchoice><guimenu>Settings</guimenu><guisubmenu>FOV Symbols</guisubmenu></menuchoice> submenu."
+msgid "This window lets you modify the four properties that define a FOV symbol: name, size, shape, and color. The angular size for the symbol can either be entered directly in the ``Field of View`` edit box, or you can use the Eyepiece/Camera Tabs to calculate the field-of-view angle, given parameters of your telescope/eyepiece or telescope/camera setup. The five available shapes are: Square, Circle, Crosshairs, Bullseye and Semitransparent circle. Once you have specified all four parameters, press ``Ok``, and the symbol will appear in the list of defined symbols. It will also be available from the ``Settings`` → ``FOV Symbols`` submenu."
+msgstr "Cette fenêtre vous permet de modifier les quatre propriétés qui définissent un indicateur de champ de vision : le nom, la taille, la forme et la couleur. La taille angulaire pour l'indicateur peut être soit donnée directement dans la zone de saisie <guilabel>Champ de vision</guilabel>, soit utiliser l'onglet Appareil photo pour calculer l'angle de champ de vision, étant donné les paramètres de votre réglage de télescope/Viseur ou télescope/appareil photo. Les cinq formes disponibles sont : cercle, carré, croix, cible et semi-transparent. Une fois que vous avez spécifié les quatre paramètres, actionnez <guibutton>Ok</guibutton>, et l'indicateur apparaitra dans la liste des indicateurs définis. Il sera aussi disponible dans le menu <menuchoice><guimenu>Configuration</guimenu> <guisubmenu>Indicateur de champ de vision</guisubmenu></menuchoice>."
+
+#. +> trunk5
+#: ../../user_manual/customize.rst:25
+msgid "FOV Symbol Editor"
+msgstr "Éditeur d'indicateurs de champ de vision"
+
+#. +> trunk5
+#: ../../user_manual/customize.rst:25
+#, fuzzy
+msgid ".. image:: /images/fovdialog.png"
+msgstr ".. image : : /images/fovdialog.png"
+
+#. +> trunk5
+#: ../../user_manual/customize.rst:26
+msgid "New FOV Symbol"
+msgstr "Nouvel indicateur de champ de vision"
+
+#. +> trunk5
+#: ../../user_manual/customize.rst:26
+#, fuzzy
+msgid ".. image:: /images/newfov.png"
+msgstr ".. image : : /images/newfov.png"
